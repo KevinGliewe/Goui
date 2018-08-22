@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>OouiFormsApp</Name>
+    <Name>GouiFormsApp</Name>
     <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>OouiFormsApp</DefaultName>
+    <DefaultName>GouiFormsApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -16,7 +16,7 @@
     <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="OouiFormsApp.csproj" File="OouiFormsApp.csproj" ReplaceParameters="true">
+    <Project TargetFileName="GouiFormsApp.csproj" File="GouiFormsApp.csproj" ReplaceParameters="true">
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
       </Folder>

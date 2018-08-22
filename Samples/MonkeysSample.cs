@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,10 +10,10 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms Monkeys";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var page = new Monkeys.Views.MonkeysView();
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()

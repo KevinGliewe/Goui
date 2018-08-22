@@ -10,7 +10,7 @@ using TestMethodAttribute = NUnit.Framework.TestCaseAttribute;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #endif
 
-using Ooui;
+using Goui;
 
 namespace Tests
 {
@@ -89,24 +89,24 @@ namespace Tests
         public void PublishTextFile ()
         {
             var f = System.IO.Path.GetTempFileName ();
-            System.IO.File.WriteAllText (f, "Test Ooui Text File", System.Text.Encoding.UTF8);
+            System.IO.File.WriteAllText (f, "Test Goui Text File", System.Text.Encoding.UTF8);
             UI.PublishFile ("/text-file", f, "text/plain; charset=utf-8");
             UI.WaitUntilStarted ();
             var c = new System.Net.WebClient ();
             var r = c.DownloadString (UI.GetUrl ("/text-file"));
-            Assert.AreEqual ("Test Ooui Text File", r);
+            Assert.AreEqual ("Test Goui Text File", r);
         }
 
         [TestMethod]
         public void PublishFileWithoutPath ()
         {
             var f = System.IO.Path.GetTempFileName ();
-            System.IO.File.WriteAllText (f, "Test Ooui Text File 2", System.Text.Encoding.UTF8);
+            System.IO.File.WriteAllText (f, "Test Goui Text File 2", System.Text.Encoding.UTF8);
             UI.PublishFile (f);
             UI.WaitUntilStarted ();
             var c = new System.Net.WebClient ();
             var r = c.DownloadString (UI.GetUrl ("/" + System.IO.Path.GetFileName (f)));
-            Assert.AreEqual ("Test Ooui Text File 2", r);
+            Assert.AreEqual ("Test Goui Text File 2", r);
         }
 
         [TestMethod]

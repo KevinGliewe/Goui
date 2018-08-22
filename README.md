@@ -1,29 +1,23 @@
-# Ooui Web Framework <img src="https://raw.githubusercontent.com/praeclarum/Ooui/master/Documentation/Icon.png" height="32"> [![Build Status](https://www.bitrise.io/app/86585e168136767d/status.svg?token=G9Svvnv_NvG40gcqu48RNQ)](https://www.bitrise.io/app/86585e168136767d)
+# Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/Documentation/Icon.png" height="32">
 
 | Version | Package | Description |
 | ------- | ------- | ----------- |
-| [![NuGet Package](https://img.shields.io/nuget/v/Ooui.svg)](https://www.nuget.org/packages/Ooui) | [Ooui](https://www.nuget.org/packages/Ooui) | Core library with HTML elements and a server |
-| [![NuGet Package](https://img.shields.io/nuget/v/Ooui.AspNetCore.svg)](https://www.nuget.org/packages/Ooui.AspNetCore) | [Ooui.AspNetCore](https://www.nuget.org/packages/Ooui.AspNetCore) | Integration with ASP.NET Core |
-| [![NuGet Package](https://img.shields.io/nuget/v/Ooui.Forms.svg)](https://www.nuget.org/packages/Ooui.Forms) | [Ooui.Forms](https://www.nuget.org/packages/Ooui.Forms) | Xamarin.Forms backend using Ooui ([Status](Documentation/OouiFormsStatus.md)) |
-| [![NuGet Package](https://img.shields.io/nuget/v/Ooui.Wasm.svg)](https://www.nuget.org/packages/Ooui.Wasm) | [Ooui.Wasm](https://www.nuget.org/packages/Ooui.Wasm) | Package your app into a web assembly |
+| [![NuGet Package](https://img.shields.io/nuget/v/Goui.svg)](https://www.nuget.org/packages/Goui) | [Goui](https://www.nuget.org/packages/Goui) | Core library with HTML elements and a server |
+| [![NuGet Package](https://img.shields.io/nuget/v/Goui.AspNetCore.svg)](https://www.nuget.org/packages/Goui.AspNetCore) | [Goui.AspNetCore](https://www.nuget.org/packages/Goui.AspNetCore) | Integration with ASP.NET Core |
+| [![NuGet Package](https://img.shields.io/nuget/v/Goui.Forms.svg)](https://www.nuget.org/packages/Goui.Forms) | [Goui.Forms](https://www.nuget.org/packages/Goui.Forms) | Xamarin.Forms backend using Goui ([Status](Documentation/GouiFormsStatus.md)) |
+| [![NuGet Package](https://img.shields.io/nuget/v/Goui.Wasm.svg)](https://www.nuget.org/packages/Goui.Wasm) | [Goui.Wasm](https://www.nuget.org/packages/Goui.Wasm) | Package your app into a web assembly |
 
-Ooui (pronounced *weee!*) is a small cross-platform UI library for .NET that uses web technologies.
+Goui (pronounced *guuii!*) is a small cross-platform UI library for .NET that uses web technologies.
 
-It presents a classic object-oriented UI API that controls a dumb browser. With Ooui, you get the full power of your favorite .NET programming language *plus* the ability to interact with your app using any device.
+It presents a classic object-oriented UI API that controls a dumb browser. With Goui, you get the full power of your favorite .NET programming language *plus* the ability to interact with your app using any device.
 
-
-## Try it Online
-
-Head on over to [http://ooui.mecha.parts](http://ooui.mecha.parts) to tryout the samples.
-
-You can also load [https://s3.amazonaws.com/praeclarum.org/wasm/index.html](https://s3.amazonaws.com/praeclarum.org/wasm/index.html) to try the WebAssembly mode of Ooui running Xamarin.Forms. (That's Xamarin.Forms running right in your browser!)
 
 
 ## Try the Samples Locally
 
 ```bash
-git clone git@github.com:praeclarum/Ooui.git
-cd Ooui
+git clone git@github.com:kevingliewe/Goui.git
+cd Goui
 
 dotnet restore
 msbuild
@@ -41,7 +35,8 @@ Here is the complete source code to a fully collaborative button clicking app.
 
 ```csharp
 using System;
-using Ooui;
+using Goui;
+using Goui.Html;
 
 class Program
 {
@@ -67,10 +62,10 @@ class Program
 }
 ```
 
-Make sure to add a reference to Ooui before you start running!
+Make sure to add a reference to Goui before you start running!
 
 ```bash
-dotnet add package Ooui
+dotnet add package Goui
 dotnet run
 ```
 
@@ -78,15 +73,15 @@ With just that code, a web server that serves the HTML and web socket logic nece
 
 
 
-## The Many Ways to Ooui
+## The Many Ways to Goui
 
-Ooui has been broken up into several packages to increase the variety of ways that it can be used. Here are some combinations to help you decide which way is best for you.
+Goui has been broken up into several packages to increase the variety of ways that it can be used. Here are some combinations to help you decide which way is best for you.
 
 <table>
-<thead><tr><th>Ooui</th><th>Ooui.AspNetCore</th><th>Ooui.Forms</th><th>Ooui.Wasm</th><th></th></tr></thead>
+<thead><tr><th>Goui</th><th>Goui.AspNetCore</th><th>Goui.Forms</th><th>Goui.Wasm</th><th></th></tr></thead>
 
 <tr>
-<td>&check;</td><td></td><td></td><td></td><td><a href="https://github.com/praeclarum/Ooui/wiki/Web-DOM-with-the-Built-in-Web-Server">Web DOM with the Built-in Web Server</a></td>
+<td>&check;</td><td></td><td></td><td></td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Web-DOM-with-the-Built-in-Web-Server">Web DOM with the Built-in Web Server</a></td>
 </tr>
 
 <tr>
@@ -102,11 +97,11 @@ Ooui has been broken up into several packages to increase the variety of ways th
 </tr>
 
 <tr>
-<td>&check;</td><td></td><td></td><td>&check;</td><td><a href="https://github.com/praeclarum/Ooui/wiki/Web DOM-with-Web-Assembly">Web DOM with Web Assembly</a></td>
+<td>&check;</td><td></td><td></td><td>&check;</td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Web DOM-with-Web-Assembly">Web DOM with Web Assembly</a></td>
 </tr>
 
 <tr>
-<td>&check;</td><td></td><td>&check;</td><td>&check;</td><td><a href="https://github.com/praeclarum/Ooui/wiki/Xamarin.Forms-with-Web-Assembly">Xamarin.Forms with Web Assembly</a></td>
+<td>&check;</td><td></td><td>&check;</td><td>&check;</td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Xamarin.Forms-with-Web-Assembly">Xamarin.Forms with Web Assembly</a></td>
 </tr>
 
 </table>
@@ -123,4 +118,4 @@ In the case of web assembly, this same dataflow takes place. However, sockets ar
 
 ## Contributing
 
-Ooui is open source and I love merging PRs. Please fork away, and please obey the .editorconfig file. :-) Try to file issues for things that you want to work on *before* you start the work so that there's no duplicated effort. If you just want to help out, check out the issues and dive in!
+Goui is open source and I love merging PRs. Please fork away, and please obey the .editorconfig file. :-) Try to file issues for things that you want to work on *before* you start the work so that there's no duplicated effort. If you just want to help out, check out the issues and dive in!

@@ -8,7 +8,7 @@ using TestMethodAttribute = NUnit.Framework.TestCaseAttribute;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #endif
 
-using Ooui;
+using Goui;
 
 namespace Tests
 {
@@ -18,7 +18,7 @@ namespace Tests
         [TestMethod]
         public void ValuePropertyChangedOnReceiver ()
         {
-            var e = new Ooui.Html.Input ();
+            var e = new Goui.Html.Input ();
             var count = 0;
             e.PropertyChanged += (s, ev) => {
                 if (ev.PropertyName == "Value")

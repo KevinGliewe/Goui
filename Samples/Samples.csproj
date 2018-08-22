@@ -5,8 +5,8 @@
   </PropertyGroup>
 	
   <ItemGroup>
-    <ProjectReference Include="..\Ooui\Ooui.csproj" />
-    <ProjectReference Include="..\Ooui.Forms\Ooui.Forms.csproj" />
+    <ProjectReference Include="..\Goui\Goui.csproj" />
+    <ProjectReference Include="..\Goui.Forms\Goui.Forms.csproj" />
   </ItemGroup>
 
   <ItemGroup>

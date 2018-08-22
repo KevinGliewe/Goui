@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Authors>kevingliewe</Authors>
+    <Description>Small cross-platform UI library for .NET that uses web technologies.</Description>
+    <PackageTags>Goui;UI;CrossPlatform</PackageTags>
+    <PackageIconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/kevingliewe/Goui</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Client.js" />
+  </ItemGroup>
+  
+</Project>

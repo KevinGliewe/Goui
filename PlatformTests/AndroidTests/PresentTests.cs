@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using Ooui;
+using Goui;
 
 namespace Tests
 {

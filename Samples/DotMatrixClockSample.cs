@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using Xamarin.Forms;
 
 namespace Samples
@@ -7,10 +7,10 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms DoMatrixClock";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var page = new DotMatrixClock.DotMatrixClockPage();
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()

@@ -8,11 +8,11 @@ using TestMethodAttribute = NUnit.Framework.TestCaseAttribute;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #endif
 
-using Ooui;
+using Goui;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Text;
-using Ooui.Html;
+using Goui.Html;
 
 namespace Tests
 {

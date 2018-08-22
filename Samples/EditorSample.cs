@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using Xamarin.Forms;
 
 namespace Samples
@@ -7,7 +7,7 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms Editor Sample";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var panel = new StackLayout();
 
@@ -35,7 +35,7 @@ namespace Samples
                 Content = panel
             };
 
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()

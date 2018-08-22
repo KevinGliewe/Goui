@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Ooui.AspNetCore\Ooui.AspNetCore.csproj" />
-    <ProjectReference Include="..\..\Ooui\Ooui.csproj" />
+    <ProjectReference Include="..\..\Goui.AspNetCore\Goui.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\Goui\Goui.csproj" />
     <ProjectReference Include="..\..\Samples\Samples.csproj" />
-    <ProjectReference Include="..\..\Ooui.Forms\Ooui.Forms.csproj" />
+    <ProjectReference Include="..\..\Goui.Forms\Goui.Forms.csproj" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Authors>Kevin Gliewe</Authors>
+    <Description>ASP.NET Core MVC extensions to make working with Goui easy.</Description>
+    <PackageTags>Goui;UI;CrossPlatform;ASP.NET</PackageTags>
+    <PackageIconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/kevingliewe/Goui</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Goui\Goui.csproj" />
+  </ItemGroup>
+</Project>

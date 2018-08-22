@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace Samples
         
         public string Title => "Xamarin.Forms SearchBar";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var panel = new StackLayout();
 
@@ -42,7 +42,7 @@ namespace Samples
                 Content = panel
             };
 
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         void OnSearchBarButtonPressed(object sender, EventArgs args)

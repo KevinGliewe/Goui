@@ -37,7 +37,7 @@ namespace AspNetCoreMvc
 
             app.UseStaticFiles ();
 
-            app.UseOoui ();
+            app.UseGoui ();
 
             Xamarin.Forms.Forms.Init ();
 

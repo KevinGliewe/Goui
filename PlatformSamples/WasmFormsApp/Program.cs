@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using Xamarin.Forms;
 
 namespace WasmFormsApp {
@@ -8,7 +8,7 @@ namespace WasmFormsApp {
         {
 			Forms.Init ();
 
-			UI.Publish ("/", new MainPage ().GetOouiElement ());
+			UI.Publish ("/", new MainPage ().GetGouiElement ());
 		}
     }
 }

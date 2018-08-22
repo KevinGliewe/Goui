@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 using AspNetCoreMvc.Models;
-using Ooui;
-using Ooui.AspNetCore;
+using Goui;
+using Goui.AspNetCore;
 
 namespace AspNetCoreMvc.Controllers
 {
@@ -20,7 +20,7 @@ namespace AspNetCoreMvc.Controllers
 
         public IActionResult About ()
         {
-            ViewData["Message"] = "Ooui is a mini web framework to make programming interactive UIs easy.";
+            ViewData["Message"] = "Goui is a mini web framework to make programming interactive UIs easy.";
 
             return View ();
         }

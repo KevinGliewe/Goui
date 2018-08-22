@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Ooui</title>
+    <title>@ViewData["Title"] - Goui</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Ooui</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Goui</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -40,11 +40,11 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>Ooui @(typeof(Ooui.Html.Element).Assembly.GetName().Version)</p>
-            <p>&copy; 2017 - @DateTime.UtcNow.Year Frank A. Krueger</p>
-            @{ var e = new Ooui.Html.Anchor ("https://github.com/praeclarum/Ooui", "π"); }
-            <ooui element="e" />
-            <!--Html.Ooui (e)-->
+            <p>Goui @(typeof(Goui.Html.Element).Assembly.GetName().Version)</p>
+            <p>&copy; 2018 - @DateTime.UtcNow.Year Kevin Gliewe</p>
+            @{ var e = new Goui.Html.Anchor ("https://github.com/kevingliewe/Goui", "π"); }
+            <Goui element="e" />
+            <!--Html.Goui (e)-->
         </footer>
     </div>
 

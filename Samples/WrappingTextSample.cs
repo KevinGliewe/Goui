@@ -7,7 +7,7 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms Wrapping Text";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var rows = new StackLayout { Orientation = StackOrientation.Vertical };
 
@@ -77,12 +77,12 @@ namespace Samples
                 Content = rows
             };
 
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()
         {
-            Ooui.UI.Publish("/wrapping", CreateElement);
+            Goui.UI.Publish("/wrapping", CreateElement);
         }
 
         const string shortText = "Lorem ipsum dolor sit amet.";

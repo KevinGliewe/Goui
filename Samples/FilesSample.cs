@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading;
-using Ooui;
-using Ooui.Html;
+using Goui;
+using Goui.Html;
 
 namespace Samples
 {

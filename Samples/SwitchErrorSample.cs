@@ -1,14 +1,14 @@
-using Ooui;
+using Goui;
 using Xamarin.Forms;
 
 namespace Samples
 {
-    // From https://github.com/praeclarum/Ooui/issues/48
+    // From https://github.com/praeclarum/Goui/issues/48
     public class SwitchErrorSample : ISample
     {
         public string Title => "Xamarin.Forms Switch Error";
 
-        public Ooui.Html.Element CreateElement ()
+        public Goui.Html.Element CreateElement ()
         {
             var layout = new StackLayout();
             var label = new Xamarin.Forms.Label
@@ -29,7 +29,7 @@ namespace Samples
             return new ContentPage
             {
                 Content = layout
-            }.GetOouiElement();
+            }.GetGouiElement();
         }
 
         public void Publish()

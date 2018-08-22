@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 using AspNetCoreMvc.Models;
-using Ooui;
-using Ooui.AspNetCore;
+using Goui;
+using Goui.AspNetCore;
 using Samples;
 using System.Collections.Concurrent;
-using Ooui.Html;
+using Goui.Html;
 
 namespace AspNetCoreMvc.Controllers
 {
@@ -63,7 +63,7 @@ namespace AspNetCoreMvc.Controllers
 
             var element = shared ? GetSharedSample (s) : s.CreateElement ();
 
-            return new ElementResult (element, title: s.Title + " - Ooui Samples");
+            return new ElementResult (element, title: s.Title + " - Goui Samples");
         }
 
         private Element GetSharedSample (ISample s)

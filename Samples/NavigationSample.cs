@@ -1,5 +1,5 @@
 ﻿
-using Ooui;
+using Goui;
 using Xamarin.Forms;
 
 namespace Samples.Navigation
@@ -8,11 +8,11 @@ namespace Samples.Navigation
     {
         public string Title => "Xamarin.Forms Navigation XAML";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var page = new Navigation.NavigationFirstPage();
             var root = new NavigationPage(page);
-            return root.GetOouiElement();
+            return root.GetGouiElement();
         }
 
         public void Publish() {

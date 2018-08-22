@@ -1,8 +1,8 @@
 
 # Wasm SDK
-/Ooui.Wasm/*.nupkg
-/Ooui.Wasm.Test
-/Ooui.Wasm.Old
+/Goui.Wasm/*.nupkg
+/Goui.Wasm.Test
+/Goui.Wasm.Old
 
 # Social media files
 /Media

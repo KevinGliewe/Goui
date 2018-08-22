@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/Ooui.sln"
+                "${workspaceRoot}/Goui.sln"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

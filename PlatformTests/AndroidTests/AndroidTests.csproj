@@ -57,80 +57,80 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\..\Ooui\Button.cs">
-      <Link>Ooui\Button.cs</Link>
+    <Compile Include="..\..\Goui\Button.cs">
+      <Link>Goui\Button.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Canvas.cs">
-      <Link>Ooui\Canvas.cs</Link>
+    <Compile Include="..\..\Goui\Canvas.cs">
+      <Link>Goui\Canvas.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\CanvasRenderingContext2D.cs">
-      <Link>Ooui\CanvasRenderingContext2D.cs</Link>
+    <Compile Include="..\..\Goui\CanvasRenderingContext2D.cs">
+      <Link>Goui\CanvasRenderingContext2D.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Color.cs">
-      <Link>Ooui\Color.cs</Link>
+    <Compile Include="..\..\Goui\Color.cs">
+      <Link>Goui\Color.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Div.cs">
-      <Link>Ooui\Div.cs</Link>
+    <Compile Include="..\..\Goui\Div.cs">
+      <Link>Goui\Div.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Element.cs">
-      <Link>Ooui\Element.cs</Link>
+    <Compile Include="..\..\Goui\Element.cs">
+      <Link>Goui\Element.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\EventTarget.cs">
-      <Link>Ooui\EventTarget.cs</Link>
+    <Compile Include="..\..\Goui\EventTarget.cs">
+      <Link>Goui\EventTarget.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Form.cs">
-      <Link>Ooui\Form.cs</Link>
+    <Compile Include="..\..\Goui\Form.cs">
+      <Link>Goui\Form.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\FormControl.cs">
-      <Link>Ooui\FormControl.cs</Link>
+    <Compile Include="..\..\Goui\FormControl.cs">
+      <Link>Goui\FormControl.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Heading.cs">
-      <Link>Ooui\Heading.cs</Link>
+    <Compile Include="..\..\Goui\Heading.cs">
+      <Link>Goui\Heading.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Image.cs">
-      <Link>Ooui\Image.cs</Link>
+    <Compile Include="..\..\Goui\Image.cs">
+      <Link>Goui\Image.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Input.cs">
-      <Link>Ooui\Input.cs</Link>
+    <Compile Include="..\..\Goui\Input.cs">
+      <Link>Goui\Input.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Label.cs">
-      <Link>Ooui\Label.cs</Link>
+    <Compile Include="..\..\Goui\Label.cs">
+      <Link>Goui\Label.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\List.cs">
-      <Link>Ooui\List.cs</Link>
+    <Compile Include="..\..\Goui\List.cs">
+      <Link>Goui\List.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\ListItem.cs">
-      <Link>Ooui\ListItem.cs</Link>
+    <Compile Include="..\..\Goui\ListItem.cs">
+      <Link>Goui\ListItem.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Message.cs">
-      <Link>Ooui\Message.cs</Link>
+    <Compile Include="..\..\Goui\Message.cs">
+      <Link>Goui\Message.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Node.cs">
-      <Link>Ooui\Node.cs</Link>
+    <Compile Include="..\..\Goui\Node.cs">
+      <Link>Goui\Node.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Paragraph.cs">
-      <Link>Ooui\Paragraph.cs</Link>
+    <Compile Include="..\..\Goui\Paragraph.cs">
+      <Link>Goui\Paragraph.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Platform.cs">
-      <Link>Ooui\Platform.cs</Link>
+    <Compile Include="..\..\Goui\Platform.cs">
+      <Link>Goui\Platform.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Select.cs">
-      <Link>Ooui\Select.cs</Link>
+    <Compile Include="..\..\Goui\Select.cs">
+      <Link>Goui\Select.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Span.cs">
-      <Link>Ooui\Span.cs</Link>
+    <Compile Include="..\..\Goui\Span.cs">
+      <Link>Goui\Span.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\Style.cs">
-      <Link>Ooui\Style.cs</Link>
+    <Compile Include="..\..\Goui\Style.cs">
+      <Link>Goui\Style.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\TextArea.cs">
-      <Link>Ooui\TextArea.cs</Link>
+    <Compile Include="..\..\Goui\TextArea.cs">
+      <Link>Goui\TextArea.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\TextNode.cs">
-      <Link>Ooui\TextNode.cs</Link>
+    <Compile Include="..\..\Goui\TextNode.cs">
+      <Link>Goui\TextNode.cs</Link>
     </Compile>
-    <Compile Include="..\..\Ooui\UI.cs">
-      <Link>Ooui\UI.cs</Link>
+    <Compile Include="..\..\Goui\UI.cs">
+      <Link>Goui\UI.cs</Link>
     </Compile>
     <Compile Include="..\..\Tests\ButtonTests.cs">
       <Link>Tests\ButtonTests.cs</Link>
@@ -158,8 +158,8 @@
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <None Include="..\..\Ooui\Client.js">
-      <Link>Ooui\Client.js</Link>
+    <None Include="..\..\Goui\Client.js">
+      <Link>Goui\Client.js</Link>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -172,9 +172,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\Ooui\Client.js">
+    <EmbeddedResource Include="..\..\Goui\Client.js">
       <Link>Client.js</Link>
-      <LogicalName>Ooui.Client.js</LogicalName>
+      <LogicalName>Goui.Client.js</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

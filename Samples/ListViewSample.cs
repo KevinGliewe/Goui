@@ -1,4 +1,4 @@
-﻿using Ooui;
+﻿using Goui;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -60,7 +60,7 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms Basic Entry ListView Sample";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var panel = new StackLayout();
 
@@ -86,7 +86,7 @@ namespace Samples
                 Content = panel
             };
 
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()
@@ -99,7 +99,7 @@ namespace Samples
     {
         public string Title => "Xamarin.Forms Basic Switch ListView Sample";
 
-        public Ooui.Html.Element CreateElement()
+        public Goui.Html.Element CreateElement()
         {
             var panel = new StackLayout();
 
@@ -125,7 +125,7 @@ namespace Samples
                 Content = panel
             };
 
-            return page.GetOouiElement();
+            return page.GetGouiElement();
         }
 
         public void Publish()

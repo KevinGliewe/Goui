@@ -1,5 +1,5 @@
 ﻿using System;
-using Ooui;
+using Goui;
 
 namespace Samples
 {

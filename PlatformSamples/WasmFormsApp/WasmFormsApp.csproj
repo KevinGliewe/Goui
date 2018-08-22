@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <Import Project="..\..\Ooui.Wasm\Ooui.Wasm.targets" />
+  <Import Project="..\..\Goui.Wasm\Goui.Wasm.targets" />
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Ooui.Forms\Ooui.Forms.csproj" />
-    <ProjectReference Include="..\..\Ooui\Ooui.csproj" />
+    <ProjectReference Include="..\..\Goui.Forms\Goui.Forms.csproj" />
+    <ProjectReference Include="..\..\Goui\Goui.csproj" />
   </ItemGroup>
 
   <ItemGroup>
