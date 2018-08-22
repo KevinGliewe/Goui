@@ -48,3 +48,5 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+
+VersionInfo.cs

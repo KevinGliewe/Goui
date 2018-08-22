@@ -10,6 +10,7 @@
     <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,4 +20,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Goui\Goui.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="ProjectVersioning.DotNet.Cli" Version="3.0.1" />
+  </ItemGroup>
+
+  <Target Name="GenerateVersionInfo" BeforeTargets="Build">
+      <Exec Command="dotnet project-version -s=git -t=cs -v=$(Version)" />
+  </Target>
 </Project>

@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,4 +20,12 @@
     <EmbeddedResource Include="Client.js" />
   </ItemGroup>
   
+  <ItemGroup>
+    <DotNetCliToolReference Include="ProjectVersioning.DotNet.Cli" Version="3.0.1" />
+  </ItemGroup>
+
+  <Target Name="GenerateVersionInfo" BeforeTargets="Build">
+      <Exec Command="dotnet project-version -s=git -t=cs -v=$(Version)" />
+  </Target>
+
 </Project>
