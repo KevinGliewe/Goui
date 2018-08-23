@@ -1,6 +1,5 @@
 language: csharp
 dotnet: 2.1.401
-mono: none
 script:
   - chmod +x ./build.sh 
-  - ./build.sh pack
+  - ./build.sh Pack -ApiKey $NUGET_API_KEY

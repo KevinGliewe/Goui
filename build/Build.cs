@@ -1,10 +1,12 @@
 using System;
 using System.Linq;
+using System.Diagnostics;
 using System.Collections.Generic;
 using Nuke.Common;
 using Nuke.Common.Git;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.DotNet;
+using Nuke.Common.Tools.NuGet;
 using Nuke.Common.Tools.GitVersion;
 using static Nuke.Common.EnvironmentInfo;
 using static Nuke.Common.IO.FileSystemTasks;
@@ -69,6 +71,18 @@ class Build : NukeBuild
                 .SetConfiguration(Configuration)
                 .EnableNoBuild()
                 .EnableIncludeSymbols());
+            
+            var basePath = RootDirectory / "Goui.Wasm";
+            
+            NuGetTasks.NuGetPack(
+                basePath / "Goui.Wasm.nuspec",
+                s => s
+                    .SetBasePath(basePath)
+                    .SetVersion(GitVersion.NuGetVersionV2)
+                    .SetOutputDirectory(ArtifactsDirectory)
+                    .SetConfiguration(Configuration)
+                
+            );
         });
 
     Target Publish => _ => _
@@ -76,7 +90,7 @@ class Build : NukeBuild
         .Requires(() => ApiKey)
         .Executes(() =>
         {
-            GlobFiles(OutputDirectory, "*.nupkg").NotEmpty()
+            GlobFiles(OutputDirectory, "Goui.*.nupkg").NotEmpty()
                 .Where(x => !x.EndsWith(".symbols.nupkg"))
                 .ToList()
                 .ForEach(x => DotNetNuGetPush(s => s

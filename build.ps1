@@ -5,6 +5,12 @@ Param(
     [string[]]$BuildArguments
 )
 
+Get-WmiObject Win32_Process -Filter "name = 'dotnet.exe'" `
+    | Where-Object { $_.CommandLine.Contains("/nodeReuse:true") } `
+    | % { 
+        Get-Process -PID $_.ProcessId | Stop-Process
+    }
+
 Write-Output "Windows PowerShell $($Host.Version)"
 
 Set-StrictMode -Version 2.0; $ErrorActionPreference = "Stop"; $ConfirmPreference = "None"; trap { $host.SetShouldExit(1) }
@@ -63,3 +69,9 @@ else {
 Write-Output "Microsoft (R) .NET Core SDK version $(& $env:DOTNET_EXE --version)"
 
 ExecSafe { & $env:DOTNET_EXE run --project $BuildProjectFile -- $BuildArguments }
+
+Get-WmiObject Win32_Process -Filter "name = 'dotnet.exe'" `
+    | Where-Object { $_.CommandLine.Contains("/nodeReuse:true") } `
+    | % { 
+        Get-Process -PID $_.ProcessId | Stop-Process
+    }
