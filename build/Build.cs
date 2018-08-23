@@ -64,9 +64,11 @@ class Build : NukeBuild
         .DependsOn(Compile)
         .Executes(() =>
         {
+            var version = GitVersion.NuGetVersionV2 + "." + GitVersion.BuildMetaData;
+
             DotNetPack(s => s
                 .SetProject(SolutionFile)
-                .SetVersion(GitVersion.NuGetVersionV2)
+                .SetVersion(version)
                 .SetOutputDirectory(ArtifactsDirectory)
                 .SetConfiguration(Configuration)
                 .EnableNoBuild()
@@ -78,7 +80,7 @@ class Build : NukeBuild
                 basePath / "Goui.Wasm.nuspec",
                 s => s
                     .SetBasePath(basePath)
-                    .SetVersion(GitVersion.NuGetVersionV2)
+                    .SetVersion(version)
                     .SetOutputDirectory(ArtifactsDirectory)
                     .SetConfiguration(Configuration)
                 
