@@ -27,4 +27,7 @@
     <Compile Remove="linker\cecil\Mono.Cecil\AssemblyInfo.cs" />
   </ItemGroup>
 
+  <Target Name="CopyDll" AfterTargets="AfterBuild">
+    <Copy SourceFiles="$(OutDir)/Goui.Wasm.Build.Tasks.dll" DestinationFolder="bin/" />
+  </Target>
 </Project>

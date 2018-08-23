@@ -7,7 +7,7 @@
   
       <UsingTask 
         TaskName="Goui.Wasm.Build.Tasks.BuildDistTask"
-        AssemblyFile="$(MSBuildThisFileDirectory)/../Goui.Wasm.Build.Tasks/bin/Debug/netstandard2.0/Goui.Wasm.Build.Tasks.dll"
+        AssemblyFile="$(MSBuildThisFileDirectory)/../Goui.Wasm.Build.Tasks/bin/Goui.Wasm.Build.Tasks.dll"
         Condition="!Exists('$(MSBuildThisFileDirectory)Goui.Wasm.Build.Tasks.dll')"/>
 
     <!-- BuildDist -->
