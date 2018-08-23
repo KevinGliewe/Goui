@@ -90,7 +90,7 @@ class Build : NukeBuild
         .Requires(() => ApiKey)
         .Executes(() =>
         {
-            GlobFiles(OutputDirectory, "Goui.*.nupkg").NotEmpty()
+            GlobFiles(ArtifactsDirectory, "Goui.*.nupkg").NotEmpty()
                 .Where(x => !x.EndsWith(".symbols.nupkg"))
                 .ToList()
                 .ForEach(x => DotNetNuGetPush(s => s
