@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 15.0.26124.0
@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goui.Wasm.Build.Tasks", "Go
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WasmFormsApp", "PlatformSamples\WasmFormsApp\WasmFormsApp.csproj", "{ABA00F85-03DC-4FBE-8858-C47601A2102A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{43187C08-A1BC-431C-ABE6-BAE270E71BBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43187C08-A1BC-431C-ABE6-BAE270E71BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43187C08-A1BC-431C-ABE6-BAE270E71BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFDFD036-BF48-4D3A-BF99-88CA1EA8E4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFDFD036-BF48-4D3A-BF99-88CA1EA8E4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFDFD036-BF48-4D3A-BF99-88CA1EA8E4B9}.Debug|x64.ActiveCfg = Debug|Any CPU

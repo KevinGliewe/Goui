@@ -1,5 +1,7 @@
 # Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/Documentation/Icon.png" height="32">
 
+[![Build Status](https://travis-ci.org/KevinGliewe/Goui.svg?branch=master)](https://travis-ci.org/KevinGliewe/Goui)
+
 | Version | Package | Description |
 | ------- | ------- | ----------- |
 | [![NuGet Package](https://img.shields.io/nuget/v/Goui.svg)](https://www.nuget.org/packages/Goui) | [Goui](https://www.nuget.org/packages/Goui) | Core library with HTML elements and a server |
