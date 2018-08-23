@@ -31,8 +31,6 @@ class Build : NukeBuild
     [GitRepository] readonly GitRepository GitRepository;
     String GitVersion = "1.0.0";
     string GitVersionSuffix = "0";
-
-    AbsolutePath TestsDirectory => RootDirectory / "tests";
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
 
     public Build() {
@@ -46,7 +44,6 @@ class Build : NukeBuild
     Target Clean => _ => _
         .Executes(() =>
         {
-            DeleteDirectories(GlobDirectories(TestsDirectory, "**/bin", "**/obj"));
             EnsureCleanDirectory(ArtifactsDirectory);
         });
 
