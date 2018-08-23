@@ -7,11 +7,13 @@ using Nuke.Common.Git;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Tools.NuGet;
-using Nuke.Common.Tools.GitVersion;
 using static Nuke.Common.EnvironmentInfo;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.IO.PathConstruction;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
+
+using GCore.Extensions.StringShEx;
+using GCore.Extensions.ArrayEx;
 
 class Build : NukeBuild
 {
@@ -27,10 +29,19 @@ class Build : NukeBuild
 
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository GitRepository;
-    [GitVersion] readonly GitVersion GitVersion;
+    String GitVersion = "1.0.0";
+    string GitVersionSuffix = "0";
 
     AbsolutePath TestsDirectory => RootDirectory / "tests";
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
+
+    public Build() {
+        var version = "git tag".Sh().Split('\n').Get(-2).ExtractVersion();
+        var suffix = "git rev-list --count HEAD".Sh().Replace("\n", "").Trim();
+
+        GitVersion = version.ToString(3);
+        GitVersionSuffix = GitVersion + "." + suffix;
+    }
 
     Target Clean => _ => _
         .Executes(() =>
@@ -54,9 +65,9 @@ class Build : NukeBuild
             DotNetBuild(s => s
                 .SetProjectFile(SolutionFile)
                 .SetConfiguration(Configuration)
-                .SetAssemblyVersion(GitVersion.GetNormalizedAssemblyVersion())
-                .SetFileVersion(GitVersion.GetNormalizedFileVersion())
-                .SetInformationalVersion(GitVersion.InformationalVersion)
+                .SetAssemblyVersion(GitVersionSuffix)
+                .SetFileVersion(GitVersionSuffix)
+                .SetInformationalVersion(GitVersionSuffix)
                 .EnableNoRestore());
         });
 
@@ -64,7 +75,7 @@ class Build : NukeBuild
         .DependsOn(Compile)
         .Executes(() =>
         {
-            var version = GitVersion.NuGetVersionV2 + "." + GitVersion.BuildMetaData;
+            var version = GitVersionSuffix;
 
             DotNetPack(s => s
                 .SetProject(SolutionFile)
