@@ -18,8 +18,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvc", "PlatformSa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goui.Wasm.Build.Tasks", "Goui.Wasm.Build.Tasks\Goui.Wasm.Build.Tasks.csproj", "{6E9C9582-0DA8-4496-BAE0-23EFAF4A10C2}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "GouiTemplates", "Templates\GouiTemplates\GouiTemplates.csproj", "{7D3B32CF-38A3-40DE-8123-2E7A0D87104D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WasmFormsApp", "PlatformSamples\WasmFormsApp\WasmFormsApp.csproj", "{ABA00F85-03DC-4FBE-8858-C47601A2102A}"
 EndProject
 Global
