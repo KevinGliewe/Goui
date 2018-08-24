@@ -3,4 +3,4 @@ dotnet: 2.1.401
 script:
   - sudo apt-get install libcurl3
   - chmod +x ./build.sh 
-  - ./build.sh Pack -ApiKey $NUGET_API_KEY
+  - ./build.sh Publish -ApiKey $NUGET_API_KEY
