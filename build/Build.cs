@@ -20,6 +20,7 @@ class Build : NukeBuild
     public static int Main () => Execute<Build>(x => x.Compile);
 
     [Parameter("ApiKey for the specified source.")] readonly string ApiKey;
+    [Parameter("NuGet executable")] public string NuGetPath;
 
     string Source => "https://api.nuget.org/v3/index.json";
 

@@ -20,6 +20,6 @@
   </metadata>
   <files>
     <file src="Goui.Wasm.targets" target="build/netstandard2.0/Goui.Wasm.targets" />
-    <file src="../Goui.Wasm.Build.Tasks/bin/Release/netstandard2.0/Goui.Wasm.Build.Tasks.dll" target="build/netstandard2.0/Goui.Wasm.Build.Tasks.dll" />
+    <file src="../Goui.Wasm.Build.Tasks/bin/Goui.Wasm.Build.Tasks.dll" target="build/netstandard2.0/Goui.Wasm.Build.Tasks.dll" />
   </files>
 </package>

@@ -2,6 +2,8 @@
 
 echo $(bash --version 2>&1 | head -n 1)
 
+export NUGET_EXE=$(which nuget)
+
 #CUSTOMPARAM=0
 BUILD_ARGUMENTS=()
 for i in "$@"; do
