@@ -11,7 +11,7 @@ namespace Samples
         Button MakeButton ()
         {
             var button = new Button ("Click me!") {
-                ClassName = "btn btn-primary", // Some bootstrap styling
+                AddClassName = "btn btn-primary", // Some bootstrap styling
             };
             button.Style.MarginTop = "2em";
             var count = 0;

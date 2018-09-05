@@ -1,6 +1,6 @@
 language: csharp
 dotnet: 2.1.401
+mono: none
 script:
-  - sudo apt-get install libcurl3
   - chmod +x ./build.sh 
   - ./build.sh Publish -ApiKey $NUGET_API_KEY

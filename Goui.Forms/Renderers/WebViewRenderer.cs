@@ -71,7 +71,7 @@ namespace Goui.Forms.Renderers
             {
                 if (Control == null)
                 {
-                    var embed = new Div { ClassName = "embed-responsive" };
+                    var embed = new Div { AddClassName = "embed-responsive" };
                     _iframe = new Iframe();
                     embed.AppendChild(_iframe);
 

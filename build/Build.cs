@@ -30,7 +30,7 @@ class Build : NukeBuild
 
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository GitRepository;
-    String GitVersion = "1.0.0";
+    String GitVersion = "1.0.1";
     string GitVersionSuffix = "0";
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
 

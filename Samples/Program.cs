@@ -9,6 +9,11 @@ namespace Samples
         {
             Xamarin.Forms.Forms.Init ();
 
+            UI.Config = new UIConfig() {
+                Plugins = new IGouiPlugin[] {
+                }
+            };
+            UI.Port = 8081;
             for (var i = 0; i < args.Length; i++) {
                 var a = args[i];
                 switch (args[i]) {

@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GCore" Version="1.0.5" />
+    <PackageReference Include="GCore" Version="1.1.1-beta" />
     <PackageReference Include="Nuke.Common" Version="0.6.2" />
     <PackageReference Include="NuGet.CommandLine" Version="4.7.1" />
   </ItemGroup>
@@ -23,7 +23,7 @@
     <!-- Common build related files -->
     <None Include="..\build.ps1" />
     <None Include="..\build.sh" />
-    <None Include="..\.nuke" />     
+    <None Include="..\.nuke" />
     <None Include="..\global.json" Condition="Exists('..\global.json')" />
     <None Include="..\nuget.config" Condition="Exists('..\nuget.config')" />
     <None Include="..\Jenkinsfile" Condition="Exists('..\Jenkinsfile')" />

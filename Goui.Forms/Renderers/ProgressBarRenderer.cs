@@ -18,8 +18,8 @@ namespace Goui.Forms.Renderers
         {
             if (e.NewElement != null) {
                 if (Control == null) {
-                    var p = new Div { ClassName = "progress" };
-                    var pb = new Div { ClassName = "progress-bar progress-bar" };
+                    var p = new Div { AddClassName = "progress" };
+                    var pb = new Div { AddClassName = "progress-bar progress-bar" };
                     pb.SetAttribute ("role", "progressbar");
                     pb.SetAttribute ("aria-valuenow", "0");
                     pb.SetAttribute ("aria-valuemin", "0");

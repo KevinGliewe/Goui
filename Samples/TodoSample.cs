@@ -30,7 +30,7 @@ namespace Samples
 
             public Item (string text)
             {
-                ClassName = "list-group-item";
+                AddClassName = "list-group-item";
                 Style.Cursor = "pointer";
                 label.Text = text;
                 label.Style.FontWeight = "bold";
@@ -41,7 +41,7 @@ namespace Samples
         Element MakeTodo ()
         {
             List items = new List () {
-                ClassName = "list-group",
+                AddClassName = "list-group",
             };
             items.Style.MarginTop = "1em";
 
@@ -49,19 +49,19 @@ namespace Samples
             var subtitle = new Paragraph ("This is the shared todo list of the world.");
             var count = new Paragraph ("0 chars");
             var inputForm = new Form {
-                ClassName = "form-inline"
+                AddClassName = "form-inline"
             };
             var input = new Input {
-                ClassName = "form-control"
+                AddClassName = "form-control"
             };
             var addbtn = new Button ("Add") {
                 Type = ButtonType.Submit,
-                ClassName = "btn btn-primary",
+                AddClassName = "btn btn-primary",
             };
             addbtn.Style.MarginLeft = "1em";
             var clearbtn = new Button ("Clear Completed") {
                 Type = ButtonType.Submit,
-                ClassName = "btn btn-danger",
+                AddClassName = "btn btn-danger",
             };
             void UpdateCount ()
             {

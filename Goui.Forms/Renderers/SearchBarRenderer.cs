@@ -62,13 +62,13 @@ namespace Goui.Forms.Renderers
 
             if (Control == null)
             {
-                var p = new Div { ClassName = "input-group" };
-                var pb = new Html.Span { ClassName = "input-group-btn" };
-                _searchButton = new Html.Button { ClassName = "btn btn-secondary", Text = "Search" };
+                var p = new Div { AddClassName = "input-group" };
+                var pb = new Html.Span { AddClassName = "input-group-btn" };
+                _searchButton = new Html.Button { AddClassName = "btn btn-secondary", Text = "Search" };
                 pb.AppendChild(_searchButton);
                 _searchBar = new Input
                 {
-                    ClassName = "form-control",
+                    AddClassName = "form-control",
                     Type = InputType.Text
                 };
 

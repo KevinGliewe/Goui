@@ -15,6 +15,10 @@ namespace Goui.Html {
             set => SetAttributeProperty ("class", value);
         }
 
+        public string AddClassName {
+            set => SetAttributeProperty("class", (GetStringAttribute("class", "") + " " + value).Trim());
+        }
+
         public Style Style { get; private set; } = new Style ();
 
         public string Title {

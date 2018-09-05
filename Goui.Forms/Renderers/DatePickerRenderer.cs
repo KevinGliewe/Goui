@@ -28,7 +28,7 @@ namespace Goui.Forms.Renderers
 
             if (Control == null) {
                 var entry = new Input {
-                    ClassName = "form-control",
+                    AddClassName = "form-control",
                     Type = InputType.Date,
                 };
 

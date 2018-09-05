@@ -18,8 +18,8 @@ namespace Goui.Forms.Renderers
         {
             if (e.NewElement != null) {
                 if (Control == null) {
-                    var p = new Div { ClassName = "progress" };
-                    var pb = new Div { ClassName = "progress-bar progress-bar-striped" };
+                    var p = new Div { AddClassName = "progress" };
+                    var pb = new Div { AddClassName = "progress-bar progress-bar-striped" };
                     pb.SetAttribute ("role", "progressbar");
                     pb.SetAttribute ("aria-valuenow", "0");
                     pb.SetAttribute ("aria-valuemin", "0");
@@ -56,12 +56,12 @@ namespace Goui.Forms.Renderers
             if (Element.IsRunning) {
                 pb.SetAttribute ("aria-valuenow", "100");
                 pb.Style.Width = "100%";
-                pb.ClassName = "progress-bar progress-bar-striped active";
+                pb.AddClassName = "progress-bar progress-bar-striped active";
             }
             else {
                 pb.SetAttribute ("aria-valuenow", "0");
                 pb.Style.Width = "0%";
-                pb.ClassName = "progress-bar progress-bar-striped";
+                pb.AddClassName = "progress-bar progress-bar-striped";
             }
         }
     }

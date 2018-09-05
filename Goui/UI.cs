@@ -28,9 +28,23 @@ namespace Goui
         public static byte[] ClientJsBytes => clientJsBytes;
         public static string ClientJsEtag => clientJsEtag;
 
-        public static string HeadHtml { get; set; } = @"<link rel=""stylesheet"" href=""https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"" />";
+        public static string HeadHtml { get; set; } = @" <link rel=""stylesheet"" href=""https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"" />";
         public static string BodyHeaderHtml { get; set; } = @"";
         public static string BodyFooterHtml { get; set; } = @"";
+
+        public static bool CanConfigure { get; internal set; } = true;
+
+        private static UIConfig _config = new UIConfig();
+        public static UIConfig Config {
+            get { return _config; }
+            set {
+                if (!CanConfigure)
+                    throw new Exception("Setting a new configuration is not possible anymore.");
+                if (value == null)
+                    throw new Exception("Config cant't be null!");
+                _config = value;
+            }
+        }
 
         static string host = "*";
         public static string Host {
@@ -87,6 +101,9 @@ namespace Goui
                 }
             }
             clientJsEtag = "\"" + Utilities.Hash (clientJsBytes) + "\"";
+
+            foreach (var plugin in UI.Config.Plugins)
+                plugin.OnUIStart();
         }
 
         static void Publish (string path, RequestHandler handler)
@@ -204,6 +221,10 @@ namespace Goui
         {
             if (!serverEnabled) return;
             if (serverCts != null) return;
+
+            foreach (var plugin in UI.Config.Plugins)
+                plugin.OnUIStart();
+
             serverCts = new CancellationTokenSource ();
             var token = serverCts.Token;
             var listenerPrefix = $"http://{host}:{port}/";
@@ -214,6 +235,10 @@ namespace Goui
         {
             var scts = serverCts;
             if (scts == null) return;
+
+            foreach (var plugin in UI.Config.Plugins)
+                plugin.OnUIStart();
+            
             serverCts = null;
             started.Reset ();
 
@@ -263,6 +288,15 @@ namespace Goui
 
             while (!token.IsCancellationRequested) {
                 var listenerContext = await listener.GetContextAsync ().ConfigureAwait (false);
+
+                var skip = false;
+                foreach (var plugin in UI.Config.Plugins)
+                    if (!skip)
+                        skip = !plugin.OnHttpRequest(listenerContext);
+
+                if (skip)
+                    continue;
+
                 if (listenerContext.Request.IsWebSocketRequest) {
                     ProcessWebSocketRequest (listenerContext, token);
                 }
@@ -383,6 +417,14 @@ namespace Goui
 
         public static void RenderTemplate (TextWriter writer, string webSocketPath, string title, string initialHtml)
         {
+            var skip = false;
+            foreach (var plugin in UI.Config.Plugins)
+                if (!skip)
+                    skip = !plugin.OnRenderTemplate(writer, webSocketPath, title, initialHtml);
+
+            if (skip)
+                return;
+
             writer.Write (@"<!DOCTYPE html>
 <html>
 <head>

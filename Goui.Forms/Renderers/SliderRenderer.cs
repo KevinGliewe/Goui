@@ -27,7 +27,7 @@ namespace Goui.Forms.Renderers
             {
                 var range = new Input
                 {
-                    ClassName = "form-control",
+                    AddClassName = "form-control",
                     Type = InputType.Range
                 };
 

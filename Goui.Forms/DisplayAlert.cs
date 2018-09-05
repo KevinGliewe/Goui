@@ -14,22 +14,22 @@ namespace Goui.Forms
         {
             Element = new Div
             {
-                ClassName = "modal-dialog"
+                AddClassName = "modal-dialog"
             };
 
             var content = new Div
             {
-                ClassName = "modal-content"
+                AddClassName = "modal-content"
             };
 
             var header = new Div
             {
-                ClassName = "modal-header"
+                AddClassName = "modal-header"
             };
 
             _closeButton = new Button
             {
-                ClassName = "close"
+                AddClassName = "close"
             };
 
             _closeButton.AppendChild(new Span("×"));
@@ -45,7 +45,7 @@ namespace Goui.Forms
             content.AppendChild(header);
             content.AppendChild(new Div()
             {
-                ClassName = "modal-body",
+                AddClassName = "modal-body",
                 Text = arguments.Message
             });
 
@@ -53,12 +53,12 @@ namespace Goui.Forms
             {
                 var footer = new Div()
                 {
-                    ClassName = "modal-footer"
+                    AddClassName = "modal-footer"
                 };
 
                 _cancelButton = new Button(arguments.Cancel)
                 {
-                    ClassName = "btn btn-default"
+                    AddClassName = "btn btn-default"
                 };
                 _cancelButton.Click += (s, e) => SetResult(false);
 
@@ -68,7 +68,7 @@ namespace Goui.Forms
                 {
                     _acceptButton = new Button(arguments.Accept)
                     {
-                        ClassName = "btn btn-default"
+                        AddClassName = "btn btn-default"
                     };
 
                     _acceptButton.Click += (s, e) => SetResult(true);

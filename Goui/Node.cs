@@ -51,6 +51,9 @@ namespace Goui
         protected Node (string tagName)
             : base (tagName)
         {
+            UI.CanConfigure = false;
+            foreach (var plugin in UI.Config.Plugins)
+                plugin.OnNodeCreated(this);
         }
 
         public override EventTarget GetElementById (string id)

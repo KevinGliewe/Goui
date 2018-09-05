@@ -31,7 +31,7 @@ namespace Goui.Forms.Renderers
             {
                 var entry = new Input
                 {
-                    ClassName = "form-control",
+                    AddClassName = "form-control",
                     Type = InputType.Time
                 };
 

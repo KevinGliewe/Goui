@@ -38,7 +38,7 @@ namespace Goui.Forms.Renderers
 
                     Debug.Assert (Control != null, "Control != null");
 
-                    Control.ClassName = "btn btn-primary";
+                    Control.AddClassName = "btn btn-primary";
 
                     _buttonTextColorDefaultNormal = Goui.Colors.Black;
                     _buttonTextColorDefaultHighlighted = Goui.Colors.Black;

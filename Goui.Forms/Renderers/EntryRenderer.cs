@@ -70,7 +70,7 @@ namespace Goui.Forms.Renderers
 
                 Debug.Assert (Control != null, "Control != null");
 
-                textField.ClassName = "form-control";
+                textField.AddClassName = "form-control";
 
                 textField.Input += OnEditingChanged;
                 textField.Change += OnEditingEnded;

@@ -44,7 +44,7 @@ namespace Goui.Forms.Renderers
 
             if (Control == null) {
                 var textArea = new TextArea {
-                    ClassName = "form-control"
+                    AddClassName = "form-control"
                 };
                 textArea.Style["resize"] = "none";
                 SetNativeControl (textArea);

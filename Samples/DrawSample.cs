@@ -46,7 +46,7 @@ namespace Samples
 
             var clearbtn = new Button ("Clear") {
                 Type = ButtonType.Submit,
-                ClassName = "btn btn-danger",
+                AddClassName = "btn btn-danger",
             };
             clearbtn.Click += (s, e) => {
                 context.ClearRect (0, 0, canvas.Width, canvas.Height);
