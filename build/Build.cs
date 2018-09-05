@@ -36,7 +36,7 @@ class Build : NukeBuild
 
     public Build() {
         var version = "git tag".Sh().Split('\n').Get(-2).ExtractVersion();
-        var suffix = "git rev-list --count HEAD".Sh().Replace("\n", "").Trim();
+        var suffix = "git rev-parse --short HEAD".Sh().Replace("\n", "").Trim();
 
         GitVersion = version.ToString(3);
         GitVersionSuffix = GitVersion + "." + suffix;
