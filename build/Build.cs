@@ -18,6 +18,7 @@ using GCore.Logging;
 using GCore.Extensions.StringShEx;
 using GCore.Extensions.ArrayEx;
 using Nuke.Common.Tooling;
+using System.IO;
 
 class Build : NukeBuild
 {
@@ -174,8 +175,10 @@ class Build : NukeBuild
         .Executes(() => {
             Git($"clone -b gh-pages --single-branch https://{GithubUsername}:{GithubToken}@github.com/KevinGliewe/Goui --depth 1 {GhPagesDir}",
                 TempDir);
-            EnsureExistingDirectory(DocBuildDirectory);
-            EnsureExistingDirectory(GhPagesDir);
+
+            Logger.Info($"Exists DocBuildDirectory '{DocBuildDirectory}': {Directory.Exists(DocBuildDirectory)}");
+            Logger.Info($"Exists GhPagesDir '{GhPagesDir}': {Directory.Exists(GhPagesDir)}");
+
             CopyDirectoryRecursively(DocBuildDirectory, GhPagesDir, FileExistsPolicy.Overwrite);
             CopyDirectoryRecursively(WasmTest, GhPagesDir / "WasmFormsApp", FileExistsPolicy.Overwrite);
             Git("add .", GhPagesDir);
