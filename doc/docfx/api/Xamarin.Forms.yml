@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  id: Xamarin.Forms
+  children:
+  - Xamarin.Forms.Forms
+  - Xamarin.Forms.Forms.ViewInitializedEventArgs
+  - Xamarin.Forms.PageExtensions
+  langs:
+  - csharp
+  - vb
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+  type: Namespace
+  assemblies:
+  - Goui.Forms
+references:
+- uid: Xamarin.Forms.Forms
+  commentId: T:Xamarin.Forms.Forms
+  parent: Xamarin.Forms
+  name: Forms
+  nameWithType: Forms
+  fullName: Xamarin.Forms.Forms
+- uid: Xamarin.Forms.Forms.ViewInitializedEventArgs
+  commentId: T:Xamarin.Forms.Forms.ViewInitializedEventArgs
+  name: Forms.ViewInitializedEventArgs
+  nameWithType: Forms.ViewInitializedEventArgs
+  fullName: Xamarin.Forms.Forms.ViewInitializedEventArgs
+- uid: Xamarin.Forms.PageExtensions
+  commentId: T:Xamarin.Forms.PageExtensions
+  name: PageExtensions
+  nameWithType: PageExtensions
+  fullName: Xamarin.Forms.PageExtensions
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms

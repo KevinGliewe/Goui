@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Extensions.FontExtensions
+  commentId: T:Goui.Forms.Extensions.FontExtensions
+  id: FontExtensions
+  parent: Goui.Forms.Extensions
+  children:
+  - Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,Goui.Style,System.Double,System.Double)
+  - Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,System.String,System.Double,Xamarin.Forms.FontAttributes,System.Double,System.Double)
+  - Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  - Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign(Xamarin.Forms.TextAlignment)
+  - Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign(Xamarin.Forms.TextAlignment)
+  langs:
+  - csharp
+  - vb
+  name: FontExtensions
+  nameWithType: FontExtensions
+  fullName: Goui.Forms.Extensions.FontExtensions
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontExtensions
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static class FontExtensions
+    content.vb: Public Module FontExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  id: SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.FontExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetStyleFont(View, String, Double, FontAttributes, Style)
+  nameWithType: FontExtensions.SetStyleFont(View, String, Double, FontAttributes, Style)
+  fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View, System.String, System.Double, Xamarin.Forms.FontAttributes, Goui.Style)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetStyleFont
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static void SetStyleFont(this View view, string family, double size, FontAttributes attrs, Style style)
+    parameters:
+    - id: view
+      type: Xamarin.Forms.View
+    - id: family
+      type: System.String
+    - id: size
+      type: System.Double
+    - id: attrs
+      type: Xamarin.Forms.FontAttributes
+    - id: style
+      type: Goui.Style
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetStyleFont(view As View, family As String, size As Double, attrs As FontAttributes, style As Style)
+  overload: Goui.Forms.Extensions.FontExtensions.SetStyleFont*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,System.String,System.Double,Xamarin.Forms.FontAttributes,System.Double,System.Double)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,System.String,System.Double,Xamarin.Forms.FontAttributes,System.Double,System.Double)
+  id: MeasureSize(System.String,System.String,System.Double,Xamarin.Forms.FontAttributes,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.FontExtensions
+  langs:
+  - csharp
+  - vb
+  name: MeasureSize(String, String, Double, FontAttributes, Double, Double)
+  nameWithType: FontExtensions.MeasureSize(String, String, Double, FontAttributes, Double, Double)
+  fullName: Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String, System.String, System.Double, Xamarin.Forms.FontAttributes, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MeasureSize
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 40
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static Size MeasureSize(this string text, string fontFamily, double fontSize, FontAttributes fontAttrs, double widthConstraint, double heightConstraint)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontFamily
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: fontAttrs
+      type: Xamarin.Forms.FontAttributes
+    - id: widthConstraint
+      type: System.Double
+    - id: heightConstraint
+      type: System.Double
+    return:
+      type: Xamarin.Forms.Size
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MeasureSize(text As String, fontFamily As String, fontSize As Double, fontAttrs As FontAttributes, widthConstraint As Double, heightConstraint As Double) As Size
+  overload: Goui.Forms.Extensions.FontExtensions.MeasureSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,Goui.Style,System.Double,System.Double)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String,Goui.Style,System.Double,System.Double)
+  id: MeasureSize(System.String,Goui.Style,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.FontExtensions
+  langs:
+  - csharp
+  - vb
+  name: MeasureSize(String, Style, Double, Double)
+  nameWithType: FontExtensions.MeasureSize(String, Style, Double, Double)
+  fullName: Goui.Forms.Extensions.FontExtensions.MeasureSize(System.String, Goui.Style, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MeasureSize
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 95
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static Size MeasureSize(this string text, Style style, double widthConstraint, double heightConstraint)
+    parameters:
+    - id: text
+      type: System.String
+    - id: style
+      type: Goui.Style
+    - id: widthConstraint
+      type: System.Double
+    - id: heightConstraint
+      type: System.Double
+    return:
+      type: Xamarin.Forms.Size
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MeasureSize(text As String, style As Style, widthConstraint As Double, heightConstraint As Double) As Size
+  overload: Goui.Forms.Extensions.FontExtensions.MeasureSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign(Xamarin.Forms.TextAlignment)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign(Xamarin.Forms.TextAlignment)
+  id: ToGouiTextAlign(Xamarin.Forms.TextAlignment)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.FontExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToGouiTextAlign(TextAlignment)
+  nameWithType: FontExtensions.ToGouiTextAlign(TextAlignment)
+  fullName: Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign(Xamarin.Forms.TextAlignment)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToGouiTextAlign
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 101
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static string ToGouiTextAlign(this TextAlignment align)
+    parameters:
+    - id: align
+      type: Xamarin.Forms.TextAlignment
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToGouiTextAlign(align As TextAlignment) As String
+  overload: Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign(Xamarin.Forms.TextAlignment)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign(Xamarin.Forms.TextAlignment)
+  id: ToGouiVerticalAlign(Xamarin.Forms.TextAlignment)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.FontExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToGouiVerticalAlign(TextAlignment)
+  nameWithType: FontExtensions.ToGouiVerticalAlign(TextAlignment)
+  fullName: Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign(Xamarin.Forms.TextAlignment)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/FontExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToGouiVerticalAlign
+    path: ../../Goui.Forms/Extensions/FontExtensions.cs
+    startLine: 114
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static string ToGouiVerticalAlign(this TextAlignment align)
+    parameters:
+    - id: align
+      type: Xamarin.Forms.TextAlignment
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToGouiVerticalAlign(align As TextAlignment) As String
+  overload: Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont*
+  commentId: Overload:Goui.Forms.Extensions.FontExtensions.SetStyleFont
+  name: SetStyleFont
+  nameWithType: FontExtensions.SetStyleFont
+  fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont
+- uid: Xamarin.Forms.View
+  commentId: T:Xamarin.Forms.View
+  parent: Xamarin.Forms
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: Xamarin.Forms.View
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Xamarin.Forms.FontAttributes
+  commentId: T:Xamarin.Forms.FontAttributes
+  parent: Xamarin.Forms
+  isExternal: true
+  name: FontAttributes
+  nameWithType: FontAttributes
+  fullName: Xamarin.Forms.FontAttributes
+- uid: Goui.Style
+  commentId: T:Goui.Style
+  parent: Goui
+  name: Style
+  nameWithType: Style
+  fullName: Goui.Style
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: Goui.Forms.Extensions.FontExtensions.MeasureSize*
+  commentId: Overload:Goui.Forms.Extensions.FontExtensions.MeasureSize
+  name: MeasureSize
+  nameWithType: FontExtensions.MeasureSize
+  fullName: Goui.Forms.Extensions.FontExtensions.MeasureSize
+- uid: Xamarin.Forms.Size
+  commentId: T:Xamarin.Forms.Size
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: Xamarin.Forms.Size
+- uid: Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign*
+  commentId: Overload:Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign
+  name: ToGouiTextAlign
+  nameWithType: FontExtensions.ToGouiTextAlign
+  fullName: Goui.Forms.Extensions.FontExtensions.ToGouiTextAlign
+- uid: Xamarin.Forms.TextAlignment
+  commentId: T:Xamarin.Forms.TextAlignment
+  parent: Xamarin.Forms
+  isExternal: true
+  name: TextAlignment
+  nameWithType: TextAlignment
+  fullName: Xamarin.Forms.TextAlignment
+- uid: Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign*
+  commentId: Overload:Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign
+  name: ToGouiVerticalAlign
+  nameWithType: FontExtensions.ToGouiVerticalAlign
+  fullName: Goui.Forms.Extensions.FontExtensions.ToGouiVerticalAlign

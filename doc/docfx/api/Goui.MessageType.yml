@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.MessageType
+  commentId: T:Goui.MessageType
+  id: MessageType
+  parent: Goui
+  children:
+  - Goui.MessageType.Call
+  - Goui.MessageType.Create
+  - Goui.MessageType.Event
+  - Goui.MessageType.Listen
+  - Goui.MessageType.Nop
+  - Goui.MessageType.RemoveAttribute
+  - Goui.MessageType.Set
+  - Goui.MessageType.SetAttribute
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: MessageType
+  fullName: Goui.MessageType
+  type: Enum
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MessageType
+    path: ../../Goui/Message.cs
+    startLine: 156
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum MessageType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum MessageType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.MessageType.Nop
+  commentId: F:Goui.MessageType.Nop
+  id: Nop
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Nop
+  nameWithType: MessageType.Nop
+  fullName: Goui.MessageType.Nop
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Nop
+    path: ../../Goui/Message.cs
+    startLine: 159
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "nop")]
+
+      Nop = 0
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="nop")>
+
+      Nop = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: nop
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.Create
+  commentId: F:Goui.MessageType.Create
+  id: Create
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: MessageType.Create
+  fullName: Goui.MessageType.Create
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Create
+    path: ../../Goui/Message.cs
+    startLine: 161
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "create")]
+
+      Create = 1
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="create")>
+
+      Create = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: create
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.Set
+  commentId: F:Goui.MessageType.Set
+  id: Set
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: MessageType.Set
+  fullName: Goui.MessageType.Set
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Set
+    path: ../../Goui/Message.cs
+    startLine: 163
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "set")]
+
+      Set = 2
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="set")>
+
+      Set = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: set
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.SetAttribute
+  commentId: F:Goui.MessageType.SetAttribute
+  id: SetAttribute
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: SetAttribute
+  nameWithType: MessageType.SetAttribute
+  fullName: Goui.MessageType.SetAttribute
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetAttribute
+    path: ../../Goui/Message.cs
+    startLine: 165
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "setAttr")]
+
+      SetAttribute = 3
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="setAttr")>
+
+      SetAttribute = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: setAttr
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.RemoveAttribute
+  commentId: F:Goui.MessageType.RemoveAttribute
+  id: RemoveAttribute
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: RemoveAttribute
+  nameWithType: MessageType.RemoveAttribute
+  fullName: Goui.MessageType.RemoveAttribute
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: RemoveAttribute
+    path: ../../Goui/Message.cs
+    startLine: 167
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "remAttr")]
+
+      RemoveAttribute = 4
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="remAttr")>
+
+      RemoveAttribute = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: remAttr
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.Call
+  commentId: F:Goui.MessageType.Call
+  id: Call
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Call
+  nameWithType: MessageType.Call
+  fullName: Goui.MessageType.Call
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Call
+    path: ../../Goui/Message.cs
+    startLine: 169
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "call")]
+
+      Call = 5
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="call")>
+
+      Call = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: call
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.Listen
+  commentId: F:Goui.MessageType.Listen
+  id: Listen
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Listen
+  nameWithType: MessageType.Listen
+  fullName: Goui.MessageType.Listen
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Listen
+    path: ../../Goui/Message.cs
+    startLine: 171
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "listen")]
+
+      Listen = 6
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="listen")>
+
+      Listen = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: listen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.MessageType.Event
+  commentId: F:Goui.MessageType.Event
+  id: Event
+  parent: Goui.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: MessageType.Event
+  fullName: Goui.MessageType.Event
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Event
+    path: ../../Goui/Message.cs
+    startLine: 173
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [EnumMember(Value = "event")]
+
+      Event = 7
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <EnumMember(Value:="event")>
+
+      Event = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: event
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: Goui.MessageType
+  commentId: T:Goui.MessageType
+  parent: Goui
+  name: MessageType
+  nameWithType: MessageType
+  fullName: Goui.MessageType

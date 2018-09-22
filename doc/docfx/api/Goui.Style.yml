@@ -1,0 +1,3097 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Style
+  commentId: T:Goui.Style
+  id: Style
+  parent: Goui
+  children:
+  - Goui.Style.AlignSelf
+  - Goui.Style.BackgroundColor
+  - Goui.Style.BackgroundImage
+  - Goui.Style.BorderBottomColor
+  - Goui.Style.BorderBottomStyle
+  - Goui.Style.BorderBottomWidth
+  - Goui.Style.BorderColor
+  - Goui.Style.BorderLeftColor
+  - Goui.Style.BorderLeftStyle
+  - Goui.Style.BorderLeftWidth
+  - Goui.Style.BorderRadius
+  - Goui.Style.BorderRightColor
+  - Goui.Style.BorderRightStyle
+  - Goui.Style.BorderRightWidth
+  - Goui.Style.BorderStyle
+  - Goui.Style.BorderTopColor
+  - Goui.Style.BorderTopStyle
+  - Goui.Style.BorderTopWidth
+  - Goui.Style.BorderWidth
+  - Goui.Style.Bottom
+  - Goui.Style.Clear
+  - Goui.Style.Color
+  - Goui.Style.Cursor
+  - Goui.Style.Display
+  - Goui.Style.FlexFlow
+  - Goui.Style.FlexGrow
+  - Goui.Style.FlexShrink
+  - Goui.Style.Float
+  - Goui.Style.FontFamily
+  - Goui.Style.FontSize
+  - Goui.Style.FontStyle
+  - Goui.Style.FontVariant
+  - Goui.Style.FontWeight
+  - Goui.Style.GetJsName(System.String)
+  - Goui.Style.GetNumberWithUnits(System.String,System.String,System.Double)
+  - Goui.Style.Height
+  - Goui.Style.Item(System.String)
+  - Goui.Style.Left
+  - Goui.Style.LineHeight
+  - Goui.Style.Margin
+  - Goui.Style.MarginBottom
+  - Goui.Style.MarginLeft
+  - Goui.Style.MarginRight
+  - Goui.Style.MarginTop
+  - Goui.Style.Opacity
+  - Goui.Style.Order
+  - Goui.Style.Overflow
+  - Goui.Style.Padding
+  - Goui.Style.PaddingBottom
+  - Goui.Style.PaddingLeft
+  - Goui.Style.PaddingRight
+  - Goui.Style.PaddingTop
+  - Goui.Style.Position
+  - Goui.Style.PropertyChanged
+  - Goui.Style.Right
+  - Goui.Style.TextAlign
+  - Goui.Style.TextDecoration
+  - Goui.Style.Top
+  - Goui.Style.ToString
+  - Goui.Style.Transform
+  - Goui.Style.TransformOrigin
+  - Goui.Style.VerticalAlign
+  - Goui.Style.Visibility
+  - Goui.Style.WhiteSpace
+  - Goui.Style.Width
+  - Goui.Style.ZIndex
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: Style
+  fullName: Goui.Style
+  type: Class
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Style
+    path: ../../Goui/Style.cs
+    startLine: 7
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: 'public class Style : INotifyPropertyChanged'
+    content.vb: >-
+      Public Class Style
+
+          Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Style.PropertyChanged
+  commentId: E:Goui.Style.PropertyChanged
+  id: PropertyChanged
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: Style.PropertyChanged
+  fullName: Goui.Style.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PropertyChanged
+    path: ../../Goui/Style.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public event PropertyChangedEventHandler PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.AlignSelf
+  commentId: P:Goui.Style.AlignSelf
+  id: AlignSelf
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: AlignSelf
+  nameWithType: Style.AlignSelf
+  fullName: Goui.Style.AlignSelf
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: AlignSelf
+    path: ../../Goui/Style.cs
+    startLine: 18
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object AlignSelf { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property AlignSelf As Object
+  overload: Goui.Style.AlignSelf*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BackgroundColor
+  commentId: P:Goui.Style.BackgroundColor
+  id: BackgroundColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: Style.BackgroundColor
+  fullName: Goui.Style.BackgroundColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BackgroundColor
+    path: ../../Goui/Style.cs
+    startLine: 23
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BackgroundColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BackgroundColor As Object
+  overload: Goui.Style.BackgroundColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BackgroundImage
+  commentId: P:Goui.Style.BackgroundImage
+  id: BackgroundImage
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BackgroundImage
+  nameWithType: Style.BackgroundImage
+  fullName: Goui.Style.BackgroundImage
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BackgroundImage
+    path: ../../Goui/Style.cs
+    startLine: 28
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BackgroundImage { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BackgroundImage As Object
+  overload: Goui.Style.BackgroundImage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderTopColor
+  commentId: P:Goui.Style.BorderTopColor
+  id: BorderTopColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderTopColor
+  nameWithType: Style.BorderTopColor
+  fullName: Goui.Style.BorderTopColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderTopColor
+    path: ../../Goui/Style.cs
+    startLine: 33
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderTopColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderTopColor As Object
+  overload: Goui.Style.BorderTopColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderRightColor
+  commentId: P:Goui.Style.BorderRightColor
+  id: BorderRightColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderRightColor
+  nameWithType: Style.BorderRightColor
+  fullName: Goui.Style.BorderRightColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderRightColor
+    path: ../../Goui/Style.cs
+    startLine: 38
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderRightColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderRightColor As Object
+  overload: Goui.Style.BorderRightColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderBottomColor
+  commentId: P:Goui.Style.BorderBottomColor
+  id: BorderBottomColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderBottomColor
+  nameWithType: Style.BorderBottomColor
+  fullName: Goui.Style.BorderBottomColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderBottomColor
+    path: ../../Goui/Style.cs
+    startLine: 43
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderBottomColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderBottomColor As Object
+  overload: Goui.Style.BorderBottomColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderLeftColor
+  commentId: P:Goui.Style.BorderLeftColor
+  id: BorderLeftColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderLeftColor
+  nameWithType: Style.BorderLeftColor
+  fullName: Goui.Style.BorderLeftColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderLeftColor
+    path: ../../Goui/Style.cs
+    startLine: 48
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderLeftColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderLeftColor As Object
+  overload: Goui.Style.BorderLeftColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderColor
+  commentId: P:Goui.Style.BorderColor
+  id: BorderColor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderColor
+  nameWithType: Style.BorderColor
+  fullName: Goui.Style.BorderColor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderColor
+    path: ../../Goui/Style.cs
+    startLine: 53
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderColor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderColor As Object
+  overload: Goui.Style.BorderColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderTopStyle
+  commentId: P:Goui.Style.BorderTopStyle
+  id: BorderTopStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderTopStyle
+  nameWithType: Style.BorderTopStyle
+  fullName: Goui.Style.BorderTopStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderTopStyle
+    path: ../../Goui/Style.cs
+    startLine: 63
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderTopStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderTopStyle As Object
+  overload: Goui.Style.BorderTopStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderRightStyle
+  commentId: P:Goui.Style.BorderRightStyle
+  id: BorderRightStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderRightStyle
+  nameWithType: Style.BorderRightStyle
+  fullName: Goui.Style.BorderRightStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderRightStyle
+    path: ../../Goui/Style.cs
+    startLine: 68
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderRightStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderRightStyle As Object
+  overload: Goui.Style.BorderRightStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderBottomStyle
+  commentId: P:Goui.Style.BorderBottomStyle
+  id: BorderBottomStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderBottomStyle
+  nameWithType: Style.BorderBottomStyle
+  fullName: Goui.Style.BorderBottomStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderBottomStyle
+    path: ../../Goui/Style.cs
+    startLine: 73
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderBottomStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderBottomStyle As Object
+  overload: Goui.Style.BorderBottomStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderLeftStyle
+  commentId: P:Goui.Style.BorderLeftStyle
+  id: BorderLeftStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderLeftStyle
+  nameWithType: Style.BorderLeftStyle
+  fullName: Goui.Style.BorderLeftStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderLeftStyle
+    path: ../../Goui/Style.cs
+    startLine: 78
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderLeftStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderLeftStyle As Object
+  overload: Goui.Style.BorderLeftStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderStyle
+  commentId: P:Goui.Style.BorderStyle
+  id: BorderStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderStyle
+  nameWithType: Style.BorderStyle
+  fullName: Goui.Style.BorderStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderStyle
+    path: ../../Goui/Style.cs
+    startLine: 83
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderStyle As Object
+  overload: Goui.Style.BorderStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderTopWidth
+  commentId: P:Goui.Style.BorderTopWidth
+  id: BorderTopWidth
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderTopWidth
+  nameWithType: Style.BorderTopWidth
+  fullName: Goui.Style.BorderTopWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderTopWidth
+    path: ../../Goui/Style.cs
+    startLine: 93
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderTopWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderTopWidth As Object
+  overload: Goui.Style.BorderTopWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderRightWidth
+  commentId: P:Goui.Style.BorderRightWidth
+  id: BorderRightWidth
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderRightWidth
+  nameWithType: Style.BorderRightWidth
+  fullName: Goui.Style.BorderRightWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderRightWidth
+    path: ../../Goui/Style.cs
+    startLine: 98
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderRightWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderRightWidth As Object
+  overload: Goui.Style.BorderRightWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderBottomWidth
+  commentId: P:Goui.Style.BorderBottomWidth
+  id: BorderBottomWidth
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderBottomWidth
+  nameWithType: Style.BorderBottomWidth
+  fullName: Goui.Style.BorderBottomWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderBottomWidth
+    path: ../../Goui/Style.cs
+    startLine: 103
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderBottomWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderBottomWidth As Object
+  overload: Goui.Style.BorderBottomWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderLeftWidth
+  commentId: P:Goui.Style.BorderLeftWidth
+  id: BorderLeftWidth
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderLeftWidth
+  nameWithType: Style.BorderLeftWidth
+  fullName: Goui.Style.BorderLeftWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderLeftWidth
+    path: ../../Goui/Style.cs
+    startLine: 108
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderLeftWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderLeftWidth As Object
+  overload: Goui.Style.BorderLeftWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderRadius
+  commentId: P:Goui.Style.BorderRadius
+  id: BorderRadius
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderRadius
+  nameWithType: Style.BorderRadius
+  fullName: Goui.Style.BorderRadius
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderRadius
+    path: ../../Goui/Style.cs
+    startLine: 113
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderRadius { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderRadius As Object
+  overload: Goui.Style.BorderRadius*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.BorderWidth
+  commentId: P:Goui.Style.BorderWidth
+  id: BorderWidth
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: BorderWidth
+  nameWithType: Style.BorderWidth
+  fullName: Goui.Style.BorderWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BorderWidth
+    path: ../../Goui/Style.cs
+    startLine: 120
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object BorderWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property BorderWidth As Object
+  overload: Goui.Style.BorderWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Bottom
+  commentId: P:Goui.Style.Bottom
+  id: Bottom
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: Style.Bottom
+  fullName: Goui.Style.Bottom
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Bottom
+    path: ../../Goui/Style.cs
+    startLine: 130
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Bottom { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Bottom As Object
+  overload: Goui.Style.Bottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Clear
+  commentId: P:Goui.Style.Clear
+  id: Clear
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Clear
+  nameWithType: Style.Clear
+  fullName: Goui.Style.Clear
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Clear
+    path: ../../Goui/Style.cs
+    startLine: 135
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Clear { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Clear As Object
+  overload: Goui.Style.Clear*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Color
+  commentId: P:Goui.Style.Color
+  id: Color
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Style.Color
+  fullName: Goui.Style.Color
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Color
+    path: ../../Goui/Style.cs
+    startLine: 140
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Color { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Color As Object
+  overload: Goui.Style.Color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Cursor
+  commentId: P:Goui.Style.Cursor
+  id: Cursor
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Cursor
+  nameWithType: Style.Cursor
+  fullName: Goui.Style.Cursor
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Cursor
+    path: ../../Goui/Style.cs
+    startLine: 145
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Cursor { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Cursor As Object
+  overload: Goui.Style.Cursor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Display
+  commentId: P:Goui.Style.Display
+  id: Display
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: Style.Display
+  fullName: Goui.Style.Display
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Display
+    path: ../../Goui/Style.cs
+    startLine: 150
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Display { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Display As Object
+  overload: Goui.Style.Display*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FlexFlow
+  commentId: P:Goui.Style.FlexFlow
+  id: FlexFlow
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FlexFlow
+  nameWithType: Style.FlexFlow
+  fullName: Goui.Style.FlexFlow
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FlexFlow
+    path: ../../Goui/Style.cs
+    startLine: 155
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FlexFlow { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FlexFlow As Object
+  overload: Goui.Style.FlexFlow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FlexGrow
+  commentId: P:Goui.Style.FlexGrow
+  id: FlexGrow
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FlexGrow
+  nameWithType: Style.FlexGrow
+  fullName: Goui.Style.FlexGrow
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FlexGrow
+    path: ../../Goui/Style.cs
+    startLine: 160
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FlexGrow { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FlexGrow As Object
+  overload: Goui.Style.FlexGrow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FlexShrink
+  commentId: P:Goui.Style.FlexShrink
+  id: FlexShrink
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FlexShrink
+  nameWithType: Style.FlexShrink
+  fullName: Goui.Style.FlexShrink
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FlexShrink
+    path: ../../Goui/Style.cs
+    startLine: 165
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FlexShrink { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FlexShrink As Object
+  overload: Goui.Style.FlexShrink*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Float
+  commentId: P:Goui.Style.Float
+  id: Float
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: Style.Float
+  fullName: Goui.Style.Float
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Float
+    path: ../../Goui/Style.cs
+    startLine: 170
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Float { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Float As Object
+  overload: Goui.Style.Float*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FontFamily
+  commentId: P:Goui.Style.FontFamily
+  id: FontFamily
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FontFamily
+  nameWithType: Style.FontFamily
+  fullName: Goui.Style.FontFamily
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontFamily
+    path: ../../Goui/Style.cs
+    startLine: 175
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FontFamily { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FontFamily As Object
+  overload: Goui.Style.FontFamily*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FontSize
+  commentId: P:Goui.Style.FontSize
+  id: FontSize
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: Style.FontSize
+  fullName: Goui.Style.FontSize
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontSize
+    path: ../../Goui/Style.cs
+    startLine: 180
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FontSize { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FontSize As Object
+  overload: Goui.Style.FontSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FontStyle
+  commentId: P:Goui.Style.FontStyle
+  id: FontStyle
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FontStyle
+  nameWithType: Style.FontStyle
+  fullName: Goui.Style.FontStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontStyle
+    path: ../../Goui/Style.cs
+    startLine: 185
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FontStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FontStyle As Object
+  overload: Goui.Style.FontStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FontVariant
+  commentId: P:Goui.Style.FontVariant
+  id: FontVariant
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FontVariant
+  nameWithType: Style.FontVariant
+  fullName: Goui.Style.FontVariant
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontVariant
+    path: ../../Goui/Style.cs
+    startLine: 190
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FontVariant { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FontVariant As Object
+  overload: Goui.Style.FontVariant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.FontWeight
+  commentId: P:Goui.Style.FontWeight
+  id: FontWeight
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: FontWeight
+  nameWithType: Style.FontWeight
+  fullName: Goui.Style.FontWeight
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontWeight
+    path: ../../Goui/Style.cs
+    startLine: 195
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object FontWeight { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FontWeight As Object
+  overload: Goui.Style.FontWeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Height
+  commentId: P:Goui.Style.Height
+  id: Height
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Style.Height
+  fullName: Goui.Style.Height
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Height
+    path: ../../Goui/Style.cs
+    startLine: 200
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Height { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Height As Object
+  overload: Goui.Style.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Left
+  commentId: P:Goui.Style.Left
+  id: Left
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Style.Left
+  fullName: Goui.Style.Left
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Left
+    path: ../../Goui/Style.cs
+    startLine: 205
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Left { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Left As Object
+  overload: Goui.Style.Left*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.LineHeight
+  commentId: P:Goui.Style.LineHeight
+  id: LineHeight
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: LineHeight
+  nameWithType: Style.LineHeight
+  fullName: Goui.Style.LineHeight
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineHeight
+    path: ../../Goui/Style.cs
+    startLine: 210
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object LineHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property LineHeight As Object
+  overload: Goui.Style.LineHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.MarginTop
+  commentId: P:Goui.Style.MarginTop
+  id: MarginTop
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: MarginTop
+  nameWithType: Style.MarginTop
+  fullName: Goui.Style.MarginTop
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MarginTop
+    path: ../../Goui/Style.cs
+    startLine: 215
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object MarginTop { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property MarginTop As Object
+  overload: Goui.Style.MarginTop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.MarginRight
+  commentId: P:Goui.Style.MarginRight
+  id: MarginRight
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: MarginRight
+  nameWithType: Style.MarginRight
+  fullName: Goui.Style.MarginRight
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MarginRight
+    path: ../../Goui/Style.cs
+    startLine: 220
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object MarginRight { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property MarginRight As Object
+  overload: Goui.Style.MarginRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.MarginBottom
+  commentId: P:Goui.Style.MarginBottom
+  id: MarginBottom
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: MarginBottom
+  nameWithType: Style.MarginBottom
+  fullName: Goui.Style.MarginBottom
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MarginBottom
+    path: ../../Goui/Style.cs
+    startLine: 225
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object MarginBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property MarginBottom As Object
+  overload: Goui.Style.MarginBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.MarginLeft
+  commentId: P:Goui.Style.MarginLeft
+  id: MarginLeft
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: MarginLeft
+  nameWithType: Style.MarginLeft
+  fullName: Goui.Style.MarginLeft
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MarginLeft
+    path: ../../Goui/Style.cs
+    startLine: 230
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object MarginLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property MarginLeft As Object
+  overload: Goui.Style.MarginLeft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Margin
+  commentId: P:Goui.Style.Margin
+  id: Margin
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Margin
+  nameWithType: Style.Margin
+  fullName: Goui.Style.Margin
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Margin
+    path: ../../Goui/Style.cs
+    startLine: 235
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Margin { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Margin As Object
+  overload: Goui.Style.Margin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Opacity
+  commentId: P:Goui.Style.Opacity
+  id: Opacity
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Opacity
+  nameWithType: Style.Opacity
+  fullName: Goui.Style.Opacity
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Opacity
+    path: ../../Goui/Style.cs
+    startLine: 245
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Opacity { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Opacity As Object
+  overload: Goui.Style.Opacity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Order
+  commentId: P:Goui.Style.Order
+  id: Order
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: Style.Order
+  fullName: Goui.Style.Order
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Order
+    path: ../../Goui/Style.cs
+    startLine: 250
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Order { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Order As Object
+  overload: Goui.Style.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Overflow
+  commentId: P:Goui.Style.Overflow
+  id: Overflow
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Overflow
+  nameWithType: Style.Overflow
+  fullName: Goui.Style.Overflow
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Overflow
+    path: ../../Goui/Style.cs
+    startLine: 255
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Overflow { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Overflow As Object
+  overload: Goui.Style.Overflow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.PaddingTop
+  commentId: P:Goui.Style.PaddingTop
+  id: PaddingTop
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: PaddingTop
+  nameWithType: Style.PaddingTop
+  fullName: Goui.Style.PaddingTop
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PaddingTop
+    path: ../../Goui/Style.cs
+    startLine: 260
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object PaddingTop { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PaddingTop As Object
+  overload: Goui.Style.PaddingTop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.PaddingRight
+  commentId: P:Goui.Style.PaddingRight
+  id: PaddingRight
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: PaddingRight
+  nameWithType: Style.PaddingRight
+  fullName: Goui.Style.PaddingRight
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PaddingRight
+    path: ../../Goui/Style.cs
+    startLine: 265
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object PaddingRight { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PaddingRight As Object
+  overload: Goui.Style.PaddingRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.PaddingBottom
+  commentId: P:Goui.Style.PaddingBottom
+  id: PaddingBottom
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: PaddingBottom
+  nameWithType: Style.PaddingBottom
+  fullName: Goui.Style.PaddingBottom
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PaddingBottom
+    path: ../../Goui/Style.cs
+    startLine: 270
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object PaddingBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PaddingBottom As Object
+  overload: Goui.Style.PaddingBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.PaddingLeft
+  commentId: P:Goui.Style.PaddingLeft
+  id: PaddingLeft
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: PaddingLeft
+  nameWithType: Style.PaddingLeft
+  fullName: Goui.Style.PaddingLeft
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PaddingLeft
+    path: ../../Goui/Style.cs
+    startLine: 275
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object PaddingLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PaddingLeft As Object
+  overload: Goui.Style.PaddingLeft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Padding
+  commentId: P:Goui.Style.Padding
+  id: Padding
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Padding
+  nameWithType: Style.Padding
+  fullName: Goui.Style.Padding
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Padding
+    path: ../../Goui/Style.cs
+    startLine: 280
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Padding { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Padding As Object
+  overload: Goui.Style.Padding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Position
+  commentId: P:Goui.Style.Position
+  id: Position
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Style.Position
+  fullName: Goui.Style.Position
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Position
+    path: ../../Goui/Style.cs
+    startLine: 290
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Position { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Position As Object
+  overload: Goui.Style.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Right
+  commentId: P:Goui.Style.Right
+  id: Right
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Style.Right
+  fullName: Goui.Style.Right
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Right
+    path: ../../Goui/Style.cs
+    startLine: 295
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Right { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Right As Object
+  overload: Goui.Style.Right*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.TextAlign
+  commentId: P:Goui.Style.TextAlign
+  id: TextAlign
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: TextAlign
+  nameWithType: Style.TextAlign
+  fullName: Goui.Style.TextAlign
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TextAlign
+    path: ../../Goui/Style.cs
+    startLine: 300
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object TextAlign { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property TextAlign As Object
+  overload: Goui.Style.TextAlign*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.TextDecoration
+  commentId: P:Goui.Style.TextDecoration
+  id: TextDecoration
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: TextDecoration
+  nameWithType: Style.TextDecoration
+  fullName: Goui.Style.TextDecoration
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TextDecoration
+    path: ../../Goui/Style.cs
+    startLine: 305
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object TextDecoration { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property TextDecoration As Object
+  overload: Goui.Style.TextDecoration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Top
+  commentId: P:Goui.Style.Top
+  id: Top
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: Style.Top
+  fullName: Goui.Style.Top
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Top
+    path: ../../Goui/Style.cs
+    startLine: 310
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Top { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Top As Object
+  overload: Goui.Style.Top*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Transform
+  commentId: P:Goui.Style.Transform
+  id: Transform
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: Style.Transform
+  fullName: Goui.Style.Transform
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Transform
+    path: ../../Goui/Style.cs
+    startLine: 315
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Transform { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Transform As Object
+  overload: Goui.Style.Transform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.TransformOrigin
+  commentId: P:Goui.Style.TransformOrigin
+  id: TransformOrigin
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: TransformOrigin
+  nameWithType: Style.TransformOrigin
+  fullName: Goui.Style.TransformOrigin
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TransformOrigin
+    path: ../../Goui/Style.cs
+    startLine: 320
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object TransformOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property TransformOrigin As Object
+  overload: Goui.Style.TransformOrigin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.VerticalAlign
+  commentId: P:Goui.Style.VerticalAlign
+  id: VerticalAlign
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: VerticalAlign
+  nameWithType: Style.VerticalAlign
+  fullName: Goui.Style.VerticalAlign
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: VerticalAlign
+    path: ../../Goui/Style.cs
+    startLine: 325
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object VerticalAlign { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property VerticalAlign As Object
+  overload: Goui.Style.VerticalAlign*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Visibility
+  commentId: P:Goui.Style.Visibility
+  id: Visibility
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: Style.Visibility
+  fullName: Goui.Style.Visibility
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Visibility
+    path: ../../Goui/Style.cs
+    startLine: 330
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Visibility { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Visibility As Object
+  overload: Goui.Style.Visibility*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Width
+  commentId: P:Goui.Style.Width
+  id: Width
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Style.Width
+  fullName: Goui.Style.Width
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Width
+    path: ../../Goui/Style.cs
+    startLine: 335
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object Width { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Width As Object
+  overload: Goui.Style.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.ZIndex
+  commentId: P:Goui.Style.ZIndex
+  id: ZIndex
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: ZIndex
+  nameWithType: Style.ZIndex
+  fullName: Goui.Style.ZIndex
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ZIndex
+    path: ../../Goui/Style.cs
+    startLine: 340
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object ZIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property ZIndex As Object
+  overload: Goui.Style.ZIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.WhiteSpace
+  commentId: P:Goui.Style.WhiteSpace
+  id: WhiteSpace
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: WhiteSpace
+  nameWithType: Style.WhiteSpace
+  fullName: Goui.Style.WhiteSpace
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: WhiteSpace
+    path: ../../Goui/Style.cs
+    startLine: 345
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object WhiteSpace { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property WhiteSpace As Object
+  overload: Goui.Style.WhiteSpace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Style.Item(System.String)
+  commentId: P:Goui.Style.Item(System.String)
+  id: Item(System.String)
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: Style.Item[String]
+  fullName: Goui.Style.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: this[]
+    path: ../../Goui/Style.cs
+    startLine: 350
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public object this[string propertyName] { get; set; }
+    parameters:
+    - id: propertyName
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Property Item(propertyName As String) As Object
+  overload: Goui.Style.Item*
+  nameWithType.vb: Style.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Goui.Style.Item(System.String)
+  name.vb: Item(String)
+- uid: Goui.Style.GetJsName(System.String)
+  commentId: M:Goui.Style.GetJsName(System.String)
+  id: GetJsName(System.String)
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: GetJsName(String)
+  nameWithType: Style.GetJsName(String)
+  fullName: Goui.Style.GetJsName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetJsName
+    path: ../../Goui/Style.cs
+    startLine: 380
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static string GetJsName(string propertyName)
+    parameters:
+    - id: propertyName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetJsName(propertyName As String) As String
+  overload: Goui.Style.GetJsName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Style.ToString
+  commentId: M:Goui.Style.ToString
+  id: ToString
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Style.ToString()
+  fullName: Goui.Style.ToString()
+  type: Method
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToString
+    path: ../../Goui/Style.cs
+    startLine: 397
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Goui.Style.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Goui.Style.GetNumberWithUnits(System.String,System.String,System.Double)
+  commentId: M:Goui.Style.GetNumberWithUnits(System.String,System.String,System.Double)
+  id: GetNumberWithUnits(System.String,System.String,System.Double)
+  parent: Goui.Style
+  langs:
+  - csharp
+  - vb
+  name: GetNumberWithUnits(String, String, Double)
+  nameWithType: Style.GetNumberWithUnits(String, String, Double)
+  fullName: Goui.Style.GetNumberWithUnits(System.String, System.String, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Style.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetNumberWithUnits
+    path: ../../Goui/Style.cs
+    startLine: 433
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public double GetNumberWithUnits(string key, string units, double baseValue)
+    parameters:
+    - id: key
+      type: System.String
+    - id: units
+      type: System.String
+    - id: baseValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function GetNumberWithUnits(key As String, units As String, baseValue As Double) As Double
+  overload: Goui.Style.GetNumberWithUnits*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler
+- uid: Goui.Style.AlignSelf*
+  commentId: Overload:Goui.Style.AlignSelf
+  name: AlignSelf
+  nameWithType: Style.AlignSelf
+  fullName: Goui.Style.AlignSelf
+- uid: Goui.Style.BackgroundColor*
+  commentId: Overload:Goui.Style.BackgroundColor
+  name: BackgroundColor
+  nameWithType: Style.BackgroundColor
+  fullName: Goui.Style.BackgroundColor
+- uid: Goui.Style.BackgroundImage*
+  commentId: Overload:Goui.Style.BackgroundImage
+  name: BackgroundImage
+  nameWithType: Style.BackgroundImage
+  fullName: Goui.Style.BackgroundImage
+- uid: Goui.Style.BorderTopColor*
+  commentId: Overload:Goui.Style.BorderTopColor
+  name: BorderTopColor
+  nameWithType: Style.BorderTopColor
+  fullName: Goui.Style.BorderTopColor
+- uid: Goui.Style.BorderRightColor*
+  commentId: Overload:Goui.Style.BorderRightColor
+  name: BorderRightColor
+  nameWithType: Style.BorderRightColor
+  fullName: Goui.Style.BorderRightColor
+- uid: Goui.Style.BorderBottomColor*
+  commentId: Overload:Goui.Style.BorderBottomColor
+  name: BorderBottomColor
+  nameWithType: Style.BorderBottomColor
+  fullName: Goui.Style.BorderBottomColor
+- uid: Goui.Style.BorderLeftColor*
+  commentId: Overload:Goui.Style.BorderLeftColor
+  name: BorderLeftColor
+  nameWithType: Style.BorderLeftColor
+  fullName: Goui.Style.BorderLeftColor
+- uid: Goui.Style.BorderColor*
+  commentId: Overload:Goui.Style.BorderColor
+  name: BorderColor
+  nameWithType: Style.BorderColor
+  fullName: Goui.Style.BorderColor
+- uid: Goui.Style.BorderTopStyle*
+  commentId: Overload:Goui.Style.BorderTopStyle
+  name: BorderTopStyle
+  nameWithType: Style.BorderTopStyle
+  fullName: Goui.Style.BorderTopStyle
+- uid: Goui.Style.BorderRightStyle*
+  commentId: Overload:Goui.Style.BorderRightStyle
+  name: BorderRightStyle
+  nameWithType: Style.BorderRightStyle
+  fullName: Goui.Style.BorderRightStyle
+- uid: Goui.Style.BorderBottomStyle*
+  commentId: Overload:Goui.Style.BorderBottomStyle
+  name: BorderBottomStyle
+  nameWithType: Style.BorderBottomStyle
+  fullName: Goui.Style.BorderBottomStyle
+- uid: Goui.Style.BorderLeftStyle*
+  commentId: Overload:Goui.Style.BorderLeftStyle
+  name: BorderLeftStyle
+  nameWithType: Style.BorderLeftStyle
+  fullName: Goui.Style.BorderLeftStyle
+- uid: Goui.Style.BorderStyle*
+  commentId: Overload:Goui.Style.BorderStyle
+  name: BorderStyle
+  nameWithType: Style.BorderStyle
+  fullName: Goui.Style.BorderStyle
+- uid: Goui.Style.BorderTopWidth*
+  commentId: Overload:Goui.Style.BorderTopWidth
+  name: BorderTopWidth
+  nameWithType: Style.BorderTopWidth
+  fullName: Goui.Style.BorderTopWidth
+- uid: Goui.Style.BorderRightWidth*
+  commentId: Overload:Goui.Style.BorderRightWidth
+  name: BorderRightWidth
+  nameWithType: Style.BorderRightWidth
+  fullName: Goui.Style.BorderRightWidth
+- uid: Goui.Style.BorderBottomWidth*
+  commentId: Overload:Goui.Style.BorderBottomWidth
+  name: BorderBottomWidth
+  nameWithType: Style.BorderBottomWidth
+  fullName: Goui.Style.BorderBottomWidth
+- uid: Goui.Style.BorderLeftWidth*
+  commentId: Overload:Goui.Style.BorderLeftWidth
+  name: BorderLeftWidth
+  nameWithType: Style.BorderLeftWidth
+  fullName: Goui.Style.BorderLeftWidth
+- uid: Goui.Style.BorderRadius*
+  commentId: Overload:Goui.Style.BorderRadius
+  name: BorderRadius
+  nameWithType: Style.BorderRadius
+  fullName: Goui.Style.BorderRadius
+- uid: Goui.Style.BorderWidth*
+  commentId: Overload:Goui.Style.BorderWidth
+  name: BorderWidth
+  nameWithType: Style.BorderWidth
+  fullName: Goui.Style.BorderWidth
+- uid: Goui.Style.Bottom*
+  commentId: Overload:Goui.Style.Bottom
+  name: Bottom
+  nameWithType: Style.Bottom
+  fullName: Goui.Style.Bottom
+- uid: Goui.Style.Clear*
+  commentId: Overload:Goui.Style.Clear
+  name: Clear
+  nameWithType: Style.Clear
+  fullName: Goui.Style.Clear
+- uid: Goui.Style.Color*
+  commentId: Overload:Goui.Style.Color
+  name: Color
+  nameWithType: Style.Color
+  fullName: Goui.Style.Color
+- uid: Goui.Style.Cursor*
+  commentId: Overload:Goui.Style.Cursor
+  name: Cursor
+  nameWithType: Style.Cursor
+  fullName: Goui.Style.Cursor
+- uid: Goui.Style.Display*
+  commentId: Overload:Goui.Style.Display
+  name: Display
+  nameWithType: Style.Display
+  fullName: Goui.Style.Display
+- uid: Goui.Style.FlexFlow*
+  commentId: Overload:Goui.Style.FlexFlow
+  name: FlexFlow
+  nameWithType: Style.FlexFlow
+  fullName: Goui.Style.FlexFlow
+- uid: Goui.Style.FlexGrow*
+  commentId: Overload:Goui.Style.FlexGrow
+  name: FlexGrow
+  nameWithType: Style.FlexGrow
+  fullName: Goui.Style.FlexGrow
+- uid: Goui.Style.FlexShrink*
+  commentId: Overload:Goui.Style.FlexShrink
+  name: FlexShrink
+  nameWithType: Style.FlexShrink
+  fullName: Goui.Style.FlexShrink
+- uid: Goui.Style.Float*
+  commentId: Overload:Goui.Style.Float
+  name: Float
+  nameWithType: Style.Float
+  fullName: Goui.Style.Float
+- uid: Goui.Style.FontFamily*
+  commentId: Overload:Goui.Style.FontFamily
+  name: FontFamily
+  nameWithType: Style.FontFamily
+  fullName: Goui.Style.FontFamily
+- uid: Goui.Style.FontSize*
+  commentId: Overload:Goui.Style.FontSize
+  name: FontSize
+  nameWithType: Style.FontSize
+  fullName: Goui.Style.FontSize
+- uid: Goui.Style.FontStyle*
+  commentId: Overload:Goui.Style.FontStyle
+  name: FontStyle
+  nameWithType: Style.FontStyle
+  fullName: Goui.Style.FontStyle
+- uid: Goui.Style.FontVariant*
+  commentId: Overload:Goui.Style.FontVariant
+  name: FontVariant
+  nameWithType: Style.FontVariant
+  fullName: Goui.Style.FontVariant
+- uid: Goui.Style.FontWeight*
+  commentId: Overload:Goui.Style.FontWeight
+  name: FontWeight
+  nameWithType: Style.FontWeight
+  fullName: Goui.Style.FontWeight
+- uid: Goui.Style.Height*
+  commentId: Overload:Goui.Style.Height
+  name: Height
+  nameWithType: Style.Height
+  fullName: Goui.Style.Height
+- uid: Goui.Style.Left*
+  commentId: Overload:Goui.Style.Left
+  name: Left
+  nameWithType: Style.Left
+  fullName: Goui.Style.Left
+- uid: Goui.Style.LineHeight*
+  commentId: Overload:Goui.Style.LineHeight
+  name: LineHeight
+  nameWithType: Style.LineHeight
+  fullName: Goui.Style.LineHeight
+- uid: Goui.Style.MarginTop*
+  commentId: Overload:Goui.Style.MarginTop
+  name: MarginTop
+  nameWithType: Style.MarginTop
+  fullName: Goui.Style.MarginTop
+- uid: Goui.Style.MarginRight*
+  commentId: Overload:Goui.Style.MarginRight
+  name: MarginRight
+  nameWithType: Style.MarginRight
+  fullName: Goui.Style.MarginRight
+- uid: Goui.Style.MarginBottom*
+  commentId: Overload:Goui.Style.MarginBottom
+  name: MarginBottom
+  nameWithType: Style.MarginBottom
+  fullName: Goui.Style.MarginBottom
+- uid: Goui.Style.MarginLeft*
+  commentId: Overload:Goui.Style.MarginLeft
+  name: MarginLeft
+  nameWithType: Style.MarginLeft
+  fullName: Goui.Style.MarginLeft
+- uid: Goui.Style.Margin*
+  commentId: Overload:Goui.Style.Margin
+  name: Margin
+  nameWithType: Style.Margin
+  fullName: Goui.Style.Margin
+- uid: Goui.Style.Opacity*
+  commentId: Overload:Goui.Style.Opacity
+  name: Opacity
+  nameWithType: Style.Opacity
+  fullName: Goui.Style.Opacity
+- uid: Goui.Style.Order*
+  commentId: Overload:Goui.Style.Order
+  name: Order
+  nameWithType: Style.Order
+  fullName: Goui.Style.Order
+- uid: Goui.Style.Overflow*
+  commentId: Overload:Goui.Style.Overflow
+  name: Overflow
+  nameWithType: Style.Overflow
+  fullName: Goui.Style.Overflow
+- uid: Goui.Style.PaddingTop*
+  commentId: Overload:Goui.Style.PaddingTop
+  name: PaddingTop
+  nameWithType: Style.PaddingTop
+  fullName: Goui.Style.PaddingTop
+- uid: Goui.Style.PaddingRight*
+  commentId: Overload:Goui.Style.PaddingRight
+  name: PaddingRight
+  nameWithType: Style.PaddingRight
+  fullName: Goui.Style.PaddingRight
+- uid: Goui.Style.PaddingBottom*
+  commentId: Overload:Goui.Style.PaddingBottom
+  name: PaddingBottom
+  nameWithType: Style.PaddingBottom
+  fullName: Goui.Style.PaddingBottom
+- uid: Goui.Style.PaddingLeft*
+  commentId: Overload:Goui.Style.PaddingLeft
+  name: PaddingLeft
+  nameWithType: Style.PaddingLeft
+  fullName: Goui.Style.PaddingLeft
+- uid: Goui.Style.Padding*
+  commentId: Overload:Goui.Style.Padding
+  name: Padding
+  nameWithType: Style.Padding
+  fullName: Goui.Style.Padding
+- uid: Goui.Style.Position*
+  commentId: Overload:Goui.Style.Position
+  name: Position
+  nameWithType: Style.Position
+  fullName: Goui.Style.Position
+- uid: Goui.Style.Right*
+  commentId: Overload:Goui.Style.Right
+  name: Right
+  nameWithType: Style.Right
+  fullName: Goui.Style.Right
+- uid: Goui.Style.TextAlign*
+  commentId: Overload:Goui.Style.TextAlign
+  name: TextAlign
+  nameWithType: Style.TextAlign
+  fullName: Goui.Style.TextAlign
+- uid: Goui.Style.TextDecoration*
+  commentId: Overload:Goui.Style.TextDecoration
+  name: TextDecoration
+  nameWithType: Style.TextDecoration
+  fullName: Goui.Style.TextDecoration
+- uid: Goui.Style.Top*
+  commentId: Overload:Goui.Style.Top
+  name: Top
+  nameWithType: Style.Top
+  fullName: Goui.Style.Top
+- uid: Goui.Style.Transform*
+  commentId: Overload:Goui.Style.Transform
+  name: Transform
+  nameWithType: Style.Transform
+  fullName: Goui.Style.Transform
+- uid: Goui.Style.TransformOrigin*
+  commentId: Overload:Goui.Style.TransformOrigin
+  name: TransformOrigin
+  nameWithType: Style.TransformOrigin
+  fullName: Goui.Style.TransformOrigin
+- uid: Goui.Style.VerticalAlign*
+  commentId: Overload:Goui.Style.VerticalAlign
+  name: VerticalAlign
+  nameWithType: Style.VerticalAlign
+  fullName: Goui.Style.VerticalAlign
+- uid: Goui.Style.Visibility*
+  commentId: Overload:Goui.Style.Visibility
+  name: Visibility
+  nameWithType: Style.Visibility
+  fullName: Goui.Style.Visibility
+- uid: Goui.Style.Width*
+  commentId: Overload:Goui.Style.Width
+  name: Width
+  nameWithType: Style.Width
+  fullName: Goui.Style.Width
+- uid: Goui.Style.ZIndex*
+  commentId: Overload:Goui.Style.ZIndex
+  name: ZIndex
+  nameWithType: Style.ZIndex
+  fullName: Goui.Style.ZIndex
+- uid: Goui.Style.WhiteSpace*
+  commentId: Overload:Goui.Style.WhiteSpace
+  name: WhiteSpace
+  nameWithType: Style.WhiteSpace
+  fullName: Goui.Style.WhiteSpace
+- uid: Goui.Style.Item*
+  commentId: Overload:Goui.Style.Item
+  name: Item
+  nameWithType: Style.Item
+  fullName: Goui.Style.Item
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Style.GetJsName*
+  commentId: Overload:Goui.Style.GetJsName
+  name: GetJsName
+  nameWithType: Style.GetJsName
+  fullName: Goui.Style.GetJsName
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Style.ToString*
+  commentId: Overload:Goui.Style.ToString
+  name: ToString
+  nameWithType: Style.ToString
+  fullName: Goui.Style.ToString
+- uid: Goui.Style.GetNumberWithUnits*
+  commentId: Overload:Goui.Style.GetNumberWithUnits
+  name: GetNumberWithUnits
+  nameWithType: Style.GetNumberWithUnits
+  fullName: Goui.Style.GetNumberWithUnits
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

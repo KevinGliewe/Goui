@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.RendererPool
+  commentId: T:Goui.Forms.RendererPool
+  id: RendererPool
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.RendererPool.#ctor(Goui.Forms.IVisualElementRenderer,Xamarin.Forms.VisualElement)
+  - Goui.Forms.RendererPool.GetFreeRenderer(Xamarin.Forms.VisualElement)
+  - Goui.Forms.RendererPool.UpdateNewElement(Xamarin.Forms.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: RendererPool
+  nameWithType: RendererPool
+  fullName: Goui.Forms.RendererPool
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/RendererPool.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: RendererPool
+    path: ../../Goui.Forms/RendererPool.cs
+    startLine: 6
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public sealed class RendererPool
+    content.vb: Public NotInheritable Class RendererPool
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Goui.Forms.RendererPool.#ctor(Goui.Forms.IVisualElementRenderer,Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.RendererPool.#ctor(Goui.Forms.IVisualElementRenderer,Xamarin.Forms.VisualElement)
+  id: '#ctor(Goui.Forms.IVisualElementRenderer,Xamarin.Forms.VisualElement)'
+  parent: Goui.Forms.RendererPool
+  langs:
+  - csharp
+  - vb
+  name: RendererPool(IVisualElementRenderer, VisualElement)
+  nameWithType: RendererPool.RendererPool(IVisualElementRenderer, VisualElement)
+  fullName: Goui.Forms.RendererPool.RendererPool(Goui.Forms.IVisualElementRenderer, Xamarin.Forms.VisualElement)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/RendererPool.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/RendererPool.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public RendererPool(IVisualElementRenderer renderer, VisualElement oldElement)
+    parameters:
+    - id: renderer
+      type: Goui.Forms.IVisualElementRenderer
+    - id: oldElement
+      type: Xamarin.Forms.VisualElement
+    content.vb: Public Sub New(renderer As IVisualElementRenderer, oldElement As VisualElement)
+  overload: Goui.Forms.RendererPool.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.RendererPool.GetFreeRenderer(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.RendererPool.GetFreeRenderer(Xamarin.Forms.VisualElement)
+  id: GetFreeRenderer(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.RendererPool
+  langs:
+  - csharp
+  - vb
+  name: GetFreeRenderer(VisualElement)
+  nameWithType: RendererPool.GetFreeRenderer(VisualElement)
+  fullName: Goui.Forms.RendererPool.GetFreeRenderer(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/RendererPool.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetFreeRenderer
+    path: ../../Goui.Forms/RendererPool.cs
+    startLine: 27
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public IVisualElementRenderer GetFreeRenderer(VisualElement view)
+    parameters:
+    - id: view
+      type: Xamarin.Forms.VisualElement
+    return:
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Function GetFreeRenderer(view As VisualElement) As IVisualElementRenderer
+  overload: Goui.Forms.RendererPool.GetFreeRenderer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.RendererPool.UpdateNewElement(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.RendererPool.UpdateNewElement(Xamarin.Forms.VisualElement)
+  id: UpdateNewElement(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.RendererPool
+  langs:
+  - csharp
+  - vb
+  name: UpdateNewElement(VisualElement)
+  nameWithType: RendererPool.UpdateNewElement(VisualElement)
+  fullName: Goui.Forms.RendererPool.UpdateNewElement(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/RendererPool.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: UpdateNewElement
+    path: ../../Goui.Forms/RendererPool.cs
+    startLine: 43
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void UpdateNewElement(VisualElement newElement)
+    parameters:
+    - id: newElement
+      type: Xamarin.Forms.VisualElement
+    content.vb: Public Sub UpdateNewElement(newElement As VisualElement)
+  overload: Goui.Forms.RendererPool.UpdateNewElement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.RendererPool.#ctor*
+  commentId: Overload:Goui.Forms.RendererPool.#ctor
+  name: RendererPool
+  nameWithType: RendererPool.RendererPool
+  fullName: Goui.Forms.RendererPool.RendererPool
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.RendererPool.GetFreeRenderer*
+  commentId: Overload:Goui.Forms.RendererPool.GetFreeRenderer
+  name: GetFreeRenderer
+  nameWithType: RendererPool.GetFreeRenderer
+  fullName: Goui.Forms.RendererPool.GetFreeRenderer
+- uid: Goui.Forms.RendererPool.UpdateNewElement*
+  commentId: Overload:Goui.Forms.RendererPool.UpdateNewElement
+  name: UpdateNewElement
+  nameWithType: RendererPool.UpdateNewElement
+  fullName: Goui.Forms.RendererPool.UpdateNewElement

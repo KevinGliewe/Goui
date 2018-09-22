@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.VisualElementRendererFlags
+  commentId: T:Goui.Forms.VisualElementRendererFlags
+  id: VisualElementRendererFlags
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.VisualElementRendererFlags.AutoPackage
+  - Goui.Forms.VisualElementRendererFlags.AutoTrack
+  - Goui.Forms.VisualElementRendererFlags.Disposed
+  langs:
+  - csharp
+  - vb
+  name: VisualElementRendererFlags
+  nameWithType: VisualElementRendererFlags
+  fullName: Goui.Forms.VisualElementRendererFlags
+  type: Enum
+  source:
+    remote:
+      path: Goui.Forms/VisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: VisualElementRendererFlags
+    path: ../../Goui.Forms/VisualElementRenderer.cs
+    startLine: 8
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum VisualElementRendererFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum VisualElementRendererFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Forms.VisualElementRendererFlags.Disposed
+  commentId: F:Goui.Forms.VisualElementRendererFlags.Disposed
+  id: Disposed
+  parent: Goui.Forms.VisualElementRendererFlags
+  langs:
+  - csharp
+  - vb
+  name: Disposed
+  nameWithType: VisualElementRendererFlags.Disposed
+  fullName: Goui.Forms.VisualElementRendererFlags.Disposed
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/VisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Disposed
+    path: ../../Goui.Forms/VisualElementRenderer.cs
+    startLine: 11
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Disposed = 1
+    return:
+      type: Goui.Forms.VisualElementRendererFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Forms.VisualElementRendererFlags.AutoTrack
+  commentId: F:Goui.Forms.VisualElementRendererFlags.AutoTrack
+  id: AutoTrack
+  parent: Goui.Forms.VisualElementRendererFlags
+  langs:
+  - csharp
+  - vb
+  name: AutoTrack
+  nameWithType: VisualElementRendererFlags.AutoTrack
+  fullName: Goui.Forms.VisualElementRendererFlags.AutoTrack
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/VisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: AutoTrack
+    path: ../../Goui.Forms/VisualElementRenderer.cs
+    startLine: 12
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: AutoTrack = 2
+    return:
+      type: Goui.Forms.VisualElementRendererFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Forms.VisualElementRendererFlags.AutoPackage
+  commentId: F:Goui.Forms.VisualElementRendererFlags.AutoPackage
+  id: AutoPackage
+  parent: Goui.Forms.VisualElementRendererFlags
+  langs:
+  - csharp
+  - vb
+  name: AutoPackage
+  nameWithType: VisualElementRendererFlags.AutoPackage
+  fullName: Goui.Forms.VisualElementRendererFlags.AutoPackage
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/VisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: AutoPackage
+    path: ../../Goui.Forms/VisualElementRenderer.cs
+    startLine: 13
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: AutoPackage = 4
+    return:
+      type: Goui.Forms.VisualElementRendererFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: Goui.Forms.VisualElementRendererFlags
+  commentId: T:Goui.Forms.VisualElementRendererFlags
+  parent: Goui.Forms
+  name: VisualElementRendererFlags
+  nameWithType: VisualElementRendererFlags
+  fullName: Goui.Forms.VisualElementRendererFlags

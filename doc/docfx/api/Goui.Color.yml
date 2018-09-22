@@ -1,0 +1,1148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Color
+  commentId: T:Goui.Color
+  id: Color
+  parent: Goui
+  children:
+  - Goui.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  - Goui.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Goui.Color.A
+  - Goui.Color.Alpha
+  - Goui.Color.B
+  - Goui.Color.Blue
+  - Goui.Color.Equals(Goui.Color)
+  - Goui.Color.Equals(System.Object)
+  - Goui.Color.FromStyleValue(System.Object)
+  - Goui.Color.G
+  - Goui.Color.GetHashCode
+  - Goui.Color.Green
+  - Goui.Color.Parse(System.String)
+  - Goui.Color.R
+  - Goui.Color.Red
+  - Goui.Color.ToString
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Color
+  fullName: Goui.Color
+  type: Struct
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Color
+    path: ../../Goui/Color.cs
+    startLine: 6
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonConverter(typeof(ColorJsonConverter))]
+
+      public struct Color : IEquatable<Color>
+    content.vb: >-
+      <JsonConverter(GetType(ColorJsonConverter))>
+
+      Public Structure Color
+
+          Implements IEquatable(Of Color)
+  implements:
+  - System.IEquatable{Goui.Color}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Goui.Color.R
+  commentId: F:Goui.Color.R
+  id: R
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: Color.R
+  fullName: Goui.Color.R
+  type: Field
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: R
+    path: ../../Goui/Color.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public byte R
+    return:
+      type: System.Byte
+    content.vb: Public R As Byte
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.G
+  commentId: F:Goui.Color.G
+  id: G
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: Color.G
+  fullName: Goui.Color.G
+  type: Field
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: G
+    path: ../../Goui/Color.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public byte G
+    return:
+      type: System.Byte
+    content.vb: Public G As Byte
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.B
+  commentId: F:Goui.Color.B
+  id: B
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: Color.B
+  fullName: Goui.Color.B
+  type: Field
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: B
+    path: ../../Goui/Color.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public byte B
+    return:
+      type: System.Byte
+    content.vb: Public B As Byte
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.A
+  commentId: F:Goui.Color.A
+  id: A
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: Color.A
+  fullName: Goui.Color.A
+  type: Field
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: A
+    path: ../../Goui/Color.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public byte A
+    return:
+      type: System.Byte
+    content.vb: Public A As Byte
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Goui.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte,System.Byte)'
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(Byte, Byte, Byte, Byte)
+  nameWithType: Color.Color(Byte, Byte, Byte, Byte)
+  fullName: Goui.Color.Color(System.Byte, System.Byte, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui/Color.cs
+    startLine: 11
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public Color(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte, a As Byte)
+  overload: Goui.Color.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  commentId: M:Goui.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte)'
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(Byte, Byte, Byte)
+  nameWithType: Color.Color(Byte, Byte, Byte)
+  fullName: Goui.Color.Color(System.Byte, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui/Color.cs
+    startLine: 19
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public Color(byte r, byte g, byte b)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte)
+  overload: Goui.Color.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.Red
+  commentId: P:Goui.Color.Red
+  id: Red
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: Color.Red
+  fullName: Goui.Color.Red
+  type: Property
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Red
+    path: ../../Goui/Color.cs
+    startLine: 27
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public double Red { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Red As Double
+  overload: Goui.Color.Red*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.Green
+  commentId: P:Goui.Color.Green
+  id: Green
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: Color.Green
+  fullName: Goui.Color.Green
+  type: Property
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Green
+    path: ../../Goui/Color.cs
+    startLine: 31
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public double Green { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Green As Double
+  overload: Goui.Color.Green*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.Blue
+  commentId: P:Goui.Color.Blue
+  id: Blue
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: Color.Blue
+  fullName: Goui.Color.Blue
+  type: Property
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Blue
+    path: ../../Goui/Color.cs
+    startLine: 35
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public double Blue { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Blue As Double
+  overload: Goui.Color.Blue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.Alpha
+  commentId: P:Goui.Color.Alpha
+  id: Alpha
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: Color.Alpha
+  fullName: Goui.Color.Alpha
+  type: Property
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Alpha
+    path: ../../Goui/Color.cs
+    startLine: 39
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public double Alpha { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Alpha As Double
+  overload: Goui.Color.Alpha*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.Equals(System.Object)
+  commentId: M:Goui.Color.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Color.Equals(Object)
+  fullName: Goui.Color.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Equals
+    path: ../../Goui/Color.cs
+    startLine: 44
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Goui.Color.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Goui.Color.Equals(Goui.Color)
+  commentId: M:Goui.Color.Equals(Goui.Color)
+  id: Equals(Goui.Color)
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Equals(Color)
+  nameWithType: Color.Equals(Color)
+  fullName: Goui.Color.Equals(Goui.Color)
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Equals
+    path: ../../Goui/Color.cs
+    startLine: 51
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public bool Equals(Color other)
+    parameters:
+    - id: other
+      type: Goui.Color
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Color) As Boolean
+  overload: Goui.Color.Equals*
+  implements:
+  - System.IEquatable{Goui.Color}.Equals(Goui.Color)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Color.GetHashCode
+  commentId: M:Goui.Color.GetHashCode
+  id: GetHashCode
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Color.GetHashCode()
+  fullName: Goui.Color.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetHashCode
+    path: ../../Goui/Color.cs
+    startLine: 53
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Goui.Color.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Goui.Color.FromStyleValue(System.Object)
+  commentId: M:Goui.Color.FromStyleValue(System.Object)
+  id: FromStyleValue(System.Object)
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: FromStyleValue(Object)
+  nameWithType: Color.FromStyleValue(Object)
+  fullName: Goui.Color.FromStyleValue(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FromStyleValue
+    path: ../../Goui/Color.cs
+    startLine: 55
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Color FromStyleValue(object styleColor)
+    parameters:
+    - id: styleColor
+      type: System.Object
+    return:
+      type: Goui.Color
+    content.vb: Public Shared Function FromStyleValue(styleColor As Object) As Color
+  overload: Goui.Color.FromStyleValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Color.Parse(System.String)
+  commentId: M:Goui.Color.Parse(System.String)
+  id: Parse(System.String)
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: Parse(String)
+  nameWithType: Color.Parse(String)
+  fullName: Goui.Color.Parse(System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Parse
+    path: ../../Goui/Color.cs
+    startLine: 64
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Color Parse(string styleValue)
+    parameters:
+    - id: styleValue
+      type: System.String
+    return:
+      type: Goui.Color
+    content.vb: Public Shared Function Parse(styleValue As String) As Color
+  overload: Goui.Color.Parse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Color.ToString
+  commentId: M:Goui.Color.ToString
+  id: ToString
+  parent: Goui.Color
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Color.ToString()
+  fullName: Goui.Color.ToString()
+  type: Method
+  source:
+    remote:
+      path: Goui/Color.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToString
+    path: ../../Goui/Color.cs
+    startLine: 116
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.ValueType.ToString
+  overload: Goui.Color.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.IEquatable{Goui.Color}
+  commentId: T:System.IEquatable{Goui.Color}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<Color>
+  nameWithType: IEquatable<Color>
+  fullName: System.IEquatable<Goui.Color>
+  nameWithType.vb: IEquatable(Of Color)
+  fullName.vb: System.IEquatable(Of Goui.Color)
+  name.vb: IEquatable(Of Color)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Goui.Color
+    name: Color
+    nameWithType: Color
+    fullName: Goui.Color
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Goui.Color
+    name: Color
+    nameWithType: Color
+    fullName: Goui.Color
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Goui.Color.#ctor*
+  commentId: Overload:Goui.Color.#ctor
+  name: Color
+  nameWithType: Color.Color
+  fullName: Goui.Color.Color
+- uid: Goui.Color.Red*
+  commentId: Overload:Goui.Color.Red
+  name: Red
+  nameWithType: Color.Red
+  fullName: Goui.Color.Red
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Goui.Color.Green*
+  commentId: Overload:Goui.Color.Green
+  name: Green
+  nameWithType: Color.Green
+  fullName: Goui.Color.Green
+- uid: Goui.Color.Blue*
+  commentId: Overload:Goui.Color.Blue
+  name: Blue
+  nameWithType: Color.Blue
+  fullName: Goui.Color.Blue
+- uid: Goui.Color.Alpha*
+  commentId: Overload:Goui.Color.Alpha
+  name: Alpha
+  nameWithType: Color.Alpha
+  fullName: Goui.Color.Alpha
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Color.Equals*
+  commentId: Overload:Goui.Color.Equals
+  name: Equals
+  nameWithType: Color.Equals
+  fullName: Goui.Color.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IEquatable{Goui.Color}.Equals(Goui.Color)
+  commentId: M:System.IEquatable{Goui.Color}.Equals(Goui.Color)
+  parent: System.IEquatable{Goui.Color}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(Color)
+  nameWithType: IEquatable<Color>.Equals(Color)
+  fullName: System.IEquatable<Goui.Color>.Equals(Goui.Color)
+  nameWithType.vb: IEquatable(Of Color).Equals(Color)
+  fullName.vb: System.IEquatable(Of Goui.Color).Equals(Goui.Color)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<Color>.Equals
+    fullName: System.IEquatable<Goui.Color>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Color
+    name: Color
+    nameWithType: Color
+    fullName: Goui.Color
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of Color).Equals
+    fullName: System.IEquatable(Of Goui.Color).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Color
+    name: Color
+    nameWithType: Color
+    fullName: Goui.Color
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Color
+  commentId: T:Goui.Color
+  parent: Goui
+  name: Color
+  nameWithType: Color
+  fullName: Goui.Color
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Color.GetHashCode*
+  commentId: Overload:Goui.Color.GetHashCode
+  name: GetHashCode
+  nameWithType: Color.GetHashCode
+  fullName: Goui.Color.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Goui.Color.FromStyleValue*
+  commentId: Overload:Goui.Color.FromStyleValue
+  name: FromStyleValue
+  nameWithType: Color.FromStyleValue
+  fullName: Goui.Color.FromStyleValue
+- uid: Goui.Color.Parse*
+  commentId: Overload:Goui.Color.Parse
+  name: Parse
+  nameWithType: Color.Parse
+  fullName: Goui.Color.Parse
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Color.ToString*
+  commentId: Overload:Goui.Color.ToString
+  name: ToString
+  nameWithType: Color.ToString
+  fullName: Goui.Color.ToString

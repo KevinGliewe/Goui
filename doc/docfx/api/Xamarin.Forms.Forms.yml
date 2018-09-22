@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xamarin.Forms.Forms
+  commentId: T:Xamarin.Forms.Forms
+  id: Forms
+  parent: Xamarin.Forms
+  children:
+  - Xamarin.Forms.Forms.Init
+  - Xamarin.Forms.Forms.IsInitialized
+  - Xamarin.Forms.Forms.LoadApplication(Xamarin.Forms.Application)
+  - Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  - Xamarin.Forms.Forms.ViewInitialized
+  langs:
+  - csharp
+  - vb
+  name: Forms
+  nameWithType: Forms
+  fullName: Xamarin.Forms.Forms
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Forms
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 13
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static class Forms
+    content.vb: Public Module Forms
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Xamarin.Forms.Forms.IsInitialized
+  commentId: P:Xamarin.Forms.Forms.IsInitialized
+  id: IsInitialized
+  parent: Xamarin.Forms.Forms
+  langs:
+  - csharp
+  - vb
+  name: IsInitialized
+  nameWithType: Forms.IsInitialized
+  fullName: Xamarin.Forms.Forms.IsInitialized
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: IsInitialized
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static bool IsInitialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsInitialized As Boolean
+  overload: Xamarin.Forms.Forms.IsInitialized*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Xamarin.Forms.Forms.Init
+  commentId: M:Xamarin.Forms.Forms.Init
+  id: Init
+  parent: Xamarin.Forms.Forms
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Forms.Init()
+  fullName: Xamarin.Forms.Forms.Init()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Init
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 17
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static void Init()
+    content.vb: Public Shared Sub Init
+  overload: Xamarin.Forms.Forms.Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Xamarin.Forms.Forms.ViewInitialized
+  commentId: E:Xamarin.Forms.Forms.ViewInitialized
+  id: ViewInitialized
+  parent: Xamarin.Forms.Forms
+  langs:
+  - csharp
+  - vb
+  name: ViewInitialized
+  nameWithType: Forms.ViewInitialized
+  fullName: Xamarin.Forms.Forms.ViewInitialized
+  type: Event
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ViewInitialized
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 37
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static event EventHandler<Forms.ViewInitializedEventArgs> ViewInitialized
+    return:
+      type: System.EventHandler{Xamarin.Forms.Forms.ViewInitializedEventArgs}
+    content.vb: Public Shared Event ViewInitialized As EventHandler(Of Forms.ViewInitializedEventArgs)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  commentId: M:Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  id: SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  isExtensionMethod: true
+  parent: Xamarin.Forms.Forms
+  langs:
+  - csharp
+  - vb
+  name: SendViewInitialized(VisualElement, Element)
+  nameWithType: Forms.SendViewInitialized(VisualElement, Element)
+  fullName: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SendViewInitialized
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 39
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static void SendViewInitialized(this VisualElement self, Element nativeView)
+    parameters:
+    - id: self
+      type: Xamarin.Forms.VisualElement
+    - id: nativeView
+      type: Goui.Html.Element
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SendViewInitialized(self As VisualElement, nativeView As Element)
+  overload: Xamarin.Forms.Forms.SendViewInitialized*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Xamarin.Forms.Forms.LoadApplication(Xamarin.Forms.Application)
+  commentId: M:Xamarin.Forms.Forms.LoadApplication(Xamarin.Forms.Application)
+  id: LoadApplication(Xamarin.Forms.Application)
+  parent: Xamarin.Forms.Forms
+  langs:
+  - csharp
+  - vb
+  name: LoadApplication(Application)
+  nameWithType: Forms.LoadApplication(Application)
+  fullName: Xamarin.Forms.Forms.LoadApplication(Xamarin.Forms.Application)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Forms.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LoadApplication
+    path: ../../Goui.Forms/Forms.cs
+    startLine: 153
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static void LoadApplication(Application application)
+    parameters:
+    - id: application
+      type: Xamarin.Forms.Application
+    content.vb: Public Shared Sub LoadApplication(application As Application)
+  overload: Xamarin.Forms.Forms.LoadApplication*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms.Forms.IsInitialized*
+  commentId: Overload:Xamarin.Forms.Forms.IsInitialized
+  name: IsInitialized
+  nameWithType: Forms.IsInitialized
+  fullName: Xamarin.Forms.Forms.IsInitialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Xamarin.Forms.Forms.Init*
+  commentId: Overload:Xamarin.Forms.Forms.Init
+  name: Init
+  nameWithType: Forms.Init
+  fullName: Xamarin.Forms.Forms.Init
+- uid: System.EventHandler{Xamarin.Forms.Forms.ViewInitializedEventArgs}
+  commentId: T:System.EventHandler{Xamarin.Forms.Forms.ViewInitializedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<Forms.ViewInitializedEventArgs>
+  nameWithType: EventHandler<Forms.ViewInitializedEventArgs>
+  fullName: System.EventHandler<Xamarin.Forms.Forms.ViewInitializedEventArgs>
+  nameWithType.vb: EventHandler(Of Forms.ViewInitializedEventArgs)
+  fullName.vb: System.EventHandler(Of Xamarin.Forms.Forms.ViewInitializedEventArgs)
+  name.vb: EventHandler(Of Forms.ViewInitializedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Forms.ViewInitializedEventArgs
+    name: Forms.ViewInitializedEventArgs
+    nameWithType: Forms.ViewInitializedEventArgs
+    fullName: Xamarin.Forms.Forms.ViewInitializedEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Forms.ViewInitializedEventArgs
+    name: Forms.ViewInitializedEventArgs
+    nameWithType: Forms.ViewInitializedEventArgs
+    fullName: Xamarin.Forms.Forms.ViewInitializedEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Forms.SendViewInitialized*
+  commentId: Overload:Xamarin.Forms.Forms.SendViewInitialized
+  name: SendViewInitialized
+  nameWithType: Forms.SendViewInitialized
+  fullName: Xamarin.Forms.Forms.SendViewInitialized
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Xamarin.Forms.Forms.LoadApplication*
+  commentId: Overload:Xamarin.Forms.Forms.LoadApplication
+  name: LoadApplication
+  nameWithType: Forms.LoadApplication
+  fullName: Xamarin.Forms.Forms.LoadApplication
+- uid: Xamarin.Forms.Application
+  commentId: T:Xamarin.Forms.Application
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Application
+  nameWithType: Application
+  fullName: Xamarin.Forms.Application

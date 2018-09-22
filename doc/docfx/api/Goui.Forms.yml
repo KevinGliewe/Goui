@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  id: Goui.Forms
+  children:
+  - Goui.Forms.DisplayAlert
+  - Goui.Forms.ElementChangedEventArgs`1
+  - Goui.Forms.EventTracker
+  - Goui.Forms.EventTracker.NativeGestureRecognizer
+  - Goui.Forms.ExportCellAttribute
+  - Goui.Forms.ExportImageSourceHandlerAttribute
+  - Goui.Forms.ExportRendererAttribute
+  - Goui.Forms.GouiTheme
+  - Goui.Forms.IVisualElementRenderer
+  - Goui.Forms.LinkLabel
+  - Goui.Forms.LinkView
+  - Goui.Forms.LocalIsolatedStorageFile
+  - Goui.Forms.Platform
+  - Goui.Forms.PlatformEffect
+  - Goui.Forms.PlatformRenderer
+  - Goui.Forms.RendererPool
+  - Goui.Forms.ResourcesProvider
+  - Goui.Forms.VisualElementChangedEventArgs
+  - Goui.Forms.VisualElementPackager
+  - Goui.Forms.VisualElementRenderer`1
+  - Goui.Forms.VisualElementRendererFlags
+  - Goui.Forms.VisualElementTracker
+  langs:
+  - csharp
+  - vb
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+  type: Namespace
+  assemblies:
+  - Goui.Forms
+references:
+- uid: Goui.Forms.LinkLabel
+  commentId: T:Goui.Forms.LinkLabel
+  name: LinkLabel
+  nameWithType: LinkLabel
+  fullName: Goui.Forms.LinkLabel
+- uid: Goui.Forms.LinkView
+  commentId: T:Goui.Forms.LinkView
+  name: LinkView
+  nameWithType: LinkView
+  fullName: Goui.Forms.LinkView
+- uid: Goui.Forms.DisplayAlert
+  commentId: T:Goui.Forms.DisplayAlert
+  name: DisplayAlert
+  nameWithType: DisplayAlert
+  fullName: Goui.Forms.DisplayAlert
+- uid: Goui.Forms.VisualElementChangedEventArgs
+  commentId: T:Goui.Forms.VisualElementChangedEventArgs
+  name: VisualElementChangedEventArgs
+  nameWithType: VisualElementChangedEventArgs
+  fullName: Goui.Forms.VisualElementChangedEventArgs
+- uid: Goui.Forms.ElementChangedEventArgs`1
+  commentId: T:Goui.Forms.ElementChangedEventArgs`1
+  name: ElementChangedEventArgs<TElement>
+  nameWithType: ElementChangedEventArgs<TElement>
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>
+  nameWithType.vb: ElementChangedEventArgs(Of TElement)
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement)
+  name.vb: ElementChangedEventArgs(Of TElement)
+  spec.csharp:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.EventTracker
+  commentId: T:Goui.Forms.EventTracker
+  name: EventTracker
+  nameWithType: EventTracker
+  fullName: Goui.Forms.EventTracker
+- uid: Goui.Forms.EventTracker.NativeGestureRecognizer
+  commentId: T:Goui.Forms.EventTracker.NativeGestureRecognizer
+  parent: Goui.Forms
+  name: EventTracker.NativeGestureRecognizer
+  nameWithType: EventTracker.NativeGestureRecognizer
+  fullName: Goui.Forms.EventTracker.NativeGestureRecognizer
+- uid: Goui.Forms.ExportRendererAttribute
+  commentId: T:Goui.Forms.ExportRendererAttribute
+  name: ExportRendererAttribute
+  nameWithType: ExportRendererAttribute
+  fullName: Goui.Forms.ExportRendererAttribute
+- uid: Goui.Forms.ExportCellAttribute
+  commentId: T:Goui.Forms.ExportCellAttribute
+  name: ExportCellAttribute
+  nameWithType: ExportCellAttribute
+  fullName: Goui.Forms.ExportCellAttribute
+- uid: Goui.Forms.ExportImageSourceHandlerAttribute
+  commentId: T:Goui.Forms.ExportImageSourceHandlerAttribute
+  name: ExportImageSourceHandlerAttribute
+  nameWithType: ExportImageSourceHandlerAttribute
+  fullName: Goui.Forms.ExportImageSourceHandlerAttribute
+- uid: Goui.Forms.GouiTheme
+  commentId: T:Goui.Forms.GouiTheme
+  name: GouiTheme
+  nameWithType: GouiTheme
+  fullName: Goui.Forms.GouiTheme
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Goui.Forms.LocalIsolatedStorageFile
+  commentId: T:Goui.Forms.LocalIsolatedStorageFile
+  name: LocalIsolatedStorageFile
+  nameWithType: LocalIsolatedStorageFile
+  fullName: Goui.Forms.LocalIsolatedStorageFile
+- uid: Goui.Forms.Platform
+  commentId: T:Goui.Forms.Platform
+  parent: Goui.Forms
+  name: Platform
+  nameWithType: Platform
+  fullName: Goui.Forms.Platform
+- uid: Goui.Forms.PlatformEffect
+  commentId: T:Goui.Forms.PlatformEffect
+  parent: Goui.Forms
+  name: PlatformEffect
+  nameWithType: PlatformEffect
+  fullName: Goui.Forms.PlatformEffect
+- uid: Goui.Forms.PlatformRenderer
+  commentId: T:Goui.Forms.PlatformRenderer
+  name: PlatformRenderer
+  nameWithType: PlatformRenderer
+  fullName: Goui.Forms.PlatformRenderer
+- uid: Goui.Forms.RendererPool
+  commentId: T:Goui.Forms.RendererPool
+  name: RendererPool
+  nameWithType: RendererPool
+  fullName: Goui.Forms.RendererPool
+- uid: Goui.Forms.ResourcesProvider
+  commentId: T:Goui.Forms.ResourcesProvider
+  name: ResourcesProvider
+  nameWithType: ResourcesProvider
+  fullName: Goui.Forms.ResourcesProvider
+- uid: Goui.Forms.VisualElementPackager
+  commentId: T:Goui.Forms.VisualElementPackager
+  name: VisualElementPackager
+  nameWithType: VisualElementPackager
+  fullName: Goui.Forms.VisualElementPackager
+- uid: Goui.Forms.VisualElementRendererFlags
+  commentId: T:Goui.Forms.VisualElementRendererFlags
+  parent: Goui.Forms
+  name: VisualElementRendererFlags
+  nameWithType: VisualElementRendererFlags
+  fullName: Goui.Forms.VisualElementRendererFlags
+- uid: Goui.Forms.VisualElementRenderer`1
+  commentId: T:Goui.Forms.VisualElementRenderer`1
+  name: VisualElementRenderer<TElement>
+  nameWithType: VisualElementRenderer<TElement>
+  fullName: Goui.Forms.VisualElementRenderer<TElement>
+  nameWithType.vb: VisualElementRenderer(Of TElement)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement)
+  name.vb: VisualElementRenderer(Of TElement)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementTracker
+  commentId: T:Goui.Forms.VisualElementTracker
+  name: VisualElementTracker
+  nameWithType: VisualElementTracker
+  fullName: Goui.Forms.VisualElementTracker
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms

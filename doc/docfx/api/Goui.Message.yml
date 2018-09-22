@@ -1,0 +1,932 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Message
+  commentId: T:Goui.Message
+  id: Message
+  parent: Goui
+  children:
+  - Goui.Message.Call(System.String,System.String,System.Object[])
+  - Goui.Message.Event(System.String,System.String,System.Object)
+  - Goui.Message.FromJson(System.String)
+  - Goui.Message.Key
+  - Goui.Message.MessageType
+  - Goui.Message.ResultId
+  - Goui.Message.Set(System.String,System.String,System.Object)
+  - Goui.Message.TargetId
+  - Goui.Message.ToJson
+  - Goui.Message.ToString
+  - Goui.Message.Value
+  - Goui.Message.WriteJson(System.IO.TextWriter)
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: Message
+  fullName: Goui.Message
+  type: Class
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Message
+    path: ../../Goui/Message.cs
+    startLine: 7
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public class Message
+    content.vb: Public Class Message
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Message.MessageType
+  commentId: F:Goui.Message.MessageType
+  id: MessageType
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: Message.MessageType
+  fullName: Goui.Message.MessageType
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MessageType
+    path: ../../Goui/Message.cs
+    startLine: 10
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonProperty("m")]
+
+      public MessageType MessageType
+    return:
+      type: Goui.MessageType
+    content.vb: >-
+      <JsonProperty("m")>
+
+      Public MessageType As MessageType
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: m
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.TargetId
+  commentId: F:Goui.Message.TargetId
+  id: TargetId
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: Message.TargetId
+  fullName: Goui.Message.TargetId
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TargetId
+    path: ../../Goui/Message.cs
+    startLine: 13
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonProperty("id")]
+
+      public string TargetId
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("id")>
+
+      Public TargetId As String
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: id
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.Key
+  commentId: F:Goui.Message.Key
+  id: Key
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: Message.Key
+  fullName: Goui.Message.Key
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Key
+    path: ../../Goui/Message.cs
+    startLine: 16
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonProperty("k")]
+
+      public string Key
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("k")>
+
+      Public Key As String
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: k
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.Value
+  commentId: F:Goui.Message.Value
+  id: Value
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Message.Value
+  fullName: Goui.Message.Value
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Value
+    path: ../../Goui/Message.cs
+    startLine: 19
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonProperty("v", NullValueHandling = NullValueHandling.Ignore)]
+
+      public object Value
+    return:
+      type: System.Object
+    content.vb: >-
+      <JsonProperty("v", NullValueHandling:=NullValueHandling.Ignore)>
+
+      Public Value As Object
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: v
+    namedArguments:
+    - name: NullValueHandling
+      type: Newtonsoft.Json.NullValueHandling
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.ResultId
+  commentId: F:Goui.Message.ResultId
+  id: ResultId
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: ResultId
+  nameWithType: Message.ResultId
+  fullName: Goui.Message.ResultId
+  type: Field
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ResultId
+    path: ../../Goui/Message.cs
+    startLine: 22
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: >-
+      [JsonProperty("rid", NullValueHandling = NullValueHandling.Ignore)]
+
+      public string ResultId
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("rid", NullValueHandling:=NullValueHandling.Ignore)>
+
+      Public ResultId As String
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: rid
+    namedArguments:
+    - name: NullValueHandling
+      type: Newtonsoft.Json.NullValueHandling
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.Call(System.String,System.String,System.Object[])
+  commentId: M:Goui.Message.Call(System.String,System.String,System.Object[])
+  id: Call(System.String,System.String,System.Object[])
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: Call(String, String, Object[])
+  nameWithType: Message.Call(String, String, Object[])
+  fullName: Goui.Message.Call(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Call
+    path: ../../Goui/Message.cs
+    startLine: 24
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Message Call(string targetId, string method, params object[] args)
+    parameters:
+    - id: targetId
+      type: System.String
+    - id: method
+      type: System.String
+    - id: args
+      type: System.Object[]
+    return:
+      type: Goui.Message
+    content.vb: Public Shared Function Call(targetId As String, method As String, ParamArray args As Object()) As Message
+  overload: Goui.Message.Call*
+  nameWithType.vb: Message.Call(String, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Goui.Message.Call(System.String, System.String, System.Object())
+  name.vb: Call(String, String, Object())
+- uid: Goui.Message.Set(System.String,System.String,System.Object)
+  commentId: M:Goui.Message.Set(System.String,System.String,System.Object)
+  id: Set(System.String,System.String,System.Object)
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: Set(String, String, Object)
+  nameWithType: Message.Set(String, String, Object)
+  fullName: Goui.Message.Set(System.String, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Set
+    path: ../../Goui/Message.cs
+    startLine: 31
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Message Set(string targetId, string property, object value)
+    parameters:
+    - id: targetId
+      type: System.String
+    - id: property
+      type: System.String
+    - id: value
+      type: System.Object
+    return:
+      type: Goui.Message
+    content.vb: Public Shared Function Set(targetId As String, property As String, value As Object) As Message
+  overload: Goui.Message.Set*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Message.Event(System.String,System.String,System.Object)
+  commentId: M:Goui.Message.Event(System.String,System.String,System.Object)
+  id: Event(System.String,System.String,System.Object)
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: Event(String, String, Object)
+  nameWithType: Message.Event(String, String, Object)
+  fullName: Goui.Message.Event(System.String, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Event
+    path: ../../Goui/Message.cs
+    startLine: 38
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Message Event(string targetId, string eventType, object value = null)
+    parameters:
+    - id: targetId
+      type: System.String
+    - id: eventType
+      type: System.String
+    - id: value
+      type: System.Object
+    return:
+      type: Goui.Message
+    content.vb: Public Shared Function Event(targetId As String, eventType As String, value As Object = Nothing) As Message
+  overload: Goui.Message.Event*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Message.WriteJson(System.IO.TextWriter)
+  commentId: M:Goui.Message.WriteJson(System.IO.TextWriter)
+  id: WriteJson(System.IO.TextWriter)
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: WriteJson(TextWriter)
+  nameWithType: Message.WriteJson(TextWriter)
+  fullName: Goui.Message.WriteJson(System.IO.TextWriter)
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: WriteJson
+    path: ../../Goui/Message.cs
+    startLine: 54
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public void WriteJson(TextWriter w)
+    parameters:
+    - id: w
+      type: System.IO.TextWriter
+    content.vb: Public Sub WriteJson(w As TextWriter)
+  overload: Goui.Message.WriteJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.ToJson
+  commentId: M:Goui.Message.ToJson
+  id: ToJson
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: ToJson()
+  nameWithType: Message.ToJson()
+  fullName: Goui.Message.ToJson()
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToJson
+    path: ../../Goui/Message.cs
+    startLine: 82
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public string ToJson()
+    return:
+      type: System.String
+    content.vb: Public Function ToJson As String
+  overload: Goui.Message.ToJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Message.FromJson(System.String)
+  commentId: M:Goui.Message.FromJson(System.String)
+  id: FromJson(System.String)
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: FromJson(String)
+  nameWithType: Message.FromJson(String)
+  fullName: Goui.Message.FromJson(System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FromJson
+    path: ../../Goui/Message.cs
+    startLine: 90
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static Message FromJson(string json)
+    parameters:
+    - id: json
+      type: System.String
+    return:
+      type: Goui.Message
+    content.vb: Public Shared Function FromJson(json As String) As Message
+  overload: Goui.Message.FromJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Message.ToString
+  commentId: M:Goui.Message.ToString
+  id: ToString
+  parent: Goui.Message
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: Goui.Message.ToString()
+  type: Method
+  source:
+    remote:
+      path: Goui/Message.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToString
+    path: ../../Goui/Message.cs
+    startLine: 150
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Goui.Message.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.MessageType
+  commentId: T:Goui.MessageType
+  parent: Goui
+  name: MessageType
+  nameWithType: MessageType
+  fullName: Goui.MessageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Message.Call*
+  commentId: Overload:Goui.Message.Call
+  name: Call
+  nameWithType: Message.Call
+  fullName: Goui.Message.Call
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Goui.Message
+  commentId: T:Goui.Message
+  parent: Goui
+  name: Message
+  nameWithType: Message
+  fullName: Goui.Message
+- uid: Goui.Message.Set*
+  commentId: Overload:Goui.Message.Set
+  name: Set
+  nameWithType: Message.Set
+  fullName: Goui.Message.Set
+- uid: Goui.Message.Event*
+  commentId: Overload:Goui.Message.Event
+  name: Event
+  nameWithType: Message.Event
+  fullName: Goui.Message.Event
+- uid: Goui.Message.WriteJson*
+  commentId: Overload:Goui.Message.WriteJson
+  name: WriteJson
+  nameWithType: Message.WriteJson
+  fullName: Goui.Message.WriteJson
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Goui.Message.ToJson*
+  commentId: Overload:Goui.Message.ToJson
+  name: ToJson
+  nameWithType: Message.ToJson
+  fullName: Goui.Message.ToJson
+- uid: Goui.Message.FromJson*
+  commentId: Overload:Goui.Message.FromJson
+  name: FromJson
+  nameWithType: Message.FromJson
+  fullName: Goui.Message.FromJson
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Message.ToString*
+  commentId: Overload:Goui.Message.ToString
+  name: ToString
+  nameWithType: Message.ToString
+  fullName: Goui.Message.ToString

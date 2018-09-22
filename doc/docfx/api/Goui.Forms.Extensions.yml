@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  id: Goui.Forms.Extensions
+  children:
+  - Goui.Forms.Extensions.ColorExtensions
+  - Goui.Forms.Extensions.ElementExtensions
+  - Goui.Forms.Extensions.FontExtensions
+  - Goui.Forms.Extensions.ListViewExtensions
+  langs:
+  - csharp
+  - vb
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions
+  type: Namespace
+  assemblies:
+  - Goui.Forms
+references:
+- uid: Goui.Forms.Extensions.ColorExtensions
+  commentId: T:Goui.Forms.Extensions.ColorExtensions
+  name: ColorExtensions
+  nameWithType: ColorExtensions
+  fullName: Goui.Forms.Extensions.ColorExtensions
+- uid: Goui.Forms.Extensions.ElementExtensions
+  commentId: T:Goui.Forms.Extensions.ElementExtensions
+  parent: Goui.Forms.Extensions
+  name: ElementExtensions
+  nameWithType: ElementExtensions
+  fullName: Goui.Forms.Extensions.ElementExtensions
+- uid: Goui.Forms.Extensions.FontExtensions
+  commentId: T:Goui.Forms.Extensions.FontExtensions
+  parent: Goui.Forms.Extensions
+  name: FontExtensions
+  nameWithType: FontExtensions
+  fullName: Goui.Forms.Extensions.FontExtensions
+- uid: Goui.Forms.Extensions.ListViewExtensions
+  commentId: T:Goui.Forms.Extensions.ListViewExtensions
+  name: ListViewExtensions
+  nameWithType: ListViewExtensions
+  fullName: Goui.Forms.Extensions.ListViewExtensions
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions

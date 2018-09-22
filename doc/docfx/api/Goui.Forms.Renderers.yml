@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Renderers
+  commentId: N:Goui.Forms.Renderers
+  id: Goui.Forms.Renderers
+  children:
+  - Goui.Forms.Renderers.ActivityIndicatorRenderer
+  - Goui.Forms.Renderers.BoxRenderer
+  - Goui.Forms.Renderers.ButtonRenderer
+  - Goui.Forms.Renderers.DatePickerRenderer
+  - Goui.Forms.Renderers.DefaultRenderer
+  - Goui.Forms.Renderers.EditorRenderer
+  - Goui.Forms.Renderers.EntryRenderer
+  - Goui.Forms.Renderers.FileImageSourceHandler
+  - Goui.Forms.Renderers.FrameRenderer
+  - Goui.Forms.Renderers.IImageSourceHandler
+  - Goui.Forms.Renderers.ImageLoaderSourceHandler
+  - Goui.Forms.Renderers.ImageRenderer
+  - Goui.Forms.Renderers.LabelRenderer
+  - Goui.Forms.Renderers.LinkLabelRenderer
+  - Goui.Forms.Renderers.LinkViewRenderer
+  - Goui.Forms.Renderers.ListViewRenderer
+  - Goui.Forms.Renderers.NavigationPageRenderer
+  - Goui.Forms.Renderers.PickerRenderer
+  - Goui.Forms.Renderers.ProgressBarRenderer
+  - Goui.Forms.Renderers.ScrollViewRenderer
+  - Goui.Forms.Renderers.SearchBarRenderer
+  - Goui.Forms.Renderers.SliderRenderer
+  - Goui.Forms.Renderers.StreamImagesourceHandler
+  - Goui.Forms.Renderers.SwitchRenderer
+  - Goui.Forms.Renderers.SwitchRenderer.SwitchElement
+  - Goui.Forms.Renderers.TimePickerRenderer
+  - Goui.Forms.Renderers.ViewRenderer
+  - Goui.Forms.Renderers.ViewRenderer`2
+  - Goui.Forms.Renderers.WebViewRenderer
+  langs:
+  - csharp
+  - vb
+  name: Goui.Forms.Renderers
+  nameWithType: Goui.Forms.Renderers
+  fullName: Goui.Forms.Renderers
+  type: Namespace
+  assemblies:
+  - Goui.Forms
+references:
+- uid: Goui.Forms.Renderers.ActivityIndicatorRenderer
+  commentId: T:Goui.Forms.Renderers.ActivityIndicatorRenderer
+  name: ActivityIndicatorRenderer
+  nameWithType: ActivityIndicatorRenderer
+  fullName: Goui.Forms.Renderers.ActivityIndicatorRenderer
+- uid: Goui.Forms.Renderers.BoxRenderer
+  commentId: T:Goui.Forms.Renderers.BoxRenderer
+  name: BoxRenderer
+  nameWithType: BoxRenderer
+  fullName: Goui.Forms.Renderers.BoxRenderer
+- uid: Goui.Forms.Renderers.ButtonRenderer
+  commentId: T:Goui.Forms.Renderers.ButtonRenderer
+  name: ButtonRenderer
+  nameWithType: ButtonRenderer
+  fullName: Goui.Forms.Renderers.ButtonRenderer
+- uid: Goui.Forms.Renderers.DatePickerRenderer
+  commentId: T:Goui.Forms.Renderers.DatePickerRenderer
+  name: DatePickerRenderer
+  nameWithType: DatePickerRenderer
+  fullName: Goui.Forms.Renderers.DatePickerRenderer
+- uid: Goui.Forms.Renderers.DefaultRenderer
+  commentId: T:Goui.Forms.Renderers.DefaultRenderer
+  name: DefaultRenderer
+  nameWithType: DefaultRenderer
+  fullName: Goui.Forms.Renderers.DefaultRenderer
+- uid: Goui.Forms.Renderers.EditorRenderer
+  commentId: T:Goui.Forms.Renderers.EditorRenderer
+  name: EditorRenderer
+  nameWithType: EditorRenderer
+  fullName: Goui.Forms.Renderers.EditorRenderer
+- uid: Goui.Forms.Renderers.EntryRenderer
+  commentId: T:Goui.Forms.Renderers.EntryRenderer
+  name: EntryRenderer
+  nameWithType: EntryRenderer
+  fullName: Goui.Forms.Renderers.EntryRenderer
+- uid: Goui.Forms.Renderers.FrameRenderer
+  commentId: T:Goui.Forms.Renderers.FrameRenderer
+  name: FrameRenderer
+  nameWithType: FrameRenderer
+  fullName: Goui.Forms.Renderers.FrameRenderer
+- uid: Goui.Forms.Renderers.ImageRenderer
+  commentId: T:Goui.Forms.Renderers.ImageRenderer
+  name: ImageRenderer
+  nameWithType: ImageRenderer
+  fullName: Goui.Forms.Renderers.ImageRenderer
+- uid: Goui.Forms.Renderers.IImageSourceHandler
+  commentId: T:Goui.Forms.Renderers.IImageSourceHandler
+  parent: Goui.Forms.Renderers
+  name: IImageSourceHandler
+  nameWithType: IImageSourceHandler
+  fullName: Goui.Forms.Renderers.IImageSourceHandler
+- uid: Goui.Forms.Renderers.FileImageSourceHandler
+  commentId: T:Goui.Forms.Renderers.FileImageSourceHandler
+  name: FileImageSourceHandler
+  nameWithType: FileImageSourceHandler
+  fullName: Goui.Forms.Renderers.FileImageSourceHandler
+- uid: Goui.Forms.Renderers.StreamImagesourceHandler
+  commentId: T:Goui.Forms.Renderers.StreamImagesourceHandler
+  name: StreamImagesourceHandler
+  nameWithType: StreamImagesourceHandler
+  fullName: Goui.Forms.Renderers.StreamImagesourceHandler
+- uid: Goui.Forms.Renderers.ImageLoaderSourceHandler
+  commentId: T:Goui.Forms.Renderers.ImageLoaderSourceHandler
+  name: ImageLoaderSourceHandler
+  nameWithType: ImageLoaderSourceHandler
+  fullName: Goui.Forms.Renderers.ImageLoaderSourceHandler
+- uid: Goui.Forms.Renderers.LabelRenderer
+  commentId: T:Goui.Forms.Renderers.LabelRenderer
+  name: LabelRenderer
+  nameWithType: LabelRenderer
+  fullName: Goui.Forms.Renderers.LabelRenderer
+- uid: Goui.Forms.Renderers.LinkLabelRenderer
+  commentId: T:Goui.Forms.Renderers.LinkLabelRenderer
+  name: LinkLabelRenderer
+  nameWithType: LinkLabelRenderer
+  fullName: Goui.Forms.Renderers.LinkLabelRenderer
+- uid: Goui.Forms.Renderers.LinkViewRenderer
+  commentId: T:Goui.Forms.Renderers.LinkViewRenderer
+  name: LinkViewRenderer
+  nameWithType: LinkViewRenderer
+  fullName: Goui.Forms.Renderers.LinkViewRenderer
+- uid: Goui.Forms.Renderers.ListViewRenderer
+  commentId: T:Goui.Forms.Renderers.ListViewRenderer
+  name: ListViewRenderer
+  nameWithType: ListViewRenderer
+  fullName: Goui.Forms.Renderers.ListViewRenderer
+- uid: Goui.Forms.Renderers.NavigationPageRenderer
+  commentId: T:Goui.Forms.Renderers.NavigationPageRenderer
+  name: NavigationPageRenderer
+  nameWithType: NavigationPageRenderer
+  fullName: Goui.Forms.Renderers.NavigationPageRenderer
+- uid: Goui.Forms.Renderers.PickerRenderer
+  commentId: T:Goui.Forms.Renderers.PickerRenderer
+  name: PickerRenderer
+  nameWithType: PickerRenderer
+  fullName: Goui.Forms.Renderers.PickerRenderer
+- uid: Goui.Forms.Renderers.ProgressBarRenderer
+  commentId: T:Goui.Forms.Renderers.ProgressBarRenderer
+  name: ProgressBarRenderer
+  nameWithType: ProgressBarRenderer
+  fullName: Goui.Forms.Renderers.ProgressBarRenderer
+- uid: Goui.Forms.Renderers.ScrollViewRenderer
+  commentId: T:Goui.Forms.Renderers.ScrollViewRenderer
+  name: ScrollViewRenderer
+  nameWithType: ScrollViewRenderer
+  fullName: Goui.Forms.Renderers.ScrollViewRenderer
+- uid: Goui.Forms.Renderers.SearchBarRenderer
+  commentId: T:Goui.Forms.Renderers.SearchBarRenderer
+  name: SearchBarRenderer
+  nameWithType: SearchBarRenderer
+  fullName: Goui.Forms.Renderers.SearchBarRenderer
+- uid: Goui.Forms.Renderers.SliderRenderer
+  commentId: T:Goui.Forms.Renderers.SliderRenderer
+  name: SliderRenderer
+  nameWithType: SliderRenderer
+  fullName: Goui.Forms.Renderers.SliderRenderer
+- uid: Goui.Forms.Renderers.SwitchRenderer
+  commentId: T:Goui.Forms.Renderers.SwitchRenderer
+  name: SwitchRenderer
+  nameWithType: SwitchRenderer
+  fullName: Goui.Forms.Renderers.SwitchRenderer
+- uid: Goui.Forms.Renderers.SwitchRenderer.SwitchElement
+  commentId: T:Goui.Forms.Renderers.SwitchRenderer.SwitchElement
+  parent: Goui.Forms.Renderers
+  name: SwitchRenderer.SwitchElement
+  nameWithType: SwitchRenderer.SwitchElement
+  fullName: Goui.Forms.Renderers.SwitchRenderer.SwitchElement
+- uid: Goui.Forms.Renderers.TimePickerRenderer
+  commentId: T:Goui.Forms.Renderers.TimePickerRenderer
+  name: TimePickerRenderer
+  nameWithType: TimePickerRenderer
+  fullName: Goui.Forms.Renderers.TimePickerRenderer
+- uid: Goui.Forms.Renderers.ViewRenderer
+  commentId: T:Goui.Forms.Renderers.ViewRenderer
+  name: ViewRenderer
+  nameWithType: ViewRenderer
+  fullName: Goui.Forms.Renderers.ViewRenderer
+- uid: Goui.Forms.Renderers.ViewRenderer`2
+  commentId: T:Goui.Forms.Renderers.ViewRenderer`2
+  name: ViewRenderer<TElement, TNativeElement>
+  nameWithType: ViewRenderer<TElement, TNativeElement>
+  fullName: Goui.Forms.Renderers.ViewRenderer<TElement, TNativeElement>
+  nameWithType.vb: ViewRenderer(Of TElement, TNativeElement)
+  fullName.vb: Goui.Forms.Renderers.ViewRenderer(Of TElement, TNativeElement)
+  name.vb: ViewRenderer(Of TElement, TNativeElement)
+  spec.csharp:
+  - uid: Goui.Forms.Renderers.ViewRenderer`2
+    name: ViewRenderer
+    nameWithType: ViewRenderer
+    fullName: Goui.Forms.Renderers.ViewRenderer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TNativeElement
+    nameWithType: TNativeElement
+    fullName: TNativeElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.Renderers.ViewRenderer`2
+    name: ViewRenderer
+    nameWithType: ViewRenderer
+    fullName: Goui.Forms.Renderers.ViewRenderer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TNativeElement
+    nameWithType: TNativeElement
+    fullName: TNativeElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Renderers.WebViewRenderer
+  commentId: T:Goui.Forms.Renderers.WebViewRenderer
+  name: WebViewRenderer
+  nameWithType: WebViewRenderer
+  fullName: Goui.Forms.Renderers.WebViewRenderer
+- uid: Goui.Forms.Renderers
+  commentId: N:Goui.Forms.Renderers
+  name: Goui.Forms.Renderers
+  nameWithType: Goui.Forms.Renderers
+  fullName: Goui.Forms.Renderers

@@ -1,0 +1,795 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Cells.EntryCellRenderer
+  commentId: T:Goui.Forms.Cells.EntryCellRenderer
+  id: EntryCellRenderer
+  parent: Goui.Forms.Cells
+  children:
+  - Goui.Forms.Cells.EntryCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  langs:
+  - csharp
+  - vb
+  name: EntryCellRenderer
+  nameWithType: EntryCellRenderer
+  fullName: Goui.Forms.Cells.EntryCellRenderer
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Cells/EntryCellRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: EntryCellRenderer
+    path: ../../Goui.Forms/Cells/EntryCellRenderer.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Cells
+  syntax:
+    content: 'public class EntryCellRenderer : TextCellRenderer, IRegisterable'
+    content.vb: >-
+      Public Class EntryCellRenderer
+
+          Inherits TextCellRenderer
+
+          Implements IRegisterable
+  inheritance:
+  - System.Object
+  - Goui.Forms.Cells.CellRenderer
+  - Goui.Forms.Cells.TextCellRenderer
+  implements:
+  - Xamarin.Forms.IRegisterable
+  inheritedMembers:
+  - Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement,Goui.Html.List)
+  - Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+  - Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject,Goui.Forms.Cells.CellElement)
+  - Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  - Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement,Xamarin.Forms.Cell)
+  - Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.Cells.EntryCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  commentId: M:Goui.Forms.Cells.EntryCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  id: CreateCellElement(Xamarin.Forms.Cell)
+  parent: Goui.Forms.Cells.EntryCellRenderer
+  langs:
+  - csharp
+  - vb
+  name: CreateCellElement(Cell)
+  nameWithType: EntryCellRenderer.CreateCellElement(Cell)
+  fullName: Goui.Forms.Cells.EntryCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Cells/EntryCellRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: CreateCellElement
+    path: ../../Goui.Forms/Cells/EntryCellRenderer.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Cells
+  syntax:
+    content: protected override CellElement CreateCellElement(Cell item)
+    parameters:
+    - id: item
+      type: Xamarin.Forms.Cell
+    return:
+      type: Goui.Forms.Cells.CellElement
+    content.vb: Protected Overrides Function CreateCellElement(item As Cell) As CellElement
+  overridden: Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  overload: Goui.Forms.Cells.EntryCellRenderer.CreateCellElement*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Goui.Forms.Cells
+  commentId: N:Goui.Forms.Cells
+  name: Goui.Forms.Cells
+  nameWithType: Goui.Forms.Cells
+  fullName: Goui.Forms.Cells
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Goui.Forms.Cells.CellRenderer
+  commentId: T:Goui.Forms.Cells.CellRenderer
+  parent: Goui.Forms.Cells
+  name: CellRenderer
+  nameWithType: CellRenderer
+  fullName: Goui.Forms.Cells.CellRenderer
+- uid: Goui.Forms.Cells.TextCellRenderer
+  commentId: T:Goui.Forms.Cells.TextCellRenderer
+  parent: Goui.Forms.Cells
+  name: TextCellRenderer
+  nameWithType: TextCellRenderer
+  fullName: Goui.Forms.Cells.TextCellRenderer
+- uid: Xamarin.Forms.IRegisterable
+  commentId: T:Xamarin.Forms.IRegisterable
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IRegisterable
+  nameWithType: IRegisterable
+  fullName: Xamarin.Forms.IRegisterable
+- uid: Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement,Goui.Html.List)
+  commentId: M:Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement,Goui.Html.List)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: GetCellElement(Cell, CellElement, List)
+  nameWithType: CellRenderer.GetCellElement(Cell, CellElement, List)
+  fullName: Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell, Goui.Forms.Cells.CellElement, Goui.Html.List)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement,Goui.Html.List)
+    name: GetCellElement
+    nameWithType: CellRenderer.GetCellElement
+    fullName: Goui.Forms.Cells.CellRenderer.GetCellElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.List
+    name: List
+    nameWithType: List
+    fullName: Goui.Html.List
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.GetCellElement(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement,Goui.Html.List)
+    name: GetCellElement
+    nameWithType: CellRenderer.GetCellElement
+    fullName: Goui.Forms.Cells.CellRenderer.GetCellElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.List
+    name: List
+    nameWithType: List
+    fullName: Goui.Html.List
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+  commentId: M:Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: GetRealCell(BindableObject)
+  nameWithType: CellRenderer.GetRealCell(BindableObject)
+  fullName: Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+    name: GetRealCell
+    nameWithType: CellRenderer.GetRealCell
+    fullName: Goui.Forms.Cells.CellRenderer.GetRealCell
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.GetRealCell(Xamarin.Forms.BindableObject)
+    name: GetRealCell
+    nameWithType: CellRenderer.GetRealCell
+    fullName: Goui.Forms.Cells.CellRenderer.GetRealCell
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject,Goui.Forms.Cells.CellElement)
+  commentId: M:Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject,Goui.Forms.Cells.CellElement)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: SetRealCell(BindableObject, CellElement)
+  nameWithType: CellRenderer.SetRealCell(BindableObject, CellElement)
+  fullName: Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject, Goui.Forms.Cells.CellElement)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject,Goui.Forms.Cells.CellElement)
+    name: SetRealCell
+    nameWithType: CellRenderer.SetRealCell
+    fullName: Goui.Forms.Cells.CellRenderer.SetRealCell
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.SetRealCell(Xamarin.Forms.BindableObject,Goui.Forms.Cells.CellElement)
+    name: SetRealCell
+    nameWithType: CellRenderer.SetRealCell
+    fullName: Goui.Forms.Cells.CellRenderer.SetRealCell
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  commentId: M:Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: OnForceUpdateSizeRequest(Cell, CellElement)
+  nameWithType: CellRenderer.OnForceUpdateSizeRequest(Cell, CellElement)
+  fullName: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell, Goui.Forms.Cells.CellElement)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+    name: OnForceUpdateSizeRequest
+    nameWithType: CellRenderer.OnForceUpdateSizeRequest
+    fullName: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+    name: OnForceUpdateSizeRequest
+    nameWithType: CellRenderer.OnForceUpdateSizeRequest
+    fullName: Goui.Forms.Cells.CellRenderer.OnForceUpdateSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement,Xamarin.Forms.Cell)
+  commentId: M:Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement,Xamarin.Forms.Cell)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: UpdateBackground(CellElement, Cell)
+  nameWithType: CellRenderer.UpdateBackground(CellElement, Cell)
+  fullName: Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement, Xamarin.Forms.Cell)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement,Xamarin.Forms.Cell)
+    name: UpdateBackground
+    nameWithType: CellRenderer.UpdateBackground
+    fullName: Goui.Forms.Cells.CellRenderer.UpdateBackground
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.UpdateBackground(Goui.Forms.Cells.CellElement,Xamarin.Forms.Cell)
+    name: UpdateBackground
+    nameWithType: CellRenderer.UpdateBackground
+    fullName: Goui.Forms.Cells.CellRenderer.UpdateBackground
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  commentId: M:Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+  parent: Goui.Forms.Cells.CellRenderer
+  isExternal: true
+  name: WireUpForceUpdateSizeRequested(Cell, CellElement)
+  nameWithType: CellRenderer.WireUpForceUpdateSizeRequested(Cell, CellElement)
+  fullName: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell, Goui.Forms.Cells.CellElement)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+    name: WireUpForceUpdateSizeRequested
+    nameWithType: CellRenderer.WireUpForceUpdateSizeRequested
+    fullName: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested(Xamarin.Forms.Cell,Goui.Forms.Cells.CellElement)
+    name: WireUpForceUpdateSizeRequested
+    nameWithType: CellRenderer.WireUpForceUpdateSizeRequested
+    fullName: Goui.Forms.Cells.CellRenderer.WireUpForceUpdateSizeRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+    nameWithType: CellElement
+    fullName: Goui.Forms.Cells.CellElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  commentId: M:Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  parent: Goui.Forms.Cells.TextCellRenderer
+  isExternal: true
+  name: CreateCellElement(Cell)
+  nameWithType: TextCellRenderer.CreateCellElement(Cell)
+  fullName: Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+  spec.csharp:
+  - uid: Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+    name: CreateCellElement
+    nameWithType: TextCellRenderer.CreateCellElement
+    fullName: Goui.Forms.Cells.TextCellRenderer.CreateCellElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Cells.TextCellRenderer.CreateCellElement(Xamarin.Forms.Cell)
+    name: CreateCellElement
+    nameWithType: TextCellRenderer.CreateCellElement
+    fullName: Goui.Forms.Cells.TextCellRenderer.CreateCellElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: Xamarin.Forms.Cell
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Cells.EntryCellRenderer.CreateCellElement*
+  commentId: Overload:Goui.Forms.Cells.EntryCellRenderer.CreateCellElement
+  name: CreateCellElement
+  nameWithType: EntryCellRenderer.CreateCellElement
+  fullName: Goui.Forms.Cells.EntryCellRenderer.CreateCellElement
+- uid: Xamarin.Forms.Cell
+  commentId: T:Xamarin.Forms.Cell
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Cell
+  nameWithType: Cell
+  fullName: Xamarin.Forms.Cell
+- uid: Goui.Forms.Cells.CellElement
+  commentId: T:Goui.Forms.Cells.CellElement
+  parent: Goui.Forms.Cells
+  name: CellElement
+  nameWithType: CellElement
+  fullName: Goui.Forms.Cells.CellElement

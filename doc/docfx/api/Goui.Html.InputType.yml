@@ -1,0 +1,1162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.InputType
+  commentId: T:Goui.Html.InputType
+  id: InputType
+  parent: Goui.Html
+  children:
+  - Goui.Html.InputType.Button
+  - Goui.Html.InputType.Checkbox
+  - Goui.Html.InputType.Color
+  - Goui.Html.InputType.Date
+  - Goui.Html.InputType.Datetime
+  - Goui.Html.InputType.DatetimeLocal
+  - Goui.Html.InputType.Email
+  - Goui.Html.InputType.File
+  - Goui.Html.InputType.Hidden
+  - Goui.Html.InputType.Image
+  - Goui.Html.InputType.Month
+  - Goui.Html.InputType.Number
+  - Goui.Html.InputType.Password
+  - Goui.Html.InputType.Radio
+  - Goui.Html.InputType.Range
+  - Goui.Html.InputType.Reset
+  - Goui.Html.InputType.Search
+  - Goui.Html.InputType.Submit
+  - Goui.Html.InputType.Tel
+  - Goui.Html.InputType.Text
+  - Goui.Html.InputType.Time
+  - Goui.Html.InputType.Url
+  - Goui.Html.InputType.Week
+  langs:
+  - csharp
+  - vb
+  name: InputType
+  nameWithType: InputType
+  fullName: Goui.Html.InputType
+  type: Enum
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: InputType
+    path: ../../Goui/Html/Input.cs
+    startLine: 95
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum InputType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum InputType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Html.InputType.Text
+  commentId: F:Goui.Html.InputType.Text
+  id: Text
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: InputType.Text
+  fullName: Goui.Html.InputType.Text
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Text
+    path: ../../Goui/Html/Input.cs
+    startLine: 98
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "text")]
+
+      Text = 0
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="text")>
+
+      Text = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: text
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Date
+  commentId: F:Goui.Html.InputType.Date
+  id: Date
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: InputType.Date
+  fullName: Goui.Html.InputType.Date
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Date
+    path: ../../Goui/Html/Input.cs
+    startLine: 100
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "date")]
+
+      Date = 1
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="date")>
+
+      Date = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: date
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Week
+  commentId: F:Goui.Html.InputType.Week
+  id: Week
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: InputType.Week
+  fullName: Goui.Html.InputType.Week
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Week
+    path: ../../Goui/Html/Input.cs
+    startLine: 102
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "week")]
+
+      Week = 2
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="week")>
+
+      Week = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: week
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Datetime
+  commentId: F:Goui.Html.InputType.Datetime
+  id: Datetime
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Datetime
+  nameWithType: InputType.Datetime
+  fullName: Goui.Html.InputType.Datetime
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Datetime
+    path: ../../Goui/Html/Input.cs
+    startLine: 104
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "datetime")]
+
+      Datetime = 3
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="datetime")>
+
+      Datetime = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: datetime
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.DatetimeLocal
+  commentId: F:Goui.Html.InputType.DatetimeLocal
+  id: DatetimeLocal
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: DatetimeLocal
+  nameWithType: InputType.DatetimeLocal
+  fullName: Goui.Html.InputType.DatetimeLocal
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DatetimeLocal
+    path: ../../Goui/Html/Input.cs
+    startLine: 106
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "datetimelocal")]
+
+      DatetimeLocal = 4
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="datetimelocal")>
+
+      DatetimeLocal = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: datetimelocal
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Time
+  commentId: F:Goui.Html.InputType.Time
+  id: Time
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: InputType.Time
+  fullName: Goui.Html.InputType.Time
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Time
+    path: ../../Goui/Html/Input.cs
+    startLine: 108
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "time")]
+
+      Time = 5
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="time")>
+
+      Time = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: time
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Month
+  commentId: F:Goui.Html.InputType.Month
+  id: Month
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: InputType.Month
+  fullName: Goui.Html.InputType.Month
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Month
+    path: ../../Goui/Html/Input.cs
+    startLine: 110
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "month")]
+
+      Month = 6
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="month")>
+
+      Month = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: month
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Range
+  commentId: F:Goui.Html.InputType.Range
+  id: Range
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Range
+  nameWithType: InputType.Range
+  fullName: Goui.Html.InputType.Range
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Range
+    path: ../../Goui/Html/Input.cs
+    startLine: 112
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "range")]
+
+      Range = 7
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="range")>
+
+      Range = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: range
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Number
+  commentId: F:Goui.Html.InputType.Number
+  id: Number
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: InputType.Number
+  fullName: Goui.Html.InputType.Number
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Number
+    path: ../../Goui/Html/Input.cs
+    startLine: 114
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "number")]
+
+      Number = 8
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="number")>
+
+      Number = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: number
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Hidden
+  commentId: F:Goui.Html.InputType.Hidden
+  id: Hidden
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: InputType.Hidden
+  fullName: Goui.Html.InputType.Hidden
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Hidden
+    path: ../../Goui/Html/Input.cs
+    startLine: 116
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "hidden")]
+
+      Hidden = 9
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="hidden")>
+
+      Hidden = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: hidden
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Search
+  commentId: F:Goui.Html.InputType.Search
+  id: Search
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: InputType.Search
+  fullName: Goui.Html.InputType.Search
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Search
+    path: ../../Goui/Html/Input.cs
+    startLine: 118
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "search")]
+
+      Search = 10
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="search")>
+
+      Search = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: search
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Email
+  commentId: F:Goui.Html.InputType.Email
+  id: Email
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: InputType.Email
+  fullName: Goui.Html.InputType.Email
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Email
+    path: ../../Goui/Html/Input.cs
+    startLine: 120
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "email")]
+
+      Email = 11
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="email")>
+
+      Email = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: email
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Tel
+  commentId: F:Goui.Html.InputType.Tel
+  id: Tel
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Tel
+  nameWithType: InputType.Tel
+  fullName: Goui.Html.InputType.Tel
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Tel
+    path: ../../Goui/Html/Input.cs
+    startLine: 122
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "tel")]
+
+      Tel = 12
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="tel")>
+
+      Tel = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: tel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Url
+  commentId: F:Goui.Html.InputType.Url
+  id: Url
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: InputType.Url
+  fullName: Goui.Html.InputType.Url
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Url
+    path: ../../Goui/Html/Input.cs
+    startLine: 124
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "url")]
+
+      Url = 13
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="url")>
+
+      Url = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: url
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Password
+  commentId: F:Goui.Html.InputType.Password
+  id: Password
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: InputType.Password
+  fullName: Goui.Html.InputType.Password
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Password
+    path: ../../Goui/Html/Input.cs
+    startLine: 126
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "password")]
+
+      Password = 14
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="password")>
+
+      Password = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: password
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Color
+  commentId: F:Goui.Html.InputType.Color
+  id: Color
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: InputType.Color
+  fullName: Goui.Html.InputType.Color
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Color
+    path: ../../Goui/Html/Input.cs
+    startLine: 128
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "color")]
+
+      Color = 15
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="color")>
+
+      Color = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: color
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Checkbox
+  commentId: F:Goui.Html.InputType.Checkbox
+  id: Checkbox
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Checkbox
+  nameWithType: InputType.Checkbox
+  fullName: Goui.Html.InputType.Checkbox
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Checkbox
+    path: ../../Goui/Html/Input.cs
+    startLine: 130
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "checkbox")]
+
+      Checkbox = 16
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="checkbox")>
+
+      Checkbox = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: checkbox
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Radio
+  commentId: F:Goui.Html.InputType.Radio
+  id: Radio
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Radio
+  nameWithType: InputType.Radio
+  fullName: Goui.Html.InputType.Radio
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Radio
+    path: ../../Goui/Html/Input.cs
+    startLine: 132
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "radio")]
+
+      Radio = 17
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="radio")>
+
+      Radio = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: radio
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.File
+  commentId: F:Goui.Html.InputType.File
+  id: File
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: InputType.File
+  fullName: Goui.Html.InputType.File
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: File
+    path: ../../Goui/Html/Input.cs
+    startLine: 134
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "file")]
+
+      File = 18
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="file")>
+
+      File = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: file
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Submit
+  commentId: F:Goui.Html.InputType.Submit
+  id: Submit
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: InputType.Submit
+  fullName: Goui.Html.InputType.Submit
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Submit
+    path: ../../Goui/Html/Input.cs
+    startLine: 136
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "submit")]
+
+      Submit = 19
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="submit")>
+
+      Submit = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: submit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Reset
+  commentId: F:Goui.Html.InputType.Reset
+  id: Reset
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: InputType.Reset
+  fullName: Goui.Html.InputType.Reset
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Reset
+    path: ../../Goui/Html/Input.cs
+    startLine: 138
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "reset")]
+
+      Reset = 20
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="reset")>
+
+      Reset = 20
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: reset
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Image
+  commentId: F:Goui.Html.InputType.Image
+  id: Image
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: InputType.Image
+  fullName: Goui.Html.InputType.Image
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Image
+    path: ../../Goui/Html/Input.cs
+    startLine: 140
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "image")]
+
+      Image = 21
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="image")>
+
+      Image = 21
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: image
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.InputType.Button
+  commentId: F:Goui.Html.InputType.Button
+  id: Button
+  parent: Goui.Html.InputType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: InputType.Button
+  fullName: Goui.Html.InputType.Button
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Input.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Button
+    path: ../../Goui/Html/Input.cs
+    startLine: 142
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "button")]
+
+      Button = 22
+    return:
+      type: Goui.Html.InputType
+    content.vb: >-
+      <EnumMember(Value:="button")>
+
+      Button = 22
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Html.InputType
+  commentId: T:Goui.Html.InputType
+  parent: Goui.Html
+  name: InputType
+  nameWithType: InputType
+  fullName: Goui.Html.InputType

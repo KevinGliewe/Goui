@@ -1,0 +1,4103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.LinkView
+  commentId: T:Goui.Forms.LinkView
+  id: LinkView
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.LinkView.#ctor
+  - Goui.Forms.LinkView.HRef
+  - Goui.Forms.LinkView.HRefProperty
+  - Goui.Forms.LinkView.Target
+  - Goui.Forms.LinkView.TargetProperty
+  langs:
+  - csharp
+  - vb
+  name: LinkView
+  nameWithType: LinkView
+  fullName: Goui.Forms.LinkView
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LinkView
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public class LinkView : ContentView, INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IAnimatable, IResourcesProvider, IFlowDirectionController, IStyleSelectable, IStylable, IViewController, IVisualElementController, IElementController, ILayout, ILayoutController, IPaddingElement, IControlTemplated'
+    content.vb: >-
+      Public Class LinkView
+
+          Inherits ContentView
+
+          Implements INotifyPropertyChanged, IDynamicResourceHandler, IElement, INameScope, IAnimatable, IResourcesProvider, IFlowDirectionController, IStyleSelectable, IStylable, IViewController, IVisualElementController, IElementController, ILayout, ILayoutController, IPaddingElement, IControlTemplated
+  inheritance:
+  - System.Object
+  - Xamarin.Forms.BindableObject
+  - Xamarin.Forms.Element
+  - Xamarin.Forms.VisualElement
+  - Xamarin.Forms.View
+  - Xamarin.Forms.Layout
+  - Xamarin.Forms.TemplatedView
+  - Xamarin.Forms.ContentView
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Xamarin.Forms.IAnimatable
+  - Xamarin.Forms.IViewController
+  - Xamarin.Forms.IVisualElementController
+  - Xamarin.Forms.IElementController
+  - Xamarin.Forms.ILayout
+  - Xamarin.Forms.ILayoutController
+  inheritedMembers:
+  - Xamarin.Forms.ContentView.ContentProperty
+  - Xamarin.Forms.ContentView.OnBindingContextChanged
+  - Xamarin.Forms.ContentView.Content
+  - Xamarin.Forms.TemplatedView.ControlTemplateProperty
+  - Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)
+  - Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)
+  - Xamarin.Forms.TemplatedView.ControlTemplate
+  - Xamarin.Forms.Layout.IsClippedToBoundsProperty
+  - Xamarin.Forms.Layout.CascadeInputTransparentProperty
+  - Xamarin.Forms.Layout.PaddingProperty
+  - Xamarin.Forms.Layout.ForceLayout
+  - Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)
+  - Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)
+  - Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+  - Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+  - Xamarin.Forms.Layout.InvalidateLayout
+  - Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)
+  - Xamarin.Forms.Layout.OnChildMeasureInvalidated
+  - Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)
+  - Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+  - Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+  - Xamarin.Forms.Layout.UpdateChildrenLayout
+  - Xamarin.Forms.Layout.IsClippedToBounds
+  - Xamarin.Forms.Layout.Padding
+  - Xamarin.Forms.Layout.CascadeInputTransparent
+  - Xamarin.Forms.Layout.LayoutChanged
+  - Xamarin.Forms.View.VerticalOptionsProperty
+  - Xamarin.Forms.View.HorizontalOptionsProperty
+  - Xamarin.Forms.View.MarginProperty
+  - Xamarin.Forms.View.GestureRecognizers
+  - Xamarin.Forms.View.HorizontalOptions
+  - Xamarin.Forms.View.Margin
+  - Xamarin.Forms.View.VerticalOptions
+  - Xamarin.Forms.VisualElement.NavigationProperty
+  - Xamarin.Forms.VisualElement.InputTransparentProperty
+  - Xamarin.Forms.VisualElement.IsEnabledProperty
+  - Xamarin.Forms.VisualElement.XProperty
+  - Xamarin.Forms.VisualElement.YProperty
+  - Xamarin.Forms.VisualElement.AnchorXProperty
+  - Xamarin.Forms.VisualElement.AnchorYProperty
+  - Xamarin.Forms.VisualElement.TranslationXProperty
+  - Xamarin.Forms.VisualElement.TranslationYProperty
+  - Xamarin.Forms.VisualElement.WidthProperty
+  - Xamarin.Forms.VisualElement.HeightProperty
+  - Xamarin.Forms.VisualElement.RotationProperty
+  - Xamarin.Forms.VisualElement.RotationXProperty
+  - Xamarin.Forms.VisualElement.RotationYProperty
+  - Xamarin.Forms.VisualElement.ScaleProperty
+  - Xamarin.Forms.VisualElement.IsVisibleProperty
+  - Xamarin.Forms.VisualElement.OpacityProperty
+  - Xamarin.Forms.VisualElement.BackgroundColorProperty
+  - Xamarin.Forms.VisualElement.BehaviorsProperty
+  - Xamarin.Forms.VisualElement.TriggersProperty
+  - Xamarin.Forms.VisualElement.StyleProperty
+  - Xamarin.Forms.VisualElement.WidthRequestProperty
+  - Xamarin.Forms.VisualElement.HeightRequestProperty
+  - Xamarin.Forms.VisualElement.MinimumWidthRequestProperty
+  - Xamarin.Forms.VisualElement.MinimumHeightRequestProperty
+  - Xamarin.Forms.VisualElement.IsFocusedProperty
+  - Xamarin.Forms.VisualElement.FlowDirectionProperty
+  - Xamarin.Forms.VisualElement.BatchBegin
+  - Xamarin.Forms.VisualElement.BatchCommit
+  - Xamarin.Forms.VisualElement.Focus
+  - Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+  - Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)
+  - Xamarin.Forms.VisualElement.Unfocus
+  - Xamarin.Forms.VisualElement.InvalidateMeasure
+  - Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+  - Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+  - Xamarin.Forms.VisualElement.OnChildrenReordered
+  - Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)
+  - Xamarin.Forms.VisualElement.OnParentSet
+  - Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)
+  - Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+  - Xamarin.Forms.VisualElement.ChangeVisualState
+  - Xamarin.Forms.VisualElement.FlowDirection
+  - Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#EffectiveFlowDirection
+  - Xamarin.Forms.VisualElement.AnchorX
+  - Xamarin.Forms.VisualElement.AnchorY
+  - Xamarin.Forms.VisualElement.BackgroundColor
+  - Xamarin.Forms.VisualElement.Behaviors
+  - Xamarin.Forms.VisualElement.Bounds
+  - Xamarin.Forms.VisualElement.Height
+  - Xamarin.Forms.VisualElement.HeightRequest
+  - Xamarin.Forms.VisualElement.InputTransparent
+  - Xamarin.Forms.VisualElement.IsEnabled
+  - Xamarin.Forms.VisualElement.IsFocused
+  - Xamarin.Forms.VisualElement.IsVisible
+  - Xamarin.Forms.VisualElement.MinimumHeightRequest
+  - Xamarin.Forms.VisualElement.MinimumWidthRequest
+  - Xamarin.Forms.VisualElement.Navigation
+  - Xamarin.Forms.VisualElement.Opacity
+  - Xamarin.Forms.VisualElement.Rotation
+  - Xamarin.Forms.VisualElement.RotationX
+  - Xamarin.Forms.VisualElement.RotationY
+  - Xamarin.Forms.VisualElement.Scale
+  - Xamarin.Forms.VisualElement.Style
+  - Xamarin.Forms.VisualElement.StyleClass
+  - Xamarin.Forms.VisualElement.class
+  - Xamarin.Forms.VisualElement.TranslationX
+  - Xamarin.Forms.VisualElement.TranslationY
+  - Xamarin.Forms.VisualElement.Triggers
+  - Xamarin.Forms.VisualElement.Width
+  - Xamarin.Forms.VisualElement.WidthRequest
+  - Xamarin.Forms.VisualElement.X
+  - Xamarin.Forms.VisualElement.Y
+  - Xamarin.Forms.VisualElement.Resources
+  - Xamarin.Forms.VisualElement.ChildrenReordered
+  - Xamarin.Forms.VisualElement.Focused
+  - Xamarin.Forms.VisualElement.MeasureInvalidated
+  - Xamarin.Forms.VisualElement.SizeChanged
+  - Xamarin.Forms.VisualElement.Unfocused
+  - Xamarin.Forms.Element.MenuProperty
+  - Xamarin.Forms.Element.ClassIdProperty
+  - Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+  - Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)
+  - Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)
+  - Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)
+  - Xamarin.Forms.Element.OnPropertyChanged(System.String)
+  - Xamarin.Forms.Element.AutomationId
+  - Xamarin.Forms.Element.ClassId
+  - Xamarin.Forms.Element.Effects
+  - Xamarin.Forms.Element.Id
+  - Xamarin.Forms.Element.ParentView
+  - Xamarin.Forms.Element.StyleId
+  - Xamarin.Forms.Element.Parent
+  - Xamarin.Forms.Element.ChildAdded
+  - Xamarin.Forms.Element.ChildRemoved
+  - Xamarin.Forms.Element.DescendantAdded
+  - Xamarin.Forms.Element.DescendantRemoved
+  - Xamarin.Forms.BindableObject.BindingContextProperty
+  - Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  - Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  - Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  - Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  - Xamarin.Forms.BindableObject.ApplyBindings
+  - Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  - Xamarin.Forms.BindableObject.UnapplyBindings
+  - Xamarin.Forms.BindableObject.BindingContext
+  - Xamarin.Forms.BindableObject.PropertyChanged
+  - Xamarin.Forms.BindableObject.BindingContextChanged
+  - Xamarin.Forms.BindableObject.PropertyChanging
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Xamarin.Forms.VisualElement.Xamarin.Forms.Forms.SendViewInitialized(Goui.Html.Element)
+  - Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.CollectElements``1
+  - Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.GetChildren
+  - Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  - Xamarin.Forms.View.Goui.Forms.Extensions.FontExtensions.SetStyleFont(System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.LinkView.HRefProperty
+  commentId: F:Goui.Forms.LinkView.HRefProperty
+  id: HRefProperty
+  parent: Goui.Forms.LinkView
+  langs:
+  - csharp
+  - vb
+  name: HRefProperty
+  nameWithType: LinkView.HRefProperty
+  fullName: Goui.Forms.LinkView.HRefProperty
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: HRefProperty
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static readonly BindableProperty HRefProperty
+    return:
+      type: Xamarin.Forms.BindableProperty
+    content.vb: Public Shared ReadOnly HRefProperty As BindableProperty
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Goui.Forms.LinkView.HRef
+  commentId: P:Goui.Forms.LinkView.HRef
+  id: HRef
+  parent: Goui.Forms.LinkView
+  langs:
+  - csharp
+  - vb
+  name: HRef
+  nameWithType: LinkView.HRef
+  fullName: Goui.Forms.LinkView.HRef
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: HRef
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 10
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public string HRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HRef As String
+  overload: Goui.Forms.LinkView.HRef*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.LinkView.TargetProperty
+  commentId: F:Goui.Forms.LinkView.TargetProperty
+  id: TargetProperty
+  parent: Goui.Forms.LinkView
+  langs:
+  - csharp
+  - vb
+  name: TargetProperty
+  nameWithType: LinkView.TargetProperty
+  fullName: Goui.Forms.LinkView.TargetProperty
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TargetProperty
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static readonly BindableProperty TargetProperty
+    return:
+      type: Xamarin.Forms.BindableProperty
+    content.vb: Public Shared ReadOnly TargetProperty As BindableProperty
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Goui.Forms.LinkView.Target
+  commentId: P:Goui.Forms.LinkView.Target
+  id: Target
+  parent: Goui.Forms.LinkView
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: LinkView.Target
+  fullName: Goui.Forms.LinkView.Target
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Target
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 18
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public string Target { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Target As String
+  overload: Goui.Forms.LinkView.Target*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.LinkView.#ctor
+  commentId: M:Goui.Forms.LinkView.#ctor
+  id: '#ctor'
+  parent: Goui.Forms.LinkView
+  langs:
+  - csharp
+  - vb
+  name: LinkView()
+  nameWithType: LinkView.LinkView()
+  fullName: Goui.Forms.LinkView.LinkView()
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/Controls/LinkView.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/Controls/LinkView.cs
+    startLine: 23
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public LinkView()
+    content.vb: Public Sub New
+  overload: Goui.Forms.LinkView.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xamarin.Forms.BindableObject
+  commentId: T:Xamarin.Forms.BindableObject
+  parent: Xamarin.Forms
+  isExternal: true
+  name: BindableObject
+  nameWithType: BindableObject
+  fullName: Xamarin.Forms.BindableObject
+- uid: Xamarin.Forms.Element
+  commentId: T:Xamarin.Forms.Element
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Element
+  nameWithType: Element
+  fullName: Xamarin.Forms.Element
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Xamarin.Forms.View
+  commentId: T:Xamarin.Forms.View
+  parent: Xamarin.Forms
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: Xamarin.Forms.View
+- uid: Xamarin.Forms.Layout
+  commentId: T:Xamarin.Forms.Layout
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Layout
+  nameWithType: Layout
+  fullName: Xamarin.Forms.Layout
+- uid: Xamarin.Forms.TemplatedView
+  commentId: T:Xamarin.Forms.TemplatedView
+  parent: Xamarin.Forms
+  isExternal: true
+  name: TemplatedView
+  nameWithType: TemplatedView
+  fullName: Xamarin.Forms.TemplatedView
+- uid: Xamarin.Forms.ContentView
+  commentId: T:Xamarin.Forms.ContentView
+  parent: Xamarin.Forms
+  isExternal: true
+  name: ContentView
+  nameWithType: ContentView
+  fullName: Xamarin.Forms.ContentView
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Xamarin.Forms.IAnimatable
+  commentId: T:Xamarin.Forms.IAnimatable
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IAnimatable
+  nameWithType: IAnimatable
+  fullName: Xamarin.Forms.IAnimatable
+- uid: Xamarin.Forms.IViewController
+  commentId: T:Xamarin.Forms.IViewController
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IViewController
+  nameWithType: IViewController
+  fullName: Xamarin.Forms.IViewController
+- uid: Xamarin.Forms.IVisualElementController
+  commentId: T:Xamarin.Forms.IVisualElementController
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IVisualElementController
+  nameWithType: IVisualElementController
+  fullName: Xamarin.Forms.IVisualElementController
+- uid: Xamarin.Forms.IElementController
+  commentId: T:Xamarin.Forms.IElementController
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IElementController
+  nameWithType: IElementController
+  fullName: Xamarin.Forms.IElementController
+- uid: Xamarin.Forms.ILayout
+  commentId: T:Xamarin.Forms.ILayout
+  parent: Xamarin.Forms
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: Xamarin.Forms.ILayout
+- uid: Xamarin.Forms.ILayoutController
+  commentId: T:Xamarin.Forms.ILayoutController
+  parent: Xamarin.Forms
+  isExternal: true
+  name: ILayoutController
+  nameWithType: ILayoutController
+  fullName: Xamarin.Forms.ILayoutController
+- uid: Xamarin.Forms.ContentView.ContentProperty
+  commentId: F:Xamarin.Forms.ContentView.ContentProperty
+  parent: Xamarin.Forms.ContentView
+  isExternal: true
+  name: ContentProperty
+  nameWithType: ContentView.ContentProperty
+  fullName: Xamarin.Forms.ContentView.ContentProperty
+- uid: Xamarin.Forms.ContentView.OnBindingContextChanged
+  commentId: M:Xamarin.Forms.ContentView.OnBindingContextChanged
+  parent: Xamarin.Forms.ContentView
+  isExternal: true
+  name: OnBindingContextChanged()
+  nameWithType: ContentView.OnBindingContextChanged()
+  fullName: Xamarin.Forms.ContentView.OnBindingContextChanged()
+  spec.csharp:
+  - uid: Xamarin.Forms.ContentView.OnBindingContextChanged
+    name: OnBindingContextChanged
+    nameWithType: ContentView.OnBindingContextChanged
+    fullName: Xamarin.Forms.ContentView.OnBindingContextChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.ContentView.OnBindingContextChanged
+    name: OnBindingContextChanged
+    nameWithType: ContentView.OnBindingContextChanged
+    fullName: Xamarin.Forms.ContentView.OnBindingContextChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.ContentView.Content
+  commentId: P:Xamarin.Forms.ContentView.Content
+  parent: Xamarin.Forms.ContentView
+  isExternal: true
+  name: Content
+  nameWithType: ContentView.Content
+  fullName: Xamarin.Forms.ContentView.Content
+- uid: Xamarin.Forms.TemplatedView.ControlTemplateProperty
+  commentId: F:Xamarin.Forms.TemplatedView.ControlTemplateProperty
+  parent: Xamarin.Forms.TemplatedView
+  isExternal: true
+  name: ControlTemplateProperty
+  nameWithType: TemplatedView.ControlTemplateProperty
+  fullName: Xamarin.Forms.TemplatedView.ControlTemplateProperty
+- uid: Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)
+  parent: Xamarin.Forms.TemplatedView
+  isExternal: true
+  name: LayoutChildren(Double, Double, Double, Double)
+  nameWithType: TemplatedView.LayoutChildren(Double, Double, Double, Double)
+  fullName: Xamarin.Forms.TemplatedView.LayoutChildren(System.Double, System.Double, System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)
+    name: LayoutChildren
+    nameWithType: TemplatedView.LayoutChildren
+    fullName: Xamarin.Forms.TemplatedView.LayoutChildren
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)
+    name: LayoutChildren
+    nameWithType: TemplatedView.LayoutChildren
+    fullName: Xamarin.Forms.TemplatedView.LayoutChildren
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)
+  commentId: M:Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)
+  parent: Xamarin.Forms.TemplatedView
+  isExternal: true
+  name: OnSizeRequest(Double, Double)
+  nameWithType: TemplatedView.OnSizeRequest(Double, Double)
+  fullName: Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)
+    name: OnSizeRequest
+    nameWithType: TemplatedView.OnSizeRequest
+    fullName: Xamarin.Forms.TemplatedView.OnSizeRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)
+    name: OnSizeRequest
+    nameWithType: TemplatedView.OnSizeRequest
+    fullName: Xamarin.Forms.TemplatedView.OnSizeRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.TemplatedView.ControlTemplate
+  commentId: P:Xamarin.Forms.TemplatedView.ControlTemplate
+  parent: Xamarin.Forms.TemplatedView
+  isExternal: true
+  name: ControlTemplate
+  nameWithType: TemplatedView.ControlTemplate
+  fullName: Xamarin.Forms.TemplatedView.ControlTemplate
+- uid: Xamarin.Forms.Layout.IsClippedToBoundsProperty
+  commentId: F:Xamarin.Forms.Layout.IsClippedToBoundsProperty
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: IsClippedToBoundsProperty
+  nameWithType: Layout.IsClippedToBoundsProperty
+  fullName: Xamarin.Forms.Layout.IsClippedToBoundsProperty
+- uid: Xamarin.Forms.Layout.CascadeInputTransparentProperty
+  commentId: F:Xamarin.Forms.Layout.CascadeInputTransparentProperty
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: CascadeInputTransparentProperty
+  nameWithType: Layout.CascadeInputTransparentProperty
+  fullName: Xamarin.Forms.Layout.CascadeInputTransparentProperty
+- uid: Xamarin.Forms.Layout.PaddingProperty
+  commentId: F:Xamarin.Forms.Layout.PaddingProperty
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: PaddingProperty
+  nameWithType: Layout.PaddingProperty
+  fullName: Xamarin.Forms.Layout.PaddingProperty
+- uid: Xamarin.Forms.Layout.ForceLayout
+  commentId: M:Xamarin.Forms.Layout.ForceLayout
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: ForceLayout()
+  nameWithType: Layout.ForceLayout()
+  fullName: Xamarin.Forms.Layout.ForceLayout()
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.ForceLayout
+    name: ForceLayout
+    nameWithType: Layout.ForceLayout
+    fullName: Xamarin.Forms.Layout.ForceLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.ForceLayout
+    name: ForceLayout
+    nameWithType: Layout.ForceLayout
+    fullName: Xamarin.Forms.Layout.ForceLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)
+  commentId: M:Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: GetSizeRequest(Double, Double)
+  nameWithType: Layout.GetSizeRequest(Double, Double)
+  fullName: Xamarin.Forms.Layout.GetSizeRequest(System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: Layout.GetSizeRequest
+    fullName: Xamarin.Forms.Layout.GetSizeRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: Layout.GetSizeRequest
+    fullName: Xamarin.Forms.Layout.GetSizeRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)
+  commentId: M:Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: LayoutChildIntoBoundingRegion(VisualElement, Rectangle)
+  nameWithType: Layout.LayoutChildIntoBoundingRegion(VisualElement, Rectangle)
+  fullName: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement, Xamarin.Forms.Rectangle)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)
+    name: LayoutChildIntoBoundingRegion
+    nameWithType: Layout.LayoutChildIntoBoundingRegion
+    fullName: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Rectangle
+    name: Rectangle
+    nameWithType: Rectangle
+    fullName: Xamarin.Forms.Rectangle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)
+    name: LayoutChildIntoBoundingRegion
+    nameWithType: Layout.LayoutChildIntoBoundingRegion
+    fullName: Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Rectangle
+    name: Rectangle
+    nameWithType: Rectangle
+    fullName: Xamarin.Forms.Rectangle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+  commentId: M:Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: LowerChild(View)
+  nameWithType: Layout.LowerChild(View)
+  fullName: Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+    name: LowerChild
+    nameWithType: Layout.LowerChild
+    fullName: Xamarin.Forms.Layout.LowerChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)
+    name: LowerChild
+    nameWithType: Layout.LowerChild
+    fullName: Xamarin.Forms.Layout.LowerChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+  commentId: M:Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: RaiseChild(View)
+  nameWithType: Layout.RaiseChild(View)
+  fullName: Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+    name: RaiseChild
+    nameWithType: Layout.RaiseChild
+    fullName: Xamarin.Forms.Layout.RaiseChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)
+    name: RaiseChild
+    nameWithType: Layout.RaiseChild
+    fullName: Xamarin.Forms.Layout.RaiseChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.InvalidateLayout
+  commentId: M:Xamarin.Forms.Layout.InvalidateLayout
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: InvalidateLayout()
+  nameWithType: Layout.InvalidateLayout()
+  fullName: Xamarin.Forms.Layout.InvalidateLayout()
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.InvalidateLayout
+    name: InvalidateLayout
+    nameWithType: Layout.InvalidateLayout
+    fullName: Xamarin.Forms.Layout.InvalidateLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.InvalidateLayout
+    name: InvalidateLayout
+    nameWithType: Layout.InvalidateLayout
+    fullName: Xamarin.Forms.Layout.InvalidateLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)
+  commentId: M:Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: OnChildMeasureInvalidated(Object, EventArgs)
+  nameWithType: Layout.OnChildMeasureInvalidated(Object, EventArgs)
+  fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)
+    name: OnChildMeasureInvalidated
+    nameWithType: Layout.OnChildMeasureInvalidated
+    fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)
+    name: OnChildMeasureInvalidated
+    nameWithType: Layout.OnChildMeasureInvalidated
+    fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+  commentId: M:Xamarin.Forms.Layout.OnChildMeasureInvalidated
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: OnChildMeasureInvalidated()
+  nameWithType: Layout.OnChildMeasureInvalidated()
+  fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated()
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    name: OnChildMeasureInvalidated
+    nameWithType: Layout.OnChildMeasureInvalidated
+    fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    name: OnChildMeasureInvalidated
+    nameWithType: Layout.OnChildMeasureInvalidated
+    fullName: Xamarin.Forms.Layout.OnChildMeasureInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)
+  commentId: M:Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: OnSizeAllocated(Double, Double)
+  nameWithType: Layout.OnSizeAllocated(Double, Double)
+  fullName: Xamarin.Forms.Layout.OnSizeAllocated(System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)
+    name: OnSizeAllocated
+    nameWithType: Layout.OnSizeAllocated
+    fullName: Xamarin.Forms.Layout.OnSizeAllocated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)
+    name: OnSizeAllocated
+    nameWithType: Layout.OnSizeAllocated
+    fullName: Xamarin.Forms.Layout.OnSizeAllocated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+  commentId: M:Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: ShouldInvalidateOnChildAdded(View)
+  nameWithType: Layout.ShouldInvalidateOnChildAdded(View)
+  fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+    name: ShouldInvalidateOnChildAdded
+    nameWithType: Layout.ShouldInvalidateOnChildAdded
+    fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)
+    name: ShouldInvalidateOnChildAdded
+    nameWithType: Layout.ShouldInvalidateOnChildAdded
+    fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+  commentId: M:Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: ShouldInvalidateOnChildRemoved(View)
+  nameWithType: Layout.ShouldInvalidateOnChildRemoved(View)
+  fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+    name: ShouldInvalidateOnChildRemoved
+    nameWithType: Layout.ShouldInvalidateOnChildRemoved
+    fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)
+    name: ShouldInvalidateOnChildRemoved
+    nameWithType: Layout.ShouldInvalidateOnChildRemoved
+    fullName: Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.UpdateChildrenLayout
+  commentId: M:Xamarin.Forms.Layout.UpdateChildrenLayout
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: UpdateChildrenLayout()
+  nameWithType: Layout.UpdateChildrenLayout()
+  fullName: Xamarin.Forms.Layout.UpdateChildrenLayout()
+  spec.csharp:
+  - uid: Xamarin.Forms.Layout.UpdateChildrenLayout
+    name: UpdateChildrenLayout
+    nameWithType: Layout.UpdateChildrenLayout
+    fullName: Xamarin.Forms.Layout.UpdateChildrenLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Layout.UpdateChildrenLayout
+    name: UpdateChildrenLayout
+    nameWithType: Layout.UpdateChildrenLayout
+    fullName: Xamarin.Forms.Layout.UpdateChildrenLayout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Layout.IsClippedToBounds
+  commentId: P:Xamarin.Forms.Layout.IsClippedToBounds
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: IsClippedToBounds
+  nameWithType: Layout.IsClippedToBounds
+  fullName: Xamarin.Forms.Layout.IsClippedToBounds
+- uid: Xamarin.Forms.Layout.Padding
+  commentId: P:Xamarin.Forms.Layout.Padding
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: Padding
+  nameWithType: Layout.Padding
+  fullName: Xamarin.Forms.Layout.Padding
+- uid: Xamarin.Forms.Layout.CascadeInputTransparent
+  commentId: P:Xamarin.Forms.Layout.CascadeInputTransparent
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: CascadeInputTransparent
+  nameWithType: Layout.CascadeInputTransparent
+  fullName: Xamarin.Forms.Layout.CascadeInputTransparent
+- uid: Xamarin.Forms.Layout.LayoutChanged
+  commentId: E:Xamarin.Forms.Layout.LayoutChanged
+  parent: Xamarin.Forms.Layout
+  isExternal: true
+  name: LayoutChanged
+  nameWithType: Layout.LayoutChanged
+  fullName: Xamarin.Forms.Layout.LayoutChanged
+- uid: Xamarin.Forms.View.VerticalOptionsProperty
+  commentId: F:Xamarin.Forms.View.VerticalOptionsProperty
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: VerticalOptionsProperty
+  nameWithType: View.VerticalOptionsProperty
+  fullName: Xamarin.Forms.View.VerticalOptionsProperty
+- uid: Xamarin.Forms.View.HorizontalOptionsProperty
+  commentId: F:Xamarin.Forms.View.HorizontalOptionsProperty
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: HorizontalOptionsProperty
+  nameWithType: View.HorizontalOptionsProperty
+  fullName: Xamarin.Forms.View.HorizontalOptionsProperty
+- uid: Xamarin.Forms.View.MarginProperty
+  commentId: F:Xamarin.Forms.View.MarginProperty
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: MarginProperty
+  nameWithType: View.MarginProperty
+  fullName: Xamarin.Forms.View.MarginProperty
+- uid: Xamarin.Forms.View.GestureRecognizers
+  commentId: P:Xamarin.Forms.View.GestureRecognizers
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: GestureRecognizers
+  nameWithType: View.GestureRecognizers
+  fullName: Xamarin.Forms.View.GestureRecognizers
+- uid: Xamarin.Forms.View.HorizontalOptions
+  commentId: P:Xamarin.Forms.View.HorizontalOptions
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: HorizontalOptions
+  nameWithType: View.HorizontalOptions
+  fullName: Xamarin.Forms.View.HorizontalOptions
+- uid: Xamarin.Forms.View.Margin
+  commentId: P:Xamarin.Forms.View.Margin
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: Margin
+  nameWithType: View.Margin
+  fullName: Xamarin.Forms.View.Margin
+- uid: Xamarin.Forms.View.VerticalOptions
+  commentId: P:Xamarin.Forms.View.VerticalOptions
+  parent: Xamarin.Forms.View
+  isExternal: true
+  name: VerticalOptions
+  nameWithType: View.VerticalOptions
+  fullName: Xamarin.Forms.View.VerticalOptions
+- uid: Xamarin.Forms.VisualElement.NavigationProperty
+  commentId: F:Xamarin.Forms.VisualElement.NavigationProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: NavigationProperty
+  nameWithType: VisualElement.NavigationProperty
+  fullName: Xamarin.Forms.VisualElement.NavigationProperty
+- uid: Xamarin.Forms.VisualElement.InputTransparentProperty
+  commentId: F:Xamarin.Forms.VisualElement.InputTransparentProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: InputTransparentProperty
+  nameWithType: VisualElement.InputTransparentProperty
+  fullName: Xamarin.Forms.VisualElement.InputTransparentProperty
+- uid: Xamarin.Forms.VisualElement.IsEnabledProperty
+  commentId: F:Xamarin.Forms.VisualElement.IsEnabledProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsEnabledProperty
+  nameWithType: VisualElement.IsEnabledProperty
+  fullName: Xamarin.Forms.VisualElement.IsEnabledProperty
+- uid: Xamarin.Forms.VisualElement.XProperty
+  commentId: F:Xamarin.Forms.VisualElement.XProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: XProperty
+  nameWithType: VisualElement.XProperty
+  fullName: Xamarin.Forms.VisualElement.XProperty
+- uid: Xamarin.Forms.VisualElement.YProperty
+  commentId: F:Xamarin.Forms.VisualElement.YProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: YProperty
+  nameWithType: VisualElement.YProperty
+  fullName: Xamarin.Forms.VisualElement.YProperty
+- uid: Xamarin.Forms.VisualElement.AnchorXProperty
+  commentId: F:Xamarin.Forms.VisualElement.AnchorXProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: AnchorXProperty
+  nameWithType: VisualElement.AnchorXProperty
+  fullName: Xamarin.Forms.VisualElement.AnchorXProperty
+- uid: Xamarin.Forms.VisualElement.AnchorYProperty
+  commentId: F:Xamarin.Forms.VisualElement.AnchorYProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: AnchorYProperty
+  nameWithType: VisualElement.AnchorYProperty
+  fullName: Xamarin.Forms.VisualElement.AnchorYProperty
+- uid: Xamarin.Forms.VisualElement.TranslationXProperty
+  commentId: F:Xamarin.Forms.VisualElement.TranslationXProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: TranslationXProperty
+  nameWithType: VisualElement.TranslationXProperty
+  fullName: Xamarin.Forms.VisualElement.TranslationXProperty
+- uid: Xamarin.Forms.VisualElement.TranslationYProperty
+  commentId: F:Xamarin.Forms.VisualElement.TranslationYProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: TranslationYProperty
+  nameWithType: VisualElement.TranslationYProperty
+  fullName: Xamarin.Forms.VisualElement.TranslationYProperty
+- uid: Xamarin.Forms.VisualElement.WidthProperty
+  commentId: F:Xamarin.Forms.VisualElement.WidthProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: WidthProperty
+  nameWithType: VisualElement.WidthProperty
+  fullName: Xamarin.Forms.VisualElement.WidthProperty
+- uid: Xamarin.Forms.VisualElement.HeightProperty
+  commentId: F:Xamarin.Forms.VisualElement.HeightProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: HeightProperty
+  nameWithType: VisualElement.HeightProperty
+  fullName: Xamarin.Forms.VisualElement.HeightProperty
+- uid: Xamarin.Forms.VisualElement.RotationProperty
+  commentId: F:Xamarin.Forms.VisualElement.RotationProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: RotationProperty
+  nameWithType: VisualElement.RotationProperty
+  fullName: Xamarin.Forms.VisualElement.RotationProperty
+- uid: Xamarin.Forms.VisualElement.RotationXProperty
+  commentId: F:Xamarin.Forms.VisualElement.RotationXProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: RotationXProperty
+  nameWithType: VisualElement.RotationXProperty
+  fullName: Xamarin.Forms.VisualElement.RotationXProperty
+- uid: Xamarin.Forms.VisualElement.RotationYProperty
+  commentId: F:Xamarin.Forms.VisualElement.RotationYProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: RotationYProperty
+  nameWithType: VisualElement.RotationYProperty
+  fullName: Xamarin.Forms.VisualElement.RotationYProperty
+- uid: Xamarin.Forms.VisualElement.ScaleProperty
+  commentId: F:Xamarin.Forms.VisualElement.ScaleProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: ScaleProperty
+  nameWithType: VisualElement.ScaleProperty
+  fullName: Xamarin.Forms.VisualElement.ScaleProperty
+- uid: Xamarin.Forms.VisualElement.IsVisibleProperty
+  commentId: F:Xamarin.Forms.VisualElement.IsVisibleProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsVisibleProperty
+  nameWithType: VisualElement.IsVisibleProperty
+  fullName: Xamarin.Forms.VisualElement.IsVisibleProperty
+- uid: Xamarin.Forms.VisualElement.OpacityProperty
+  commentId: F:Xamarin.Forms.VisualElement.OpacityProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OpacityProperty
+  nameWithType: VisualElement.OpacityProperty
+  fullName: Xamarin.Forms.VisualElement.OpacityProperty
+- uid: Xamarin.Forms.VisualElement.BackgroundColorProperty
+  commentId: F:Xamarin.Forms.VisualElement.BackgroundColorProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: BackgroundColorProperty
+  nameWithType: VisualElement.BackgroundColorProperty
+  fullName: Xamarin.Forms.VisualElement.BackgroundColorProperty
+- uid: Xamarin.Forms.VisualElement.BehaviorsProperty
+  commentId: F:Xamarin.Forms.VisualElement.BehaviorsProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: BehaviorsProperty
+  nameWithType: VisualElement.BehaviorsProperty
+  fullName: Xamarin.Forms.VisualElement.BehaviorsProperty
+- uid: Xamarin.Forms.VisualElement.TriggersProperty
+  commentId: F:Xamarin.Forms.VisualElement.TriggersProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: TriggersProperty
+  nameWithType: VisualElement.TriggersProperty
+  fullName: Xamarin.Forms.VisualElement.TriggersProperty
+- uid: Xamarin.Forms.VisualElement.StyleProperty
+  commentId: F:Xamarin.Forms.VisualElement.StyleProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: StyleProperty
+  nameWithType: VisualElement.StyleProperty
+  fullName: Xamarin.Forms.VisualElement.StyleProperty
+- uid: Xamarin.Forms.VisualElement.WidthRequestProperty
+  commentId: F:Xamarin.Forms.VisualElement.WidthRequestProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: WidthRequestProperty
+  nameWithType: VisualElement.WidthRequestProperty
+  fullName: Xamarin.Forms.VisualElement.WidthRequestProperty
+- uid: Xamarin.Forms.VisualElement.HeightRequestProperty
+  commentId: F:Xamarin.Forms.VisualElement.HeightRequestProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: HeightRequestProperty
+  nameWithType: VisualElement.HeightRequestProperty
+  fullName: Xamarin.Forms.VisualElement.HeightRequestProperty
+- uid: Xamarin.Forms.VisualElement.MinimumWidthRequestProperty
+  commentId: F:Xamarin.Forms.VisualElement.MinimumWidthRequestProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: MinimumWidthRequestProperty
+  nameWithType: VisualElement.MinimumWidthRequestProperty
+  fullName: Xamarin.Forms.VisualElement.MinimumWidthRequestProperty
+- uid: Xamarin.Forms.VisualElement.MinimumHeightRequestProperty
+  commentId: F:Xamarin.Forms.VisualElement.MinimumHeightRequestProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: MinimumHeightRequestProperty
+  nameWithType: VisualElement.MinimumHeightRequestProperty
+  fullName: Xamarin.Forms.VisualElement.MinimumHeightRequestProperty
+- uid: Xamarin.Forms.VisualElement.IsFocusedProperty
+  commentId: F:Xamarin.Forms.VisualElement.IsFocusedProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsFocusedProperty
+  nameWithType: VisualElement.IsFocusedProperty
+  fullName: Xamarin.Forms.VisualElement.IsFocusedProperty
+- uid: Xamarin.Forms.VisualElement.FlowDirectionProperty
+  commentId: F:Xamarin.Forms.VisualElement.FlowDirectionProperty
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: FlowDirectionProperty
+  nameWithType: VisualElement.FlowDirectionProperty
+  fullName: Xamarin.Forms.VisualElement.FlowDirectionProperty
+- uid: Xamarin.Forms.VisualElement.BatchBegin
+  commentId: M:Xamarin.Forms.VisualElement.BatchBegin
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: BatchBegin()
+  nameWithType: VisualElement.BatchBegin()
+  fullName: Xamarin.Forms.VisualElement.BatchBegin()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.BatchBegin
+    name: BatchBegin
+    nameWithType: VisualElement.BatchBegin
+    fullName: Xamarin.Forms.VisualElement.BatchBegin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.BatchBegin
+    name: BatchBegin
+    nameWithType: VisualElement.BatchBegin
+    fullName: Xamarin.Forms.VisualElement.BatchBegin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.BatchCommit
+  commentId: M:Xamarin.Forms.VisualElement.BatchCommit
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: BatchCommit()
+  nameWithType: VisualElement.BatchCommit()
+  fullName: Xamarin.Forms.VisualElement.BatchCommit()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.BatchCommit
+    name: BatchCommit
+    nameWithType: VisualElement.BatchCommit
+    fullName: Xamarin.Forms.VisualElement.BatchCommit
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.BatchCommit
+    name: BatchCommit
+    nameWithType: VisualElement.BatchCommit
+    fullName: Xamarin.Forms.VisualElement.BatchCommit
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Focus
+  commentId: M:Xamarin.Forms.VisualElement.Focus
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Focus()
+  nameWithType: VisualElement.Focus()
+  fullName: Xamarin.Forms.VisualElement.Focus()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.Focus
+    name: Focus
+    nameWithType: VisualElement.Focus
+    fullName: Xamarin.Forms.VisualElement.Focus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.Focus
+    name: Focus
+    nameWithType: VisualElement.Focus
+    fullName: Xamarin.Forms.VisualElement.Focus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+  commentId: M:Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Layout(Rectangle)
+  nameWithType: VisualElement.Layout(Rectangle)
+  fullName: Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+    name: Layout
+    nameWithType: VisualElement.Layout
+    fullName: Xamarin.Forms.VisualElement.Layout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Rectangle
+    name: Rectangle
+    nameWithType: Rectangle
+    fullName: Xamarin.Forms.Rectangle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)
+    name: Layout
+    nameWithType: VisualElement.Layout
+    fullName: Xamarin.Forms.VisualElement.Layout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Rectangle
+    name: Rectangle
+    nameWithType: Rectangle
+    fullName: Xamarin.Forms.Rectangle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)
+  commentId: M:Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Measure(Double, Double, MeasureFlags)
+  nameWithType: VisualElement.Measure(Double, Double, MeasureFlags)
+  fullName: Xamarin.Forms.VisualElement.Measure(System.Double, System.Double, Xamarin.Forms.MeasureFlags)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)
+    name: Measure
+    nameWithType: VisualElement.Measure
+    fullName: Xamarin.Forms.VisualElement.Measure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.MeasureFlags
+    name: MeasureFlags
+    nameWithType: MeasureFlags
+    fullName: Xamarin.Forms.MeasureFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)
+    name: Measure
+    nameWithType: VisualElement.Measure
+    fullName: Xamarin.Forms.VisualElement.Measure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.MeasureFlags
+    name: MeasureFlags
+    nameWithType: MeasureFlags
+    fullName: Xamarin.Forms.MeasureFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Unfocus
+  commentId: M:Xamarin.Forms.VisualElement.Unfocus
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Unfocus()
+  nameWithType: VisualElement.Unfocus()
+  fullName: Xamarin.Forms.VisualElement.Unfocus()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.Unfocus
+    name: Unfocus
+    nameWithType: VisualElement.Unfocus
+    fullName: Xamarin.Forms.VisualElement.Unfocus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.Unfocus
+    name: Unfocus
+    nameWithType: VisualElement.Unfocus
+    fullName: Xamarin.Forms.VisualElement.Unfocus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.InvalidateMeasure
+  commentId: M:Xamarin.Forms.VisualElement.InvalidateMeasure
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: InvalidateMeasure()
+  nameWithType: VisualElement.InvalidateMeasure()
+  fullName: Xamarin.Forms.VisualElement.InvalidateMeasure()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.InvalidateMeasure
+    name: InvalidateMeasure
+    nameWithType: VisualElement.InvalidateMeasure
+    fullName: Xamarin.Forms.VisualElement.InvalidateMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.InvalidateMeasure
+    name: InvalidateMeasure
+    nameWithType: VisualElement.InvalidateMeasure
+    fullName: Xamarin.Forms.VisualElement.InvalidateMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+  commentId: M:Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OnChildAdded(Element)
+  nameWithType: VisualElement.OnChildAdded(Element)
+  fullName: Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+    name: OnChildAdded
+    nameWithType: VisualElement.OnChildAdded
+    fullName: Xamarin.Forms.VisualElement.OnChildAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)
+    name: OnChildAdded
+    nameWithType: VisualElement.OnChildAdded
+    fullName: Xamarin.Forms.VisualElement.OnChildAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+  commentId: M:Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OnChildRemoved(Element)
+  nameWithType: VisualElement.OnChildRemoved(Element)
+  fullName: Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+    name: OnChildRemoved
+    nameWithType: VisualElement.OnChildRemoved
+    fullName: Xamarin.Forms.VisualElement.OnChildRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)
+    name: OnChildRemoved
+    nameWithType: VisualElement.OnChildRemoved
+    fullName: Xamarin.Forms.VisualElement.OnChildRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.OnChildrenReordered
+  commentId: M:Xamarin.Forms.VisualElement.OnChildrenReordered
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OnChildrenReordered()
+  nameWithType: VisualElement.OnChildrenReordered()
+  fullName: Xamarin.Forms.VisualElement.OnChildrenReordered()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.OnChildrenReordered
+    name: OnChildrenReordered
+    nameWithType: VisualElement.OnChildrenReordered
+    fullName: Xamarin.Forms.VisualElement.OnChildrenReordered
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.OnChildrenReordered
+    name: OnChildrenReordered
+    nameWithType: VisualElement.OnChildrenReordered
+    fullName: Xamarin.Forms.VisualElement.OnChildrenReordered
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)
+  commentId: M:Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OnMeasure(Double, Double)
+  nameWithType: VisualElement.OnMeasure(Double, Double)
+  fullName: Xamarin.Forms.VisualElement.OnMeasure(System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)
+    name: OnMeasure
+    nameWithType: VisualElement.OnMeasure
+    fullName: Xamarin.Forms.VisualElement.OnMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)
+    name: OnMeasure
+    nameWithType: VisualElement.OnMeasure
+    fullName: Xamarin.Forms.VisualElement.OnMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.OnParentSet
+  commentId: M:Xamarin.Forms.VisualElement.OnParentSet
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: OnParentSet()
+  nameWithType: VisualElement.OnParentSet()
+  fullName: Xamarin.Forms.VisualElement.OnParentSet()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.OnParentSet
+    name: OnParentSet
+    nameWithType: VisualElement.OnParentSet
+    fullName: Xamarin.Forms.VisualElement.OnParentSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.OnParentSet
+    name: OnParentSet
+    nameWithType: VisualElement.OnParentSet
+    fullName: Xamarin.Forms.VisualElement.OnParentSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)
+  commentId: M:Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: SizeAllocated(Double, Double)
+  nameWithType: VisualElement.SizeAllocated(Double, Double)
+  fullName: Xamarin.Forms.VisualElement.SizeAllocated(System.Double, System.Double)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)
+    name: SizeAllocated
+    nameWithType: VisualElement.SizeAllocated
+    fullName: Xamarin.Forms.VisualElement.SizeAllocated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)
+    name: SizeAllocated
+    nameWithType: VisualElement.SizeAllocated
+    fullName: Xamarin.Forms.VisualElement.SizeAllocated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+  commentId: M:Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IVisualElementController.InvalidateMeasure(InvalidationTrigger)
+  nameWithType: VisualElement.IVisualElementController.InvalidateMeasure(InvalidationTrigger)
+  fullName: Xamarin.Forms.VisualElement.Xamarin.Forms.IVisualElementController.InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+  nameWithType.vb: VisualElement.Xamarin.Forms.IVisualElementController.InvalidateMeasure(InvalidationTrigger)
+  name.vb: Xamarin.Forms.IVisualElementController.InvalidateMeasure(InvalidationTrigger)
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+    name: IVisualElementController.InvalidateMeasure
+    nameWithType: VisualElement.IVisualElementController.InvalidateMeasure
+    fullName: Xamarin.Forms.VisualElement.Xamarin.Forms.IVisualElementController.InvalidateMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Internals.InvalidationTrigger
+    name: InvalidationTrigger
+    nameWithType: InvalidationTrigger
+    fullName: Xamarin.Forms.Internals.InvalidationTrigger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)
+    name: Xamarin.Forms.IVisualElementController.InvalidateMeasure
+    nameWithType: VisualElement.Xamarin.Forms.IVisualElementController.InvalidateMeasure
+    fullName: Xamarin.Forms.VisualElement.Xamarin.Forms.IVisualElementController.InvalidateMeasure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Internals.InvalidationTrigger
+    name: InvalidationTrigger
+    nameWithType: InvalidationTrigger
+    fullName: Xamarin.Forms.Internals.InvalidationTrigger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.ChangeVisualState
+  commentId: M:Xamarin.Forms.VisualElement.ChangeVisualState
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: ChangeVisualState()
+  nameWithType: VisualElement.ChangeVisualState()
+  fullName: Xamarin.Forms.VisualElement.ChangeVisualState()
+  spec.csharp:
+  - uid: Xamarin.Forms.VisualElement.ChangeVisualState
+    name: ChangeVisualState
+    nameWithType: VisualElement.ChangeVisualState
+    fullName: Xamarin.Forms.VisualElement.ChangeVisualState
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.VisualElement.ChangeVisualState
+    name: ChangeVisualState
+    nameWithType: VisualElement.ChangeVisualState
+    fullName: Xamarin.Forms.VisualElement.ChangeVisualState
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.FlowDirection
+  commentId: P:Xamarin.Forms.VisualElement.FlowDirection
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: FlowDirection
+  nameWithType: VisualElement.FlowDirection
+  fullName: Xamarin.Forms.VisualElement.FlowDirection
+- uid: Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#EffectiveFlowDirection
+  commentId: P:Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#EffectiveFlowDirection
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IVisualElementController.EffectiveFlowDirection
+  nameWithType: VisualElement.IVisualElementController.EffectiveFlowDirection
+  fullName: Xamarin.Forms.VisualElement.Xamarin.Forms.IVisualElementController.EffectiveFlowDirection
+  nameWithType.vb: VisualElement.Xamarin.Forms.IVisualElementController.EffectiveFlowDirection
+  name.vb: Xamarin.Forms.IVisualElementController.EffectiveFlowDirection
+- uid: Xamarin.Forms.VisualElement.AnchorX
+  commentId: P:Xamarin.Forms.VisualElement.AnchorX
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: AnchorX
+  nameWithType: VisualElement.AnchorX
+  fullName: Xamarin.Forms.VisualElement.AnchorX
+- uid: Xamarin.Forms.VisualElement.AnchorY
+  commentId: P:Xamarin.Forms.VisualElement.AnchorY
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: AnchorY
+  nameWithType: VisualElement.AnchorY
+  fullName: Xamarin.Forms.VisualElement.AnchorY
+- uid: Xamarin.Forms.VisualElement.BackgroundColor
+  commentId: P:Xamarin.Forms.VisualElement.BackgroundColor
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: VisualElement.BackgroundColor
+  fullName: Xamarin.Forms.VisualElement.BackgroundColor
+- uid: Xamarin.Forms.VisualElement.Behaviors
+  commentId: P:Xamarin.Forms.VisualElement.Behaviors
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Behaviors
+  nameWithType: VisualElement.Behaviors
+  fullName: Xamarin.Forms.VisualElement.Behaviors
+- uid: Xamarin.Forms.VisualElement.Bounds
+  commentId: P:Xamarin.Forms.VisualElement.Bounds
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Bounds
+  nameWithType: VisualElement.Bounds
+  fullName: Xamarin.Forms.VisualElement.Bounds
+- uid: Xamarin.Forms.VisualElement.Height
+  commentId: P:Xamarin.Forms.VisualElement.Height
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Height
+  nameWithType: VisualElement.Height
+  fullName: Xamarin.Forms.VisualElement.Height
+- uid: Xamarin.Forms.VisualElement.HeightRequest
+  commentId: P:Xamarin.Forms.VisualElement.HeightRequest
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: HeightRequest
+  nameWithType: VisualElement.HeightRequest
+  fullName: Xamarin.Forms.VisualElement.HeightRequest
+- uid: Xamarin.Forms.VisualElement.InputTransparent
+  commentId: P:Xamarin.Forms.VisualElement.InputTransparent
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: InputTransparent
+  nameWithType: VisualElement.InputTransparent
+  fullName: Xamarin.Forms.VisualElement.InputTransparent
+- uid: Xamarin.Forms.VisualElement.IsEnabled
+  commentId: P:Xamarin.Forms.VisualElement.IsEnabled
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsEnabled
+  nameWithType: VisualElement.IsEnabled
+  fullName: Xamarin.Forms.VisualElement.IsEnabled
+- uid: Xamarin.Forms.VisualElement.IsFocused
+  commentId: P:Xamarin.Forms.VisualElement.IsFocused
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsFocused
+  nameWithType: VisualElement.IsFocused
+  fullName: Xamarin.Forms.VisualElement.IsFocused
+- uid: Xamarin.Forms.VisualElement.IsVisible
+  commentId: P:Xamarin.Forms.VisualElement.IsVisible
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: IsVisible
+  nameWithType: VisualElement.IsVisible
+  fullName: Xamarin.Forms.VisualElement.IsVisible
+- uid: Xamarin.Forms.VisualElement.MinimumHeightRequest
+  commentId: P:Xamarin.Forms.VisualElement.MinimumHeightRequest
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: MinimumHeightRequest
+  nameWithType: VisualElement.MinimumHeightRequest
+  fullName: Xamarin.Forms.VisualElement.MinimumHeightRequest
+- uid: Xamarin.Forms.VisualElement.MinimumWidthRequest
+  commentId: P:Xamarin.Forms.VisualElement.MinimumWidthRequest
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: MinimumWidthRequest
+  nameWithType: VisualElement.MinimumWidthRequest
+  fullName: Xamarin.Forms.VisualElement.MinimumWidthRequest
+- uid: Xamarin.Forms.VisualElement.Navigation
+  commentId: P:Xamarin.Forms.VisualElement.Navigation
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Navigation
+  nameWithType: VisualElement.Navigation
+  fullName: Xamarin.Forms.VisualElement.Navigation
+- uid: Xamarin.Forms.VisualElement.Opacity
+  commentId: P:Xamarin.Forms.VisualElement.Opacity
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Opacity
+  nameWithType: VisualElement.Opacity
+  fullName: Xamarin.Forms.VisualElement.Opacity
+- uid: Xamarin.Forms.VisualElement.Rotation
+  commentId: P:Xamarin.Forms.VisualElement.Rotation
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Rotation
+  nameWithType: VisualElement.Rotation
+  fullName: Xamarin.Forms.VisualElement.Rotation
+- uid: Xamarin.Forms.VisualElement.RotationX
+  commentId: P:Xamarin.Forms.VisualElement.RotationX
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: RotationX
+  nameWithType: VisualElement.RotationX
+  fullName: Xamarin.Forms.VisualElement.RotationX
+- uid: Xamarin.Forms.VisualElement.RotationY
+  commentId: P:Xamarin.Forms.VisualElement.RotationY
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: RotationY
+  nameWithType: VisualElement.RotationY
+  fullName: Xamarin.Forms.VisualElement.RotationY
+- uid: Xamarin.Forms.VisualElement.Scale
+  commentId: P:Xamarin.Forms.VisualElement.Scale
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Scale
+  nameWithType: VisualElement.Scale
+  fullName: Xamarin.Forms.VisualElement.Scale
+- uid: Xamarin.Forms.VisualElement.Style
+  commentId: P:Xamarin.Forms.VisualElement.Style
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Style
+  nameWithType: VisualElement.Style
+  fullName: Xamarin.Forms.VisualElement.Style
+- uid: Xamarin.Forms.VisualElement.StyleClass
+  commentId: P:Xamarin.Forms.VisualElement.StyleClass
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: StyleClass
+  nameWithType: VisualElement.StyleClass
+  fullName: Xamarin.Forms.VisualElement.StyleClass
+- uid: Xamarin.Forms.VisualElement.class
+  commentId: P:Xamarin.Forms.VisualElement.class
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: class
+  nameWithType: VisualElement.class
+  fullName: Xamarin.Forms.VisualElement.class
+- uid: Xamarin.Forms.VisualElement.TranslationX
+  commentId: P:Xamarin.Forms.VisualElement.TranslationX
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: TranslationX
+  nameWithType: VisualElement.TranslationX
+  fullName: Xamarin.Forms.VisualElement.TranslationX
+- uid: Xamarin.Forms.VisualElement.TranslationY
+  commentId: P:Xamarin.Forms.VisualElement.TranslationY
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: TranslationY
+  nameWithType: VisualElement.TranslationY
+  fullName: Xamarin.Forms.VisualElement.TranslationY
+- uid: Xamarin.Forms.VisualElement.Triggers
+  commentId: P:Xamarin.Forms.VisualElement.Triggers
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Triggers
+  nameWithType: VisualElement.Triggers
+  fullName: Xamarin.Forms.VisualElement.Triggers
+- uid: Xamarin.Forms.VisualElement.Width
+  commentId: P:Xamarin.Forms.VisualElement.Width
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Width
+  nameWithType: VisualElement.Width
+  fullName: Xamarin.Forms.VisualElement.Width
+- uid: Xamarin.Forms.VisualElement.WidthRequest
+  commentId: P:Xamarin.Forms.VisualElement.WidthRequest
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: WidthRequest
+  nameWithType: VisualElement.WidthRequest
+  fullName: Xamarin.Forms.VisualElement.WidthRequest
+- uid: Xamarin.Forms.VisualElement.X
+  commentId: P:Xamarin.Forms.VisualElement.X
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: X
+  nameWithType: VisualElement.X
+  fullName: Xamarin.Forms.VisualElement.X
+- uid: Xamarin.Forms.VisualElement.Y
+  commentId: P:Xamarin.Forms.VisualElement.Y
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Y
+  nameWithType: VisualElement.Y
+  fullName: Xamarin.Forms.VisualElement.Y
+- uid: Xamarin.Forms.VisualElement.Resources
+  commentId: P:Xamarin.Forms.VisualElement.Resources
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Resources
+  nameWithType: VisualElement.Resources
+  fullName: Xamarin.Forms.VisualElement.Resources
+- uid: Xamarin.Forms.VisualElement.ChildrenReordered
+  commentId: E:Xamarin.Forms.VisualElement.ChildrenReordered
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: ChildrenReordered
+  nameWithType: VisualElement.ChildrenReordered
+  fullName: Xamarin.Forms.VisualElement.ChildrenReordered
+- uid: Xamarin.Forms.VisualElement.Focused
+  commentId: E:Xamarin.Forms.VisualElement.Focused
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Focused
+  nameWithType: VisualElement.Focused
+  fullName: Xamarin.Forms.VisualElement.Focused
+- uid: Xamarin.Forms.VisualElement.MeasureInvalidated
+  commentId: E:Xamarin.Forms.VisualElement.MeasureInvalidated
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: MeasureInvalidated
+  nameWithType: VisualElement.MeasureInvalidated
+  fullName: Xamarin.Forms.VisualElement.MeasureInvalidated
+- uid: Xamarin.Forms.VisualElement.SizeChanged
+  commentId: E:Xamarin.Forms.VisualElement.SizeChanged
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: SizeChanged
+  nameWithType: VisualElement.SizeChanged
+  fullName: Xamarin.Forms.VisualElement.SizeChanged
+- uid: Xamarin.Forms.VisualElement.Unfocused
+  commentId: E:Xamarin.Forms.VisualElement.Unfocused
+  parent: Xamarin.Forms.VisualElement
+  isExternal: true
+  name: Unfocused
+  nameWithType: VisualElement.Unfocused
+  fullName: Xamarin.Forms.VisualElement.Unfocused
+- uid: Xamarin.Forms.Element.MenuProperty
+  commentId: F:Xamarin.Forms.Element.MenuProperty
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: MenuProperty
+  nameWithType: Element.MenuProperty
+  fullName: Xamarin.Forms.Element.MenuProperty
+- uid: Xamarin.Forms.Element.ClassIdProperty
+  commentId: F:Xamarin.Forms.Element.ClassIdProperty
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: ClassIdProperty
+  nameWithType: Element.ClassIdProperty
+  fullName: Xamarin.Forms.Element.ClassIdProperty
+- uid: Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+  commentId: M:Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: GetMenu(BindableObject)
+  nameWithType: Element.GetMenu(BindableObject)
+  fullName: Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+    name: GetMenu
+    nameWithType: Element.GetMenu
+    fullName: Xamarin.Forms.Element.GetMenu
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)
+    name: GetMenu
+    nameWithType: Element.GetMenu
+    fullName: Xamarin.Forms.Element.GetMenu
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)
+  commentId: M:Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: SetMenu(BindableObject, Menu)
+  nameWithType: Element.SetMenu(BindableObject, Menu)
+  fullName: Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject, Xamarin.Forms.Menu)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)
+    name: SetMenu
+    nameWithType: Element.SetMenu
+    fullName: Xamarin.Forms.Element.SetMenu
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Menu
+    name: Menu
+    nameWithType: Menu
+    fullName: Xamarin.Forms.Menu
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)
+    name: SetMenu
+    nameWithType: Element.SetMenu
+    fullName: Xamarin.Forms.Element.SetMenu
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableObject
+    name: BindableObject
+    nameWithType: BindableObject
+    fullName: Xamarin.Forms.BindableObject
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Menu
+    name: Menu
+    nameWithType: Menu
+    fullName: Xamarin.Forms.Menu
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)
+  commentId: M:Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: IElementController.SetValueFromRenderer(BindableProperty, Object)
+  nameWithType: Element.IElementController.SetValueFromRenderer(BindableProperty, Object)
+  fullName: Xamarin.Forms.Element.Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindableProperty, System.Object)
+  nameWithType.vb: Element.Xamarin.Forms.IElementController.SetValueFromRenderer(BindableProperty, Object)
+  name.vb: Xamarin.Forms.IElementController.SetValueFromRenderer(BindableProperty, Object)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)
+    name: IElementController.SetValueFromRenderer
+    nameWithType: Element.IElementController.SetValueFromRenderer
+    fullName: Xamarin.Forms.Element.Xamarin.Forms.IElementController.SetValueFromRenderer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)
+    name: Xamarin.Forms.IElementController.SetValueFromRenderer
+    nameWithType: Element.Xamarin.Forms.IElementController.SetValueFromRenderer
+    fullName: Xamarin.Forms.Element.Xamarin.Forms.IElementController.SetValueFromRenderer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: RemoveDynamicResource(BindableProperty)
+  nameWithType: Element.RemoveDynamicResource(BindableProperty)
+  fullName: Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+    name: RemoveDynamicResource
+    nameWithType: Element.RemoveDynamicResource
+    fullName: Xamarin.Forms.Element.RemoveDynamicResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)
+    name: RemoveDynamicResource
+    nameWithType: Element.RemoveDynamicResource
+    fullName: Xamarin.Forms.Element.RemoveDynamicResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)
+  commentId: M:Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: SetDynamicResource(BindableProperty, String)
+  nameWithType: Element.SetDynamicResource(BindableProperty, String)
+  fullName: Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty, System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)
+    name: SetDynamicResource
+    nameWithType: Element.SetDynamicResource
+    fullName: Xamarin.Forms.Element.SetDynamicResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)
+    name: SetDynamicResource
+    nameWithType: Element.SetDynamicResource
+    fullName: Xamarin.Forms.Element.SetDynamicResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.OnPropertyChanged(System.String)
+  commentId: M:Xamarin.Forms.Element.OnPropertyChanged(System.String)
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: Element.OnPropertyChanged(String)
+  fullName: Xamarin.Forms.Element.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: Element.OnPropertyChanged
+    fullName: Xamarin.Forms.Element.OnPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: Element.OnPropertyChanged
+    fullName: Xamarin.Forms.Element.OnPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.AutomationId
+  commentId: P:Xamarin.Forms.Element.AutomationId
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: AutomationId
+  nameWithType: Element.AutomationId
+  fullName: Xamarin.Forms.Element.AutomationId
+- uid: Xamarin.Forms.Element.ClassId
+  commentId: P:Xamarin.Forms.Element.ClassId
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: ClassId
+  nameWithType: Element.ClassId
+  fullName: Xamarin.Forms.Element.ClassId
+- uid: Xamarin.Forms.Element.Effects
+  commentId: P:Xamarin.Forms.Element.Effects
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: Effects
+  nameWithType: Element.Effects
+  fullName: Xamarin.Forms.Element.Effects
+- uid: Xamarin.Forms.Element.Id
+  commentId: P:Xamarin.Forms.Element.Id
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: Id
+  nameWithType: Element.Id
+  fullName: Xamarin.Forms.Element.Id
+- uid: Xamarin.Forms.Element.ParentView
+  commentId: P:Xamarin.Forms.Element.ParentView
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: ParentView
+  nameWithType: Element.ParentView
+  fullName: Xamarin.Forms.Element.ParentView
+- uid: Xamarin.Forms.Element.StyleId
+  commentId: P:Xamarin.Forms.Element.StyleId
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: StyleId
+  nameWithType: Element.StyleId
+  fullName: Xamarin.Forms.Element.StyleId
+- uid: Xamarin.Forms.Element.Parent
+  commentId: P:Xamarin.Forms.Element.Parent
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: Parent
+  nameWithType: Element.Parent
+  fullName: Xamarin.Forms.Element.Parent
+- uid: Xamarin.Forms.Element.ChildAdded
+  commentId: E:Xamarin.Forms.Element.ChildAdded
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: ChildAdded
+  nameWithType: Element.ChildAdded
+  fullName: Xamarin.Forms.Element.ChildAdded
+- uid: Xamarin.Forms.Element.ChildRemoved
+  commentId: E:Xamarin.Forms.Element.ChildRemoved
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: ChildRemoved
+  nameWithType: Element.ChildRemoved
+  fullName: Xamarin.Forms.Element.ChildRemoved
+- uid: Xamarin.Forms.Element.DescendantAdded
+  commentId: E:Xamarin.Forms.Element.DescendantAdded
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: DescendantAdded
+  nameWithType: Element.DescendantAdded
+  fullName: Xamarin.Forms.Element.DescendantAdded
+- uid: Xamarin.Forms.Element.DescendantRemoved
+  commentId: E:Xamarin.Forms.Element.DescendantRemoved
+  parent: Xamarin.Forms.Element
+  isExternal: true
+  name: DescendantRemoved
+  nameWithType: Element.DescendantRemoved
+  fullName: Xamarin.Forms.Element.DescendantRemoved
+- uid: Xamarin.Forms.BindableObject.BindingContextProperty
+  commentId: F:Xamarin.Forms.BindableObject.BindingContextProperty
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContextProperty
+  nameWithType: BindableObject.BindingContextProperty
+  fullName: Xamarin.Forms.BindableObject.BindingContextProperty
+- uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ClearValue(BindableProperty)
+  nameWithType: BindableObject.ClearValue(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  commentId: M:Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ClearValue(BindablePropertyKey)
+  nameWithType: BindableObject.ClearValue(BindablePropertyKey)
+  fullName: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: IsSet(BindableProperty)
+  nameWithType: BindableObject.IsSet(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+    name: IsSet
+    nameWithType: BindableObject.IsSet
+    fullName: Xamarin.Forms.BindableObject.IsSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+    name: IsSet
+    nameWithType: BindableObject.IsSet
+    fullName: Xamarin.Forms.BindableObject.IsSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: GetValue(BindableProperty)
+  nameWithType: BindableObject.GetValue(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+    name: GetValue
+    nameWithType: BindableObject.GetValue
+    fullName: Xamarin.Forms.BindableObject.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+    name: GetValue
+    nameWithType: BindableObject.GetValue
+    fullName: Xamarin.Forms.BindableObject.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: RemoveBinding(BindableProperty)
+  nameWithType: BindableObject.RemoveBinding(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+    name: RemoveBinding
+    nameWithType: BindableObject.RemoveBinding
+    fullName: Xamarin.Forms.BindableObject.RemoveBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+    name: RemoveBinding
+    nameWithType: BindableObject.RemoveBinding
+    fullName: Xamarin.Forms.BindableObject.RemoveBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  commentId: M:Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetBinding(BindableProperty, BindingBase)
+  nameWithType: BindableObject.SetBinding(BindableProperty, BindingBase)
+  fullName: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty, Xamarin.Forms.BindingBase)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+    name: SetBinding
+    nameWithType: BindableObject.SetBinding
+    fullName: Xamarin.Forms.BindableObject.SetBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.BindingBase
+    name: BindingBase
+    nameWithType: BindingBase
+    fullName: Xamarin.Forms.BindingBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+    name: SetBinding
+    nameWithType: BindableObject.SetBinding
+    fullName: Xamarin.Forms.BindableObject.SetBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.BindingBase
+    name: BindingBase
+    nameWithType: BindingBase
+    fullName: Xamarin.Forms.BindingBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  commentId: M:Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetValue(BindableProperty, Object)
+  nameWithType: BindableObject.SetValue(BindableProperty, Object)
+  fullName: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty, System.Object)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  commentId: M:Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetValue(BindablePropertyKey, Object)
+  nameWithType: BindableObject.SetValue(BindablePropertyKey, Object)
+  fullName: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey, System.Object)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.ApplyBindings
+  commentId: M:Xamarin.Forms.BindableObject.ApplyBindings
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ApplyBindings()
+  nameWithType: BindableObject.ApplyBindings()
+  fullName: Xamarin.Forms.BindableObject.ApplyBindings()
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ApplyBindings
+    name: ApplyBindings
+    nameWithType: BindableObject.ApplyBindings
+    fullName: Xamarin.Forms.BindableObject.ApplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ApplyBindings
+    name: ApplyBindings
+    nameWithType: BindableObject.ApplyBindings
+    fullName: Xamarin.Forms.BindableObject.ApplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  commentId: M:Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: OnPropertyChanging(String)
+  nameWithType: BindableObject.OnPropertyChanging(String)
+  fullName: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    nameWithType: BindableObject.OnPropertyChanging
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    nameWithType: BindableObject.OnPropertyChanging
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.UnapplyBindings
+  commentId: M:Xamarin.Forms.BindableObject.UnapplyBindings
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: UnapplyBindings()
+  nameWithType: BindableObject.UnapplyBindings()
+  fullName: Xamarin.Forms.BindableObject.UnapplyBindings()
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    nameWithType: BindableObject.UnapplyBindings
+    fullName: Xamarin.Forms.BindableObject.UnapplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    nameWithType: BindableObject.UnapplyBindings
+    fullName: Xamarin.Forms.BindableObject.UnapplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.BindingContext
+  commentId: P:Xamarin.Forms.BindableObject.BindingContext
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContext
+  nameWithType: BindableObject.BindingContext
+  fullName: Xamarin.Forms.BindableObject.BindingContext
+- uid: Xamarin.Forms.BindableObject.PropertyChanged
+  commentId: E:Xamarin.Forms.BindableObject.PropertyChanged
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: PropertyChanged
+  nameWithType: BindableObject.PropertyChanged
+  fullName: Xamarin.Forms.BindableObject.PropertyChanged
+- uid: Xamarin.Forms.BindableObject.BindingContextChanged
+  commentId: E:Xamarin.Forms.BindableObject.BindingContextChanged
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContextChanged
+  nameWithType: BindableObject.BindingContextChanged
+  fullName: Xamarin.Forms.BindableObject.BindingContextChanged
+- uid: Xamarin.Forms.BindableObject.PropertyChanging
+  commentId: E:Xamarin.Forms.BindableObject.PropertyChanging
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: PropertyChanging
+  nameWithType: BindableObject.PropertyChanging
+  fullName: Xamarin.Forms.BindableObject.PropertyChanging
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.VisualElement.Xamarin.Forms.Forms.SendViewInitialized(Goui.Html.Element)
+  commentId: M:Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  parent: Xamarin.Forms.Forms
+  definition: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  name: SendViewInitialized(Element)
+  nameWithType: Forms.SendViewInitialized(Element)
+  fullName: Xamarin.Forms.Forms.SendViewInitialized(Goui.Html.Element)
+  spec.csharp:
+  - uid: Xamarin.Forms.Forms.SendViewInitialized(Goui.Html.Element)
+    name: SendViewInitialized
+    nameWithType: Forms.SendViewInitialized
+    fullName: Xamarin.Forms.Forms.SendViewInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Forms.SendViewInitialized(Goui.Html.Element)
+    name: SendViewInitialized
+    nameWithType: Forms.SendViewInitialized
+    fullName: Xamarin.Forms.Forms.SendViewInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.CollectElements``1
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  parent: Goui.Forms.Extensions.ElementExtensions
+  definition: Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  name: CollectElements<T>()
+  nameWithType: ElementExtensions.CollectElements<T>()
+  fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements<T>()
+  nameWithType.vb: ElementExtensions.CollectElements(Of T)()
+  fullName.vb: Goui.Forms.Extensions.ElementExtensions.CollectElements(Of T)()
+  name.vb: CollectElements(Of T)()
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1
+    name: CollectElements<T>
+    nameWithType: ElementExtensions.CollectElements<T>
+    fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1
+    name: CollectElements(Of T)
+    nameWithType: ElementExtensions.CollectElements(Of T)
+    fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.GetChildren
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  parent: Goui.Forms.Extensions.ElementExtensions
+  definition: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  name: GetChildren()
+  nameWithType: ElementExtensions.GetChildren()
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren()
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildren
+    name: GetChildren
+    nameWithType: ElementExtensions.GetChildren
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildren
+    name: GetChildren
+    nameWithType: ElementExtensions.GetChildren
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Element.Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  parent: Goui.Forms.Extensions.ElementExtensions
+  definition: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  name: GetChildrenRecursive()
+  nameWithType: ElementExtensions.GetChildrenRecursive()
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive()
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+    name: GetChildrenRecursive
+    nameWithType: ElementExtensions.GetChildrenRecursive
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+    name: GetChildrenRecursive
+    nameWithType: ElementExtensions.GetChildrenRecursive
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.View.Goui.Forms.Extensions.FontExtensions.SetStyleFont(System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  parent: Goui.Forms.Extensions.FontExtensions
+  definition: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  name: SetStyleFont(String, Double, FontAttributes, Style)
+  nameWithType: FontExtensions.SetStyleFont(String, Double, FontAttributes, Style)
+  fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont(System.String, System.Double, Xamarin.Forms.FontAttributes, Goui.Style)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+    name: SetStyleFont
+    nameWithType: FontExtensions.SetStyleFont
+    fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.FontAttributes
+    name: FontAttributes
+    nameWithType: FontAttributes
+    fullName: Xamarin.Forms.FontAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Style
+    name: Style
+    nameWithType: Style
+    fullName: Goui.Style
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+    name: SetStyleFont
+    nameWithType: FontExtensions.SetStyleFont
+    fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.FontAttributes
+    name: FontAttributes
+    nameWithType: FontAttributes
+    fullName: Xamarin.Forms.FontAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Style
+    name: Style
+    nameWithType: Style
+    fullName: Goui.Style
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  commentId: M:Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  isExternal: true
+  name: SendViewInitialized(VisualElement, Element)
+  nameWithType: Forms.SendViewInitialized(VisualElement, Element)
+  fullName: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  spec.csharp:
+  - uid: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendViewInitialized
+    nameWithType: Forms.SendViewInitialized
+    fullName: Xamarin.Forms.Forms.SendViewInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Forms.SendViewInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendViewInitialized
+    nameWithType: Forms.SendViewInitialized
+    fullName: Xamarin.Forms.Forms.SendViewInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Forms
+  commentId: T:Xamarin.Forms.Forms
+  parent: Xamarin.Forms
+  name: Forms
+  nameWithType: Forms
+  fullName: Xamarin.Forms.Forms
+- uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  isExternal: true
+  name: CollectElements<T>(Element)
+  nameWithType: ElementExtensions.CollectElements<T>(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements<T>(Xamarin.Forms.Element)
+  nameWithType.vb: ElementExtensions.CollectElements(Of T)(Element)
+  fullName.vb: Goui.Forms.Extensions.ElementExtensions.CollectElements(Of T)(Xamarin.Forms.Element)
+  name.vb: CollectElements(Of T)(Element)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+    name: CollectElements<T>
+    nameWithType: ElementExtensions.CollectElements<T>
+    fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+    name: CollectElements(Of T)
+    nameWithType: ElementExtensions.CollectElements(Of T)
+    fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.ElementExtensions
+  commentId: T:Goui.Forms.Extensions.ElementExtensions
+  parent: Goui.Forms.Extensions
+  name: ElementExtensions
+  nameWithType: ElementExtensions
+  fullName: Goui.Forms.Extensions.ElementExtensions
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  isExternal: true
+  name: GetChildren(Element)
+  nameWithType: ElementExtensions.GetChildren(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+    name: GetChildren
+    nameWithType: ElementExtensions.GetChildren
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+    name: GetChildren
+    nameWithType: ElementExtensions.GetChildren
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  isExternal: true
+  name: GetChildrenRecursive(Element)
+  nameWithType: ElementExtensions.GetChildrenRecursive(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+    name: GetChildrenRecursive
+    nameWithType: ElementExtensions.GetChildrenRecursive
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+    name: GetChildrenRecursive
+    nameWithType: ElementExtensions.GetChildrenRecursive
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  commentId: M:Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+  isExternal: true
+  name: SetStyleFont(View, String, Double, FontAttributes, Style)
+  nameWithType: FontExtensions.SetStyleFont(View, String, Double, FontAttributes, Style)
+  fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View, System.String, System.Double, Xamarin.Forms.FontAttributes, Goui.Style)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+    name: SetStyleFont
+    nameWithType: FontExtensions.SetStyleFont
+    fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.FontAttributes
+    name: FontAttributes
+    nameWithType: FontAttributes
+    fullName: Xamarin.Forms.FontAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Style
+    name: Style
+    nameWithType: Style
+    fullName: Goui.Style
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.FontExtensions.SetStyleFont(Xamarin.Forms.View,System.String,System.Double,Xamarin.Forms.FontAttributes,Goui.Style)
+    name: SetStyleFont
+    nameWithType: FontExtensions.SetStyleFont
+    fullName: Goui.Forms.Extensions.FontExtensions.SetStyleFont
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.View
+    name: View
+    nameWithType: View
+    fullName: Xamarin.Forms.View
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.FontAttributes
+    name: FontAttributes
+    nameWithType: FontAttributes
+    fullName: Xamarin.Forms.FontAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Style
+    name: Style
+    nameWithType: Style
+    fullName: Goui.Style
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.FontExtensions
+  commentId: T:Goui.Forms.Extensions.FontExtensions
+  parent: Goui.Forms.Extensions
+  name: FontExtensions
+  nameWithType: FontExtensions
+  fullName: Goui.Forms.Extensions.FontExtensions
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions
+- uid: Xamarin.Forms.BindableProperty
+  commentId: T:Xamarin.Forms.BindableProperty
+  parent: Xamarin.Forms
+  isExternal: true
+  name: BindableProperty
+  nameWithType: BindableProperty
+  fullName: Xamarin.Forms.BindableProperty
+- uid: Goui.Forms.LinkView.HRef*
+  commentId: Overload:Goui.Forms.LinkView.HRef
+  name: HRef
+  nameWithType: LinkView.HRef
+  fullName: Goui.Forms.LinkView.HRef
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Forms.LinkView.Target*
+  commentId: Overload:Goui.Forms.LinkView.Target
+  name: Target
+  nameWithType: LinkView.Target
+  fullName: Goui.Forms.LinkView.Target
+- uid: Goui.Forms.LinkView.#ctor*
+  commentId: Overload:Goui.Forms.LinkView.#ctor
+  name: LinkView
+  nameWithType: LinkView.LinkView
+  fullName: Goui.Forms.LinkView.LinkView

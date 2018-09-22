@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.AspNetCore.TagHelpers
+  commentId: N:Goui.AspNetCore.TagHelpers
+  id: Goui.AspNetCore.TagHelpers
+  children:
+  - Goui.AspNetCore.TagHelpers.GouiTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Goui.AspNetCore.TagHelpers
+  nameWithType: Goui.AspNetCore.TagHelpers
+  fullName: Goui.AspNetCore.TagHelpers
+  type: Namespace
+  assemblies:
+  - Goui.AspNetCore
+references:
+- uid: Goui.AspNetCore.TagHelpers.GouiTagHelper
+  commentId: T:Goui.AspNetCore.TagHelpers.GouiTagHelper
+  name: GouiTagHelper
+  nameWithType: GouiTagHelper
+  fullName: Goui.AspNetCore.TagHelpers.GouiTagHelper

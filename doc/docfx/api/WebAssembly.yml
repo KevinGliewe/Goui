@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: WebAssembly
+  commentId: N:WebAssembly
+  id: WebAssembly
+  children:
+  - WebAssembly.Runtime
+  langs:
+  - csharp
+  - vb
+  name: WebAssembly
+  nameWithType: WebAssembly
+  fullName: WebAssembly
+  type: Namespace
+  assemblies:
+  - Goui
+references:
+- uid: WebAssembly.Runtime
+  commentId: T:WebAssembly.Runtime
+  name: Runtime
+  nameWithType: Runtime
+  fullName: WebAssembly.Runtime

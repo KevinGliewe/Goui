@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Renderers.StreamImagesourceHandler
+  commentId: T:Goui.Forms.Renderers.StreamImagesourceHandler
+  id: StreamImagesourceHandler
+  parent: Goui.Forms.Renderers
+  children:
+  - Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: StreamImagesourceHandler
+  nameWithType: StreamImagesourceHandler
+  fullName: Goui.Forms.Renderers.StreamImagesourceHandler
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Renderers/ImageRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: StreamImagesourceHandler
+    path: ../../Goui.Forms/Renderers/ImageRenderer.cs
+    startLine: 161
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: 'public sealed class StreamImagesourceHandler : IImageSourceHandler, IRegisterable'
+    content.vb: >-
+      Public NotInheritable Class StreamImagesourceHandler
+
+          Implements IImageSourceHandler, IRegisterable
+  inheritance:
+  - System.Object
+  implements:
+  - Goui.Forms.Renderers.IImageSourceHandler
+  - Xamarin.Forms.IRegisterable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  commentId: M:Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  id: LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  parent: Goui.Forms.Renderers.StreamImagesourceHandler
+  langs:
+  - csharp
+  - vb
+  name: LoadImageAsync(ImageSource, CancellationToken, Single)
+  nameWithType: StreamImagesourceHandler.LoadImageAsync(ImageSource, CancellationToken, Single)
+  fullName: Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource, System.Threading.CancellationToken, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Renderers/ImageRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LoadImageAsync
+    path: ../../Goui.Forms/Renderers/ImageRenderer.cs
+    startLine: 163
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: public Task<string> LoadImageAsync(ImageSource imagesource, CancellationToken cancelationToken = default(CancellationToken), float scale = 1F)
+    parameters:
+    - id: imagesource
+      type: Xamarin.Forms.ImageSource
+    - id: cancelationToken
+      type: System.Threading.CancellationToken
+    - id: scale
+      type: System.Single
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function LoadImageAsync(imagesource As ImageSource, cancelationToken As CancellationToken = Nothing, scale As Single = 1F) As Task(Of String)
+  overload: Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync*
+  implements:
+  - Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Forms.Renderers
+  commentId: N:Goui.Forms.Renderers
+  name: Goui.Forms.Renderers
+  nameWithType: Goui.Forms.Renderers
+  fullName: Goui.Forms.Renderers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Goui.Forms.Renderers.IImageSourceHandler
+  commentId: T:Goui.Forms.Renderers.IImageSourceHandler
+  parent: Goui.Forms.Renderers
+  name: IImageSourceHandler
+  nameWithType: IImageSourceHandler
+  fullName: Goui.Forms.Renderers.IImageSourceHandler
+- uid: Xamarin.Forms.IRegisterable
+  commentId: T:Xamarin.Forms.IRegisterable
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IRegisterable
+  nameWithType: IRegisterable
+  fullName: Xamarin.Forms.IRegisterable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync*
+  commentId: Overload:Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync
+  name: LoadImageAsync
+  nameWithType: StreamImagesourceHandler.LoadImageAsync
+  fullName: Goui.Forms.Renderers.StreamImagesourceHandler.LoadImageAsync
+- uid: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  commentId: M:Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  parent: Goui.Forms.Renderers.IImageSourceHandler
+  isExternal: true
+  name: LoadImageAsync(ImageSource, CancellationToken, Single)
+  nameWithType: IImageSourceHandler.LoadImageAsync(ImageSource, CancellationToken, Single)
+  fullName: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource, System.Threading.CancellationToken, System.Single)
+  spec.csharp:
+  - uid: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+    name: LoadImageAsync
+    nameWithType: IImageSourceHandler.LoadImageAsync
+    fullName: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.ImageSource
+    name: ImageSource
+    nameWithType: ImageSource
+    fullName: Xamarin.Forms.ImageSource
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+    name: LoadImageAsync
+    nameWithType: IImageSourceHandler.LoadImageAsync
+    fullName: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.ImageSource
+    name: ImageSource
+    nameWithType: ImageSource
+    fullName: Xamarin.Forms.ImageSource
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.ImageSource
+  commentId: T:Xamarin.Forms.ImageSource
+  parent: Xamarin.Forms
+  isExternal: true
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: Xamarin.Forms.ImageSource
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

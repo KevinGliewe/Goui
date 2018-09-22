@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.AspNetCore.Builder
+  commentId: N:Microsoft.AspNetCore.Builder
+  id: Microsoft.AspNetCore.Builder
+  children:
+  - Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  type: Namespace
+  assemblies:
+  - Goui.AspNetCore
+references:
+- uid: Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions
+  commentId: T:Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions
+  name: GouiMiddlewareExtensions
+  nameWithType: GouiMiddlewareExtensions
+  fullName: Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions

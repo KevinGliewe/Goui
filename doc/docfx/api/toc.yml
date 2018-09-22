@@ -1,0 +1,287 @@
+### YamlMime:TableOfContent
+- uid: Goui
+  name: Goui
+  items:
+  - uid: Goui.Color
+    name: Color
+  - uid: Goui.Colors
+    name: Colors
+  - uid: Goui.Document
+    name: Document
+  - uid: Goui.EventTarget
+    name: EventTarget
+  - uid: Goui.IGouiPlugin
+    name: IGouiPlugin
+  - uid: Goui.JsonConvert
+    name: JsonConvert
+  - uid: Goui.Message
+    name: Message
+  - uid: Goui.Message.PropertyReference
+    name: Message.PropertyReference
+  - uid: Goui.MessageType
+    name: MessageType
+  - uid: Goui.Node
+    name: Node
+  - uid: Goui.Session
+    name: Session
+  - uid: Goui.Style
+    name: Style
+  - uid: Goui.TargetEventArgs
+    name: TargetEventArgs
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+  - uid: Goui.TextNode
+    name: TextNode
+  - uid: Goui.UI
+    name: UI
+  - uid: Goui.UI.FileContent
+    name: UI.FileContent
+  - uid: Goui.UI.StyleSelectors
+    name: UI.StyleSelectors
+  - uid: Goui.UIConfig
+    name: UIConfig
+  - uid: Goui.Utilities
+    name: Utilities
+  - uid: Goui.WebAssemblySession
+    name: WebAssemblySession
+  - uid: Goui.WebSocketSession
+    name: WebSocketSession
+  - uid: Goui.Window
+    name: Window
+- uid: Goui.AspNetCore
+  name: Goui.AspNetCore
+  items:
+  - uid: Goui.AspNetCore.ElementResult
+    name: ElementResult
+  - uid: Goui.AspNetCore.WebSocketHandler
+    name: WebSocketHandler
+- uid: Goui.AspNetCore.TagHelpers
+  name: Goui.AspNetCore.TagHelpers
+  items:
+  - uid: Goui.AspNetCore.TagHelpers.GouiTagHelper
+    name: GouiTagHelper
+- uid: Goui.Forms
+  name: Goui.Forms
+  items:
+  - uid: Goui.Forms.DisplayAlert
+    name: DisplayAlert
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs<TElement>
+    name.vb: ElementChangedEventArgs(Of TElement)
+  - uid: Goui.Forms.EventTracker
+    name: EventTracker
+  - uid: Goui.Forms.EventTracker.NativeGestureRecognizer
+    name: EventTracker.NativeGestureRecognizer
+  - uid: Goui.Forms.ExportCellAttribute
+    name: ExportCellAttribute
+  - uid: Goui.Forms.ExportImageSourceHandlerAttribute
+    name: ExportImageSourceHandlerAttribute
+  - uid: Goui.Forms.ExportRendererAttribute
+    name: ExportRendererAttribute
+  - uid: Goui.Forms.GouiTheme
+    name: GouiTheme
+  - uid: Goui.Forms.IVisualElementRenderer
+    name: IVisualElementRenderer
+  - uid: Goui.Forms.LinkLabel
+    name: LinkLabel
+  - uid: Goui.Forms.LinkView
+    name: LinkView
+  - uid: Goui.Forms.LocalIsolatedStorageFile
+    name: LocalIsolatedStorageFile
+  - uid: Goui.Forms.Platform
+    name: Platform
+  - uid: Goui.Forms.PlatformEffect
+    name: PlatformEffect
+  - uid: Goui.Forms.PlatformRenderer
+    name: PlatformRenderer
+  - uid: Goui.Forms.RendererPool
+    name: RendererPool
+  - uid: Goui.Forms.ResourcesProvider
+    name: ResourcesProvider
+  - uid: Goui.Forms.VisualElementChangedEventArgs
+    name: VisualElementChangedEventArgs
+  - uid: Goui.Forms.VisualElementPackager
+    name: VisualElementPackager
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer<TElement>
+    name.vb: VisualElementRenderer(Of TElement)
+  - uid: Goui.Forms.VisualElementRendererFlags
+    name: VisualElementRendererFlags
+  - uid: Goui.Forms.VisualElementTracker
+    name: VisualElementTracker
+- uid: Goui.Forms.Cells
+  name: Goui.Forms.Cells
+  items:
+  - uid: Goui.Forms.Cells.CellElement
+    name: CellElement
+  - uid: Goui.Forms.Cells.CellRenderer
+    name: CellRenderer
+  - uid: Goui.Forms.Cells.EntryCellElement
+    name: EntryCellElement
+  - uid: Goui.Forms.Cells.EntryCellRenderer
+    name: EntryCellRenderer
+  - uid: Goui.Forms.Cells.ImageCellElement
+    name: ImageCellElement
+  - uid: Goui.Forms.Cells.ImageCellRenderer
+    name: ImageCellRenderer
+  - uid: Goui.Forms.Cells.SwitchCellElement
+    name: SwitchCellElement
+  - uid: Goui.Forms.Cells.SwitchCellRenderer
+    name: SwitchCellRenderer
+  - uid: Goui.Forms.Cells.TextCellElement
+    name: TextCellElement
+  - uid: Goui.Forms.Cells.TextCellRenderer
+    name: TextCellRenderer
+  - uid: Goui.Forms.Cells.ViewCellElement
+    name: ViewCellElement
+  - uid: Goui.Forms.Cells.ViewCellRenderer
+    name: ViewCellRenderer
+- uid: Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  items:
+  - uid: Goui.Forms.Extensions.ColorExtensions
+    name: ColorExtensions
+  - uid: Goui.Forms.Extensions.ElementExtensions
+    name: ElementExtensions
+  - uid: Goui.Forms.Extensions.FontExtensions
+    name: FontExtensions
+  - uid: Goui.Forms.Extensions.ListViewExtensions
+    name: ListViewExtensions
+- uid: Goui.Forms.Renderers
+  name: Goui.Forms.Renderers
+  items:
+  - uid: Goui.Forms.Renderers.ActivityIndicatorRenderer
+    name: ActivityIndicatorRenderer
+  - uid: Goui.Forms.Renderers.BoxRenderer
+    name: BoxRenderer
+  - uid: Goui.Forms.Renderers.ButtonRenderer
+    name: ButtonRenderer
+  - uid: Goui.Forms.Renderers.DatePickerRenderer
+    name: DatePickerRenderer
+  - uid: Goui.Forms.Renderers.DefaultRenderer
+    name: DefaultRenderer
+  - uid: Goui.Forms.Renderers.EditorRenderer
+    name: EditorRenderer
+  - uid: Goui.Forms.Renderers.EntryRenderer
+    name: EntryRenderer
+  - uid: Goui.Forms.Renderers.FileImageSourceHandler
+    name: FileImageSourceHandler
+  - uid: Goui.Forms.Renderers.FrameRenderer
+    name: FrameRenderer
+  - uid: Goui.Forms.Renderers.IImageSourceHandler
+    name: IImageSourceHandler
+  - uid: Goui.Forms.Renderers.ImageLoaderSourceHandler
+    name: ImageLoaderSourceHandler
+  - uid: Goui.Forms.Renderers.ImageRenderer
+    name: ImageRenderer
+  - uid: Goui.Forms.Renderers.LabelRenderer
+    name: LabelRenderer
+  - uid: Goui.Forms.Renderers.LinkLabelRenderer
+    name: LinkLabelRenderer
+  - uid: Goui.Forms.Renderers.LinkViewRenderer
+    name: LinkViewRenderer
+  - uid: Goui.Forms.Renderers.ListViewRenderer
+    name: ListViewRenderer
+  - uid: Goui.Forms.Renderers.NavigationPageRenderer
+    name: NavigationPageRenderer
+  - uid: Goui.Forms.Renderers.PickerRenderer
+    name: PickerRenderer
+  - uid: Goui.Forms.Renderers.ProgressBarRenderer
+    name: ProgressBarRenderer
+  - uid: Goui.Forms.Renderers.ScrollViewRenderer
+    name: ScrollViewRenderer
+  - uid: Goui.Forms.Renderers.SearchBarRenderer
+    name: SearchBarRenderer
+  - uid: Goui.Forms.Renderers.SliderRenderer
+    name: SliderRenderer
+  - uid: Goui.Forms.Renderers.StreamImagesourceHandler
+    name: StreamImagesourceHandler
+  - uid: Goui.Forms.Renderers.SwitchRenderer
+    name: SwitchRenderer
+  - uid: Goui.Forms.Renderers.SwitchRenderer.SwitchElement
+    name: SwitchRenderer.SwitchElement
+  - uid: Goui.Forms.Renderers.TimePickerRenderer
+    name: TimePickerRenderer
+  - uid: Goui.Forms.Renderers.ViewRenderer
+    name: ViewRenderer
+  - uid: Goui.Forms.Renderers.ViewRenderer`2
+    name: ViewRenderer<TElement, TNativeElement>
+    name.vb: ViewRenderer(Of TElement, TNativeElement)
+  - uid: Goui.Forms.Renderers.WebViewRenderer
+    name: WebViewRenderer
+- uid: Goui.Html
+  name: Goui.Html
+  items:
+  - uid: Goui.Html.Anchor
+    name: Anchor
+  - uid: Goui.Html.Body
+    name: Body
+  - uid: Goui.Html.Button
+    name: Button
+  - uid: Goui.Html.ButtonType
+    name: ButtonType
+  - uid: Goui.Html.Canvas
+    name: Canvas
+  - uid: Goui.Html.CanvasRenderingContext2D
+    name: CanvasRenderingContext2D
+  - uid: Goui.Html.CompositeOperation
+    name: CompositeOperation
+  - uid: Goui.Html.Div
+    name: Div
+  - uid: Goui.Html.Element
+    name: Element
+  - uid: Goui.Html.Form
+    name: Form
+  - uid: Goui.Html.FormControl
+    name: FormControl
+  - uid: Goui.Html.Heading
+    name: Heading
+  - uid: Goui.Html.Iframe
+    name: Iframe
+  - uid: Goui.Html.Image
+    name: Image
+  - uid: Goui.Html.Input
+    name: Input
+  - uid: Goui.Html.InputType
+    name: InputType
+  - uid: Goui.Html.Label
+    name: Label
+  - uid: Goui.Html.LineCap
+    name: LineCap
+  - uid: Goui.Html.LineJoin
+    name: LineJoin
+  - uid: Goui.Html.List
+    name: List
+  - uid: Goui.Html.ListItem
+    name: ListItem
+  - uid: Goui.Html.Option
+    name: Option
+  - uid: Goui.Html.Paragraph
+    name: Paragraph
+  - uid: Goui.Html.Select
+    name: Select
+  - uid: Goui.Html.Span
+    name: Span
+  - uid: Goui.Html.TextArea
+    name: TextArea
+  - uid: Goui.Html.TextInput
+    name: TextInput
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  items:
+  - uid: Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions
+    name: GouiMiddlewareExtensions
+- uid: WebAssembly
+  name: WebAssembly
+  items:
+  - uid: WebAssembly.Runtime
+    name: Runtime
+- uid: Xamarin.Forms
+  name: Xamarin.Forms
+  items:
+  - uid: Xamarin.Forms.Forms
+    name: Forms
+  - uid: Xamarin.Forms.Forms.ViewInitializedEventArgs
+    name: Forms.ViewInitializedEventArgs
+  - uid: Xamarin.Forms.PageExtensions
+    name: PageExtensions

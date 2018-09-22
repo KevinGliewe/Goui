@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.DisplayAlert
+  commentId: T:Goui.Forms.DisplayAlert
+  id: DisplayAlert
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.DisplayAlert.#ctor(Xamarin.Forms.Internals.AlertArguments)
+  - Goui.Forms.DisplayAlert.Clicked
+  - Goui.Forms.DisplayAlert.Element
+  langs:
+  - csharp
+  - vb
+  name: DisplayAlert
+  nameWithType: DisplayAlert
+  fullName: Goui.Forms.DisplayAlert
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/DisplayAlert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DisplayAlert
+    path: ../../Goui.Forms/DisplayAlert.cs
+    startLine: 6
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public class DisplayAlert
+    content.vb: Public Class DisplayAlert
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.DisplayAlert.#ctor(Xamarin.Forms.Internals.AlertArguments)
+  commentId: M:Goui.Forms.DisplayAlert.#ctor(Xamarin.Forms.Internals.AlertArguments)
+  id: '#ctor(Xamarin.Forms.Internals.AlertArguments)'
+  parent: Goui.Forms.DisplayAlert
+  langs:
+  - csharp
+  - vb
+  name: DisplayAlert(AlertArguments)
+  nameWithType: DisplayAlert.DisplayAlert(AlertArguments)
+  fullName: Goui.Forms.DisplayAlert.DisplayAlert(Xamarin.Forms.Internals.AlertArguments)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/DisplayAlert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/DisplayAlert.cs
+    startLine: 12
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public DisplayAlert(AlertArguments arguments)
+    parameters:
+    - id: arguments
+      type: Xamarin.Forms.Internals.AlertArguments
+    content.vb: Public Sub New(arguments As AlertArguments)
+  overload: Goui.Forms.DisplayAlert.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.DisplayAlert.Clicked
+  commentId: E:Goui.Forms.DisplayAlert.Clicked
+  id: Clicked
+  parent: Goui.Forms.DisplayAlert
+  langs:
+  - csharp
+  - vb
+  name: Clicked
+  nameWithType: DisplayAlert.Clicked
+  fullName: Goui.Forms.DisplayAlert.Clicked
+  type: Event
+  source:
+    remote:
+      path: Goui.Forms/DisplayAlert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Clicked
+    path: ../../Goui.Forms/DisplayAlert.cs
+    startLine: 89
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public event TargetEventHandler Clicked
+    return:
+      type: Goui.TargetEventHandler
+    content.vb: Public Event Clicked As TargetEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.DisplayAlert.Element
+  commentId: P:Goui.Forms.DisplayAlert.Element
+  id: Element
+  parent: Goui.Forms.DisplayAlert
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: DisplayAlert.Element
+  fullName: Goui.Forms.DisplayAlert.Element
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/DisplayAlert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Element
+    path: ../../Goui.Forms/DisplayAlert.cs
+    startLine: 112
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public Element Element { get; }
+    parameters: []
+    return:
+      type: Goui.Html.Element
+    content.vb: Public ReadOnly Property Element As Element
+  overload: Goui.Forms.DisplayAlert.Element*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.DisplayAlert.#ctor*
+  commentId: Overload:Goui.Forms.DisplayAlert.#ctor
+  name: DisplayAlert
+  nameWithType: DisplayAlert.DisplayAlert
+  fullName: Goui.Forms.DisplayAlert.DisplayAlert
+- uid: Xamarin.Forms.Internals.AlertArguments
+  commentId: T:Xamarin.Forms.Internals.AlertArguments
+  parent: Xamarin.Forms.Internals
+  isExternal: true
+  name: AlertArguments
+  nameWithType: AlertArguments
+  fullName: Xamarin.Forms.Internals.AlertArguments
+- uid: Xamarin.Forms.Internals
+  commentId: N:Xamarin.Forms.Internals
+  isExternal: true
+  name: Xamarin.Forms.Internals
+  nameWithType: Xamarin.Forms.Internals
+  fullName: Xamarin.Forms.Internals
+- uid: Goui.TargetEventHandler
+  commentId: T:Goui.TargetEventHandler
+  parent: Goui
+  name: TargetEventHandler
+  nameWithType: TargetEventHandler
+  fullName: Goui.TargetEventHandler
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: Goui.Forms.DisplayAlert.Element*
+  commentId: Overload:Goui.Forms.DisplayAlert.Element
+  name: Element
+  nameWithType: DisplayAlert.Element
+  fullName: Goui.Forms.DisplayAlert.Element
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html

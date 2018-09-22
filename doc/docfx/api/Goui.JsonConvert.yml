@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.JsonConvert
+  commentId: T:Goui.JsonConvert
+  id: JsonConvert
+  parent: Goui
+  children:
+  - Goui.JsonConvert.ReadJsonValue(System.String,System.Int32)
+  - Goui.JsonConvert.SerializeObject(System.Object)
+  - Goui.JsonConvert.WriteJsonString(System.IO.TextWriter,System.String)
+  - Goui.JsonConvert.WriteJsonValue(System.IO.TextWriter,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: JsonConvert
+  nameWithType: JsonConvert
+  fullName: Goui.JsonConvert
+  type: Class
+  source:
+    remote:
+      path: Goui/JsonConvert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: JsonConvert
+    path: ../../Goui/JsonConvert.cs
+    startLine: 4
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public class JsonConvert
+    content.vb: Public Class JsonConvert
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.JsonConvert.WriteJsonString(System.IO.TextWriter,System.String)
+  commentId: M:Goui.JsonConvert.WriteJsonString(System.IO.TextWriter,System.String)
+  id: WriteJsonString(System.IO.TextWriter,System.String)
+  parent: Goui.JsonConvert
+  langs:
+  - csharp
+  - vb
+  name: WriteJsonString(TextWriter, String)
+  nameWithType: JsonConvert.WriteJsonString(TextWriter, String)
+  fullName: Goui.JsonConvert.WriteJsonString(System.IO.TextWriter, System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui/JsonConvert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: WriteJsonString
+    path: ../../Goui/JsonConvert.cs
+    startLine: 6
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static void WriteJsonString(TextWriter w, string s)
+    parameters:
+    - id: w
+      type: System.IO.TextWriter
+    - id: s
+      type: System.String
+    content.vb: Public Shared Sub WriteJsonString(w As TextWriter, s As String)
+  overload: Goui.JsonConvert.WriteJsonString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.JsonConvert.WriteJsonValue(System.IO.TextWriter,System.Object)
+  commentId: M:Goui.JsonConvert.WriteJsonValue(System.IO.TextWriter,System.Object)
+  id: WriteJsonValue(System.IO.TextWriter,System.Object)
+  parent: Goui.JsonConvert
+  langs:
+  - csharp
+  - vb
+  name: WriteJsonValue(TextWriter, Object)
+  nameWithType: JsonConvert.WriteJsonValue(TextWriter, Object)
+  fullName: Goui.JsonConvert.WriteJsonValue(System.IO.TextWriter, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/JsonConvert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: WriteJsonValue
+    path: ../../Goui/JsonConvert.cs
+    startLine: 36
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static void WriteJsonValue(TextWriter w, object value)
+    parameters:
+    - id: w
+      type: System.IO.TextWriter
+    - id: value
+      type: System.Object
+    content.vb: Public Shared Sub WriteJsonValue(w As TextWriter, value As Object)
+  overload: Goui.JsonConvert.WriteJsonValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.JsonConvert.SerializeObject(System.Object)
+  commentId: M:Goui.JsonConvert.SerializeObject(System.Object)
+  id: SerializeObject(System.Object)
+  parent: Goui.JsonConvert
+  langs:
+  - csharp
+  - vb
+  name: SerializeObject(Object)
+  nameWithType: JsonConvert.SerializeObject(Object)
+  fullName: Goui.JsonConvert.SerializeObject(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Goui/JsonConvert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SerializeObject
+    path: ../../Goui/JsonConvert.cs
+    startLine: 78
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static string SerializeObject(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeObject(value As Object) As String
+  overload: Goui.JsonConvert.SerializeObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.JsonConvert.ReadJsonValue(System.String,System.Int32)
+  commentId: M:Goui.JsonConvert.ReadJsonValue(System.String,System.Int32)
+  id: ReadJsonValue(System.String,System.Int32)
+  parent: Goui.JsonConvert
+  langs:
+  - csharp
+  - vb
+  name: ReadJsonValue(String, Int32)
+  nameWithType: JsonConvert.ReadJsonValue(String, Int32)
+  fullName: Goui.JsonConvert.ReadJsonValue(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Goui/JsonConvert.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ReadJsonValue
+    path: ../../Goui/JsonConvert.cs
+    startLine: 141
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public static object ReadJsonValue(string json, int startIndex)
+    parameters:
+    - id: json
+      type: System.String
+    - id: startIndex
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Public Shared Function ReadJsonValue(json As String, startIndex As Integer) As Object
+  overload: Goui.JsonConvert.ReadJsonValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.JsonConvert.WriteJsonString*
+  commentId: Overload:Goui.JsonConvert.WriteJsonString
+  name: WriteJsonString
+  nameWithType: JsonConvert.WriteJsonString
+  fullName: Goui.JsonConvert.WriteJsonString
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Goui.JsonConvert.WriteJsonValue*
+  commentId: Overload:Goui.JsonConvert.WriteJsonValue
+  name: WriteJsonValue
+  nameWithType: JsonConvert.WriteJsonValue
+  fullName: Goui.JsonConvert.WriteJsonValue
+- uid: Goui.JsonConvert.SerializeObject*
+  commentId: Overload:Goui.JsonConvert.SerializeObject
+  name: SerializeObject
+  nameWithType: JsonConvert.SerializeObject
+  fullName: Goui.JsonConvert.SerializeObject
+- uid: Goui.JsonConvert.ReadJsonValue*
+  commentId: Overload:Goui.JsonConvert.ReadJsonValue
+  name: ReadJsonValue
+  nameWithType: JsonConvert.ReadJsonValue
+  fullName: Goui.JsonConvert.ReadJsonValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

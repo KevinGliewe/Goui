@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.IGouiPlugin
+  commentId: T:Goui.IGouiPlugin
+  id: IGouiPlugin
+  parent: Goui
+  children:
+  - Goui.IGouiPlugin.OnHttpRequest(System.Net.HttpListenerContext)
+  - Goui.IGouiPlugin.OnNodeCreated(Goui.Node)
+  - Goui.IGouiPlugin.OnPublish(System.String,Goui.Html.Element)
+  - Goui.IGouiPlugin.OnRenderTemplate(System.IO.TextWriter,System.String,System.String,System.String)
+  - Goui.IGouiPlugin.OnUIStart
+  - Goui.IGouiPlugin.OnUIStop
+  langs:
+  - csharp
+  - vb
+  name: IGouiPlugin
+  nameWithType: IGouiPlugin
+  fullName: Goui.IGouiPlugin
+  type: Interface
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: IGouiPlugin
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 7
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public interface IGouiPlugin
+    content.vb: Public Interface IGouiPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Goui.IGouiPlugin.OnNodeCreated(Goui.Node)
+  commentId: M:Goui.IGouiPlugin.OnNodeCreated(Goui.Node)
+  id: OnNodeCreated(Goui.Node)
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnNodeCreated(Node)
+  nameWithType: IGouiPlugin.OnNodeCreated(Node)
+  fullName: Goui.IGouiPlugin.OnNodeCreated(Goui.Node)
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnNodeCreated
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 8
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: void OnNodeCreated(Node node)
+    parameters:
+    - id: node
+      type: Goui.Node
+    content.vb: Sub OnNodeCreated(node As Node)
+  overload: Goui.IGouiPlugin.OnNodeCreated*
+- uid: Goui.IGouiPlugin.OnUIStart
+  commentId: M:Goui.IGouiPlugin.OnUIStart
+  id: OnUIStart
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnUIStart()
+  nameWithType: IGouiPlugin.OnUIStart()
+  fullName: Goui.IGouiPlugin.OnUIStart()
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnUIStart
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 9
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: void OnUIStart()
+    content.vb: Sub OnUIStart
+  overload: Goui.IGouiPlugin.OnUIStart*
+- uid: Goui.IGouiPlugin.OnUIStop
+  commentId: M:Goui.IGouiPlugin.OnUIStop
+  id: OnUIStop
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnUIStop()
+  nameWithType: IGouiPlugin.OnUIStop()
+  fullName: Goui.IGouiPlugin.OnUIStop()
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnUIStop
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 10
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: void OnUIStop()
+    content.vb: Sub OnUIStop
+  overload: Goui.IGouiPlugin.OnUIStop*
+- uid: Goui.IGouiPlugin.OnPublish(System.String,Goui.Html.Element)
+  commentId: M:Goui.IGouiPlugin.OnPublish(System.String,Goui.Html.Element)
+  id: OnPublish(System.String,Goui.Html.Element)
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnPublish(String, Element)
+  nameWithType: IGouiPlugin.OnPublish(String, Element)
+  fullName: Goui.IGouiPlugin.OnPublish(System.String, Goui.Html.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnPublish
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 11
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: void OnPublish(string path, Element element)
+    parameters:
+    - id: path
+      type: System.String
+    - id: element
+      type: Goui.Html.Element
+    content.vb: Sub OnPublish(path As String, element As Element)
+  overload: Goui.IGouiPlugin.OnPublish*
+- uid: Goui.IGouiPlugin.OnHttpRequest(System.Net.HttpListenerContext)
+  commentId: M:Goui.IGouiPlugin.OnHttpRequest(System.Net.HttpListenerContext)
+  id: OnHttpRequest(System.Net.HttpListenerContext)
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnHttpRequest(HttpListenerContext)
+  nameWithType: IGouiPlugin.OnHttpRequest(HttpListenerContext)
+  fullName: Goui.IGouiPlugin.OnHttpRequest(System.Net.HttpListenerContext)
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnHttpRequest
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 12
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: bool OnHttpRequest(HttpListenerContext listenerContext)
+    parameters:
+    - id: listenerContext
+      type: System.Net.HttpListenerContext
+    return:
+      type: System.Boolean
+    content.vb: Function OnHttpRequest(listenerContext As HttpListenerContext) As Boolean
+  overload: Goui.IGouiPlugin.OnHttpRequest*
+- uid: Goui.IGouiPlugin.OnRenderTemplate(System.IO.TextWriter,System.String,System.String,System.String)
+  commentId: M:Goui.IGouiPlugin.OnRenderTemplate(System.IO.TextWriter,System.String,System.String,System.String)
+  id: OnRenderTemplate(System.IO.TextWriter,System.String,System.String,System.String)
+  parent: Goui.IGouiPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnRenderTemplate(TextWriter, String, String, String)
+  nameWithType: IGouiPlugin.OnRenderTemplate(TextWriter, String, String, String)
+  fullName: Goui.IGouiPlugin.OnRenderTemplate(System.IO.TextWriter, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui/IGouiPlugin.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnRenderTemplate
+    path: ../../Goui/IGouiPlugin.cs
+    startLine: 13
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: bool OnRenderTemplate(TextWriter writer, string webSocketPath, string title, string initialHtml)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+    - id: webSocketPath
+      type: System.String
+    - id: title
+      type: System.String
+    - id: initialHtml
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function OnRenderTemplate(writer As TextWriter, webSocketPath As String, title As String, initialHtml As String) As Boolean
+  overload: Goui.IGouiPlugin.OnRenderTemplate*
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: Goui.IGouiPlugin.OnNodeCreated*
+  commentId: Overload:Goui.IGouiPlugin.OnNodeCreated
+  name: OnNodeCreated
+  nameWithType: IGouiPlugin.OnNodeCreated
+  fullName: Goui.IGouiPlugin.OnNodeCreated
+- uid: Goui.Node
+  commentId: T:Goui.Node
+  parent: Goui
+  name: Node
+  nameWithType: Node
+  fullName: Goui.Node
+- uid: Goui.IGouiPlugin.OnUIStart*
+  commentId: Overload:Goui.IGouiPlugin.OnUIStart
+  name: OnUIStart
+  nameWithType: IGouiPlugin.OnUIStart
+  fullName: Goui.IGouiPlugin.OnUIStart
+- uid: Goui.IGouiPlugin.OnUIStop*
+  commentId: Overload:Goui.IGouiPlugin.OnUIStop
+  name: OnUIStop
+  nameWithType: IGouiPlugin.OnUIStop
+  fullName: Goui.IGouiPlugin.OnUIStop
+- uid: Goui.IGouiPlugin.OnPublish*
+  commentId: Overload:Goui.IGouiPlugin.OnPublish
+  name: OnPublish
+  nameWithType: IGouiPlugin.OnPublish
+  fullName: Goui.IGouiPlugin.OnPublish
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.IGouiPlugin.OnHttpRequest*
+  commentId: Overload:Goui.IGouiPlugin.OnHttpRequest
+  name: OnHttpRequest
+  nameWithType: IGouiPlugin.OnHttpRequest
+  fullName: Goui.IGouiPlugin.OnHttpRequest
+- uid: System.Net.HttpListenerContext
+  commentId: T:System.Net.HttpListenerContext
+  parent: System.Net
+  isExternal: true
+  name: HttpListenerContext
+  nameWithType: HttpListenerContext
+  fullName: System.Net.HttpListenerContext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: Goui.IGouiPlugin.OnRenderTemplate*
+  commentId: Overload:Goui.IGouiPlugin.OnRenderTemplate
+  name: OnRenderTemplate
+  nameWithType: IGouiPlugin.OnRenderTemplate
+  fullName: Goui.IGouiPlugin.OnRenderTemplate
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO

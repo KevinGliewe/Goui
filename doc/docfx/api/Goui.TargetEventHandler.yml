@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.TargetEventHandler
+  commentId: T:Goui.TargetEventHandler
+  id: TargetEventHandler
+  parent: Goui
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TargetEventHandler
+  nameWithType: TargetEventHandler
+  fullName: Goui.TargetEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Goui/EventTarget.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: TargetEventHandler
+    path: ../../Goui/EventTarget.cs
+    startLine: 253
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public delegate void TargetEventHandler(object sender, TargetEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Goui.TargetEventArgs
+    content.vb: Public Delegate Sub TargetEventHandler(sender As Object, e As TargetEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Goui.TargetEventArgs
+  commentId: T:Goui.TargetEventArgs
+  parent: Goui
+  name: TargetEventArgs
+  nameWithType: TargetEventArgs
+  fullName: Goui.TargetEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

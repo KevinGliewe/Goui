@@ -1,0 +1,713 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Extensions.ElementExtensions
+  commentId: T:Goui.Forms.Extensions.ElementExtensions
+  id: ElementExtensions
+  parent: Goui.Forms.Extensions
+  children:
+  - Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  - Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  - Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  - Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: ElementExtensions
+  nameWithType: ElementExtensions
+  fullName: Goui.Forms.Extensions.ElementExtensions
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Extensions/ElementExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ElementExtensions
+    path: ../../Goui.Forms/Extensions/ElementExtensions.cs
+    startLine: 6
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static class ElementExtensions
+    content.vb: Public Module ElementExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  id: GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.ElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSizeRequest(Element, Double, Double, Double, Double)
+  nameWithType: ElementExtensions.GetSizeRequest(Element, Double, Double, Double, Double)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element, System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/ElementExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetSizeRequest
+    path: ../../Goui.Forms/Extensions/ElementExtensions.cs
+    startLine: 8
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static SizeRequest GetSizeRequest(this Element self, double widthConstraint, double heightConstraint, double minimumWidth = -1, double minimumHeight = -1)
+    parameters:
+    - id: self
+      type: Goui.Html.Element
+    - id: widthConstraint
+      type: System.Double
+    - id: heightConstraint
+      type: System.Double
+    - id: minimumWidth
+      type: System.Double
+    - id: minimumHeight
+      type: System.Double
+    return:
+      type: Xamarin.Forms.SizeRequest
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetSizeRequest(self As Element, widthConstraint As Double, heightConstraint As Double, minimumWidth As Double = -1, minimumHeight As Double = -1) As SizeRequest
+  overload: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.CollectElements``1(Xamarin.Forms.Element)
+  id: CollectElements``1(Xamarin.Forms.Element)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.ElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: CollectElements<T>(Element)
+  nameWithType: ElementExtensions.CollectElements<T>(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements<T>(Xamarin.Forms.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/ElementExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: CollectElements
+    path: ../../Goui.Forms/Extensions/ElementExtensions.cs
+    startLine: 42
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: >-
+      public static IEnumerable<T> CollectElements<T>(this Element element)
+
+          where T : Element
+    parameters:
+    - id: element
+      type: Xamarin.Forms.Element
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CollectElements(Of T As Element)(element As Element) As IEnumerable(Of T)
+  overload: Goui.Forms.Extensions.ElementExtensions.CollectElements*
+  nameWithType.vb: ElementExtensions.CollectElements(Of T)(Element)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Goui.Forms.Extensions.ElementExtensions.CollectElements(Of T)(Xamarin.Forms.Element)
+  name.vb: CollectElements(Of T)(Element)
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  id: GetChildren(Xamarin.Forms.Element)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.ElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetChildren(Element)
+  nameWithType: ElementExtensions.GetChildren(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren(Xamarin.Forms.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/ElementExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetChildren
+    path: ../../Goui.Forms/Extensions/ElementExtensions.cs
+    startLine: 78
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static IEnumerable<Element> GetChildren(this Element element)
+    parameters:
+    - id: element
+      type: Xamarin.Forms.Element
+    return:
+      type: System.Collections.Generic.IEnumerable{Xamarin.Forms.Element}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetChildren(element As Element) As IEnumerable(Of Element)
+  overload: Goui.Forms.Extensions.ElementExtensions.GetChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  id: GetChildrenRecursive(Xamarin.Forms.Element)
+  isExtensionMethod: true
+  parent: Goui.Forms.Extensions.ElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetChildrenRecursive(Element)
+  nameWithType: ElementExtensions.GetChildrenRecursive(Element)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive(Xamarin.Forms.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Extensions/ElementExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetChildrenRecursive
+    path: ../../Goui.Forms/Extensions/ElementExtensions.cs
+    startLine: 107
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Extensions
+  syntax:
+    content: public static IEnumerable<Element> GetChildrenRecursive(this Element element)
+    parameters:
+    - id: element
+      type: Xamarin.Forms.Element
+    return:
+      type: System.Collections.Generic.IEnumerable{Xamarin.Forms.Element}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetChildrenRecursive(element As Element) As IEnumerable(Of Element)
+  overload: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest*
+  commentId: Overload:Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+  name: GetSizeRequest
+  nameWithType: ElementExtensions.GetSizeRequest
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Xamarin.Forms.SizeRequest
+  commentId: T:Xamarin.Forms.SizeRequest
+  parent: Xamarin.Forms
+  isExternal: true
+  name: SizeRequest
+  nameWithType: SizeRequest
+  fullName: Xamarin.Forms.SizeRequest
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.Extensions.ElementExtensions.CollectElements*
+  commentId: Overload:Goui.Forms.Extensions.ElementExtensions.CollectElements
+  name: CollectElements
+  nameWithType: ElementExtensions.CollectElements
+  fullName: Goui.Forms.Extensions.ElementExtensions.CollectElements
+- uid: Xamarin.Forms.Element
+  commentId: T:Xamarin.Forms.Element
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Element
+  nameWithType: Element
+  fullName: Xamarin.Forms.Element
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildren*
+  commentId: Overload:Goui.Forms.Extensions.ElementExtensions.GetChildren
+  name: GetChildren
+  nameWithType: ElementExtensions.GetChildren
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildren
+- uid: System.Collections.Generic.IEnumerable{Xamarin.Forms.Element}
+  commentId: T:System.Collections.Generic.IEnumerable{Xamarin.Forms.Element}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Element>
+  nameWithType: IEnumerable<Element>
+  fullName: System.Collections.Generic.IEnumerable<Xamarin.Forms.Element>
+  nameWithType.vb: IEnumerable(Of Element)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Xamarin.Forms.Element)
+  name.vb: IEnumerable(Of Element)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Element
+    name: Element
+    nameWithType: Element
+    fullName: Xamarin.Forms.Element
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive*
+  commentId: Overload:Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive
+  name: GetChildrenRecursive
+  nameWithType: ElementExtensions.GetChildrenRecursive
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetChildrenRecursive

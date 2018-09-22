@@ -1,0 +1,904 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.CompositeOperation
+  commentId: T:Goui.Html.CompositeOperation
+  id: CompositeOperation
+  parent: Goui.Html
+  children:
+  - Goui.Html.CompositeOperation.Color
+  - Goui.Html.CompositeOperation.ColorBurn
+  - Goui.Html.CompositeOperation.ColorDodge
+  - Goui.Html.CompositeOperation.Copy
+  - Goui.Html.CompositeOperation.Darken
+  - Goui.Html.CompositeOperation.DestinationAtop
+  - Goui.Html.CompositeOperation.DestinationIn
+  - Goui.Html.CompositeOperation.DestinationOut
+  - Goui.Html.CompositeOperation.DestinationOver
+  - Goui.Html.CompositeOperation.Difference
+  - Goui.Html.CompositeOperation.Exclusion
+  - Goui.Html.CompositeOperation.HardLight
+  - Goui.Html.CompositeOperation.Hue
+  - Goui.Html.CompositeOperation.Lighten
+  - Goui.Html.CompositeOperation.Lighter
+  - Goui.Html.CompositeOperation.Luminosity
+  - Goui.Html.CompositeOperation.Multiply
+  - Goui.Html.CompositeOperation.Overlay
+  - Goui.Html.CompositeOperation.Saturation
+  - Goui.Html.CompositeOperation.Screen
+  - Goui.Html.CompositeOperation.SoftLight
+  - Goui.Html.CompositeOperation.SourceAtop
+  - Goui.Html.CompositeOperation.SourceIn
+  - Goui.Html.CompositeOperation.SourceOut
+  - Goui.Html.CompositeOperation.SourceOver
+  - Goui.Html.CompositeOperation.Xor
+  langs:
+  - csharp
+  - vb
+  name: CompositeOperation
+  nameWithType: CompositeOperation
+  fullName: Goui.Html.CompositeOperation
+  type: Enum
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: CompositeOperation
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 314
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public enum CompositeOperation
+    content.vb: Public Enum CompositeOperation
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Html.CompositeOperation.SourceOver
+  commentId: F:Goui.Html.CompositeOperation.SourceOver
+  id: SourceOver
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: SourceOver
+  nameWithType: CompositeOperation.SourceOver
+  fullName: Goui.Html.CompositeOperation.SourceOver
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SourceOver
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 316
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: SourceOver = 0
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.SourceIn
+  commentId: F:Goui.Html.CompositeOperation.SourceIn
+  id: SourceIn
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: SourceIn
+  nameWithType: CompositeOperation.SourceIn
+  fullName: Goui.Html.CompositeOperation.SourceIn
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SourceIn
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 317
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: SourceIn = 1
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.SourceOut
+  commentId: F:Goui.Html.CompositeOperation.SourceOut
+  id: SourceOut
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: SourceOut
+  nameWithType: CompositeOperation.SourceOut
+  fullName: Goui.Html.CompositeOperation.SourceOut
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SourceOut
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 318
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: SourceOut = 2
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.SourceAtop
+  commentId: F:Goui.Html.CompositeOperation.SourceAtop
+  id: SourceAtop
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: SourceAtop
+  nameWithType: CompositeOperation.SourceAtop
+  fullName: Goui.Html.CompositeOperation.SourceAtop
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SourceAtop
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 319
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: SourceAtop = 3
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.DestinationOver
+  commentId: F:Goui.Html.CompositeOperation.DestinationOver
+  id: DestinationOver
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: DestinationOver
+  nameWithType: CompositeOperation.DestinationOver
+  fullName: Goui.Html.CompositeOperation.DestinationOver
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DestinationOver
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 320
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: DestinationOver = 4
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.DestinationIn
+  commentId: F:Goui.Html.CompositeOperation.DestinationIn
+  id: DestinationIn
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: DestinationIn
+  nameWithType: CompositeOperation.DestinationIn
+  fullName: Goui.Html.CompositeOperation.DestinationIn
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DestinationIn
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 321
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: DestinationIn = 5
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.DestinationOut
+  commentId: F:Goui.Html.CompositeOperation.DestinationOut
+  id: DestinationOut
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: DestinationOut
+  nameWithType: CompositeOperation.DestinationOut
+  fullName: Goui.Html.CompositeOperation.DestinationOut
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DestinationOut
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 322
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: DestinationOut = 6
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.DestinationAtop
+  commentId: F:Goui.Html.CompositeOperation.DestinationAtop
+  id: DestinationAtop
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: DestinationAtop
+  nameWithType: CompositeOperation.DestinationAtop
+  fullName: Goui.Html.CompositeOperation.DestinationAtop
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: DestinationAtop
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 323
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: DestinationAtop = 7
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Lighter
+  commentId: F:Goui.Html.CompositeOperation.Lighter
+  id: Lighter
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Lighter
+  nameWithType: CompositeOperation.Lighter
+  fullName: Goui.Html.CompositeOperation.Lighter
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Lighter
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 324
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Lighter = 8
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Copy
+  commentId: F:Goui.Html.CompositeOperation.Copy
+  id: Copy
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: CompositeOperation.Copy
+  fullName: Goui.Html.CompositeOperation.Copy
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Copy
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 325
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Copy = 9
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Xor
+  commentId: F:Goui.Html.CompositeOperation.Xor
+  id: Xor
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Xor
+  nameWithType: CompositeOperation.Xor
+  fullName: Goui.Html.CompositeOperation.Xor
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xor
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 326
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Xor = 10
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Multiply
+  commentId: F:Goui.Html.CompositeOperation.Multiply
+  id: Multiply
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Multiply
+  nameWithType: CompositeOperation.Multiply
+  fullName: Goui.Html.CompositeOperation.Multiply
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Multiply
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 327
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Multiply = 11
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Screen
+  commentId: F:Goui.Html.CompositeOperation.Screen
+  id: Screen
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Screen
+  nameWithType: CompositeOperation.Screen
+  fullName: Goui.Html.CompositeOperation.Screen
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Screen
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 328
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Screen = 12
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Overlay
+  commentId: F:Goui.Html.CompositeOperation.Overlay
+  id: Overlay
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Overlay
+  nameWithType: CompositeOperation.Overlay
+  fullName: Goui.Html.CompositeOperation.Overlay
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Overlay
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 329
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Overlay = 13
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Darken
+  commentId: F:Goui.Html.CompositeOperation.Darken
+  id: Darken
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Darken
+  nameWithType: CompositeOperation.Darken
+  fullName: Goui.Html.CompositeOperation.Darken
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Darken
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 330
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Darken = 14
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Lighten
+  commentId: F:Goui.Html.CompositeOperation.Lighten
+  id: Lighten
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Lighten
+  nameWithType: CompositeOperation.Lighten
+  fullName: Goui.Html.CompositeOperation.Lighten
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Lighten
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 331
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Lighten = 15
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.ColorDodge
+  commentId: F:Goui.Html.CompositeOperation.ColorDodge
+  id: ColorDodge
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: ColorDodge
+  nameWithType: CompositeOperation.ColorDodge
+  fullName: Goui.Html.CompositeOperation.ColorDodge
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ColorDodge
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 332
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: ColorDodge = 16
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.ColorBurn
+  commentId: F:Goui.Html.CompositeOperation.ColorBurn
+  id: ColorBurn
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: ColorBurn
+  nameWithType: CompositeOperation.ColorBurn
+  fullName: Goui.Html.CompositeOperation.ColorBurn
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ColorBurn
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 333
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: ColorBurn = 17
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.HardLight
+  commentId: F:Goui.Html.CompositeOperation.HardLight
+  id: HardLight
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: HardLight
+  nameWithType: CompositeOperation.HardLight
+  fullName: Goui.Html.CompositeOperation.HardLight
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: HardLight
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 334
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: HardLight = 18
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.SoftLight
+  commentId: F:Goui.Html.CompositeOperation.SoftLight
+  id: SoftLight
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: SoftLight
+  nameWithType: CompositeOperation.SoftLight
+  fullName: Goui.Html.CompositeOperation.SoftLight
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SoftLight
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 335
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: SoftLight = 19
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Difference
+  commentId: F:Goui.Html.CompositeOperation.Difference
+  id: Difference
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Difference
+  nameWithType: CompositeOperation.Difference
+  fullName: Goui.Html.CompositeOperation.Difference
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Difference
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 336
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Difference = 20
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Exclusion
+  commentId: F:Goui.Html.CompositeOperation.Exclusion
+  id: Exclusion
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Exclusion
+  nameWithType: CompositeOperation.Exclusion
+  fullName: Goui.Html.CompositeOperation.Exclusion
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Exclusion
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 337
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Exclusion = 21
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Hue
+  commentId: F:Goui.Html.CompositeOperation.Hue
+  id: Hue
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Hue
+  nameWithType: CompositeOperation.Hue
+  fullName: Goui.Html.CompositeOperation.Hue
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Hue
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 338
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Hue = 22
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Saturation
+  commentId: F:Goui.Html.CompositeOperation.Saturation
+  id: Saturation
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Saturation
+  nameWithType: CompositeOperation.Saturation
+  fullName: Goui.Html.CompositeOperation.Saturation
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Saturation
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 339
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Saturation = 23
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Color
+  commentId: F:Goui.Html.CompositeOperation.Color
+  id: Color
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: CompositeOperation.Color
+  fullName: Goui.Html.CompositeOperation.Color
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Color
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 340
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Color = 24
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.CompositeOperation.Luminosity
+  commentId: F:Goui.Html.CompositeOperation.Luminosity
+  id: Luminosity
+  parent: Goui.Html.CompositeOperation
+  langs:
+  - csharp
+  - vb
+  name: Luminosity
+  nameWithType: CompositeOperation.Luminosity
+  fullName: Goui.Html.CompositeOperation.Luminosity
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Luminosity
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 341
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Luminosity = 25
+    return:
+      type: Goui.Html.CompositeOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Html.CompositeOperation
+  commentId: T:Goui.Html.CompositeOperation
+  parent: Goui.Html
+  name: CompositeOperation
+  nameWithType: CompositeOperation
+  fullName: Goui.Html.CompositeOperation

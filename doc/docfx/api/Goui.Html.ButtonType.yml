@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.ButtonType
+  commentId: T:Goui.Html.ButtonType
+  id: ButtonType
+  parent: Goui.Html
+  children:
+  - Goui.Html.ButtonType.Button
+  - Goui.Html.ButtonType.Reset
+  - Goui.Html.ButtonType.Submit
+  langs:
+  - csharp
+  - vb
+  name: ButtonType
+  nameWithType: ButtonType
+  fullName: Goui.Html.ButtonType
+  type: Enum
+  source:
+    remote:
+      path: Goui/Html/Button.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ButtonType
+    path: ../../Goui/Html/Button.cs
+    startLine: 25
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ButtonType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ButtonType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Html.ButtonType.Submit
+  commentId: F:Goui.Html.ButtonType.Submit
+  id: Submit
+  parent: Goui.Html.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: ButtonType.Submit
+  fullName: Goui.Html.ButtonType.Submit
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Button.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Submit
+    path: ../../Goui/Html/Button.cs
+    startLine: 28
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "submit")]
+
+      Submit = 0
+    return:
+      type: Goui.Html.ButtonType
+    content.vb: >-
+      <EnumMember(Value:="submit")>
+
+      Submit = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: submit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.ButtonType.Reset
+  commentId: F:Goui.Html.ButtonType.Reset
+  id: Reset
+  parent: Goui.Html.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: ButtonType.Reset
+  fullName: Goui.Html.ButtonType.Reset
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Button.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Reset
+    path: ../../Goui/Html/Button.cs
+    startLine: 30
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "reset")]
+
+      Reset = 1
+    return:
+      type: Goui.Html.ButtonType
+    content.vb: >-
+      <EnumMember(Value:="reset")>
+
+      Reset = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: reset
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.ButtonType.Button
+  commentId: F:Goui.Html.ButtonType.Button
+  id: Button
+  parent: Goui.Html.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: ButtonType.Button
+  fullName: Goui.Html.ButtonType.Button
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/Button.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Button
+    path: ../../Goui/Html/Button.cs
+    startLine: 32
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: >-
+      [EnumMember(Value = "button")]
+
+      Button = 2
+    return:
+      type: Goui.Html.ButtonType
+    content.vb: >-
+      <EnumMember(Value:="button")>
+
+      Button = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Html.ButtonType
+  commentId: T:Goui.Html.ButtonType
+  parent: Goui.Html
+  name: ButtonType
+  nameWithType: ButtonType
+  fullName: Goui.Html.ButtonType

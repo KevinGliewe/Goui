@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.VisualElementChangedEventArgs
+  commentId: T:Goui.Forms.VisualElementChangedEventArgs
+  id: VisualElementChangedEventArgs
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.VisualElementChangedEventArgs.#ctor(Xamarin.Forms.VisualElement,Xamarin.Forms.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: VisualElementChangedEventArgs
+  nameWithType: VisualElementChangedEventArgs
+  fullName: Goui.Forms.VisualElementChangedEventArgs
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: VisualElementChangedEventArgs
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public class VisualElementChangedEventArgs : ElementChangedEventArgs<VisualElement>'
+    content.vb: >-
+      Public Class VisualElementChangedEventArgs
+
+          Inherits ElementChangedEventArgs(Of VisualElement)
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}
+  inheritedMembers:
+  - Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.NewElement
+  - Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.OldElement
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.VisualElementChangedEventArgs.#ctor(Xamarin.Forms.VisualElement,Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.VisualElementChangedEventArgs.#ctor(Xamarin.Forms.VisualElement,Xamarin.Forms.VisualElement)
+  id: '#ctor(Xamarin.Forms.VisualElement,Xamarin.Forms.VisualElement)'
+  parent: Goui.Forms.VisualElementChangedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: VisualElementChangedEventArgs(VisualElement, VisualElement)
+  nameWithType: VisualElementChangedEventArgs.VisualElementChangedEventArgs(VisualElement, VisualElement)
+  fullName: Goui.Forms.VisualElementChangedEventArgs.VisualElementChangedEventArgs(Xamarin.Forms.VisualElement, Xamarin.Forms.VisualElement)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public VisualElementChangedEventArgs(VisualElement oldElement, VisualElement newElement)
+    parameters:
+    - id: oldElement
+      type: Xamarin.Forms.VisualElement
+    - id: newElement
+      type: Xamarin.Forms.VisualElement
+    content.vb: Public Sub New(oldElement As VisualElement, newElement As VisualElement)
+  overload: Goui.Forms.VisualElementChangedEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}
+  commentId: T:Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}
+  parent: Goui.Forms
+  definition: Goui.Forms.ElementChangedEventArgs`1
+  name: ElementChangedEventArgs<VisualElement>
+  nameWithType: ElementChangedEventArgs<VisualElement>
+  fullName: Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.VisualElement>
+  nameWithType.vb: ElementChangedEventArgs(Of VisualElement)
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.VisualElement)
+  name.vb: ElementChangedEventArgs(Of VisualElement)
+  spec.csharp:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.NewElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.NewElement
+  parent: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}
+  definition: Goui.Forms.ElementChangedEventArgs`1.NewElement
+  name: NewElement
+  nameWithType: ElementChangedEventArgs<VisualElement>.NewElement
+  fullName: Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.VisualElement>.NewElement
+  nameWithType.vb: ElementChangedEventArgs(Of VisualElement).NewElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.VisualElement).NewElement
+- uid: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.OldElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}.OldElement
+  parent: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.VisualElement}
+  definition: Goui.Forms.ElementChangedEventArgs`1.OldElement
+  name: OldElement
+  nameWithType: ElementChangedEventArgs<VisualElement>.OldElement
+  fullName: Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.VisualElement>.OldElement
+  nameWithType.vb: ElementChangedEventArgs(Of VisualElement).OldElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.VisualElement).OldElement
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.ElementChangedEventArgs`1
+  commentId: T:Goui.Forms.ElementChangedEventArgs`1
+  name: ElementChangedEventArgs<TElement>
+  nameWithType: ElementChangedEventArgs<TElement>
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>
+  nameWithType.vb: ElementChangedEventArgs(Of TElement)
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement)
+  name.vb: ElementChangedEventArgs(Of TElement)
+  spec.csharp:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.ElementChangedEventArgs`1.NewElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs`1.NewElement
+  name: NewElement
+  nameWithType: ElementChangedEventArgs<TElement>.NewElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.NewElement
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).NewElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).NewElement
+- uid: Goui.Forms.ElementChangedEventArgs`1.OldElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs`1.OldElement
+  name: OldElement
+  nameWithType: ElementChangedEventArgs<TElement>.OldElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.OldElement
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).OldElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).OldElement
+- uid: Goui.Forms.VisualElementChangedEventArgs.#ctor*
+  commentId: Overload:Goui.Forms.VisualElementChangedEventArgs.#ctor
+  name: VisualElementChangedEventArgs
+  nameWithType: VisualElementChangedEventArgs.VisualElementChangedEventArgs
+  fullName: Goui.Forms.VisualElementChangedEventArgs.VisualElementChangedEventArgs
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms

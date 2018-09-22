@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Renderers.IImageSourceHandler
+  commentId: T:Goui.Forms.Renderers.IImageSourceHandler
+  id: IImageSourceHandler
+  parent: Goui.Forms.Renderers
+  children:
+  - Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: IImageSourceHandler
+  nameWithType: IImageSourceHandler
+  fullName: Goui.Forms.Renderers.IImageSourceHandler
+  type: Interface
+  source:
+    remote:
+      path: Goui.Forms/Renderers/ImageRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: IImageSourceHandler
+    path: ../../Goui.Forms/Renderers/ImageRenderer.cs
+    startLine: 134
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: 'public interface IImageSourceHandler : IRegisterable'
+    content.vb: >-
+      Public Interface IImageSourceHandler
+
+          Inherits IRegisterable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  commentId: M:Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  id: LoadImageAsync(Xamarin.Forms.ImageSource,System.Threading.CancellationToken,System.Single)
+  parent: Goui.Forms.Renderers.IImageSourceHandler
+  langs:
+  - csharp
+  - vb
+  name: LoadImageAsync(ImageSource, CancellationToken, Single)
+  nameWithType: IImageSourceHandler.LoadImageAsync(ImageSource, CancellationToken, Single)
+  fullName: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync(Xamarin.Forms.ImageSource, System.Threading.CancellationToken, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Renderers/ImageRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LoadImageAsync
+    path: ../../Goui.Forms/Renderers/ImageRenderer.cs
+    startLine: 136
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: Task<string> LoadImageAsync(ImageSource imagesource, CancellationToken cancelationToken = default(CancellationToken), float scale = 1F)
+    parameters:
+    - id: imagesource
+      type: Xamarin.Forms.ImageSource
+    - id: cancelationToken
+      type: System.Threading.CancellationToken
+    - id: scale
+      type: System.Single
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function LoadImageAsync(imagesource As ImageSource, cancelationToken As CancellationToken = Nothing, scale As Single = 1F) As Task(Of String)
+  overload: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync*
+references:
+- uid: Goui.Forms.Renderers
+  commentId: N:Goui.Forms.Renderers
+  name: Goui.Forms.Renderers
+  nameWithType: Goui.Forms.Renderers
+  fullName: Goui.Forms.Renderers
+- uid: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync*
+  commentId: Overload:Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync
+  name: LoadImageAsync
+  nameWithType: IImageSourceHandler.LoadImageAsync
+  fullName: Goui.Forms.Renderers.IImageSourceHandler.LoadImageAsync
+- uid: Xamarin.Forms.ImageSource
+  commentId: T:Xamarin.Forms.ImageSource
+  parent: Xamarin.Forms
+  isExternal: true
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: Xamarin.Forms.ImageSource
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

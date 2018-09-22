@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.UI.StyleSelectors
+  commentId: T:Goui.UI.StyleSelectors
+  id: UI.StyleSelectors
+  parent: Goui
+  children:
+  - Goui.UI.StyleSelectors.Clear
+  - Goui.UI.StyleSelectors.Item(System.String)
+  - Goui.UI.StyleSelectors.ToString
+  langs:
+  - csharp
+  - vb
+  name: UI.StyleSelectors
+  nameWithType: UI.StyleSelectors
+  fullName: Goui.UI.StyleSelectors
+  type: Class
+  source:
+    remote:
+      path: Goui/UI.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: StyleSelectors
+    path: ../../Goui/UI.cs
+    startLine: 691
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public class StyleSelectors
+    content.vb: Public Class StyleSelectors
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.UI.StyleSelectors.Item(System.String)
+  commentId: P:Goui.UI.StyleSelectors.Item(System.String)
+  id: Item(System.String)
+  parent: Goui.UI.StyleSelectors
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: UI.StyleSelectors.Item[String]
+  fullName: Goui.UI.StyleSelectors.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: Goui/UI.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: this[]
+    path: ../../Goui/UI.cs
+    startLine: 693
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public Style this[string selector] { get; set; }
+    parameters:
+    - id: selector
+      type: System.String
+    return:
+      type: Goui.Style
+    content.vb: Public Property Item(selector As String) As Style
+  overload: Goui.UI.StyleSelectors.Item*
+  nameWithType.vb: UI.StyleSelectors.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Goui.UI.StyleSelectors.Item(System.String)
+  name.vb: Item(String)
+- uid: Goui.UI.StyleSelectors.Clear
+  commentId: M:Goui.UI.StyleSelectors.Clear
+  id: Clear
+  parent: Goui.UI.StyleSelectors
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: UI.StyleSelectors.Clear()
+  fullName: Goui.UI.StyleSelectors.Clear()
+  type: Method
+  source:
+    remote:
+      path: Goui/UI.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Clear
+    path: ../../Goui/UI.cs
+    startLine: 717
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Goui.UI.StyleSelectors.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.UI.StyleSelectors.ToString
+  commentId: M:Goui.UI.StyleSelectors.ToString
+  id: ToString
+  parent: Goui.UI.StyleSelectors
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UI.StyleSelectors.ToString()
+  fullName: Goui.UI.StyleSelectors.ToString()
+  type: Method
+  source:
+    remote:
+      path: Goui/UI.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ToString
+    path: ../../Goui/UI.cs
+    startLine: 724
+  assemblies:
+  - Goui
+  namespace: Goui
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Goui.UI.StyleSelectors.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.UI.StyleSelectors.Item*
+  commentId: Overload:Goui.UI.StyleSelectors.Item
+  name: Item
+  nameWithType: UI.StyleSelectors.Item
+  fullName: Goui.UI.StyleSelectors.Item
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Style
+  commentId: T:Goui.Style
+  parent: Goui
+  name: Style
+  nameWithType: Style
+  fullName: Goui.Style
+- uid: Goui.UI.StyleSelectors.Clear*
+  commentId: Overload:Goui.UI.StyleSelectors.Clear
+  name: Clear
+  nameWithType: UI.StyleSelectors.Clear
+  fullName: Goui.UI.StyleSelectors.Clear
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.UI.StyleSelectors.ToString*
+  commentId: Overload:Goui.UI.StyleSelectors.ToString
+  name: ToString
+  nameWithType: UI.StyleSelectors.ToString
+  fullName: Goui.UI.StyleSelectors.ToString

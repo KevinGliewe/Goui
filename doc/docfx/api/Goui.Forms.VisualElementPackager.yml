@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.VisualElementPackager
+  commentId: T:Goui.Forms.VisualElementPackager
+  id: VisualElementPackager
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.VisualElementPackager.#ctor(Goui.Forms.IVisualElementRenderer)
+  - Goui.Forms.VisualElementPackager.Dispose
+  - Goui.Forms.VisualElementPackager.Dispose(System.Boolean)
+  - Goui.Forms.VisualElementPackager.Load
+  - Goui.Forms.VisualElementPackager.OnChildAdded(Xamarin.Forms.VisualElement)
+  - Goui.Forms.VisualElementPackager.OnChildRemoved(Xamarin.Forms.VisualElement)
+  - Goui.Forms.VisualElementPackager.Renderer
+  langs:
+  - csharp
+  - vb
+  name: VisualElementPackager
+  nameWithType: VisualElementPackager
+  fullName: Goui.Forms.VisualElementPackager
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: VisualElementPackager
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public class VisualElementPackager : IDisposable'
+    content.vb: >-
+      Public Class VisualElementPackager
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.VisualElementPackager.#ctor(Goui.Forms.IVisualElementRenderer)
+  commentId: M:Goui.Forms.VisualElementPackager.#ctor(Goui.Forms.IVisualElementRenderer)
+  id: '#ctor(Goui.Forms.IVisualElementRenderer)'
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: VisualElementPackager(IVisualElementRenderer)
+  nameWithType: VisualElementPackager.VisualElementPackager(IVisualElementRenderer)
+  fullName: Goui.Forms.VisualElementPackager.VisualElementPackager(Goui.Forms.IVisualElementRenderer)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 13
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public VisualElementPackager(IVisualElementRenderer renderer)
+    parameters:
+    - id: renderer
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Sub New(renderer As IVisualElementRenderer)
+  overload: Goui.Forms.VisualElementPackager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.VisualElementPackager.Renderer
+  commentId: P:Goui.Forms.VisualElementPackager.Renderer
+  id: Renderer
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: Renderer
+  nameWithType: VisualElementPackager.Renderer
+  fullName: Goui.Forms.VisualElementPackager.Renderer
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Renderer
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 27
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected IVisualElementRenderer Renderer { get; set; }
+    parameters: []
+    return:
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Protected Property Renderer As IVisualElementRenderer
+  overload: Goui.Forms.VisualElementPackager.Renderer*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Goui.Forms.VisualElementPackager.Dispose
+  commentId: M:Goui.Forms.VisualElementPackager.Dispose
+  id: Dispose
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: VisualElementPackager.Dispose()
+  fullName: Goui.Forms.VisualElementPackager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Dispose
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 29
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Goui.Forms.VisualElementPackager.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.VisualElementPackager.Load
+  commentId: M:Goui.Forms.VisualElementPackager.Load
+  id: Load
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: VisualElementPackager.Load()
+  fullName: Goui.Forms.VisualElementPackager.Load()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Load
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 34
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void Load()
+    content.vb: Public Sub Load
+  overload: Goui.Forms.VisualElementPackager.Load*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.VisualElementPackager.Dispose(System.Boolean)
+  commentId: M:Goui.Forms.VisualElementPackager.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: VisualElementPackager.Dispose(Boolean)
+  fullName: Goui.Forms.VisualElementPackager.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Dispose
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 43
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: Goui.Forms.VisualElementPackager.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Goui.Forms.VisualElementPackager.OnChildAdded(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.VisualElementPackager.OnChildAdded(Xamarin.Forms.VisualElement)
+  id: OnChildAdded(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: OnChildAdded(VisualElement)
+  nameWithType: VisualElementPackager.OnChildAdded(VisualElement)
+  fullName: Goui.Forms.VisualElementPackager.OnChildAdded(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnChildAdded
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 59
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected virtual void OnChildAdded(VisualElement view)
+    parameters:
+    - id: view
+      type: Xamarin.Forms.VisualElement
+    content.vb: Protected Overridable Sub OnChildAdded(view As VisualElement)
+  overload: Goui.Forms.VisualElementPackager.OnChildAdded*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Goui.Forms.VisualElementPackager.OnChildRemoved(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.VisualElementPackager.OnChildRemoved(Xamarin.Forms.VisualElement)
+  id: OnChildRemoved(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.VisualElementPackager
+  langs:
+  - csharp
+  - vb
+  name: OnChildRemoved(VisualElement)
+  nameWithType: VisualElementPackager.OnChildRemoved(VisualElement)
+  fullName: Goui.Forms.VisualElementPackager.OnChildRemoved(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/VisualElementPackager.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnChildRemoved
+    path: ../../Goui.Forms/VisualElementPackager.cs
+    startLine: 80
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected virtual void OnChildRemoved(VisualElement view)
+    parameters:
+    - id: view
+      type: Xamarin.Forms.VisualElement
+    content.vb: Protected Overridable Sub OnChildRemoved(view As VisualElement)
+  overload: Goui.Forms.VisualElementPackager.OnChildRemoved*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.VisualElementPackager.#ctor*
+  commentId: Overload:Goui.Forms.VisualElementPackager.#ctor
+  name: VisualElementPackager
+  nameWithType: VisualElementPackager.VisualElementPackager
+  fullName: Goui.Forms.VisualElementPackager.VisualElementPackager
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Goui.Forms.VisualElementPackager.Renderer*
+  commentId: Overload:Goui.Forms.VisualElementPackager.Renderer
+  name: Renderer
+  nameWithType: VisualElementPackager.Renderer
+  fullName: Goui.Forms.VisualElementPackager.Renderer
+- uid: Goui.Forms.VisualElementPackager.Dispose*
+  commentId: Overload:Goui.Forms.VisualElementPackager.Dispose
+  name: Dispose
+  nameWithType: VisualElementPackager.Dispose
+  fullName: Goui.Forms.VisualElementPackager.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementPackager.Load*
+  commentId: Overload:Goui.Forms.VisualElementPackager.Load
+  name: Load
+  nameWithType: VisualElementPackager.Load
+  fullName: Goui.Forms.VisualElementPackager.Load
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Goui.Forms.VisualElementPackager.OnChildAdded*
+  commentId: Overload:Goui.Forms.VisualElementPackager.OnChildAdded
+  name: OnChildAdded
+  nameWithType: VisualElementPackager.OnChildAdded
+  fullName: Goui.Forms.VisualElementPackager.OnChildAdded
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.VisualElementPackager.OnChildRemoved*
+  commentId: Overload:Goui.Forms.VisualElementPackager.OnChildRemoved
+  name: OnChildRemoved
+  nameWithType: VisualElementPackager.OnChildRemoved
+  fullName: Goui.Forms.VisualElementPackager.OnChildRemoved

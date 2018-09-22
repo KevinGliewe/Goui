@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  id: IVisualElementRenderer
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.IVisualElementRenderer.Element
+  - Goui.Forms.IVisualElementRenderer.ElementChanged
+  - Goui.Forms.IVisualElementRenderer.GetDesiredSize(System.Double,System.Double)
+  - Goui.Forms.IVisualElementRenderer.NativeView
+  - Goui.Forms.IVisualElementRenderer.SetControlSize(Xamarin.Forms.Size)
+  - Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  - Goui.Forms.IVisualElementRenderer.SetElementSize(Xamarin.Forms.Size)
+  langs:
+  - csharp
+  - vb
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+  type: Interface
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: IVisualElementRenderer
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public interface IVisualElementRenderer : IRegisterable, IDisposable'
+    content.vb: >-
+      Public Interface IVisualElementRenderer
+
+          Inherits IRegisterable, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Goui.Forms.IVisualElementRenderer.ElementChanged
+  commentId: E:Goui.Forms.IVisualElementRenderer.ElementChanged
+  id: ElementChanged
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: ElementChanged
+  nameWithType: IVisualElementRenderer.ElementChanged
+  fullName: Goui.Forms.IVisualElementRenderer.ElementChanged
+  type: Event
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ElementChanged
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: event EventHandler<VisualElementChangedEventArgs> ElementChanged
+    return:
+      type: System.EventHandler{Goui.Forms.VisualElementChangedEventArgs}
+    content.vb: Event ElementChanged As EventHandler(Of VisualElementChangedEventArgs)
+- uid: Goui.Forms.IVisualElementRenderer.Element
+  commentId: P:Goui.Forms.IVisualElementRenderer.Element
+  id: Element
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: IVisualElementRenderer.Element
+  fullName: Goui.Forms.IVisualElementRenderer.Element
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Element
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 9
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: VisualElement Element { get; }
+    parameters: []
+    return:
+      type: Xamarin.Forms.VisualElement
+    content.vb: ReadOnly Property Element As VisualElement
+  overload: Goui.Forms.IVisualElementRenderer.Element*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Goui.Forms.IVisualElementRenderer.NativeView
+  commentId: P:Goui.Forms.IVisualElementRenderer.NativeView
+  id: NativeView
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: NativeView
+  nameWithType: IVisualElementRenderer.NativeView
+  fullName: Goui.Forms.IVisualElementRenderer.NativeView
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: NativeView
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 11
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Element NativeView { get; }
+    parameters: []
+    return:
+      type: Goui.Html.Element
+    content.vb: ReadOnly Property NativeView As Element
+  overload: Goui.Forms.IVisualElementRenderer.NativeView*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  id: SetElement(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: SetElement(VisualElement)
+  nameWithType: IVisualElementRenderer.SetElement(VisualElement)
+  fullName: Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetElement
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 13
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void SetElement(VisualElement element)
+    parameters:
+    - id: element
+      type: Xamarin.Forms.VisualElement
+    content.vb: Sub SetElement(element As VisualElement)
+  overload: Goui.Forms.IVisualElementRenderer.SetElement*
+- uid: Goui.Forms.IVisualElementRenderer.SetElementSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.IVisualElementRenderer.SetElementSize(Xamarin.Forms.Size)
+  id: SetElementSize(Xamarin.Forms.Size)
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: SetElementSize(Size)
+  nameWithType: IVisualElementRenderer.SetElementSize(Size)
+  fullName: Goui.Forms.IVisualElementRenderer.SetElementSize(Xamarin.Forms.Size)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetElementSize
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void SetElementSize(Size size)
+    parameters:
+    - id: size
+      type: Xamarin.Forms.Size
+    content.vb: Sub SetElementSize(size As Size)
+  overload: Goui.Forms.IVisualElementRenderer.SetElementSize*
+- uid: Goui.Forms.IVisualElementRenderer.GetDesiredSize(System.Double,System.Double)
+  commentId: M:Goui.Forms.IVisualElementRenderer.GetDesiredSize(System.Double,System.Double)
+  id: GetDesiredSize(System.Double,System.Double)
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: GetDesiredSize(Double, Double)
+  nameWithType: IVisualElementRenderer.GetDesiredSize(Double, Double)
+  fullName: Goui.Forms.IVisualElementRenderer.GetDesiredSize(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetDesiredSize
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 17
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: SizeRequest GetDesiredSize(double widthConstraint, double heightConstraint)
+    parameters:
+    - id: widthConstraint
+      type: System.Double
+    - id: heightConstraint
+      type: System.Double
+    return:
+      type: Xamarin.Forms.SizeRequest
+    content.vb: Function GetDesiredSize(widthConstraint As Double, heightConstraint As Double) As SizeRequest
+  overload: Goui.Forms.IVisualElementRenderer.GetDesiredSize*
+- uid: Goui.Forms.IVisualElementRenderer.SetControlSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.IVisualElementRenderer.SetControlSize(Xamarin.Forms.Size)
+  id: SetControlSize(Xamarin.Forms.Size)
+  parent: Goui.Forms.IVisualElementRenderer
+  langs:
+  - csharp
+  - vb
+  name: SetControlSize(Size)
+  nameWithType: IVisualElementRenderer.SetControlSize(Size)
+  fullName: Goui.Forms.IVisualElementRenderer.SetControlSize(Xamarin.Forms.Size)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/IVisualElementRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetControlSize
+    path: ../../Goui.Forms/IVisualElementRenderer.cs
+    startLine: 19
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void SetControlSize(Size size)
+    parameters:
+    - id: size
+      type: Xamarin.Forms.Size
+    content.vb: Sub SetControlSize(size As Size)
+  overload: Goui.Forms.IVisualElementRenderer.SetControlSize*
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.EventHandler{Goui.Forms.VisualElementChangedEventArgs}
+  commentId: T:System.EventHandler{Goui.Forms.VisualElementChangedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<VisualElementChangedEventArgs>
+  nameWithType: EventHandler<VisualElementChangedEventArgs>
+  fullName: System.EventHandler<Goui.Forms.VisualElementChangedEventArgs>
+  nameWithType.vb: EventHandler(Of VisualElementChangedEventArgs)
+  fullName.vb: System.EventHandler(Of Goui.Forms.VisualElementChangedEventArgs)
+  name.vb: EventHandler(Of VisualElementChangedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Goui.Forms.VisualElementChangedEventArgs
+    name: VisualElementChangedEventArgs
+    nameWithType: VisualElementChangedEventArgs
+    fullName: Goui.Forms.VisualElementChangedEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Goui.Forms.VisualElementChangedEventArgs
+    name: VisualElementChangedEventArgs
+    nameWithType: VisualElementChangedEventArgs
+    fullName: Goui.Forms.VisualElementChangedEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.IVisualElementRenderer.Element*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.Element
+  name: Element
+  nameWithType: IVisualElementRenderer.Element
+  fullName: Goui.Forms.IVisualElementRenderer.Element
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.IVisualElementRenderer.NativeView*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.NativeView
+  name: NativeView
+  nameWithType: IVisualElementRenderer.NativeView
+  fullName: Goui.Forms.IVisualElementRenderer.NativeView
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Forms.IVisualElementRenderer.SetElement*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.SetElement
+  name: SetElement
+  nameWithType: IVisualElementRenderer.SetElement
+  fullName: Goui.Forms.IVisualElementRenderer.SetElement
+- uid: Goui.Forms.IVisualElementRenderer.SetElementSize*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.SetElementSize
+  name: SetElementSize
+  nameWithType: IVisualElementRenderer.SetElementSize
+  fullName: Goui.Forms.IVisualElementRenderer.SetElementSize
+- uid: Xamarin.Forms.Size
+  commentId: T:Xamarin.Forms.Size
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: Xamarin.Forms.Size
+- uid: Goui.Forms.IVisualElementRenderer.GetDesiredSize*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.GetDesiredSize
+  name: GetDesiredSize
+  nameWithType: IVisualElementRenderer.GetDesiredSize
+  fullName: Goui.Forms.IVisualElementRenderer.GetDesiredSize
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Xamarin.Forms.SizeRequest
+  commentId: T:Xamarin.Forms.SizeRequest
+  parent: Xamarin.Forms
+  isExternal: true
+  name: SizeRequest
+  nameWithType: SizeRequest
+  fullName: Xamarin.Forms.SizeRequest
+- uid: Goui.Forms.IVisualElementRenderer.SetControlSize*
+  commentId: Overload:Goui.Forms.IVisualElementRenderer.SetControlSize
+  name: SetControlSize
+  nameWithType: IVisualElementRenderer.SetControlSize
+  fullName: Goui.Forms.IVisualElementRenderer.SetControlSize

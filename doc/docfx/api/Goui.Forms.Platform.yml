@@ -1,0 +1,2816 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Platform
+  commentId: T:Goui.Forms.Platform
+  id: Platform
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.Platform.#ctor
+  - Goui.Forms.Platform.CreateRenderer(Xamarin.Forms.VisualElement)
+  - Goui.Forms.Platform.Element
+  - Goui.Forms.Platform.GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)
+  - Goui.Forms.Platform.GetRenderer(Xamarin.Forms.VisualElement)
+  - Goui.Forms.Platform.OnBindingContextChanged
+  - Goui.Forms.Platform.Page
+  - Goui.Forms.Platform.RendererProperty
+  - Goui.Forms.Platform.SetPage(Xamarin.Forms.Page)
+  - Goui.Forms.Platform.SetRenderer(Xamarin.Forms.VisualElement,Goui.Forms.IVisualElementRenderer)
+  - Goui.Forms.Platform.System#IDisposable#Dispose
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync(System.Boolean)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync(System.Boolean)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync(System.Boolean)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page,System.Boolean)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  - Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage(Xamarin.Forms.Page)
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: Platform
+  fullName: Goui.Forms.Platform
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Platform
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 9
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public class Platform : BindableObject, INotifyPropertyChanged, IDynamicResourceHandler, IPlatform, INavigation, IDisposable'
+    content.vb: >-
+      Public Class Platform
+
+          Inherits BindableObject
+
+          Implements INotifyPropertyChanged, IDynamicResourceHandler, IPlatform, INavigation, IDisposable
+  inheritance:
+  - System.Object
+  - Xamarin.Forms.BindableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Xamarin.Forms.INavigation
+  - System.IDisposable
+  inheritedMembers:
+  - Xamarin.Forms.BindableObject.BindingContextProperty
+  - Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  - Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  - Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  - Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  - Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  - Xamarin.Forms.BindableObject.ApplyBindings
+  - Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+  - Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  - Xamarin.Forms.BindableObject.UnapplyBindings
+  - Xamarin.Forms.BindableObject.BindingContext
+  - Xamarin.Forms.BindableObject.PropertyChanged
+  - Xamarin.Forms.BindableObject.BindingContextChanged
+  - Xamarin.Forms.BindableObject.PropertyChanging
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.Platform.Element
+  commentId: P:Goui.Forms.Platform.Element
+  id: Element
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: Platform.Element
+  fullName: Goui.Forms.Platform.Element
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Element
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public Element Element { get; }
+    parameters: []
+    return:
+      type: Goui.Html.Element
+    content.vb: Public ReadOnly Property Element As Element
+  overload: Goui.Forms.Platform.Element*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Goui.Forms.Platform.Page
+  commentId: P:Goui.Forms.Platform.Page
+  id: Page
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: Platform.Page
+  fullName: Goui.Forms.Platform.Page
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Page
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 17
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public Page Page { get; }
+    parameters: []
+    return:
+      type: Xamarin.Forms.Page
+    content.vb: Public ReadOnly Property Page As Page
+  overload: Goui.Forms.Platform.Page*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack
+  commentId: P:Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack
+  id: Xamarin#Forms#INavigation#ModalStack
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.ModalStack
+  nameWithType: Platform.INavigation.ModalStack
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.ModalStack
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.ModalStack
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 19
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: IReadOnlyList<Page> INavigation.ModalStack { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page}
+    content.vb: ReadOnly WriteOnly Property Xamarin.Forms.INavigation.ModalStack As IReadOnlyList(Of Page) Implements INavigation.ModalStack
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack*
+  implements:
+  - Xamarin.Forms.INavigation.ModalStack
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.ModalStack
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Xamarin.Forms.INavigation.ModalStack
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack
+  commentId: P:Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack
+  id: Xamarin#Forms#INavigation#NavigationStack
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.NavigationStack
+  nameWithType: Platform.INavigation.NavigationStack
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.NavigationStack
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.NavigationStack
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 21
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: IReadOnlyList<Page> INavigation.NavigationStack { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page}
+    content.vb: ReadOnly WriteOnly Property Xamarin.Forms.INavigation.NavigationStack As IReadOnlyList(Of Page) Implements INavigation.NavigationStack
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack*
+  implements:
+  - Xamarin.Forms.INavigation.NavigationStack
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.NavigationStack
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Xamarin.Forms.INavigation.NavigationStack
+- uid: Goui.Forms.Platform.RendererProperty
+  commentId: F:Goui.Forms.Platform.RendererProperty
+  id: RendererProperty
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: RendererProperty
+  nameWithType: Platform.RendererProperty
+  fullName: Goui.Forms.Platform.RendererProperty
+  type: Field
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: RendererProperty
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 23
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static readonly BindableProperty RendererProperty
+    return:
+      type: Xamarin.Forms.BindableProperty
+    content.vb: Public Shared ReadOnly RendererProperty As BindableProperty
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Goui.Forms.Platform.#ctor
+  commentId: M:Goui.Forms.Platform.#ctor
+  id: '#ctor'
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: Platform()
+  nameWithType: Platform.Platform()
+  fullName: Goui.Forms.Platform.Platform()
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 30
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public Platform()
+    content.vb: Public Sub New
+  overload: Goui.Forms.Platform.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.Platform.System#IDisposable#Dispose
+  commentId: M:Goui.Forms.Platform.System#IDisposable#Dispose
+  id: System#IDisposable#Dispose
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: IDisposable.Dispose()
+  nameWithType: Platform.IDisposable.Dispose()
+  fullName: Goui.Forms.Platform.System.IDisposable.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: System.IDisposable.Dispose
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 49
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void IDisposable.Dispose()
+    content.vb: Sub System.IDisposable.Dispose Implements IDisposable.Dispose
+  overload: Goui.Forms.Platform.System#IDisposable#Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: Platform.System.IDisposable.Dispose()
+  name.vb: System.IDisposable.Dispose()
+- uid: Goui.Forms.Platform.CreateRenderer(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.Platform.CreateRenderer(Xamarin.Forms.VisualElement)
+  id: CreateRenderer(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: CreateRenderer(VisualElement)
+  nameWithType: Platform.CreateRenderer(VisualElement)
+  fullName: Goui.Forms.Platform.CreateRenderer(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: CreateRenderer
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 64
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static IVisualElementRenderer CreateRenderer(VisualElement element)
+    parameters:
+    - id: element
+      type: Xamarin.Forms.VisualElement
+    return:
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Shared Function CreateRenderer(element As VisualElement) As IVisualElementRenderer
+  overload: Goui.Forms.Platform.CreateRenderer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Platform.GetRenderer(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.Platform.GetRenderer(Xamarin.Forms.VisualElement)
+  id: GetRenderer(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: GetRenderer(VisualElement)
+  nameWithType: Platform.GetRenderer(VisualElement)
+  fullName: Goui.Forms.Platform.GetRenderer(Xamarin.Forms.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetRenderer
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 71
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static IVisualElementRenderer GetRenderer(VisualElement bindable)
+    parameters:
+    - id: bindable
+      type: Xamarin.Forms.VisualElement
+    return:
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Shared Function GetRenderer(bindable As VisualElement) As IVisualElementRenderer
+  overload: Goui.Forms.Platform.GetRenderer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Platform.SetRenderer(Xamarin.Forms.VisualElement,Goui.Forms.IVisualElementRenderer)
+  commentId: M:Goui.Forms.Platform.SetRenderer(Xamarin.Forms.VisualElement,Goui.Forms.IVisualElementRenderer)
+  id: SetRenderer(Xamarin.Forms.VisualElement,Goui.Forms.IVisualElementRenderer)
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: SetRenderer(VisualElement, IVisualElementRenderer)
+  nameWithType: Platform.SetRenderer(VisualElement, IVisualElementRenderer)
+  fullName: Goui.Forms.Platform.SetRenderer(Xamarin.Forms.VisualElement, Goui.Forms.IVisualElementRenderer)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetRenderer
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 76
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public static void SetRenderer(VisualElement bindable, IVisualElementRenderer value)
+    parameters:
+    - id: bindable
+      type: Xamarin.Forms.VisualElement
+    - id: value
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Shared Sub SetRenderer(bindable As VisualElement, value As IVisualElementRenderer)
+  overload: Goui.Forms.Platform.SetRenderer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Goui.Forms.Platform.OnBindingContextChanged
+  commentId: M:Goui.Forms.Platform.OnBindingContextChanged
+  id: OnBindingContextChanged
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: OnBindingContextChanged()
+  nameWithType: Platform.OnBindingContextChanged()
+  fullName: Goui.Forms.Platform.OnBindingContextChanged()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnBindingContextChanged
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 81
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected override void OnBindingContextChanged()
+    content.vb: Protected Overrides Sub OnBindingContextChanged
+  overridden: Xamarin.Forms.BindableObject.OnBindingContextChanged
+  overload: Goui.Forms.Platform.OnBindingContextChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Goui.Forms.Platform.GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)
+  commentId: M:Goui.Forms.Platform.GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)
+  id: GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: GetNativeSize(VisualElement, Double, Double)
+  nameWithType: Platform.GetNativeSize(VisualElement, Double, Double)
+  fullName: Goui.Forms.Platform.GetNativeSize(Xamarin.Forms.VisualElement, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetNativeSize
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 88
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public SizeRequest GetNativeSize(VisualElement view, double widthConstraint, double heightConstraint)
+    parameters:
+    - id: view
+      type: Xamarin.Forms.VisualElement
+    - id: widthConstraint
+      type: System.Double
+    - id: heightConstraint
+      type: System.Double
+    return:
+      type: Xamarin.Forms.SizeRequest
+    content.vb: Public Function GetNativeSize(view As VisualElement, widthConstraint As Double, heightConstraint As Double) As SizeRequest
+  overload: Goui.Forms.Platform.GetNativeSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.Platform.SetPage(Xamarin.Forms.Page)
+  commentId: M:Goui.Forms.Platform.SetPage(Xamarin.Forms.Page)
+  id: SetPage(Xamarin.Forms.Page)
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: SetPage(Page)
+  nameWithType: Platform.SetPage(Page)
+  fullName: Goui.Forms.Platform.SetPage(Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetPage
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 97
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void SetPage(Page newRoot)
+    parameters:
+    - id: newRoot
+      type: Xamarin.Forms.Page
+    content.vb: Public Sub SetPage(newRoot As Page)
+  overload: Goui.Forms.Platform.SetPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  id: Xamarin#Forms#INavigation#InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.InsertPageBefore(Page, Page)
+  nameWithType: Platform.INavigation.InsertPageBefore(Page, Page)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page, Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.InsertPageBefore
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 162
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void INavigation.InsertPageBefore(Page page, Page before)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    - id: before
+      type: Xamarin.Forms.Page
+    content.vb: Sub Xamarin.Forms.INavigation.InsertPageBefore(page As Page, before As Page) Implements INavigation.InsertPageBefore
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore*
+  implements:
+  - Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.InsertPageBefore(Page, Page)
+  name.vb: Xamarin.Forms.INavigation.InsertPageBefore(Page, Page)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync
+  id: Xamarin#Forms#INavigation#PopAsync
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopAsync()
+  nameWithType: Platform.INavigation.PopAsync()
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopAsync()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 167
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task<Page> INavigation.PopAsync()
+    return:
+      type: System.Threading.Tasks.Task{Xamarin.Forms.Page}
+    content.vb: Function Xamarin.Forms.INavigation.PopAsync As Task(Of Page) Implements INavigation.PopAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopAsync()
+  name.vb: Xamarin.Forms.INavigation.PopAsync()
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync(System.Boolean)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync(System.Boolean)
+  id: Xamarin#Forms#INavigation#PopAsync(System.Boolean)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopAsync(Boolean)
+  nameWithType: Platform.INavigation.PopAsync(Boolean)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 172
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task<Page> INavigation.PopAsync(bool animated)
+    parameters:
+    - id: animated
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{Xamarin.Forms.Page}
+    content.vb: Function Xamarin.Forms.INavigation.PopAsync(animated As Boolean) As Task(Of Page) Implements INavigation.PopAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopAsync(Boolean)
+  name.vb: Xamarin.Forms.INavigation.PopAsync(Boolean)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync
+  id: Xamarin#Forms#INavigation#PopModalAsync
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopModalAsync()
+  nameWithType: Platform.INavigation.PopModalAsync()
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopModalAsync()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopModalAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 177
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task<Page> INavigation.PopModalAsync()
+    return:
+      type: System.Threading.Tasks.Task{Xamarin.Forms.Page}
+    content.vb: Function Xamarin.Forms.INavigation.PopModalAsync As Task(Of Page) Implements INavigation.PopModalAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopModalAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopModalAsync()
+  name.vb: Xamarin.Forms.INavigation.PopModalAsync()
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync(System.Boolean)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync(System.Boolean)
+  id: Xamarin#Forms#INavigation#PopModalAsync(System.Boolean)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopModalAsync(Boolean)
+  nameWithType: Platform.INavigation.PopModalAsync(Boolean)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopModalAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 182
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task<Page> INavigation.PopModalAsync(bool animated)
+    parameters:
+    - id: animated
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{Xamarin.Forms.Page}
+    content.vb: Function Xamarin.Forms.INavigation.PopModalAsync(animated As Boolean) As Task(Of Page) Implements INavigation.PopModalAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopModalAsync(Boolean)
+  name.vb: Xamarin.Forms.INavigation.PopModalAsync(Boolean)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync
+  id: Xamarin#Forms#INavigation#PopToRootAsync
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopToRootAsync()
+  nameWithType: Platform.INavigation.PopToRootAsync()
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopToRootAsync()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopToRootAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 187
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PopToRootAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PopToRootAsync As Task Implements INavigation.PopToRootAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopToRootAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopToRootAsync()
+  name.vb: Xamarin.Forms.INavigation.PopToRootAsync()
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync(System.Boolean)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync(System.Boolean)
+  id: Xamarin#Forms#INavigation#PopToRootAsync(System.Boolean)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PopToRootAsync(Boolean)
+  nameWithType: Platform.INavigation.PopToRootAsync(Boolean)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PopToRootAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 192
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PopToRootAsync(bool animated)
+    parameters:
+    - id: animated
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PopToRootAsync(animated As Boolean) As Task Implements INavigation.PopToRootAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopToRootAsync(Boolean)
+  name.vb: Xamarin.Forms.INavigation.PopToRootAsync(Boolean)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page)
+  id: Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PushAsync(Page)
+  nameWithType: Platform.INavigation.PushAsync(Page)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PushAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 197
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PushAsync(Page page)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PushAsync(page As Page) As Task Implements INavigation.PushAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushAsync(Page)
+  name.vb: Xamarin.Forms.INavigation.PushAsync(Page)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page,System.Boolean)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page,System.Boolean)
+  id: Xamarin#Forms#INavigation#PushAsync(Xamarin.Forms.Page,System.Boolean)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PushAsync(Page, Boolean)
+  nameWithType: Platform.INavigation.PushAsync(Page, Boolean)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PushAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 202
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PushAsync(Page page, bool animated)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    - id: animated
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PushAsync(page As Page, animated As Boolean) As Task Implements INavigation.PushAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page,System.Boolean)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushAsync(Page, Boolean)
+  name.vb: Xamarin.Forms.INavigation.PushAsync(Page, Boolean)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page)
+  id: Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PushModalAsync(Page)
+  nameWithType: Platform.INavigation.PushModalAsync(Page)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PushModalAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 207
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PushModalAsync(Page page)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PushModalAsync(page As Page) As Task Implements INavigation.PushModalAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushModalAsync(Page)
+  name.vb: Xamarin.Forms.INavigation.PushModalAsync(Page)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  id: Xamarin#Forms#INavigation#PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.PushModalAsync(Page, Boolean)
+  nameWithType: Platform.INavigation.PushModalAsync(Page, Boolean)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.PushModalAsync
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 212
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: Task INavigation.PushModalAsync(Page page, bool animated)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    - id: animated
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Xamarin.Forms.INavigation.PushModalAsync(page As Page, animated As Boolean) As Task Implements INavigation.PushModalAsync
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync*
+  implements:
+  - Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushModalAsync(Page, Boolean)
+  name.vb: Xamarin.Forms.INavigation.PushModalAsync(Page, Boolean)
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage(Xamarin.Forms.Page)
+  commentId: M:Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage(Xamarin.Forms.Page)
+  id: Xamarin#Forms#INavigation#RemovePage(Xamarin.Forms.Page)
+  isEii: true
+  parent: Goui.Forms.Platform
+  langs:
+  - csharp
+  - vb
+  name: INavigation.RemovePage(Page)
+  nameWithType: Platform.INavigation.RemovePage(Page)
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Platform.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Xamarin.Forms.INavigation.RemovePage
+    path: ../../Goui.Forms/Platform.cs
+    startLine: 217
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: void INavigation.RemovePage(Page page)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    content.vb: Sub Xamarin.Forms.INavigation.RemovePage(page As Page) Implements INavigation.RemovePage
+  overload: Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage*
+  implements:
+  - Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.RemovePage(Page)
+  name.vb: Xamarin.Forms.INavigation.RemovePage(Page)
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xamarin.Forms.BindableObject
+  commentId: T:Xamarin.Forms.BindableObject
+  parent: Xamarin.Forms
+  isExternal: true
+  name: BindableObject
+  nameWithType: BindableObject
+  fullName: Xamarin.Forms.BindableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Xamarin.Forms.INavigation
+  commentId: T:Xamarin.Forms.INavigation
+  parent: Xamarin.Forms
+  isExternal: true
+  name: INavigation
+  nameWithType: INavigation
+  fullName: Xamarin.Forms.INavigation
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Xamarin.Forms.BindableObject.BindingContextProperty
+  commentId: F:Xamarin.Forms.BindableObject.BindingContextProperty
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContextProperty
+  nameWithType: BindableObject.BindingContextProperty
+  fullName: Xamarin.Forms.BindableObject.BindingContextProperty
+- uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ClearValue(BindableProperty)
+  nameWithType: BindableObject.ClearValue(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindableProperty)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  commentId: M:Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ClearValue(BindablePropertyKey)
+  nameWithType: BindableObject.ClearValue(BindablePropertyKey)
+  fullName: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ClearValue(Xamarin.Forms.BindablePropertyKey)
+    name: ClearValue
+    nameWithType: BindableObject.ClearValue
+    fullName: Xamarin.Forms.BindableObject.ClearValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: IsSet(BindableProperty)
+  nameWithType: BindableObject.IsSet(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+    name: IsSet
+    nameWithType: BindableObject.IsSet
+    fullName: Xamarin.Forms.BindableObject.IsSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.IsSet(Xamarin.Forms.BindableProperty)
+    name: IsSet
+    nameWithType: BindableObject.IsSet
+    fullName: Xamarin.Forms.BindableObject.IsSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: GetValue(BindableProperty)
+  nameWithType: BindableObject.GetValue(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+    name: GetValue
+    nameWithType: BindableObject.GetValue
+    fullName: Xamarin.Forms.BindableObject.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.GetValue(Xamarin.Forms.BindableProperty)
+    name: GetValue
+    nameWithType: BindableObject.GetValue
+    fullName: Xamarin.Forms.BindableObject.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  commentId: M:Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: RemoveBinding(BindableProperty)
+  nameWithType: BindableObject.RemoveBinding(BindableProperty)
+  fullName: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+    name: RemoveBinding
+    nameWithType: BindableObject.RemoveBinding
+    fullName: Xamarin.Forms.BindableObject.RemoveBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.RemoveBinding(Xamarin.Forms.BindableProperty)
+    name: RemoveBinding
+    nameWithType: BindableObject.RemoveBinding
+    fullName: Xamarin.Forms.BindableObject.RemoveBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  commentId: M:Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetBinding(BindableProperty, BindingBase)
+  nameWithType: BindableObject.SetBinding(BindableProperty, BindingBase)
+  fullName: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty, Xamarin.Forms.BindingBase)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+    name: SetBinding
+    nameWithType: BindableObject.SetBinding
+    fullName: Xamarin.Forms.BindableObject.SetBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.BindingBase
+    name: BindingBase
+    nameWithType: BindingBase
+    fullName: Xamarin.Forms.BindingBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)
+    name: SetBinding
+    nameWithType: BindableObject.SetBinding
+    fullName: Xamarin.Forms.BindableObject.SetBinding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.BindingBase
+    name: BindingBase
+    nameWithType: BindingBase
+    fullName: Xamarin.Forms.BindingBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  commentId: M:Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetValue(BindableProperty, Object)
+  nameWithType: BindableObject.SetValue(BindableProperty, Object)
+  fullName: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty, System.Object)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindableProperty,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindableProperty
+    name: BindableProperty
+    nameWithType: BindableProperty
+    fullName: Xamarin.Forms.BindableProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  commentId: M:Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: SetValue(BindablePropertyKey, Object)
+  nameWithType: BindableObject.SetValue(BindablePropertyKey, Object)
+  fullName: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey, System.Object)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.SetValue(Xamarin.Forms.BindablePropertyKey,System.Object)
+    name: SetValue
+    nameWithType: BindableObject.SetValue
+    fullName: Xamarin.Forms.BindableObject.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.BindablePropertyKey
+    name: BindablePropertyKey
+    nameWithType: BindablePropertyKey
+    fullName: Xamarin.Forms.BindablePropertyKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.ApplyBindings
+  commentId: M:Xamarin.Forms.BindableObject.ApplyBindings
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: ApplyBindings()
+  nameWithType: BindableObject.ApplyBindings()
+  fullName: Xamarin.Forms.BindableObject.ApplyBindings()
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.ApplyBindings
+    name: ApplyBindings
+    nameWithType: BindableObject.ApplyBindings
+    fullName: Xamarin.Forms.BindableObject.ApplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.ApplyBindings
+    name: ApplyBindings
+    nameWithType: BindableObject.ApplyBindings
+    fullName: Xamarin.Forms.BindableObject.ApplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+  commentId: M:Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: BindableObject.OnPropertyChanged(String)
+  fullName: Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableObject.OnPropertyChanged
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableObject.OnPropertyChanged
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  commentId: M:Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: OnPropertyChanging(String)
+  nameWithType: BindableObject.OnPropertyChanging(String)
+  fullName: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    nameWithType: BindableObject.OnPropertyChanging
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    nameWithType: BindableObject.OnPropertyChanging
+    fullName: Xamarin.Forms.BindableObject.OnPropertyChanging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.UnapplyBindings
+  commentId: M:Xamarin.Forms.BindableObject.UnapplyBindings
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: UnapplyBindings()
+  nameWithType: BindableObject.UnapplyBindings()
+  fullName: Xamarin.Forms.BindableObject.UnapplyBindings()
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    nameWithType: BindableObject.UnapplyBindings
+    fullName: Xamarin.Forms.BindableObject.UnapplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    nameWithType: BindableObject.UnapplyBindings
+    fullName: Xamarin.Forms.BindableObject.UnapplyBindings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.BindableObject.BindingContext
+  commentId: P:Xamarin.Forms.BindableObject.BindingContext
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContext
+  nameWithType: BindableObject.BindingContext
+  fullName: Xamarin.Forms.BindableObject.BindingContext
+- uid: Xamarin.Forms.BindableObject.PropertyChanged
+  commentId: E:Xamarin.Forms.BindableObject.PropertyChanged
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: PropertyChanged
+  nameWithType: BindableObject.PropertyChanged
+  fullName: Xamarin.Forms.BindableObject.PropertyChanged
+- uid: Xamarin.Forms.BindableObject.BindingContextChanged
+  commentId: E:Xamarin.Forms.BindableObject.BindingContextChanged
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: BindingContextChanged
+  nameWithType: BindableObject.BindingContextChanged
+  fullName: Xamarin.Forms.BindableObject.BindingContextChanged
+- uid: Xamarin.Forms.BindableObject.PropertyChanging
+  commentId: E:Xamarin.Forms.BindableObject.PropertyChanging
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: PropertyChanging
+  nameWithType: BindableObject.PropertyChanging
+  fullName: Xamarin.Forms.BindableObject.PropertyChanging
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Goui.Forms.Platform.Element*
+  commentId: Overload:Goui.Forms.Platform.Element
+  name: Element
+  nameWithType: Platform.Element
+  fullName: Goui.Forms.Platform.Element
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Forms.Platform.Page*
+  commentId: Overload:Goui.Forms.Platform.Page
+  name: Page
+  nameWithType: Platform.Page
+  fullName: Goui.Forms.Platform.Page
+- uid: Xamarin.Forms.Page
+  commentId: T:Xamarin.Forms.Page
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: Xamarin.Forms.Page
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#ModalStack
+  name: INavigation.ModalStack
+  nameWithType: Platform.INavigation.ModalStack
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.ModalStack
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.ModalStack
+  name.vb: Xamarin.Forms.INavigation.ModalStack
+- uid: Xamarin.Forms.INavigation.ModalStack
+  commentId: P:Xamarin.Forms.INavigation.ModalStack
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: ModalStack
+  nameWithType: INavigation.ModalStack
+  fullName: Xamarin.Forms.INavigation.ModalStack
+- uid: System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  name: IReadOnlyList<Page>
+  nameWithType: IReadOnlyList<Page>
+  fullName: System.Collections.Generic.IReadOnlyList<Xamarin.Forms.Page>
+  nameWithType.vb: IReadOnlyList(Of Page)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Xamarin.Forms.Page)
+  name.vb: IReadOnlyList(Of Page)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#NavigationStack
+  name: INavigation.NavigationStack
+  nameWithType: Platform.INavigation.NavigationStack
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.NavigationStack
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.NavigationStack
+  name.vb: Xamarin.Forms.INavigation.NavigationStack
+- uid: Xamarin.Forms.INavigation.NavigationStack
+  commentId: P:Xamarin.Forms.INavigation.NavigationStack
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: NavigationStack
+  nameWithType: INavigation.NavigationStack
+  fullName: Xamarin.Forms.INavigation.NavigationStack
+- uid: Xamarin.Forms.BindableProperty
+  commentId: T:Xamarin.Forms.BindableProperty
+  parent: Xamarin.Forms
+  isExternal: true
+  name: BindableProperty
+  nameWithType: BindableProperty
+  fullName: Xamarin.Forms.BindableProperty
+- uid: Goui.Forms.Platform.#ctor*
+  commentId: Overload:Goui.Forms.Platform.#ctor
+  name: Platform
+  nameWithType: Platform.Platform
+  fullName: Goui.Forms.Platform.Platform
+- uid: Goui.Forms.Platform.System#IDisposable#Dispose*
+  commentId: Overload:Goui.Forms.Platform.System#IDisposable#Dispose
+  name: IDisposable.Dispose
+  nameWithType: Platform.IDisposable.Dispose
+  fullName: Goui.Forms.Platform.System.IDisposable.Dispose
+  nameWithType.vb: Platform.System.IDisposable.Dispose
+  name.vb: System.IDisposable.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.CreateRenderer*
+  commentId: Overload:Goui.Forms.Platform.CreateRenderer
+  name: CreateRenderer
+  nameWithType: Platform.CreateRenderer
+  fullName: Goui.Forms.Platform.CreateRenderer
+- uid: Xamarin.Forms.VisualElement
+  commentId: T:Xamarin.Forms.VisualElement
+  parent: Xamarin.Forms
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Xamarin.Forms.VisualElement
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Goui.Forms.Platform.GetRenderer*
+  commentId: Overload:Goui.Forms.Platform.GetRenderer
+  name: GetRenderer
+  nameWithType: Platform.GetRenderer
+  fullName: Goui.Forms.Platform.GetRenderer
+- uid: Goui.Forms.Platform.SetRenderer*
+  commentId: Overload:Goui.Forms.Platform.SetRenderer
+  name: SetRenderer
+  nameWithType: Platform.SetRenderer
+  fullName: Goui.Forms.Platform.SetRenderer
+- uid: Xamarin.Forms.BindableObject.OnBindingContextChanged
+  commentId: M:Xamarin.Forms.BindableObject.OnBindingContextChanged
+  parent: Xamarin.Forms.BindableObject
+  isExternal: true
+  name: OnBindingContextChanged()
+  nameWithType: BindableObject.OnBindingContextChanged()
+  fullName: Xamarin.Forms.BindableObject.OnBindingContextChanged()
+  spec.csharp:
+  - uid: Xamarin.Forms.BindableObject.OnBindingContextChanged
+    name: OnBindingContextChanged
+    nameWithType: BindableObject.OnBindingContextChanged
+    fullName: Xamarin.Forms.BindableObject.OnBindingContextChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.BindableObject.OnBindingContextChanged
+    name: OnBindingContextChanged
+    nameWithType: BindableObject.OnBindingContextChanged
+    fullName: Xamarin.Forms.BindableObject.OnBindingContextChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.OnBindingContextChanged*
+  commentId: Overload:Goui.Forms.Platform.OnBindingContextChanged
+  name: OnBindingContextChanged
+  nameWithType: Platform.OnBindingContextChanged
+  fullName: Goui.Forms.Platform.OnBindingContextChanged
+- uid: Goui.Forms.Platform.GetNativeSize*
+  commentId: Overload:Goui.Forms.Platform.GetNativeSize
+  name: GetNativeSize
+  nameWithType: Platform.GetNativeSize
+  fullName: Goui.Forms.Platform.GetNativeSize
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Xamarin.Forms.SizeRequest
+  commentId: T:Xamarin.Forms.SizeRequest
+  parent: Xamarin.Forms
+  isExternal: true
+  name: SizeRequest
+  nameWithType: SizeRequest
+  fullName: Xamarin.Forms.SizeRequest
+- uid: Goui.Forms.Platform.SetPage*
+  commentId: Overload:Goui.Forms.Platform.SetPage
+  name: SetPage
+  nameWithType: Platform.SetPage
+  fullName: Goui.Forms.Platform.SetPage
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#InsertPageBefore
+  name: INavigation.InsertPageBefore
+  nameWithType: Platform.INavigation.InsertPageBefore
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.InsertPageBefore
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.InsertPageBefore
+  name.vb: Xamarin.Forms.INavigation.InsertPageBefore
+- uid: Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  commentId: M:Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: InsertPageBefore(Page, Page)
+  nameWithType: INavigation.InsertPageBefore(Page, Page)
+  fullName: Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page, Xamarin.Forms.Page)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+    name: InsertPageBefore
+    nameWithType: INavigation.InsertPageBefore
+    fullName: Xamarin.Forms.INavigation.InsertPageBefore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.InsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)
+    name: InsertPageBefore
+    nameWithType: INavigation.InsertPageBefore
+    fullName: Xamarin.Forms.INavigation.InsertPageBefore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopAsync
+  name: INavigation.PopAsync
+  nameWithType: Platform.INavigation.PopAsync
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopAsync
+  name.vb: Xamarin.Forms.INavigation.PopAsync
+- uid: Xamarin.Forms.INavigation.PopAsync
+  commentId: M:Xamarin.Forms.INavigation.PopAsync
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopAsync()
+  nameWithType: INavigation.PopAsync()
+  fullName: Xamarin.Forms.INavigation.PopAsync()
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopAsync
+    name: PopAsync
+    nameWithType: INavigation.PopAsync
+    fullName: Xamarin.Forms.INavigation.PopAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopAsync
+    name: PopAsync
+    nameWithType: INavigation.PopAsync
+    fullName: Xamarin.Forms.INavigation.PopAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Xamarin.Forms.Page}
+  commentId: T:System.Threading.Tasks.Task{Xamarin.Forms.Page}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Page>
+  nameWithType: Task<Page>
+  fullName: System.Threading.Tasks.Task<Xamarin.Forms.Page>
+  nameWithType.vb: Task(Of Page)
+  fullName.vb: System.Threading.Tasks.Task(Of Xamarin.Forms.Page)
+  name.vb: Task(Of Page)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+  commentId: M:Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopAsync(Boolean)
+  nameWithType: INavigation.PopAsync(Boolean)
+  fullName: Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+    name: PopAsync
+    nameWithType: INavigation.PopAsync
+    fullName: Xamarin.Forms.INavigation.PopAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopAsync(System.Boolean)
+    name: PopAsync
+    nameWithType: INavigation.PopAsync
+    fullName: Xamarin.Forms.INavigation.PopAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopModalAsync
+  name: INavigation.PopModalAsync
+  nameWithType: Platform.INavigation.PopModalAsync
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopModalAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopModalAsync
+  name.vb: Xamarin.Forms.INavigation.PopModalAsync
+- uid: Xamarin.Forms.INavigation.PopModalAsync
+  commentId: M:Xamarin.Forms.INavigation.PopModalAsync
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopModalAsync()
+  nameWithType: INavigation.PopModalAsync()
+  fullName: Xamarin.Forms.INavigation.PopModalAsync()
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopModalAsync
+    name: PopModalAsync
+    nameWithType: INavigation.PopModalAsync
+    fullName: Xamarin.Forms.INavigation.PopModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopModalAsync
+    name: PopModalAsync
+    nameWithType: INavigation.PopModalAsync
+    fullName: Xamarin.Forms.INavigation.PopModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+  commentId: M:Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopModalAsync(Boolean)
+  nameWithType: INavigation.PopModalAsync(Boolean)
+  fullName: Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+    name: PopModalAsync
+    nameWithType: INavigation.PopModalAsync
+    fullName: Xamarin.Forms.INavigation.PopModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopModalAsync(System.Boolean)
+    name: PopModalAsync
+    nameWithType: INavigation.PopModalAsync
+    fullName: Xamarin.Forms.INavigation.PopModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#PopToRootAsync
+  name: INavigation.PopToRootAsync
+  nameWithType: Platform.INavigation.PopToRootAsync
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PopToRootAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PopToRootAsync
+  name.vb: Xamarin.Forms.INavigation.PopToRootAsync
+- uid: Xamarin.Forms.INavigation.PopToRootAsync
+  commentId: M:Xamarin.Forms.INavigation.PopToRootAsync
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopToRootAsync()
+  nameWithType: INavigation.PopToRootAsync()
+  fullName: Xamarin.Forms.INavigation.PopToRootAsync()
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopToRootAsync
+    name: PopToRootAsync
+    nameWithType: INavigation.PopToRootAsync
+    fullName: Xamarin.Forms.INavigation.PopToRootAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopToRootAsync
+    name: PopToRootAsync
+    nameWithType: INavigation.PopToRootAsync
+    fullName: Xamarin.Forms.INavigation.PopToRootAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+  commentId: M:Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PopToRootAsync(Boolean)
+  nameWithType: INavigation.PopToRootAsync(Boolean)
+  fullName: Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+    name: PopToRootAsync
+    nameWithType: INavigation.PopToRootAsync
+    fullName: Xamarin.Forms.INavigation.PopToRootAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PopToRootAsync(System.Boolean)
+    name: PopToRootAsync
+    nameWithType: INavigation.PopToRootAsync
+    fullName: Xamarin.Forms.INavigation.PopToRootAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushAsync
+  name: INavigation.PushAsync
+  nameWithType: Platform.INavigation.PushAsync
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushAsync
+  name.vb: Xamarin.Forms.INavigation.PushAsync
+- uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+  commentId: M:Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PushAsync(Page)
+  nameWithType: INavigation.PushAsync(Page)
+  fullName: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+    name: PushAsync
+    nameWithType: INavigation.PushAsync
+    fullName: Xamarin.Forms.INavigation.PushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page)
+    name: PushAsync
+    nameWithType: INavigation.PushAsync
+    fullName: Xamarin.Forms.INavigation.PushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page,System.Boolean)
+  commentId: M:Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page,System.Boolean)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PushAsync(Page, Boolean)
+  nameWithType: INavigation.PushAsync(Page, Boolean)
+  fullName: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page, System.Boolean)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page,System.Boolean)
+    name: PushAsync
+    nameWithType: INavigation.PushAsync
+    fullName: Xamarin.Forms.INavigation.PushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PushAsync(Xamarin.Forms.Page,System.Boolean)
+    name: PushAsync
+    nameWithType: INavigation.PushAsync
+    fullName: Xamarin.Forms.INavigation.PushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#PushModalAsync
+  name: INavigation.PushModalAsync
+  nameWithType: Platform.INavigation.PushModalAsync
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.PushModalAsync
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.PushModalAsync
+  name.vb: Xamarin.Forms.INavigation.PushModalAsync
+- uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+  commentId: M:Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PushModalAsync(Page)
+  nameWithType: INavigation.PushModalAsync(Page)
+  fullName: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+    name: PushModalAsync
+    nameWithType: INavigation.PushModalAsync
+    fullName: Xamarin.Forms.INavigation.PushModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page)
+    name: PushModalAsync
+    nameWithType: INavigation.PushModalAsync
+    fullName: Xamarin.Forms.INavigation.PushModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  commentId: M:Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: PushModalAsync(Page, Boolean)
+  nameWithType: INavigation.PushModalAsync(Page, Boolean)
+  fullName: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page, System.Boolean)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+    name: PushModalAsync
+    nameWithType: INavigation.PushModalAsync
+    fullName: Xamarin.Forms.INavigation.PushModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.PushModalAsync(Xamarin.Forms.Page,System.Boolean)
+    name: PushModalAsync
+    nameWithType: INavigation.PushModalAsync
+    fullName: Xamarin.Forms.INavigation.PushModalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage*
+  commentId: Overload:Goui.Forms.Platform.Xamarin#Forms#INavigation#RemovePage
+  name: INavigation.RemovePage
+  nameWithType: Platform.INavigation.RemovePage
+  fullName: Goui.Forms.Platform.Xamarin.Forms.INavigation.RemovePage
+  nameWithType.vb: Platform.Xamarin.Forms.INavigation.RemovePage
+  name.vb: Xamarin.Forms.INavigation.RemovePage
+- uid: Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+  commentId: M:Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+  parent: Xamarin.Forms.INavigation
+  isExternal: true
+  name: RemovePage(Page)
+  nameWithType: INavigation.RemovePage(Page)
+  fullName: Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+  spec.csharp:
+  - uid: Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+    name: RemovePage
+    nameWithType: INavigation.RemovePage
+    fullName: Xamarin.Forms.INavigation.RemovePage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.INavigation.RemovePage(Xamarin.Forms.Page)
+    name: RemovePage
+    nameWithType: INavigation.RemovePage
+    fullName: Xamarin.Forms.INavigation.RemovePage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Page
+    name: Page
+    nameWithType: Page
+    fullName: Xamarin.Forms.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

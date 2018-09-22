@@ -1,0 +1,4261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.Renderers.FrameRenderer
+  commentId: T:Goui.Forms.Renderers.FrameRenderer
+  id: FrameRenderer
+  parent: Goui.Forms.Renderers
+  children:
+  - Goui.Forms.Renderers.FrameRenderer.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  - Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: FrameRenderer
+  nameWithType: FrameRenderer
+  fullName: Goui.Forms.Renderers.FrameRenderer
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/Renderers/FrameRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FrameRenderer
+    path: ../../Goui.Forms/Renderers/FrameRenderer.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: 'public class FrameRenderer : VisualElementRenderer<Frame>, INotifyPropertyChanged, IVisualElementRenderer, IRegisterable, IDisposable'
+    content.vb: >-
+      Public Class FrameRenderer
+
+          Inherits VisualElementRenderer(Of Frame)
+
+          Implements INotifyPropertyChanged, IVisualElementRenderer, IRegisterable, IDisposable
+  inheritance:
+  - System.Object
+  - Goui.EventTarget
+  - Goui.Node
+  - Goui.Html.Element
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Goui.Forms.IVisualElementRenderer
+  - Xamarin.Forms.IRegisterable
+  - System.IDisposable
+  inheritedMembers:
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Element
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#Element
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.NativeView
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#ElementChanged
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoPackage
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoTrack
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.HtmlNeedsFullEndElement
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.ElementChanged
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElement(Xamarin.Forms.Frame)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElementSize(Xamarin.Forms.Size)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetControlSize(Xamarin.Forms.Size)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetAutomationId(System.String)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetBackgroundColor(Xamarin.Forms.Color)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.UpdateNativeWidget
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.GetDesiredSize(System.Double,System.Double)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose(System.Boolean)
+  - Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose
+  - Goui.Html.Element.ClassName
+  - Goui.Html.Element.AddClassName
+  - Goui.Html.Element.Style
+  - Goui.Html.Element.Title
+  - Goui.Html.Element.IsHidden
+  - Goui.Html.Element.Click
+  - Goui.Html.Element.DoubleClick
+  - Goui.Html.Element.KeyDown
+  - Goui.Html.Element.KeyPress
+  - Goui.Html.Element.KeyUp
+  - Goui.Html.Element.MouseDown
+  - Goui.Html.Element.MouseEnter
+  - Goui.Html.Element.MouseLeave
+  - Goui.Html.Element.MouseMove
+  - Goui.Html.Element.MouseOut
+  - Goui.Html.Element.MouseOver
+  - Goui.Html.Element.MouseUp
+  - Goui.Html.Element.Wheel
+  - Goui.Html.Element.Document
+  - Goui.Html.Element.WantsFullScreen
+  - Goui.Html.Element.SetAttributeProperty(System.String,System.Object,System.String)
+  - Goui.Html.Element.SetBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  - Goui.Html.Element.UpdateAttributeProperty(System.String,System.Object,System.String)
+  - Goui.Html.Element.UpdateBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  - Goui.Html.Element.SetAttribute(System.String,System.Object)
+  - Goui.Html.Element.GetAttribute(System.String)
+  - Goui.Html.Element.GetAttribute``1(System.String,{T})
+  - Goui.Html.Element.GetBooleanAttribute(System.String)
+  - Goui.Html.Element.GetStringAttribute(System.String,System.String)
+  - Goui.Html.Element.RemoveAttribute(System.String)
+  - Goui.Html.Element.SetCapture(System.Boolean)
+  - Goui.Html.Element.Focus
+  - Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+  - Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+  - Goui.Node.Children
+  - Goui.Node.FirstChild
+  - Goui.Node.Text
+  - Goui.Node.GetElementById(System.String)
+  - Goui.Node.AppendChild(Goui.Node)
+  - Goui.Node.InsertBefore(Goui.Node,Goui.Node)
+  - Goui.Node.RemoveChild(Goui.Node)
+  - Goui.Node.OnChildInsertedBefore(Goui.Node,Goui.Node)
+  - Goui.Node.OnChildRemoved(Goui.Node)
+  - Goui.Node.ReplaceAll(Goui.Node)
+  - Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+  - Goui.Node.TriggerEventFromMessage(Goui.Message)
+  - Goui.Node.OuterHtml
+  - Goui.EventTarget.Id
+  - Goui.EventTarget.TagName
+  - Goui.EventTarget.PropertyChanged
+  - Goui.EventTarget.MessageSent
+  - Goui.EventTarget.StateMessages
+  - Goui.EventTarget.ToString
+  - Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  - Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  - Goui.EventTarget.SetProperty``1({T}@,{T},System.String,System.String)
+  - Goui.EventTarget.OnPropertyChanged(System.String)
+  - Goui.EventTarget.IdPrefix
+  - Goui.EventTarget.Send(Goui.Message)
+  - Goui.EventTarget.Call(System.String,System.Object[])
+  - Goui.EventTarget.SendSet(System.String,System.Object)
+  - Goui.EventTarget.Receive(Goui.Message)
+  - Goui.EventTarget.AddStateMessage(Goui.Message)
+  - Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  - Goui.EventTarget.TriggerEvent(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Goui.Html.Element.Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(System.Double,System.Double,System.Double,System.Double)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.Renderers.FrameRenderer.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  commentId: M:Goui.Forms.Renderers.FrameRenderer.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  id: OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  parent: Goui.Forms.Renderers.FrameRenderer
+  langs:
+  - csharp
+  - vb
+  name: OnElementChanged(ElementChangedEventArgs<Frame>)
+  nameWithType: FrameRenderer.OnElementChanged(ElementChangedEventArgs<Frame>)
+  fullName: Goui.Forms.Renderers.FrameRenderer.OnElementChanged(Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.Frame>)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Renderers/FrameRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnElementChanged
+    path: ../../Goui.Forms/Renderers/FrameRenderer.cs
+    startLine: 9
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: protected override void OnElementChanged(ElementChangedEventArgs<Frame> e)
+    parameters:
+    - id: e
+      type: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame}
+    content.vb: Protected Overrides Sub OnElementChanged(e As ElementChangedEventArgs(Of Frame))
+  overridden: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  overload: Goui.Forms.Renderers.FrameRenderer.OnElementChanged*
+  nameWithType.vb: FrameRenderer.OnElementChanged(ElementChangedEventArgs(Of Frame))
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: Goui.Forms.Renderers.FrameRenderer.OnElementChanged(Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.Frame))
+  name.vb: OnElementChanged(ElementChangedEventArgs(Of Frame))
+- uid: Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  id: OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  parent: Goui.Forms.Renderers.FrameRenderer
+  langs:
+  - csharp
+  - vb
+  name: OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  nameWithType: FrameRenderer.OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  fullName: Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged(System.Object, System.ComponentModel.PropertyChangedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/Renderers/FrameRenderer.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OnElementPropertyChanged
+    path: ../../Goui.Forms/Renderers/FrameRenderer.cs
+    startLine: 17
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms.Renderers
+  syntax:
+    content: protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.ComponentModel.PropertyChangedEventArgs
+    content.vb: Protected Overrides Sub OnElementPropertyChanged(sender As Object, e As PropertyChangedEventArgs)
+  overridden: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  overload: Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Goui.Forms.Renderers
+  commentId: N:Goui.Forms.Renderers
+  name: Goui.Forms.Renderers
+  nameWithType: Goui.Forms.Renderers
+  fullName: Goui.Forms.Renderers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Goui.EventTarget
+  commentId: T:Goui.EventTarget
+  parent: Goui
+  name: EventTarget
+  nameWithType: EventTarget
+  fullName: Goui.EventTarget
+- uid: Goui.Node
+  commentId: T:Goui.Node
+  parent: Goui
+  name: Node
+  nameWithType: Node
+  fullName: Goui.Node
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  commentId: T:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  parent: Goui.Forms
+  definition: Goui.Forms.VisualElementRenderer`1
+  name: VisualElementRenderer<Frame>
+  nameWithType: VisualElementRenderer<Frame>
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>
+  nameWithType.vb: VisualElementRenderer(Of Frame)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame)
+  name.vb: VisualElementRenderer(Of Frame)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Xamarin.Forms.IRegisterable
+  commentId: T:Xamarin.Forms.IRegisterable
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IRegisterable
+  nameWithType: IRegisterable
+  fullName: Xamarin.Forms.IRegisterable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Element
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Element
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Element
+  name: Element
+  nameWithType: VisualElementRenderer<Frame>.Element
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Element
+  nameWithType.vb: VisualElementRenderer(Of Frame).Element
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Element
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#Element
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#Element
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#Element
+  name: IVisualElementRenderer.Element
+  nameWithType: VisualElementRenderer<Frame>.IVisualElementRenderer.Element
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Goui.Forms.IVisualElementRenderer.Element
+  nameWithType.vb: VisualElementRenderer(Of Frame).Goui.Forms.IVisualElementRenderer.Element
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Goui.Forms.IVisualElementRenderer.Element
+  name.vb: Goui.Forms.IVisualElementRenderer.Element
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.NativeView
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.NativeView
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.NativeView
+  name: NativeView
+  nameWithType: VisualElementRenderer<Frame>.NativeView
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.NativeView
+  nameWithType.vb: VisualElementRenderer(Of Frame).NativeView
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).NativeView
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#ElementChanged
+  commentId: E:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#ElementChanged
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#ElementChanged
+  name: IVisualElementRenderer.ElementChanged
+  nameWithType: VisualElementRenderer<Frame>.IVisualElementRenderer.ElementChanged
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Goui.Forms.IVisualElementRenderer.ElementChanged
+  nameWithType.vb: VisualElementRenderer(Of Frame).Goui.Forms.IVisualElementRenderer.ElementChanged
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Goui.Forms.IVisualElementRenderer.ElementChanged
+  name.vb: Goui.Forms.IVisualElementRenderer.ElementChanged
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoPackage
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoPackage
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.AutoPackage
+  name: AutoPackage
+  nameWithType: VisualElementRenderer<Frame>.AutoPackage
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.AutoPackage
+  nameWithType.vb: VisualElementRenderer(Of Frame).AutoPackage
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).AutoPackage
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoTrack
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.AutoTrack
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.AutoTrack
+  name: AutoTrack
+  nameWithType: VisualElementRenderer<Frame>.AutoTrack
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.AutoTrack
+  nameWithType.vb: VisualElementRenderer(Of Frame).AutoTrack
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).AutoTrack
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.HtmlNeedsFullEndElement
+  commentId: P:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.HtmlNeedsFullEndElement
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.HtmlNeedsFullEndElement
+  name: HtmlNeedsFullEndElement
+  nameWithType: VisualElementRenderer<Frame>.HtmlNeedsFullEndElement
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.HtmlNeedsFullEndElement
+  nameWithType.vb: VisualElementRenderer(Of Frame).HtmlNeedsFullEndElement
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).HtmlNeedsFullEndElement
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.ElementChanged
+  commentId: E:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.ElementChanged
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.ElementChanged
+  name: ElementChanged
+  nameWithType: VisualElementRenderer<Frame>.ElementChanged
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.ElementChanged
+  nameWithType.vb: VisualElementRenderer(Of Frame).ElementChanged
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).ElementChanged
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  name: IVisualElementRenderer.SetElement(VisualElement)
+  nameWithType: VisualElementRenderer<Frame>.IVisualElementRenderer.SetElement(VisualElement)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  nameWithType.vb: VisualElementRenderer(Of Frame).Goui.Forms.IVisualElementRenderer.SetElement(VisualElement)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  name.vb: Goui.Forms.IVisualElementRenderer.SetElement(VisualElement)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+    name: IVisualElementRenderer.SetElement
+    nameWithType: VisualElementRenderer<Frame>.IVisualElementRenderer.SetElement
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Goui.Forms.IVisualElementRenderer.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+    name: Goui.Forms.IVisualElementRenderer.SetElement
+    nameWithType: VisualElementRenderer(Of Frame).Goui.Forms.IVisualElementRenderer.SetElement
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Goui.Forms.IVisualElementRenderer.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElement(Xamarin.Forms.Frame)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElement(Xamarin.Forms.Frame)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+  name: SetElement(Frame)
+  nameWithType: VisualElementRenderer<Frame>.SetElement(Frame)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetElement(Xamarin.Forms.Frame)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SetElement(Frame)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetElement(Xamarin.Forms.Frame)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+    name: SetElement
+    nameWithType: VisualElementRenderer<Frame>.SetElement
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+    name: SetElement
+    nameWithType: VisualElementRenderer(Of Frame).SetElement
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElementSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetElementSize(Xamarin.Forms.Size)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+  name: SetElementSize(Size)
+  nameWithType: VisualElementRenderer<Frame>.SetElementSize(Size)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetElementSize(Xamarin.Forms.Size)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SetElementSize(Size)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetElementSize(Xamarin.Forms.Size)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+    name: SetElementSize
+    nameWithType: VisualElementRenderer<Frame>.SetElementSize
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetElementSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+    name: SetElementSize
+    nameWithType: VisualElementRenderer(Of Frame).SetElementSize
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetElementSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetControlSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetControlSize(Xamarin.Forms.Size)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+  name: SetControlSize(Size)
+  nameWithType: VisualElementRenderer<Frame>.SetControlSize(Size)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetControlSize(Xamarin.Forms.Size)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SetControlSize(Size)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetControlSize(Xamarin.Forms.Size)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+    name: SetControlSize
+    nameWithType: VisualElementRenderer<Frame>.SetControlSize
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetControlSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+    name: SetControlSize
+    nameWithType: VisualElementRenderer(Of Frame).SetControlSize
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetControlSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  name: OnRegisterEffect(PlatformEffect)
+  nameWithType: VisualElementRenderer<Frame>.OnRegisterEffect(PlatformEffect)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  nameWithType.vb: VisualElementRenderer(Of Frame).OnRegisterEffect(PlatformEffect)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnRegisterEffect(Goui.Forms.PlatformEffect)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+    name: OnRegisterEffect
+    nameWithType: VisualElementRenderer<Frame>.OnRegisterEffect
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnRegisterEffect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.PlatformEffect
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Goui.Forms.PlatformEffect
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+    name: OnRegisterEffect
+    nameWithType: VisualElementRenderer(Of Frame).OnRegisterEffect
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnRegisterEffect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.PlatformEffect
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Goui.Forms.PlatformEffect
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetAutomationId(System.String)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetAutomationId(System.String)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+  name: SetAutomationId(String)
+  nameWithType: VisualElementRenderer<Frame>.SetAutomationId(String)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetAutomationId(System.String)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SetAutomationId(String)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetAutomationId(System.String)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+    name: SetAutomationId
+    nameWithType: VisualElementRenderer<Frame>.SetAutomationId
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetAutomationId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+    name: SetAutomationId
+    nameWithType: VisualElementRenderer(Of Frame).SetAutomationId
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetAutomationId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetBackgroundColor(Xamarin.Forms.Color)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SetBackgroundColor(Xamarin.Forms.Color)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+  name: SetBackgroundColor(Color)
+  nameWithType: VisualElementRenderer<Frame>.SetBackgroundColor(Color)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetBackgroundColor(Xamarin.Forms.Color)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SetBackgroundColor(Color)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetBackgroundColor(Xamarin.Forms.Color)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+    name: SetBackgroundColor
+    nameWithType: VisualElementRenderer<Frame>.SetBackgroundColor
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SetBackgroundColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Color
+    name: Color
+    nameWithType: Color
+    fullName: Xamarin.Forms.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+    name: SetBackgroundColor
+    nameWithType: VisualElementRenderer(Of Frame).SetBackgroundColor
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SetBackgroundColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Color
+    name: Color
+    nameWithType: Color
+    fullName: Xamarin.Forms.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.UpdateNativeWidget
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.UpdateNativeWidget
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+  name: UpdateNativeWidget()
+  nameWithType: VisualElementRenderer<Frame>.UpdateNativeWidget()
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.UpdateNativeWidget()
+  nameWithType.vb: VisualElementRenderer(Of Frame).UpdateNativeWidget()
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).UpdateNativeWidget()
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+    name: UpdateNativeWidget
+    nameWithType: VisualElementRenderer<Frame>.UpdateNativeWidget
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.UpdateNativeWidget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+    name: UpdateNativeWidget
+    nameWithType: VisualElementRenderer(Of Frame).UpdateNativeWidget
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).UpdateNativeWidget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  name: SendVisualElementInitialized(VisualElement, Element)
+  nameWithType: VisualElementRenderer<Frame>.SendVisualElementInitialized(VisualElement, Element)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SendVisualElementInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  nameWithType.vb: VisualElementRenderer(Of Frame).SendVisualElementInitialized(VisualElement, Element)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SendVisualElementInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendVisualElementInitialized
+    nameWithType: VisualElementRenderer<Frame>.SendVisualElementInitialized
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.SendVisualElementInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendVisualElementInitialized
+    nameWithType: VisualElementRenderer(Of Frame).SendVisualElementInitialized
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).SendVisualElementInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.GetDesiredSize(System.Double,System.Double)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.GetDesiredSize(System.Double,System.Double)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+  name: GetDesiredSize(Double, Double)
+  nameWithType: VisualElementRenderer<Frame>.GetDesiredSize(Double, Double)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.GetDesiredSize(System.Double, System.Double)
+  nameWithType.vb: VisualElementRenderer(Of Frame).GetDesiredSize(Double, Double)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).GetDesiredSize(System.Double, System.Double)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+    name: GetDesiredSize
+    nameWithType: VisualElementRenderer<Frame>.GetDesiredSize
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.GetDesiredSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+    name: GetDesiredSize
+    nameWithType: VisualElementRenderer(Of Frame).GetDesiredSize
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).GetDesiredSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose(System.Boolean)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose(System.Boolean)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  nameWithType: VisualElementRenderer<Frame>.Dispose(Boolean)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Dispose(System.Boolean)
+  nameWithType.vb: VisualElementRenderer(Of Frame).Dispose(Boolean)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: VisualElementRenderer<Frame>.Dispose
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: VisualElementRenderer(Of Frame).Dispose
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.Dispose
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.Dispose
+  name: Dispose()
+  nameWithType: VisualElementRenderer<Frame>.Dispose()
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Dispose()
+  nameWithType.vb: VisualElementRenderer(Of Frame).Dispose()
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Dispose()
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose
+    name: Dispose
+    nameWithType: VisualElementRenderer<Frame>.Dispose
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose
+    name: Dispose
+    nameWithType: VisualElementRenderer(Of Frame).Dispose
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.ClassName
+  commentId: P:Goui.Html.Element.ClassName
+  parent: Goui.Html.Element
+  name: ClassName
+  nameWithType: Element.ClassName
+  fullName: Goui.Html.Element.ClassName
+- uid: Goui.Html.Element.AddClassName
+  commentId: P:Goui.Html.Element.AddClassName
+  parent: Goui.Html.Element
+  name: AddClassName
+  nameWithType: Element.AddClassName
+  fullName: Goui.Html.Element.AddClassName
+- uid: Goui.Html.Element.Style
+  commentId: P:Goui.Html.Element.Style
+  parent: Goui.Html.Element
+  name: Style
+  nameWithType: Element.Style
+  fullName: Goui.Html.Element.Style
+- uid: Goui.Html.Element.Title
+  commentId: P:Goui.Html.Element.Title
+  parent: Goui.Html.Element
+  name: Title
+  nameWithType: Element.Title
+  fullName: Goui.Html.Element.Title
+- uid: Goui.Html.Element.IsHidden
+  commentId: P:Goui.Html.Element.IsHidden
+  parent: Goui.Html.Element
+  name: IsHidden
+  nameWithType: Element.IsHidden
+  fullName: Goui.Html.Element.IsHidden
+- uid: Goui.Html.Element.Click
+  commentId: E:Goui.Html.Element.Click
+  parent: Goui.Html.Element
+  name: Click
+  nameWithType: Element.Click
+  fullName: Goui.Html.Element.Click
+- uid: Goui.Html.Element.DoubleClick
+  commentId: E:Goui.Html.Element.DoubleClick
+  parent: Goui.Html.Element
+  name: DoubleClick
+  nameWithType: Element.DoubleClick
+  fullName: Goui.Html.Element.DoubleClick
+- uid: Goui.Html.Element.KeyDown
+  commentId: E:Goui.Html.Element.KeyDown
+  parent: Goui.Html.Element
+  name: KeyDown
+  nameWithType: Element.KeyDown
+  fullName: Goui.Html.Element.KeyDown
+- uid: Goui.Html.Element.KeyPress
+  commentId: E:Goui.Html.Element.KeyPress
+  parent: Goui.Html.Element
+  name: KeyPress
+  nameWithType: Element.KeyPress
+  fullName: Goui.Html.Element.KeyPress
+- uid: Goui.Html.Element.KeyUp
+  commentId: E:Goui.Html.Element.KeyUp
+  parent: Goui.Html.Element
+  name: KeyUp
+  nameWithType: Element.KeyUp
+  fullName: Goui.Html.Element.KeyUp
+- uid: Goui.Html.Element.MouseDown
+  commentId: E:Goui.Html.Element.MouseDown
+  parent: Goui.Html.Element
+  name: MouseDown
+  nameWithType: Element.MouseDown
+  fullName: Goui.Html.Element.MouseDown
+- uid: Goui.Html.Element.MouseEnter
+  commentId: E:Goui.Html.Element.MouseEnter
+  parent: Goui.Html.Element
+  name: MouseEnter
+  nameWithType: Element.MouseEnter
+  fullName: Goui.Html.Element.MouseEnter
+- uid: Goui.Html.Element.MouseLeave
+  commentId: E:Goui.Html.Element.MouseLeave
+  parent: Goui.Html.Element
+  name: MouseLeave
+  nameWithType: Element.MouseLeave
+  fullName: Goui.Html.Element.MouseLeave
+- uid: Goui.Html.Element.MouseMove
+  commentId: E:Goui.Html.Element.MouseMove
+  parent: Goui.Html.Element
+  name: MouseMove
+  nameWithType: Element.MouseMove
+  fullName: Goui.Html.Element.MouseMove
+- uid: Goui.Html.Element.MouseOut
+  commentId: E:Goui.Html.Element.MouseOut
+  parent: Goui.Html.Element
+  name: MouseOut
+  nameWithType: Element.MouseOut
+  fullName: Goui.Html.Element.MouseOut
+- uid: Goui.Html.Element.MouseOver
+  commentId: E:Goui.Html.Element.MouseOver
+  parent: Goui.Html.Element
+  name: MouseOver
+  nameWithType: Element.MouseOver
+  fullName: Goui.Html.Element.MouseOver
+- uid: Goui.Html.Element.MouseUp
+  commentId: E:Goui.Html.Element.MouseUp
+  parent: Goui.Html.Element
+  name: MouseUp
+  nameWithType: Element.MouseUp
+  fullName: Goui.Html.Element.MouseUp
+- uid: Goui.Html.Element.Wheel
+  commentId: E:Goui.Html.Element.Wheel
+  parent: Goui.Html.Element
+  name: Wheel
+  nameWithType: Element.Wheel
+  fullName: Goui.Html.Element.Wheel
+- uid: Goui.Html.Element.Document
+  commentId: P:Goui.Html.Element.Document
+  parent: Goui.Html.Element
+  name: Document
+  nameWithType: Element.Document
+  fullName: Goui.Html.Element.Document
+- uid: Goui.Html.Element.WantsFullScreen
+  commentId: P:Goui.Html.Element.WantsFullScreen
+  parent: Goui.Html.Element
+  name: WantsFullScreen
+  nameWithType: Element.WantsFullScreen
+  fullName: Goui.Html.Element.WantsFullScreen
+- uid: Goui.Html.Element.SetAttributeProperty(System.String,System.Object,System.String)
+  commentId: M:Goui.Html.Element.SetAttributeProperty(System.String,System.Object,System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: SetAttributeProperty(String, Object, String)
+  nameWithType: Element.SetAttributeProperty(String, Object, String)
+  fullName: Goui.Html.Element.SetAttributeProperty(System.String, System.Object, System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.SetAttributeProperty(System.String,System.Object,System.String)
+    name: SetAttributeProperty
+    nameWithType: Element.SetAttributeProperty
+    fullName: Goui.Html.Element.SetAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.SetAttributeProperty(System.String,System.Object,System.String)
+    name: SetAttributeProperty
+    nameWithType: Element.SetAttributeProperty
+    fullName: Goui.Html.Element.SetAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.SetBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  commentId: M:Goui.Html.Element.SetBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: SetBooleanAttributeProperty(String, Boolean, String)
+  nameWithType: Element.SetBooleanAttributeProperty(String, Boolean, String)
+  fullName: Goui.Html.Element.SetBooleanAttributeProperty(System.String, System.Boolean, System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.SetBooleanAttributeProperty(System.String,System.Boolean,System.String)
+    name: SetBooleanAttributeProperty
+    nameWithType: Element.SetBooleanAttributeProperty
+    fullName: Goui.Html.Element.SetBooleanAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.SetBooleanAttributeProperty(System.String,System.Boolean,System.String)
+    name: SetBooleanAttributeProperty
+    nameWithType: Element.SetBooleanAttributeProperty
+    fullName: Goui.Html.Element.SetBooleanAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.UpdateAttributeProperty(System.String,System.Object,System.String)
+  commentId: M:Goui.Html.Element.UpdateAttributeProperty(System.String,System.Object,System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: UpdateAttributeProperty(String, Object, String)
+  nameWithType: Element.UpdateAttributeProperty(String, Object, String)
+  fullName: Goui.Html.Element.UpdateAttributeProperty(System.String, System.Object, System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.UpdateAttributeProperty(System.String,System.Object,System.String)
+    name: UpdateAttributeProperty
+    nameWithType: Element.UpdateAttributeProperty
+    fullName: Goui.Html.Element.UpdateAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.UpdateAttributeProperty(System.String,System.Object,System.String)
+    name: UpdateAttributeProperty
+    nameWithType: Element.UpdateAttributeProperty
+    fullName: Goui.Html.Element.UpdateAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.UpdateBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  commentId: M:Goui.Html.Element.UpdateBooleanAttributeProperty(System.String,System.Boolean,System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: UpdateBooleanAttributeProperty(String, Boolean, String)
+  nameWithType: Element.UpdateBooleanAttributeProperty(String, Boolean, String)
+  fullName: Goui.Html.Element.UpdateBooleanAttributeProperty(System.String, System.Boolean, System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.UpdateBooleanAttributeProperty(System.String,System.Boolean,System.String)
+    name: UpdateBooleanAttributeProperty
+    nameWithType: Element.UpdateBooleanAttributeProperty
+    fullName: Goui.Html.Element.UpdateBooleanAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.UpdateBooleanAttributeProperty(System.String,System.Boolean,System.String)
+    name: UpdateBooleanAttributeProperty
+    nameWithType: Element.UpdateBooleanAttributeProperty
+    fullName: Goui.Html.Element.UpdateBooleanAttributeProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.SetAttribute(System.String,System.Object)
+  commentId: M:Goui.Html.Element.SetAttribute(System.String,System.Object)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: SetAttribute(String, Object)
+  nameWithType: Element.SetAttribute(String, Object)
+  fullName: Goui.Html.Element.SetAttribute(System.String, System.Object)
+  spec.csharp:
+  - uid: Goui.Html.Element.SetAttribute(System.String,System.Object)
+    name: SetAttribute
+    nameWithType: Element.SetAttribute
+    fullName: Goui.Html.Element.SetAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.SetAttribute(System.String,System.Object)
+    name: SetAttribute
+    nameWithType: Element.SetAttribute
+    fullName: Goui.Html.Element.SetAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.GetAttribute(System.String)
+  commentId: M:Goui.Html.Element.GetAttribute(System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: GetAttribute(String)
+  nameWithType: Element.GetAttribute(String)
+  fullName: Goui.Html.Element.GetAttribute(System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.GetAttribute(System.String)
+    name: GetAttribute
+    nameWithType: Element.GetAttribute
+    fullName: Goui.Html.Element.GetAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.GetAttribute(System.String)
+    name: GetAttribute
+    nameWithType: Element.GetAttribute
+    fullName: Goui.Html.Element.GetAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.GetAttribute``1(System.String,{T})
+  commentId: M:Goui.Html.Element.GetAttribute``1(System.String,``0)
+  parent: Goui.Html.Element
+  definition: Goui.Html.Element.GetAttribute``1(System.String,``0)
+  name: GetAttribute<T>(String, T)
+  nameWithType: Element.GetAttribute<T>(String, T)
+  fullName: Goui.Html.Element.GetAttribute<T>(System.String, T)
+  nameWithType.vb: Element.GetAttribute(Of T)(String, T)
+  fullName.vb: Goui.Html.Element.GetAttribute(Of T)(System.String, T)
+  name.vb: GetAttribute(Of T)(String, T)
+  spec.csharp:
+  - uid: Goui.Html.Element.GetAttribute``1(System.String,``0)
+    name: GetAttribute<T>
+    nameWithType: Element.GetAttribute<T>
+    fullName: Goui.Html.Element.GetAttribute<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.GetAttribute``1(System.String,``0)
+    name: GetAttribute(Of T)
+    nameWithType: Element.GetAttribute(Of T)
+    fullName: Goui.Html.Element.GetAttribute(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.GetBooleanAttribute(System.String)
+  commentId: M:Goui.Html.Element.GetBooleanAttribute(System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: GetBooleanAttribute(String)
+  nameWithType: Element.GetBooleanAttribute(String)
+  fullName: Goui.Html.Element.GetBooleanAttribute(System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.GetBooleanAttribute(System.String)
+    name: GetBooleanAttribute
+    nameWithType: Element.GetBooleanAttribute
+    fullName: Goui.Html.Element.GetBooleanAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.GetBooleanAttribute(System.String)
+    name: GetBooleanAttribute
+    nameWithType: Element.GetBooleanAttribute
+    fullName: Goui.Html.Element.GetBooleanAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.GetStringAttribute(System.String,System.String)
+  commentId: M:Goui.Html.Element.GetStringAttribute(System.String,System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: GetStringAttribute(String, String)
+  nameWithType: Element.GetStringAttribute(String, String)
+  fullName: Goui.Html.Element.GetStringAttribute(System.String, System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.GetStringAttribute(System.String,System.String)
+    name: GetStringAttribute
+    nameWithType: Element.GetStringAttribute
+    fullName: Goui.Html.Element.GetStringAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.GetStringAttribute(System.String,System.String)
+    name: GetStringAttribute
+    nameWithType: Element.GetStringAttribute
+    fullName: Goui.Html.Element.GetStringAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.RemoveAttribute(System.String)
+  commentId: M:Goui.Html.Element.RemoveAttribute(System.String)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: RemoveAttribute(String)
+  nameWithType: Element.RemoveAttribute(String)
+  fullName: Goui.Html.Element.RemoveAttribute(System.String)
+  spec.csharp:
+  - uid: Goui.Html.Element.RemoveAttribute(System.String)
+    name: RemoveAttribute
+    nameWithType: Element.RemoveAttribute
+    fullName: Goui.Html.Element.RemoveAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.RemoveAttribute(System.String)
+    name: RemoveAttribute
+    nameWithType: Element.RemoveAttribute
+    fullName: Goui.Html.Element.RemoveAttribute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.SetCapture(System.Boolean)
+  commentId: M:Goui.Html.Element.SetCapture(System.Boolean)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: SetCapture(Boolean)
+  nameWithType: Element.SetCapture(Boolean)
+  fullName: Goui.Html.Element.SetCapture(System.Boolean)
+  spec.csharp:
+  - uid: Goui.Html.Element.SetCapture(System.Boolean)
+    name: SetCapture
+    nameWithType: Element.SetCapture
+    fullName: Goui.Html.Element.SetCapture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.SetCapture(System.Boolean)
+    name: SetCapture
+    nameWithType: Element.SetCapture
+    fullName: Goui.Html.Element.SetCapture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.Focus
+  commentId: M:Goui.Html.Element.Focus
+  parent: Goui.Html.Element
+  name: Focus()
+  nameWithType: Element.Focus()
+  fullName: Goui.Html.Element.Focus()
+  spec.csharp:
+  - uid: Goui.Html.Element.Focus
+    name: Focus
+    nameWithType: Element.Focus
+    fullName: Goui.Html.Element.Focus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.Focus
+    name: Focus
+    nameWithType: Element.Focus
+    fullName: Goui.Html.Element.Focus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+  commentId: M:Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: WriteOuterHtml(XmlWriter)
+  nameWithType: Element.WriteOuterHtml(XmlWriter)
+  fullName: Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+    name: WriteOuterHtml
+    nameWithType: Element.WriteOuterHtml
+    fullName: Goui.Html.Element.WriteOuterHtml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.WriteOuterHtml(System.Xml.XmlWriter)
+    name: WriteOuterHtml
+    nameWithType: Element.WriteOuterHtml
+    fullName: Goui.Html.Element.WriteOuterHtml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+  commentId: M:Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+  parent: Goui.Html.Element
+  isExternal: true
+  name: WriteInnerHtml(XmlWriter)
+  nameWithType: Element.WriteInnerHtml(XmlWriter)
+  fullName: Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+    name: WriteInnerHtml
+    nameWithType: Element.WriteInnerHtml
+    fullName: Goui.Html.Element.WriteInnerHtml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.WriteInnerHtml(System.Xml.XmlWriter)
+    name: WriteInnerHtml
+    nameWithType: Element.WriteInnerHtml
+    fullName: Goui.Html.Element.WriteInnerHtml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.Children
+  commentId: P:Goui.Node.Children
+  parent: Goui.Node
+  name: Children
+  nameWithType: Node.Children
+  fullName: Goui.Node.Children
+- uid: Goui.Node.FirstChild
+  commentId: P:Goui.Node.FirstChild
+  parent: Goui.Node
+  name: FirstChild
+  nameWithType: Node.FirstChild
+  fullName: Goui.Node.FirstChild
+- uid: Goui.Node.Text
+  commentId: P:Goui.Node.Text
+  parent: Goui.Node
+  name: Text
+  nameWithType: Node.Text
+  fullName: Goui.Node.Text
+- uid: Goui.Node.GetElementById(System.String)
+  commentId: M:Goui.Node.GetElementById(System.String)
+  parent: Goui.Node
+  isExternal: true
+  name: GetElementById(String)
+  nameWithType: Node.GetElementById(String)
+  fullName: Goui.Node.GetElementById(System.String)
+  spec.csharp:
+  - uid: Goui.Node.GetElementById(System.String)
+    name: GetElementById
+    nameWithType: Node.GetElementById
+    fullName: Goui.Node.GetElementById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.GetElementById(System.String)
+    name: GetElementById
+    nameWithType: Node.GetElementById
+    fullName: Goui.Node.GetElementById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.AppendChild(Goui.Node)
+  commentId: M:Goui.Node.AppendChild(Goui.Node)
+  parent: Goui.Node
+  name: AppendChild(Node)
+  nameWithType: Node.AppendChild(Node)
+  fullName: Goui.Node.AppendChild(Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.AppendChild(Goui.Node)
+    name: AppendChild
+    nameWithType: Node.AppendChild
+    fullName: Goui.Node.AppendChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.AppendChild(Goui.Node)
+    name: AppendChild
+    nameWithType: Node.AppendChild
+    fullName: Goui.Node.AppendChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.InsertBefore(Goui.Node,Goui.Node)
+  commentId: M:Goui.Node.InsertBefore(Goui.Node,Goui.Node)
+  parent: Goui.Node
+  name: InsertBefore(Node, Node)
+  nameWithType: Node.InsertBefore(Node, Node)
+  fullName: Goui.Node.InsertBefore(Goui.Node, Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.InsertBefore(Goui.Node,Goui.Node)
+    name: InsertBefore
+    nameWithType: Node.InsertBefore
+    fullName: Goui.Node.InsertBefore
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.InsertBefore(Goui.Node,Goui.Node)
+    name: InsertBefore
+    nameWithType: Node.InsertBefore
+    fullName: Goui.Node.InsertBefore
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.RemoveChild(Goui.Node)
+  commentId: M:Goui.Node.RemoveChild(Goui.Node)
+  parent: Goui.Node
+  name: RemoveChild(Node)
+  nameWithType: Node.RemoveChild(Node)
+  fullName: Goui.Node.RemoveChild(Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.RemoveChild(Goui.Node)
+    name: RemoveChild
+    nameWithType: Node.RemoveChild
+    fullName: Goui.Node.RemoveChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.RemoveChild(Goui.Node)
+    name: RemoveChild
+    nameWithType: Node.RemoveChild
+    fullName: Goui.Node.RemoveChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.OnChildInsertedBefore(Goui.Node,Goui.Node)
+  commentId: M:Goui.Node.OnChildInsertedBefore(Goui.Node,Goui.Node)
+  parent: Goui.Node
+  name: OnChildInsertedBefore(Node, Node)
+  nameWithType: Node.OnChildInsertedBefore(Node, Node)
+  fullName: Goui.Node.OnChildInsertedBefore(Goui.Node, Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.OnChildInsertedBefore(Goui.Node,Goui.Node)
+    name: OnChildInsertedBefore
+    nameWithType: Node.OnChildInsertedBefore
+    fullName: Goui.Node.OnChildInsertedBefore
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.OnChildInsertedBefore(Goui.Node,Goui.Node)
+    name: OnChildInsertedBefore
+    nameWithType: Node.OnChildInsertedBefore
+    fullName: Goui.Node.OnChildInsertedBefore
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.OnChildRemoved(Goui.Node)
+  commentId: M:Goui.Node.OnChildRemoved(Goui.Node)
+  parent: Goui.Node
+  name: OnChildRemoved(Node)
+  nameWithType: Node.OnChildRemoved(Node)
+  fullName: Goui.Node.OnChildRemoved(Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.OnChildRemoved(Goui.Node)
+    name: OnChildRemoved
+    nameWithType: Node.OnChildRemoved
+    fullName: Goui.Node.OnChildRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.OnChildRemoved(Goui.Node)
+    name: OnChildRemoved
+    nameWithType: Node.OnChildRemoved
+    fullName: Goui.Node.OnChildRemoved
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.ReplaceAll(Goui.Node)
+  commentId: M:Goui.Node.ReplaceAll(Goui.Node)
+  parent: Goui.Node
+  name: ReplaceAll(Node)
+  nameWithType: Node.ReplaceAll(Node)
+  fullName: Goui.Node.ReplaceAll(Goui.Node)
+  spec.csharp:
+  - uid: Goui.Node.ReplaceAll(Goui.Node)
+    name: ReplaceAll
+    nameWithType: Node.ReplaceAll
+    fullName: Goui.Node.ReplaceAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.ReplaceAll(Goui.Node)
+    name: ReplaceAll
+    nameWithType: Node.ReplaceAll
+    fullName: Goui.Node.ReplaceAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Node
+    name: Node
+    nameWithType: Node
+    fullName: Goui.Node
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+  commentId: M:Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+  parent: Goui.Node
+  name: SaveStateMessageIfNeeded(Message)
+  nameWithType: Node.SaveStateMessageIfNeeded(Message)
+  fullName: Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+  spec.csharp:
+  - uid: Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+    name: SaveStateMessageIfNeeded
+    nameWithType: Node.SaveStateMessageIfNeeded
+    fullName: Goui.Node.SaveStateMessageIfNeeded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.SaveStateMessageIfNeeded(Goui.Message)
+    name: SaveStateMessageIfNeeded
+    nameWithType: Node.SaveStateMessageIfNeeded
+    fullName: Goui.Node.SaveStateMessageIfNeeded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.TriggerEventFromMessage(Goui.Message)
+  commentId: M:Goui.Node.TriggerEventFromMessage(Goui.Message)
+  parent: Goui.Node
+  name: TriggerEventFromMessage(Message)
+  nameWithType: Node.TriggerEventFromMessage(Message)
+  fullName: Goui.Node.TriggerEventFromMessage(Goui.Message)
+  spec.csharp:
+  - uid: Goui.Node.TriggerEventFromMessage(Goui.Message)
+    name: TriggerEventFromMessage
+    nameWithType: Node.TriggerEventFromMessage
+    fullName: Goui.Node.TriggerEventFromMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Node.TriggerEventFromMessage(Goui.Message)
+    name: TriggerEventFromMessage
+    nameWithType: Node.TriggerEventFromMessage
+    fullName: Goui.Node.TriggerEventFromMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Node.OuterHtml
+  commentId: P:Goui.Node.OuterHtml
+  parent: Goui.Node
+  name: OuterHtml
+  nameWithType: Node.OuterHtml
+  fullName: Goui.Node.OuterHtml
+- uid: Goui.EventTarget.Id
+  commentId: P:Goui.EventTarget.Id
+  parent: Goui.EventTarget
+  name: Id
+  nameWithType: EventTarget.Id
+  fullName: Goui.EventTarget.Id
+- uid: Goui.EventTarget.TagName
+  commentId: P:Goui.EventTarget.TagName
+  parent: Goui.EventTarget
+  name: TagName
+  nameWithType: EventTarget.TagName
+  fullName: Goui.EventTarget.TagName
+- uid: Goui.EventTarget.PropertyChanged
+  commentId: E:Goui.EventTarget.PropertyChanged
+  parent: Goui.EventTarget
+  name: PropertyChanged
+  nameWithType: EventTarget.PropertyChanged
+  fullName: Goui.EventTarget.PropertyChanged
+- uid: Goui.EventTarget.MessageSent
+  commentId: E:Goui.EventTarget.MessageSent
+  parent: Goui.EventTarget
+  name: MessageSent
+  nameWithType: EventTarget.MessageSent
+  fullName: Goui.EventTarget.MessageSent
+- uid: Goui.EventTarget.StateMessages
+  commentId: P:Goui.EventTarget.StateMessages
+  parent: Goui.EventTarget
+  name: StateMessages
+  nameWithType: EventTarget.StateMessages
+  fullName: Goui.EventTarget.StateMessages
+- uid: Goui.EventTarget.ToString
+  commentId: M:Goui.EventTarget.ToString
+  parent: Goui.EventTarget
+  name: ToString()
+  nameWithType: EventTarget.ToString()
+  fullName: Goui.EventTarget.ToString()
+  spec.csharp:
+  - uid: Goui.EventTarget.ToString
+    name: ToString
+    nameWithType: EventTarget.ToString
+    fullName: Goui.EventTarget.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.ToString
+    name: ToString
+    nameWithType: EventTarget.ToString
+    fullName: Goui.EventTarget.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  commentId: M:Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: AddEventListener(String, TargetEventHandler)
+  nameWithType: EventTarget.AddEventListener(String, TargetEventHandler)
+  fullName: Goui.EventTarget.AddEventListener(System.String, Goui.TargetEventHandler)
+  spec.csharp:
+  - uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+    name: AddEventListener
+    nameWithType: EventTarget.AddEventListener
+    fullName: Goui.EventTarget.AddEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+    name: AddEventListener
+    nameWithType: EventTarget.AddEventListener
+    fullName: Goui.EventTarget.AddEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  commentId: M:Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: RemoveEventListener(String, TargetEventHandler)
+  nameWithType: EventTarget.RemoveEventListener(String, TargetEventHandler)
+  fullName: Goui.EventTarget.RemoveEventListener(System.String, Goui.TargetEventHandler)
+  spec.csharp:
+  - uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+    name: RemoveEventListener
+    nameWithType: EventTarget.RemoveEventListener
+    fullName: Goui.EventTarget.RemoveEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+    name: RemoveEventListener
+    nameWithType: EventTarget.RemoveEventListener
+    fullName: Goui.EventTarget.RemoveEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SetProperty``1({T}@,{T},System.String,System.String)
+  commentId: M:Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  parent: Goui.EventTarget
+  definition: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  name: SetProperty<T>(T, T, String, String)
+  nameWithType: EventTarget.SetProperty<T>(T, T, String, String)
+  fullName: Goui.EventTarget.SetProperty<T>(T, T, System.String, System.String)
+  nameWithType.vb: EventTarget.SetProperty(Of T)(T, T, String, String)
+  fullName.vb: Goui.EventTarget.SetProperty(Of T)(T, T, System.String, System.String)
+  name.vb: SetProperty(Of T)(T, T, String, String)
+  spec.csharp:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty<T>
+    nameWithType: EventTarget.SetProperty<T>
+    fullName: Goui.EventTarget.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty(Of T)
+    nameWithType: EventTarget.SetProperty(Of T)
+    fullName: Goui.EventTarget.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.OnPropertyChanged(System.String)
+  commentId: M:Goui.EventTarget.OnPropertyChanged(System.String)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: EventTarget.OnPropertyChanged(String)
+  fullName: Goui.EventTarget.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Goui.EventTarget.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: EventTarget.OnPropertyChanged
+    fullName: Goui.EventTarget.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: EventTarget.OnPropertyChanged
+    fullName: Goui.EventTarget.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.IdPrefix
+  commentId: F:Goui.EventTarget.IdPrefix
+  parent: Goui.EventTarget
+  name: IdPrefix
+  nameWithType: EventTarget.IdPrefix
+  fullName: Goui.EventTarget.IdPrefix
+- uid: Goui.EventTarget.Send(Goui.Message)
+  commentId: M:Goui.EventTarget.Send(Goui.Message)
+  parent: Goui.EventTarget
+  name: Send(Message)
+  nameWithType: EventTarget.Send(Message)
+  fullName: Goui.EventTarget.Send(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.Send(Goui.Message)
+    name: Send
+    nameWithType: EventTarget.Send
+    fullName: Goui.EventTarget.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Send(Goui.Message)
+    name: Send
+    nameWithType: EventTarget.Send
+    fullName: Goui.EventTarget.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.Call(System.String,System.Object[])
+  commentId: M:Goui.EventTarget.Call(System.String,System.Object[])
+  parent: Goui.EventTarget
+  isExternal: true
+  name: Call(String, Object[])
+  nameWithType: EventTarget.Call(String, Object[])
+  fullName: Goui.EventTarget.Call(System.String, System.Object[])
+  nameWithType.vb: EventTarget.Call(String, Object())
+  fullName.vb: Goui.EventTarget.Call(System.String, System.Object())
+  name.vb: Call(String, Object())
+  spec.csharp:
+  - uid: Goui.EventTarget.Call(System.String,System.Object[])
+    name: Call
+    nameWithType: EventTarget.Call
+    fullName: Goui.EventTarget.Call
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Call(System.String,System.Object[])
+    name: Call
+    nameWithType: EventTarget.Call
+    fullName: Goui.EventTarget.Call
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SendSet(System.String,System.Object)
+  commentId: M:Goui.EventTarget.SendSet(System.String,System.Object)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: SendSet(String, Object)
+  nameWithType: EventTarget.SendSet(String, Object)
+  fullName: Goui.EventTarget.SendSet(System.String, System.Object)
+  spec.csharp:
+  - uid: Goui.EventTarget.SendSet(System.String,System.Object)
+    name: SendSet
+    nameWithType: EventTarget.SendSet
+    fullName: Goui.EventTarget.SendSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SendSet(System.String,System.Object)
+    name: SendSet
+    nameWithType: EventTarget.SendSet
+    fullName: Goui.EventTarget.SendSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.Receive(Goui.Message)
+  commentId: M:Goui.EventTarget.Receive(Goui.Message)
+  parent: Goui.EventTarget
+  name: Receive(Message)
+  nameWithType: EventTarget.Receive(Message)
+  fullName: Goui.EventTarget.Receive(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.Receive(Goui.Message)
+    name: Receive
+    nameWithType: EventTarget.Receive
+    fullName: Goui.EventTarget.Receive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Receive(Goui.Message)
+    name: Receive
+    nameWithType: EventTarget.Receive
+    fullName: Goui.EventTarget.Receive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+  commentId: M:Goui.EventTarget.AddStateMessage(Goui.Message)
+  parent: Goui.EventTarget
+  name: AddStateMessage(Message)
+  nameWithType: EventTarget.AddStateMessage(Message)
+  fullName: Goui.EventTarget.AddStateMessage(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+    name: AddStateMessage
+    nameWithType: EventTarget.AddStateMessage
+    fullName: Goui.EventTarget.AddStateMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+    name: AddStateMessage
+    nameWithType: EventTarget.AddStateMessage
+    fullName: Goui.EventTarget.AddStateMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  commentId: M:Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  parent: Goui.EventTarget
+  isExternal: true
+  name: UpdateStateMessages(Action<List<Message>>)
+  nameWithType: EventTarget.UpdateStateMessages(Action<List<Message>>)
+  fullName: Goui.EventTarget.UpdateStateMessages(System.Action<System.Collections.Generic.List<Goui.Message>>)
+  nameWithType.vb: EventTarget.UpdateStateMessages(Action(Of List(Of Message)))
+  fullName.vb: Goui.EventTarget.UpdateStateMessages(System.Action(Of System.Collections.Generic.List(Of Goui.Message)))
+  name.vb: UpdateStateMessages(Action(Of List(Of Message)))
+  spec.csharp:
+  - uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+    name: UpdateStateMessages
+    nameWithType: EventTarget.UpdateStateMessages
+    fullName: Goui.EventTarget.UpdateStateMessages
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+    name: UpdateStateMessages
+    nameWithType: EventTarget.UpdateStateMessages
+    fullName: Goui.EventTarget.UpdateStateMessages
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.TriggerEvent(System.String)
+  commentId: M:Goui.EventTarget.TriggerEvent(System.String)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: TriggerEvent(String)
+  nameWithType: EventTarget.TriggerEvent(String)
+  fullName: Goui.EventTarget.TriggerEvent(System.String)
+  spec.csharp:
+  - uid: Goui.EventTarget.TriggerEvent(System.String)
+    name: TriggerEvent
+    nameWithType: EventTarget.TriggerEvent
+    fullName: Goui.EventTarget.TriggerEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.TriggerEvent(System.String)
+    name: TriggerEvent
+    nameWithType: EventTarget.TriggerEvent
+    fullName: Goui.EventTarget.TriggerEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Forms.Extensions.ElementExtensions
+  definition: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  name: GetSizeRequest(Double, Double, Double, Double)
+  nameWithType: ElementExtensions.GetSizeRequest(Double, Double, Double, Double)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(System.Double, System.Double, System.Double, System.Double)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(System.Double,System.Double,System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: ElementExtensions.GetSizeRequest
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(System.Double,System.Double,System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: ElementExtensions.GetSizeRequest
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Forms.VisualElementRenderer`1
+  commentId: T:Goui.Forms.VisualElementRenderer`1
+  name: VisualElementRenderer<TElement>
+  nameWithType: VisualElementRenderer<TElement>
+  fullName: Goui.Forms.VisualElementRenderer<TElement>
+  nameWithType.vb: VisualElementRenderer(Of TElement)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement)
+  name.vb: VisualElementRenderer(Of TElement)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1
+    name: VisualElementRenderer
+    nameWithType: VisualElementRenderer
+    fullName: Goui.Forms.VisualElementRenderer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.VisualElementRenderer`1.Element
+  commentId: P:Goui.Forms.VisualElementRenderer`1.Element
+  name: Element
+  nameWithType: VisualElementRenderer<TElement>.Element
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Element
+  nameWithType.vb: VisualElementRenderer(Of TElement).Element
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Element
+- uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#Element
+  commentId: P:Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#Element
+  name: IVisualElementRenderer.Element
+  nameWithType: VisualElementRenderer<TElement>.IVisualElementRenderer.Element
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Goui.Forms.IVisualElementRenderer.Element
+  nameWithType.vb: VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.Element
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.Element
+  name.vb: Goui.Forms.IVisualElementRenderer.Element
+- uid: Goui.Forms.VisualElementRenderer`1.NativeView
+  commentId: P:Goui.Forms.VisualElementRenderer`1.NativeView
+  name: NativeView
+  nameWithType: VisualElementRenderer<TElement>.NativeView
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.NativeView
+  nameWithType.vb: VisualElementRenderer(Of TElement).NativeView
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).NativeView
+- uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#ElementChanged
+  commentId: E:Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#ElementChanged
+  name: IVisualElementRenderer.ElementChanged
+  nameWithType: VisualElementRenderer<TElement>.IVisualElementRenderer.ElementChanged
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Goui.Forms.IVisualElementRenderer.ElementChanged
+  nameWithType.vb: VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.ElementChanged
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.ElementChanged
+  name.vb: Goui.Forms.IVisualElementRenderer.ElementChanged
+- uid: Goui.Forms.VisualElementRenderer`1.AutoPackage
+  commentId: P:Goui.Forms.VisualElementRenderer`1.AutoPackage
+  name: AutoPackage
+  nameWithType: VisualElementRenderer<TElement>.AutoPackage
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.AutoPackage
+  nameWithType.vb: VisualElementRenderer(Of TElement).AutoPackage
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).AutoPackage
+- uid: Goui.Forms.VisualElementRenderer`1.AutoTrack
+  commentId: P:Goui.Forms.VisualElementRenderer`1.AutoTrack
+  name: AutoTrack
+  nameWithType: VisualElementRenderer<TElement>.AutoTrack
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.AutoTrack
+  nameWithType.vb: VisualElementRenderer(Of TElement).AutoTrack
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).AutoTrack
+- uid: Goui.Forms.VisualElementRenderer`1.HtmlNeedsFullEndElement
+  commentId: P:Goui.Forms.VisualElementRenderer`1.HtmlNeedsFullEndElement
+  name: HtmlNeedsFullEndElement
+  nameWithType: VisualElementRenderer<TElement>.HtmlNeedsFullEndElement
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.HtmlNeedsFullEndElement
+  nameWithType.vb: VisualElementRenderer(Of TElement).HtmlNeedsFullEndElement
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).HtmlNeedsFullEndElement
+- uid: Goui.Forms.VisualElementRenderer`1.ElementChanged
+  commentId: E:Goui.Forms.VisualElementRenderer`1.ElementChanged
+  name: ElementChanged
+  nameWithType: VisualElementRenderer<TElement>.ElementChanged
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.ElementChanged
+  nameWithType.vb: VisualElementRenderer(Of TElement).ElementChanged
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).ElementChanged
+- uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+  isExternal: true
+  name: IVisualElementRenderer.SetElement(VisualElement)
+  nameWithType: VisualElementRenderer<TElement>.IVisualElementRenderer.SetElement(VisualElement)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  nameWithType.vb: VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.SetElement(VisualElement)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.SetElement(Xamarin.Forms.VisualElement)
+  name.vb: Goui.Forms.IVisualElementRenderer.SetElement(VisualElement)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+    name: IVisualElementRenderer.SetElement
+    nameWithType: VisualElementRenderer<TElement>.IVisualElementRenderer.SetElement
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.Goui.Forms.IVisualElementRenderer.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Goui#Forms#IVisualElementRenderer#SetElement(Xamarin.Forms.VisualElement)
+    name: Goui.Forms.IVisualElementRenderer.SetElement
+    nameWithType: VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.SetElement
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).Goui.Forms.IVisualElementRenderer.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+  name: SetElement(TElement)
+  nameWithType: VisualElementRenderer<TElement>.SetElement(TElement)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SetElement(TElement)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SetElement(TElement)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SetElement(TElement)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+    name: SetElement
+    nameWithType: VisualElementRenderer<TElement>.SetElement
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElement(`0)
+    name: SetElement
+    nameWithType: VisualElementRenderer(Of TElement).SetElement
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SetElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+  isExternal: true
+  name: SetElementSize(Size)
+  nameWithType: VisualElementRenderer<TElement>.SetElementSize(Size)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SetElementSize(Xamarin.Forms.Size)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SetElementSize(Size)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SetElementSize(Xamarin.Forms.Size)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+    name: SetElementSize
+    nameWithType: VisualElementRenderer<TElement>.SetElementSize
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SetElementSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetElementSize(Xamarin.Forms.Size)
+    name: SetElementSize
+    nameWithType: VisualElementRenderer(Of TElement).SetElementSize
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SetElementSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+  isExternal: true
+  name: SetControlSize(Size)
+  nameWithType: VisualElementRenderer<TElement>.SetControlSize(Size)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SetControlSize(Xamarin.Forms.Size)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SetControlSize(Size)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SetControlSize(Xamarin.Forms.Size)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+    name: SetControlSize
+    nameWithType: VisualElementRenderer<TElement>.SetControlSize
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SetControlSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetControlSize(Xamarin.Forms.Size)
+    name: SetControlSize
+    nameWithType: VisualElementRenderer(Of TElement).SetControlSize
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SetControlSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Size
+    name: Size
+    nameWithType: Size
+    fullName: Xamarin.Forms.Size
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  name: OnRegisterEffect(PlatformEffect)
+  nameWithType: VisualElementRenderer<TElement>.OnRegisterEffect(PlatformEffect)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.OnRegisterEffect(Goui.Forms.PlatformEffect)
+  nameWithType.vb: VisualElementRenderer(Of TElement).OnRegisterEffect(PlatformEffect)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).OnRegisterEffect(Goui.Forms.PlatformEffect)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+    name: OnRegisterEffect
+    nameWithType: VisualElementRenderer<TElement>.OnRegisterEffect
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.OnRegisterEffect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.PlatformEffect
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Goui.Forms.PlatformEffect
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnRegisterEffect(Goui.Forms.PlatformEffect)
+    name: OnRegisterEffect
+    nameWithType: VisualElementRenderer(Of TElement).OnRegisterEffect
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).OnRegisterEffect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.PlatformEffect
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Goui.Forms.PlatformEffect
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+  isExternal: true
+  name: SetAutomationId(String)
+  nameWithType: VisualElementRenderer<TElement>.SetAutomationId(String)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SetAutomationId(System.String)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SetAutomationId(String)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SetAutomationId(System.String)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+    name: SetAutomationId
+    nameWithType: VisualElementRenderer<TElement>.SetAutomationId
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SetAutomationId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetAutomationId(System.String)
+    name: SetAutomationId
+    nameWithType: VisualElementRenderer(Of TElement).SetAutomationId
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SetAutomationId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+  isExternal: true
+  name: SetBackgroundColor(Color)
+  nameWithType: VisualElementRenderer<TElement>.SetBackgroundColor(Color)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SetBackgroundColor(Xamarin.Forms.Color)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SetBackgroundColor(Color)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SetBackgroundColor(Xamarin.Forms.Color)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+    name: SetBackgroundColor
+    nameWithType: VisualElementRenderer<TElement>.SetBackgroundColor
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SetBackgroundColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Color
+    name: Color
+    nameWithType: Color
+    fullName: Xamarin.Forms.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SetBackgroundColor(Xamarin.Forms.Color)
+    name: SetBackgroundColor
+    nameWithType: VisualElementRenderer(Of TElement).SetBackgroundColor
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SetBackgroundColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.Color
+    name: Color
+    nameWithType: Color
+    fullName: Xamarin.Forms.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+  commentId: M:Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+  name: UpdateNativeWidget()
+  nameWithType: VisualElementRenderer<TElement>.UpdateNativeWidget()
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.UpdateNativeWidget()
+  nameWithType.vb: VisualElementRenderer(Of TElement).UpdateNativeWidget()
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).UpdateNativeWidget()
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+    name: UpdateNativeWidget
+    nameWithType: VisualElementRenderer<TElement>.UpdateNativeWidget
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.UpdateNativeWidget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.UpdateNativeWidget
+    name: UpdateNativeWidget
+    nameWithType: VisualElementRenderer(Of TElement).UpdateNativeWidget
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).UpdateNativeWidget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+  isExternal: true
+  name: SendVisualElementInitialized(VisualElement, Element)
+  nameWithType: VisualElementRenderer<TElement>.SendVisualElementInitialized(VisualElement, Element)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.SendVisualElementInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  nameWithType.vb: VisualElementRenderer(Of TElement).SendVisualElementInitialized(VisualElement, Element)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).SendVisualElementInitialized(Xamarin.Forms.VisualElement, Goui.Html.Element)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendVisualElementInitialized
+    nameWithType: VisualElementRenderer<TElement>.SendVisualElementInitialized
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.SendVisualElementInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.SendVisualElementInitialized(Xamarin.Forms.VisualElement,Goui.Html.Element)
+    name: SendVisualElementInitialized
+    nameWithType: VisualElementRenderer(Of TElement).SendVisualElementInitialized
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).SendVisualElementInitialized
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Xamarin.Forms.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: Xamarin.Forms.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+  isExternal: true
+  name: GetDesiredSize(Double, Double)
+  nameWithType: VisualElementRenderer<TElement>.GetDesiredSize(Double, Double)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.GetDesiredSize(System.Double, System.Double)
+  nameWithType.vb: VisualElementRenderer(Of TElement).GetDesiredSize(Double, Double)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).GetDesiredSize(System.Double, System.Double)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+    name: GetDesiredSize
+    nameWithType: VisualElementRenderer<TElement>.GetDesiredSize
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.GetDesiredSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.GetDesiredSize(System.Double,System.Double)
+    name: GetDesiredSize
+    nameWithType: VisualElementRenderer(Of TElement).GetDesiredSize
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).GetDesiredSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: VisualElementRenderer<TElement>.Dispose(Boolean)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Dispose(System.Boolean)
+  nameWithType.vb: VisualElementRenderer(Of TElement).Dispose(Boolean)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: VisualElementRenderer<TElement>.Dispose
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: VisualElementRenderer(Of TElement).Dispose
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.Dispose
+  commentId: M:Goui.Forms.VisualElementRenderer`1.Dispose
+  name: Dispose()
+  nameWithType: VisualElementRenderer<TElement>.Dispose()
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.Dispose()
+  nameWithType.vb: VisualElementRenderer(Of TElement).Dispose()
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).Dispose()
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose
+    name: Dispose
+    nameWithType: VisualElementRenderer<TElement>.Dispose
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.Dispose
+    name: Dispose
+    nameWithType: VisualElementRenderer(Of TElement).Dispose
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.Element.GetAttribute``1(System.String,``0)
+  commentId: M:Goui.Html.Element.GetAttribute``1(System.String,``0)
+  isExternal: true
+  name: GetAttribute<T>(String, T)
+  nameWithType: Element.GetAttribute<T>(String, T)
+  fullName: Goui.Html.Element.GetAttribute<T>(System.String, T)
+  nameWithType.vb: Element.GetAttribute(Of T)(String, T)
+  fullName.vb: Goui.Html.Element.GetAttribute(Of T)(System.String, T)
+  name.vb: GetAttribute(Of T)(String, T)
+  spec.csharp:
+  - uid: Goui.Html.Element.GetAttribute``1(System.String,``0)
+    name: GetAttribute<T>
+    nameWithType: Element.GetAttribute<T>
+    fullName: Goui.Html.Element.GetAttribute<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Html.Element.GetAttribute``1(System.String,``0)
+    name: GetAttribute(Of T)
+    nameWithType: Element.GetAttribute(Of T)
+    fullName: Goui.Html.Element.GetAttribute(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  commentId: M:Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  isExternal: true
+  name: SetProperty<T>(T, T, String, String)
+  nameWithType: EventTarget.SetProperty<T>(T, T, String, String)
+  fullName: Goui.EventTarget.SetProperty<T>(T, T, System.String, System.String)
+  nameWithType.vb: EventTarget.SetProperty(Of T)(T, T, String, String)
+  fullName.vb: Goui.EventTarget.SetProperty(Of T)(T, T, System.String, System.String)
+  name.vb: SetProperty(Of T)(T, T, String, String)
+  spec.csharp:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty<T>
+    nameWithType: EventTarget.SetProperty<T>
+    fullName: Goui.EventTarget.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty(Of T)
+    nameWithType: EventTarget.SetProperty(Of T)
+    fullName: Goui.EventTarget.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+  isExternal: true
+  name: GetSizeRequest(Element, Double, Double, Double, Double)
+  nameWithType: ElementExtensions.GetSizeRequest(Element, Double, Double, Double, Double)
+  fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element, System.Double, System.Double, System.Double, System.Double)
+  spec.csharp:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: ElementExtensions.GetSizeRequest
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest(Goui.Html.Element,System.Double,System.Double,System.Double,System.Double)
+    name: GetSizeRequest
+    nameWithType: ElementExtensions.GetSizeRequest
+    fullName: Goui.Forms.Extensions.ElementExtensions.GetSizeRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Extensions.ElementExtensions
+  commentId: T:Goui.Forms.Extensions.ElementExtensions
+  parent: Goui.Forms.Extensions
+  name: ElementExtensions
+  nameWithType: ElementExtensions
+  fullName: Goui.Forms.Extensions.ElementExtensions
+- uid: Goui.Forms.Extensions
+  commentId: N:Goui.Forms.Extensions
+  name: Goui.Forms.Extensions
+  nameWithType: Goui.Forms.Extensions
+  fullName: Goui.Forms.Extensions
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementChanged(Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame})
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+  name: OnElementChanged(ElementChangedEventArgs<Frame>)
+  nameWithType: VisualElementRenderer<Frame>.OnElementChanged(ElementChangedEventArgs<Frame>)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnElementChanged(Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.Frame>)
+  nameWithType.vb: VisualElementRenderer(Of Frame).OnElementChanged(ElementChangedEventArgs(Of Frame))
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnElementChanged(Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.Frame))
+  name.vb: OnElementChanged(ElementChangedEventArgs(Of Frame))
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+    name: OnElementChanged
+    nameWithType: VisualElementRenderer<Frame>.OnElementChanged
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnElementChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+    name: OnElementChanged
+    nameWithType: VisualElementRenderer(Of Frame).OnElementChanged
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnElementChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Renderers.FrameRenderer.OnElementChanged*
+  commentId: Overload:Goui.Forms.Renderers.FrameRenderer.OnElementChanged
+  name: OnElementChanged
+  nameWithType: FrameRenderer.OnElementChanged
+  fullName: Goui.Forms.Renderers.FrameRenderer.OnElementChanged
+- uid: Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame}
+  commentId: T:Goui.Forms.ElementChangedEventArgs{Xamarin.Forms.Frame}
+  parent: Goui.Forms
+  definition: Goui.Forms.ElementChangedEventArgs`1
+  name: ElementChangedEventArgs<Frame>
+  nameWithType: ElementChangedEventArgs<Frame>
+  fullName: Goui.Forms.ElementChangedEventArgs<Xamarin.Forms.Frame>
+  nameWithType.vb: ElementChangedEventArgs(Of Frame)
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of Xamarin.Forms.Frame)
+  name.vb: ElementChangedEventArgs(Of Frame)
+  spec.csharp:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Xamarin.Forms.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: Xamarin.Forms.Frame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+  commentId: M:Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+  name: OnElementChanged(ElementChangedEventArgs<TElement>)
+  nameWithType: VisualElementRenderer<TElement>.OnElementChanged(ElementChangedEventArgs<TElement>)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.OnElementChanged(Goui.Forms.ElementChangedEventArgs<TElement>)
+  nameWithType.vb: VisualElementRenderer(Of TElement).OnElementChanged(ElementChangedEventArgs(Of TElement))
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).OnElementChanged(Goui.Forms.ElementChangedEventArgs(Of TElement))
+  name.vb: OnElementChanged(ElementChangedEventArgs(Of TElement))
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+    name: OnElementChanged
+    nameWithType: VisualElementRenderer<TElement>.OnElementChanged
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.OnElementChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementChanged(Goui.Forms.ElementChangedEventArgs{`0})
+    name: OnElementChanged
+    nameWithType: VisualElementRenderer(Of TElement).OnElementChanged
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).OnElementChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.ElementChangedEventArgs`1
+  commentId: T:Goui.Forms.ElementChangedEventArgs`1
+  name: ElementChangedEventArgs<TElement>
+  nameWithType: ElementChangedEventArgs<TElement>
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>
+  nameWithType.vb: ElementChangedEventArgs(Of TElement)
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement)
+  name.vb: ElementChangedEventArgs(Of TElement)
+  spec.csharp:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Goui.Forms.ElementChangedEventArgs`1
+    name: ElementChangedEventArgs
+    nameWithType: ElementChangedEventArgs
+    fullName: Goui.Forms.ElementChangedEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  parent: Goui.Forms.VisualElementRenderer{Xamarin.Forms.Frame}
+  definition: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  name: OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  nameWithType: VisualElementRenderer<Frame>.OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnElementPropertyChanged(System.Object, System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType.vb: VisualElementRenderer(Of Frame).OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnElementPropertyChanged(System.Object, System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: VisualElementRenderer<Frame>.OnElementPropertyChanged
+    fullName: Goui.Forms.VisualElementRenderer<Xamarin.Forms.Frame>.OnElementPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: VisualElementRenderer(Of Frame).OnElementPropertyChanged
+    fullName: Goui.Forms.VisualElementRenderer(Of Xamarin.Forms.Frame).OnElementPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged*
+  commentId: Overload:Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged
+  name: OnElementPropertyChanged
+  nameWithType: FrameRenderer.OnElementPropertyChanged
+  fullName: Goui.Forms.Renderers.FrameRenderer.OnElementPropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventArgs
+  commentId: T:System.ComponentModel.PropertyChangedEventArgs
+  parent: System.ComponentModel
+  isExternal: true
+  name: PropertyChangedEventArgs
+  nameWithType: PropertyChangedEventArgs
+  fullName: System.ComponentModel.PropertyChangedEventArgs
+- uid: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+  isExternal: true
+  name: OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  nameWithType: VisualElementRenderer<TElement>.OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  fullName: Goui.Forms.VisualElementRenderer<TElement>.OnElementPropertyChanged(System.Object, System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType.vb: VisualElementRenderer(Of TElement).OnElementPropertyChanged(Object, PropertyChangedEventArgs)
+  fullName.vb: Goui.Forms.VisualElementRenderer(Of TElement).OnElementPropertyChanged(System.Object, System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: VisualElementRenderer<TElement>.OnElementPropertyChanged
+    fullName: Goui.Forms.VisualElementRenderer<TElement>.OnElementPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.Forms.VisualElementRenderer`1.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: VisualElementRenderer(Of TElement).OnElementPropertyChanged
+    fullName: Goui.Forms.VisualElementRenderer(Of TElement).OnElementPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

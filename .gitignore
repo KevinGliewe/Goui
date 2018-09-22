@@ -54,3 +54,6 @@ VersionInfo.cs
 
 # Nuke
 artifacts/*
+
+# docfx
+doc/build

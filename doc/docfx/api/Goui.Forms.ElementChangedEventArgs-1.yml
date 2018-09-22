@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.ElementChangedEventArgs`1
+  commentId: T:Goui.Forms.ElementChangedEventArgs`1
+  id: ElementChangedEventArgs`1
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.ElementChangedEventArgs`1.#ctor(`0,`0)
+  - Goui.Forms.ElementChangedEventArgs`1.NewElement
+  - Goui.Forms.ElementChangedEventArgs`1.OldElement
+  langs:
+  - csharp
+  - vb
+  name: ElementChangedEventArgs<TElement>
+  nameWithType: ElementChangedEventArgs<TElement>
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ElementChangedEventArgs
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 13
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public class ElementChangedEventArgs<TElement> : EventArgs where TElement : Element'
+    typeParameters:
+    - id: TElement
+    content.vb: >-
+      Public Class ElementChangedEventArgs(Of TElement As Element)
+
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  derivedClasses:
+  - Goui.Forms.VisualElementChangedEventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ElementChangedEventArgs(Of TElement)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement)
+  name.vb: ElementChangedEventArgs(Of TElement)
+- uid: Goui.Forms.ElementChangedEventArgs`1.#ctor(`0,`0)
+  commentId: M:Goui.Forms.ElementChangedEventArgs`1.#ctor(`0,`0)
+  id: '#ctor(`0,`0)'
+  parent: Goui.Forms.ElementChangedEventArgs`1
+  langs:
+  - csharp
+  - vb
+  name: ElementChangedEventArgs(TElement, TElement)
+  nameWithType: ElementChangedEventArgs<TElement>.ElementChangedEventArgs(TElement, TElement)
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.ElementChangedEventArgs(TElement, TElement)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 15
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public ElementChangedEventArgs(TElement oldElement, TElement newElement)
+    parameters:
+    - id: oldElement
+      type: '{TElement}'
+    - id: newElement
+      type: '{TElement}'
+    content.vb: Public Sub New(oldElement As TElement, newElement As TElement)
+  overload: Goui.Forms.ElementChangedEventArgs`1.#ctor*
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).ElementChangedEventArgs(TElement, TElement)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).ElementChangedEventArgs(TElement, TElement)
+- uid: Goui.Forms.ElementChangedEventArgs`1.NewElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs`1.NewElement
+  id: NewElement
+  parent: Goui.Forms.ElementChangedEventArgs`1
+  langs:
+  - csharp
+  - vb
+  name: NewElement
+  nameWithType: ElementChangedEventArgs<TElement>.NewElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.NewElement
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: NewElement
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 21
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public TElement NewElement { get; }
+    parameters: []
+    return:
+      type: '{TElement}'
+    content.vb: Public ReadOnly Property NewElement As TElement
+  overload: Goui.Forms.ElementChangedEventArgs`1.NewElement*
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).NewElement
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).NewElement
+- uid: Goui.Forms.ElementChangedEventArgs`1.OldElement
+  commentId: P:Goui.Forms.ElementChangedEventArgs`1.OldElement
+  id: OldElement
+  parent: Goui.Forms.ElementChangedEventArgs`1
+  langs:
+  - csharp
+  - vb
+  name: OldElement
+  nameWithType: ElementChangedEventArgs<TElement>.OldElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.OldElement
+  type: Property
+  source:
+    remote:
+      path: Goui.Forms/ElementChangedEventArgs.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: OldElement
+    path: ../../Goui.Forms/ElementChangedEventArgs.cs
+    startLine: 23
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public TElement OldElement { get; }
+    parameters: []
+    return:
+      type: '{TElement}'
+    content.vb: Public ReadOnly Property OldElement As TElement
+  overload: Goui.Forms.ElementChangedEventArgs`1.OldElement*
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).OldElement
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).OldElement
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.ElementChangedEventArgs`1.#ctor*
+  commentId: Overload:Goui.Forms.ElementChangedEventArgs`1.#ctor
+  name: ElementChangedEventArgs
+  nameWithType: ElementChangedEventArgs<TElement>.ElementChangedEventArgs
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.ElementChangedEventArgs
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).ElementChangedEventArgs
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).ElementChangedEventArgs
+- uid: '{TElement}'
+  commentId: '!:TElement'
+  definition: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: Goui.Forms.ElementChangedEventArgs`1.NewElement*
+  commentId: Overload:Goui.Forms.ElementChangedEventArgs`1.NewElement
+  name: NewElement
+  nameWithType: ElementChangedEventArgs<TElement>.NewElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.NewElement
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).NewElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).NewElement
+- uid: Goui.Forms.ElementChangedEventArgs`1.OldElement*
+  commentId: Overload:Goui.Forms.ElementChangedEventArgs`1.OldElement
+  name: OldElement
+  nameWithType: ElementChangedEventArgs<TElement>.OldElement
+  fullName: Goui.Forms.ElementChangedEventArgs<TElement>.OldElement
+  nameWithType.vb: ElementChangedEventArgs(Of TElement).OldElement
+  fullName.vb: Goui.Forms.ElementChangedEventArgs(Of TElement).OldElement

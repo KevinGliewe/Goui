@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.EventTracker
+  commentId: T:Goui.Forms.EventTracker
+  id: EventTracker
+  parent: Goui.Forms
+  children:
+  - Goui.Forms.EventTracker.#ctor(Goui.Forms.IVisualElementRenderer)
+  - Goui.Forms.EventTracker.Dispose
+  - Goui.Forms.EventTracker.GetNativeRecognizer(Xamarin.Forms.IGestureRecognizer)
+  - Goui.Forms.EventTracker.LoadEvents(Goui.Html.Element)
+  langs:
+  - csharp
+  - vb
+  name: EventTracker
+  nameWithType: EventTracker
+  fullName: Goui.Forms.EventTracker
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/EventTracker.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: EventTracker
+    path: ../../Goui.Forms/EventTracker.cs
+    startLine: 11
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public class EventTracker
+    content.vb: Public Class EventTracker
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Forms.EventTracker.#ctor(Goui.Forms.IVisualElementRenderer)
+  commentId: M:Goui.Forms.EventTracker.#ctor(Goui.Forms.IVisualElementRenderer)
+  id: '#ctor(Goui.Forms.IVisualElementRenderer)'
+  parent: Goui.Forms.EventTracker
+  langs:
+  - csharp
+  - vb
+  name: EventTracker(IVisualElementRenderer)
+  nameWithType: EventTracker.EventTracker(IVisualElementRenderer)
+  fullName: Goui.Forms.EventTracker.EventTracker(Goui.Forms.IVisualElementRenderer)
+  type: Constructor
+  source:
+    remote:
+      path: Goui.Forms/EventTracker.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui.Forms/EventTracker.cs
+    startLine: 21
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public EventTracker(IVisualElementRenderer renderer)
+    parameters:
+    - id: renderer
+      type: Goui.Forms.IVisualElementRenderer
+    content.vb: Public Sub New(renderer As IVisualElementRenderer)
+  overload: Goui.Forms.EventTracker.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.EventTracker.Dispose
+  commentId: M:Goui.Forms.EventTracker.Dispose
+  id: Dispose
+  parent: Goui.Forms.EventTracker
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: EventTracker.Dispose()
+  fullName: Goui.Forms.EventTracker.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/EventTracker.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Dispose
+    path: ../../Goui.Forms/EventTracker.cs
+    startLine: 40
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Goui.Forms.EventTracker.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Forms.EventTracker.GetNativeRecognizer(Xamarin.Forms.IGestureRecognizer)
+  commentId: M:Goui.Forms.EventTracker.GetNativeRecognizer(Xamarin.Forms.IGestureRecognizer)
+  id: GetNativeRecognizer(Xamarin.Forms.IGestureRecognizer)
+  parent: Goui.Forms.EventTracker
+  langs:
+  - csharp
+  - vb
+  name: GetNativeRecognizer(IGestureRecognizer)
+  nameWithType: EventTracker.GetNativeRecognizer(IGestureRecognizer)
+  fullName: Goui.Forms.EventTracker.GetNativeRecognizer(Xamarin.Forms.IGestureRecognizer)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/EventTracker.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetNativeRecognizer
+    path: ../../Goui.Forms/EventTracker.cs
+    startLine: 112
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: protected virtual EventTracker.NativeGestureRecognizer GetNativeRecognizer(IGestureRecognizer recognizer)
+    parameters:
+    - id: recognizer
+      type: Xamarin.Forms.IGestureRecognizer
+    return:
+      type: Goui.Forms.EventTracker.NativeGestureRecognizer
+    content.vb: Protected Overridable Function GetNativeRecognizer(recognizer As IGestureRecognizer) As EventTracker.NativeGestureRecognizer
+  overload: Goui.Forms.EventTracker.GetNativeRecognizer*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Goui.Forms.EventTracker.LoadEvents(Goui.Html.Element)
+  commentId: M:Goui.Forms.EventTracker.LoadEvents(Goui.Html.Element)
+  id: LoadEvents(Goui.Html.Element)
+  parent: Goui.Forms.EventTracker
+  langs:
+  - csharp
+  - vb
+  name: LoadEvents(Element)
+  nameWithType: EventTracker.LoadEvents(Element)
+  fullName: Goui.Forms.EventTracker.LoadEvents(Goui.Html.Element)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/EventTracker.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LoadEvents
+    path: ../../Goui.Forms/EventTracker.cs
+    startLine: 165
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: public void LoadEvents(Element handler)
+    parameters:
+    - id: handler
+      type: Goui.Html.Element
+    content.vb: Public Sub LoadEvents(handler As Element)
+  overload: Goui.Forms.EventTracker.LoadEvents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui.Forms.EventTracker.#ctor*
+  commentId: Overload:Goui.Forms.EventTracker.#ctor
+  name: EventTracker
+  nameWithType: EventTracker.EventTracker
+  fullName: Goui.Forms.EventTracker.EventTracker
+- uid: Goui.Forms.IVisualElementRenderer
+  commentId: T:Goui.Forms.IVisualElementRenderer
+  parent: Goui.Forms
+  name: IVisualElementRenderer
+  nameWithType: IVisualElementRenderer
+  fullName: Goui.Forms.IVisualElementRenderer
+- uid: Goui.Forms.EventTracker.Dispose*
+  commentId: Overload:Goui.Forms.EventTracker.Dispose
+  name: Dispose
+  nameWithType: EventTracker.Dispose
+  fullName: Goui.Forms.EventTracker.Dispose
+- uid: Goui.Forms.EventTracker.GetNativeRecognizer*
+  commentId: Overload:Goui.Forms.EventTracker.GetNativeRecognizer
+  name: GetNativeRecognizer
+  nameWithType: EventTracker.GetNativeRecognizer
+  fullName: Goui.Forms.EventTracker.GetNativeRecognizer
+- uid: Xamarin.Forms.IGestureRecognizer
+  commentId: T:Xamarin.Forms.IGestureRecognizer
+  parent: Xamarin.Forms
+  isExternal: true
+  name: IGestureRecognizer
+  nameWithType: IGestureRecognizer
+  fullName: Xamarin.Forms.IGestureRecognizer
+- uid: Goui.Forms.EventTracker.NativeGestureRecognizer
+  commentId: T:Goui.Forms.EventTracker.NativeGestureRecognizer
+  parent: Goui.Forms
+  name: EventTracker.NativeGestureRecognizer
+  nameWithType: EventTracker.NativeGestureRecognizer
+  fullName: Goui.Forms.EventTracker.NativeGestureRecognizer
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Goui.Forms.EventTracker.LoadEvents*
+  commentId: Overload:Goui.Forms.EventTracker.LoadEvents
+  name: LoadEvents
+  nameWithType: EventTracker.LoadEvents
+  fullName: Goui.Forms.EventTracker.LoadEvents
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html

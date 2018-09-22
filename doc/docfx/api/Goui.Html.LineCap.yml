@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.LineCap
+  commentId: T:Goui.Html.LineCap
+  id: LineCap
+  parent: Goui.Html
+  children:
+  - Goui.Html.LineCap.Butt
+  - Goui.Html.LineCap.Round
+  - Goui.Html.LineCap.Square
+  langs:
+  - csharp
+  - vb
+  name: LineCap
+  nameWithType: LineCap
+  fullName: Goui.Html.LineCap
+  type: Enum
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineCap
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 300
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public enum LineCap
+    content.vb: Public Enum LineCap
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Html.LineCap.Butt
+  commentId: F:Goui.Html.LineCap.Butt
+  id: Butt
+  parent: Goui.Html.LineCap
+  langs:
+  - csharp
+  - vb
+  name: Butt
+  nameWithType: LineCap.Butt
+  fullName: Goui.Html.LineCap.Butt
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Butt
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 302
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Butt = 0
+    return:
+      type: Goui.Html.LineCap
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.LineCap.Round
+  commentId: F:Goui.Html.LineCap.Round
+  id: Round
+  parent: Goui.Html.LineCap
+  langs:
+  - csharp
+  - vb
+  name: Round
+  nameWithType: LineCap.Round
+  fullName: Goui.Html.LineCap.Round
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Round
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 303
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Round = 1
+    return:
+      type: Goui.Html.LineCap
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.LineCap.Square
+  commentId: F:Goui.Html.LineCap.Square
+  id: Square
+  parent: Goui.Html.LineCap
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: LineCap.Square
+  fullName: Goui.Html.LineCap.Square
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Square
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 304
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Square = 2
+    return:
+      type: Goui.Html.LineCap
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Html.LineCap
+  commentId: T:Goui.Html.LineCap
+  parent: Goui.Html
+  name: LineCap
+  nameWithType: LineCap
+  fullName: Goui.Html.LineCap

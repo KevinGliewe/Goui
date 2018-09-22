@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xamarin.Forms.PageExtensions
+  commentId: T:Xamarin.Forms.PageExtensions
+  id: PageExtensions
+  parent: Xamarin.Forms
+  children:
+  - Xamarin.Forms.PageExtensions.GetGouiElement(Xamarin.Forms.Page)
+  - Xamarin.Forms.PageExtensions.Publish(Xamarin.Forms.Page,System.String)
+  - Xamarin.Forms.PageExtensions.PublishShared(Xamarin.Forms.Page,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PageExtensions
+  nameWithType: PageExtensions
+  fullName: Xamarin.Forms.PageExtensions
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/PageExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PageExtensions
+    path: ../../Goui.Forms/PageExtensions.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static class PageExtensions
+    content.vb: Public Module PageExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Xamarin.Forms.PageExtensions.Publish(Xamarin.Forms.Page,System.String)
+  commentId: M:Xamarin.Forms.PageExtensions.Publish(Xamarin.Forms.Page,System.String)
+  id: Publish(Xamarin.Forms.Page,System.String)
+  isExtensionMethod: true
+  parent: Xamarin.Forms.PageExtensions
+  langs:
+  - csharp
+  - vb
+  name: Publish(Page, String)
+  nameWithType: PageExtensions.Publish(Page, String)
+  fullName: Xamarin.Forms.PageExtensions.Publish(Xamarin.Forms.Page, System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/PageExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Publish
+    path: ../../Goui.Forms/PageExtensions.cs
+    startLine: 7
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static void Publish(this Page page, string path)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    - id: path
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Publish(page As Page, path As String)
+  overload: Xamarin.Forms.PageExtensions.Publish*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Xamarin.Forms.PageExtensions.PublishShared(Xamarin.Forms.Page,System.String)
+  commentId: M:Xamarin.Forms.PageExtensions.PublishShared(Xamarin.Forms.Page,System.String)
+  id: PublishShared(Xamarin.Forms.Page,System.String)
+  isExtensionMethod: true
+  parent: Xamarin.Forms.PageExtensions
+  langs:
+  - csharp
+  - vb
+  name: PublishShared(Page, String)
+  nameWithType: PageExtensions.PublishShared(Page, String)
+  fullName: Xamarin.Forms.PageExtensions.PublishShared(Xamarin.Forms.Page, System.String)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/PageExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PublishShared
+    path: ../../Goui.Forms/PageExtensions.cs
+    startLine: 12
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static void PublishShared(this Page page, string path)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    - id: path
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub PublishShared(page As Page, path As String)
+  overload: Xamarin.Forms.PageExtensions.PublishShared*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Xamarin.Forms.PageExtensions.GetGouiElement(Xamarin.Forms.Page)
+  commentId: M:Xamarin.Forms.PageExtensions.GetGouiElement(Xamarin.Forms.Page)
+  id: GetGouiElement(Xamarin.Forms.Page)
+  isExtensionMethod: true
+  parent: Xamarin.Forms.PageExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetGouiElement(Page)
+  nameWithType: PageExtensions.GetGouiElement(Page)
+  fullName: Xamarin.Forms.PageExtensions.GetGouiElement(Xamarin.Forms.Page)
+  type: Method
+  source:
+    remote:
+      path: Goui.Forms/PageExtensions.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GetGouiElement
+    path: ../../Goui.Forms/PageExtensions.cs
+    startLine: 18
+  assemblies:
+  - Goui.Forms
+  namespace: Xamarin.Forms
+  syntax:
+    content: public static Element GetGouiElement(this Page page)
+    parameters:
+    - id: page
+      type: Xamarin.Forms.Page
+    return:
+      type: Goui.Html.Element
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetGouiElement(page As Page) As Element
+  overload: Xamarin.Forms.PageExtensions.GetGouiElement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms.PageExtensions.Publish*
+  commentId: Overload:Xamarin.Forms.PageExtensions.Publish
+  name: Publish
+  nameWithType: PageExtensions.Publish
+  fullName: Xamarin.Forms.PageExtensions.Publish
+- uid: Xamarin.Forms.Page
+  commentId: T:Xamarin.Forms.Page
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: Xamarin.Forms.Page
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Xamarin.Forms.PageExtensions.PublishShared*
+  commentId: Overload:Xamarin.Forms.PageExtensions.PublishShared
+  name: PublishShared
+  nameWithType: PageExtensions.PublishShared
+  fullName: Xamarin.Forms.PageExtensions.PublishShared
+- uid: Xamarin.Forms.PageExtensions.GetGouiElement*
+  commentId: Overload:Xamarin.Forms.PageExtensions.GetGouiElement
+  name: GetGouiElement
+  nameWithType: PageExtensions.GetGouiElement
+  fullName: Xamarin.Forms.PageExtensions.GetGouiElement
+- uid: Goui.Html.Element
+  commentId: T:Goui.Html.Element
+  parent: Goui.Html
+  name: Element
+  nameWithType: Element
+  fullName: Goui.Html.Element
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.AspNetCore
+  commentId: N:Goui.AspNetCore
+  id: Goui.AspNetCore
+  children:
+  - Goui.AspNetCore.ElementResult
+  - Goui.AspNetCore.WebSocketHandler
+  langs:
+  - csharp
+  - vb
+  name: Goui.AspNetCore
+  nameWithType: Goui.AspNetCore
+  fullName: Goui.AspNetCore
+  type: Namespace
+  assemblies:
+  - Goui.AspNetCore
+references:
+- uid: Goui.AspNetCore.ElementResult
+  commentId: T:Goui.AspNetCore.ElementResult
+  name: ElementResult
+  nameWithType: ElementResult
+  fullName: Goui.AspNetCore.ElementResult
+- uid: Goui.AspNetCore.WebSocketHandler
+  commentId: T:Goui.AspNetCore.WebSocketHandler
+  name: WebSocketHandler
+  nameWithType: WebSocketHandler
+  fullName: Goui.AspNetCore.WebSocketHandler

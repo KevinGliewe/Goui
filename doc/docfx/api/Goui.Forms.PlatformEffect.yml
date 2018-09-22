@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Forms.PlatformEffect
+  commentId: T:Goui.Forms.PlatformEffect
+  id: PlatformEffect
+  parent: Goui.Forms
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlatformEffect
+  nameWithType: PlatformEffect
+  fullName: Goui.Forms.PlatformEffect
+  type: Class
+  source:
+    remote:
+      path: Goui.Forms/PlatformEffect.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: PlatformEffect
+    path: ../../Goui.Forms/PlatformEffect.cs
+    startLine: 5
+  assemblies:
+  - Goui.Forms
+  namespace: Goui.Forms
+  syntax:
+    content: 'public abstract class PlatformEffect : PlatformEffect<Element, Element>'
+    content.vb: >-
+      Public MustInherit Class PlatformEffect
+
+          Inherits PlatformEffect(Of Element, Element)
+  inheritance:
+  - System.Object
+  - Xamarin.Forms.Effect
+  - Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  inheritedMembers:
+  - Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Container
+  - Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Control
+  - Xamarin.Forms.Effect.Resolve(System.String)
+  - Xamarin.Forms.Effect.OnAttached
+  - Xamarin.Forms.Effect.OnDetached
+  - Xamarin.Forms.Effect.Element
+  - Xamarin.Forms.Effect.IsAttached
+  - Xamarin.Forms.Effect.ResolveId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: Goui.Forms
+  commentId: N:Goui.Forms
+  name: Goui.Forms
+  nameWithType: Goui.Forms
+  fullName: Goui.Forms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Xamarin.Forms.Effect
+  commentId: T:Xamarin.Forms.Effect
+  parent: Xamarin.Forms
+  isExternal: true
+  name: Effect
+  nameWithType: Effect
+  fullName: Xamarin.Forms.Effect
+- uid: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  commentId: T:Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  parent: Xamarin.Forms
+  definition: Xamarin.Forms.PlatformEffect`2
+  name: PlatformEffect<Element, Element>
+  nameWithType: PlatformEffect<Element, Element>
+  fullName: Xamarin.Forms.PlatformEffect<Goui.Html.Element, Goui.Html.Element>
+  nameWithType.vb: PlatformEffect(Of Element, Element)
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of Goui.Html.Element, Goui.Html.Element)
+  name.vb: PlatformEffect(Of Element, Element)
+  spec.csharp:
+  - uid: Xamarin.Forms.PlatformEffect`2
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Xamarin.Forms.PlatformEffect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xamarin.Forms.PlatformEffect`2
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Xamarin.Forms.PlatformEffect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.Html.Element
+    name: Element
+    nameWithType: Element
+    fullName: Goui.Html.Element
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  definition: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  name: OnElementPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: PlatformEffect<Element, Element>.OnElementPropertyChanged(PropertyChangedEventArgs)
+  fullName: Xamarin.Forms.PlatformEffect<Goui.Html.Element, Goui.Html.Element>.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType.vb: PlatformEffect(Of Element, Element).OnElementPropertyChanged(PropertyChangedEventArgs)
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of Goui.Html.Element, Goui.Html.Element).OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: PlatformEffect<Element, Element>.OnElementPropertyChanged
+    fullName: Xamarin.Forms.PlatformEffect<Goui.Html.Element, Goui.Html.Element>.OnElementPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: PlatformEffect(Of Element, Element).OnElementPropertyChanged
+    fullName: Xamarin.Forms.PlatformEffect(Of Goui.Html.Element, Goui.Html.Element).OnElementPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Container
+  commentId: P:Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Container
+  parent: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  definition: Xamarin.Forms.PlatformEffect`2.Container
+  name: Container
+  nameWithType: PlatformEffect<Element, Element>.Container
+  fullName: Xamarin.Forms.PlatformEffect<Goui.Html.Element, Goui.Html.Element>.Container
+  nameWithType.vb: PlatformEffect(Of Element, Element).Container
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of Goui.Html.Element, Goui.Html.Element).Container
+- uid: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Control
+  commentId: P:Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}.Control
+  parent: Xamarin.Forms.PlatformEffect{Goui.Html.Element,Goui.Html.Element}
+  definition: Xamarin.Forms.PlatformEffect`2.Control
+  name: Control
+  nameWithType: PlatformEffect<Element, Element>.Control
+  fullName: Xamarin.Forms.PlatformEffect<Goui.Html.Element, Goui.Html.Element>.Control
+  nameWithType.vb: PlatformEffect(Of Element, Element).Control
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of Goui.Html.Element, Goui.Html.Element).Control
+- uid: Xamarin.Forms.Effect.Resolve(System.String)
+  commentId: M:Xamarin.Forms.Effect.Resolve(System.String)
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: Resolve(String)
+  nameWithType: Effect.Resolve(String)
+  fullName: Xamarin.Forms.Effect.Resolve(System.String)
+  spec.csharp:
+  - uid: Xamarin.Forms.Effect.Resolve(System.String)
+    name: Resolve
+    nameWithType: Effect.Resolve
+    fullName: Xamarin.Forms.Effect.Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Effect.Resolve(System.String)
+    name: Resolve
+    nameWithType: Effect.Resolve
+    fullName: Xamarin.Forms.Effect.Resolve
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Effect.OnAttached
+  commentId: M:Xamarin.Forms.Effect.OnAttached
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: OnAttached()
+  nameWithType: Effect.OnAttached()
+  fullName: Xamarin.Forms.Effect.OnAttached()
+  spec.csharp:
+  - uid: Xamarin.Forms.Effect.OnAttached
+    name: OnAttached
+    nameWithType: Effect.OnAttached
+    fullName: Xamarin.Forms.Effect.OnAttached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Effect.OnAttached
+    name: OnAttached
+    nameWithType: Effect.OnAttached
+    fullName: Xamarin.Forms.Effect.OnAttached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Effect.OnDetached
+  commentId: M:Xamarin.Forms.Effect.OnDetached
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: OnDetached()
+  nameWithType: Effect.OnDetached()
+  fullName: Xamarin.Forms.Effect.OnDetached()
+  spec.csharp:
+  - uid: Xamarin.Forms.Effect.OnDetached
+    name: OnDetached
+    nameWithType: Effect.OnDetached
+    fullName: Xamarin.Forms.Effect.OnDetached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.Effect.OnDetached
+    name: OnDetached
+    nameWithType: Effect.OnDetached
+    fullName: Xamarin.Forms.Effect.OnDetached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.Effect.Element
+  commentId: P:Xamarin.Forms.Effect.Element
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: Element
+  nameWithType: Effect.Element
+  fullName: Xamarin.Forms.Effect.Element
+- uid: Xamarin.Forms.Effect.IsAttached
+  commentId: P:Xamarin.Forms.Effect.IsAttached
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: IsAttached
+  nameWithType: Effect.IsAttached
+  fullName: Xamarin.Forms.Effect.IsAttached
+- uid: Xamarin.Forms.Effect.ResolveId
+  commentId: P:Xamarin.Forms.Effect.ResolveId
+  parent: Xamarin.Forms.Effect
+  isExternal: true
+  name: ResolveId
+  nameWithType: Effect.ResolveId
+  fullName: Xamarin.Forms.Effect.ResolveId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xamarin.Forms
+  commentId: N:Xamarin.Forms
+  name: Xamarin.Forms
+  nameWithType: Xamarin.Forms
+  fullName: Xamarin.Forms
+- uid: Xamarin.Forms.PlatformEffect`2
+  commentId: T:Xamarin.Forms.PlatformEffect`2
+  isExternal: true
+  name: PlatformEffect<TContainer, TControl>
+  nameWithType: PlatformEffect<TContainer, TControl>
+  fullName: Xamarin.Forms.PlatformEffect<TContainer, TControl>
+  nameWithType.vb: PlatformEffect(Of TContainer, TControl)
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of TContainer, TControl)
+  name.vb: PlatformEffect(Of TContainer, TControl)
+  spec.csharp:
+  - uid: Xamarin.Forms.PlatformEffect`2
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Xamarin.Forms.PlatformEffect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TContainer
+    nameWithType: TContainer
+    fullName: TContainer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TControl
+    nameWithType: TControl
+    fullName: TControl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Xamarin.Forms.PlatformEffect`2
+    name: PlatformEffect
+    nameWithType: PlatformEffect
+    fullName: Xamarin.Forms.PlatformEffect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TContainer
+    nameWithType: TContainer
+    fullName: TContainer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TControl
+    nameWithType: TControl
+    fullName: TControl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  isExternal: true
+  name: OnElementPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: PlatformEffect<TContainer, TControl>.OnElementPropertyChanged(PropertyChangedEventArgs)
+  fullName: Xamarin.Forms.PlatformEffect<TContainer, TControl>.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType.vb: PlatformEffect(Of TContainer, TControl).OnElementPropertyChanged(PropertyChangedEventArgs)
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of TContainer, TControl).OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: PlatformEffect<TContainer, TControl>.OnElementPropertyChanged
+    fullName: Xamarin.Forms.PlatformEffect<TContainer, TControl>.OnElementPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Xamarin.Forms.PlatformEffect`2.OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnElementPropertyChanged
+    nameWithType: PlatformEffect(Of TContainer, TControl).OnElementPropertyChanged
+    fullName: Xamarin.Forms.PlatformEffect(Of TContainer, TControl).OnElementPropertyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    nameWithType: PropertyChangedEventArgs
+    fullName: System.ComponentModel.PropertyChangedEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Xamarin.Forms.PlatformEffect`2.Container
+  commentId: P:Xamarin.Forms.PlatformEffect`2.Container
+  isExternal: true
+  name: Container
+  nameWithType: PlatformEffect<TContainer, TControl>.Container
+  fullName: Xamarin.Forms.PlatformEffect<TContainer, TControl>.Container
+  nameWithType.vb: PlatformEffect(Of TContainer, TControl).Container
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of TContainer, TControl).Container
+- uid: Xamarin.Forms.PlatformEffect`2.Control
+  commentId: P:Xamarin.Forms.PlatformEffect`2.Control
+  isExternal: true
+  name: Control
+  nameWithType: PlatformEffect<TContainer, TControl>.Control
+  fullName: Xamarin.Forms.PlatformEffect<TContainer, TControl>.Control
+  nameWithType.vb: PlatformEffect(Of TContainer, TControl).Control
+  fullName.vb: Xamarin.Forms.PlatformEffect(Of TContainer, TControl).Control

@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.LineJoin
+  commentId: T:Goui.Html.LineJoin
+  id: LineJoin
+  parent: Goui.Html
+  children:
+  - Goui.Html.LineJoin.Bevel
+  - Goui.Html.LineJoin.Miter
+  - Goui.Html.LineJoin.Round
+  langs:
+  - csharp
+  - vb
+  name: LineJoin
+  nameWithType: LineJoin
+  fullName: Goui.Html.LineJoin
+  type: Enum
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineJoin
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 307
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public enum LineJoin
+    content.vb: Public Enum LineJoin
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Goui.Html.LineJoin.Bevel
+  commentId: F:Goui.Html.LineJoin.Bevel
+  id: Bevel
+  parent: Goui.Html.LineJoin
+  langs:
+  - csharp
+  - vb
+  name: Bevel
+  nameWithType: LineJoin.Bevel
+  fullName: Goui.Html.LineJoin.Bevel
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Bevel
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 309
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Bevel = 0
+    return:
+      type: Goui.Html.LineJoin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.LineJoin.Round
+  commentId: F:Goui.Html.LineJoin.Round
+  id: Round
+  parent: Goui.Html.LineJoin
+  langs:
+  - csharp
+  - vb
+  name: Round
+  nameWithType: LineJoin.Round
+  fullName: Goui.Html.LineJoin.Round
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Round
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 310
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Round = 1
+    return:
+      type: Goui.Html.LineJoin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Goui.Html.LineJoin.Miter
+  commentId: F:Goui.Html.LineJoin.Miter
+  id: Miter
+  parent: Goui.Html.LineJoin
+  langs:
+  - csharp
+  - vb
+  name: Miter
+  nameWithType: LineJoin.Miter
+  fullName: Goui.Html.LineJoin.Miter
+  type: Field
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Miter
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 311
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: Miter = 2
+    return:
+      type: Goui.Html.LineJoin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: Goui.Html.LineJoin
+  commentId: T:Goui.Html.LineJoin
+  parent: Goui.Html
+  name: LineJoin
+  nameWithType: LineJoin
+  fullName: Goui.Html.LineJoin

@@ -1,0 +1,2823 @@
+### YamlMime:ManagedReference
+items:
+- uid: Goui.Html.CanvasRenderingContext2D
+  commentId: T:Goui.Html.CanvasRenderingContext2D
+  id: CanvasRenderingContext2D
+  parent: Goui.Html
+  children:
+  - Goui.Html.CanvasRenderingContext2D.#ctor
+  - Goui.Html.CanvasRenderingContext2D.Arc(System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  - Goui.Html.CanvasRenderingContext2D.ArcTo(System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.BeginPath
+  - Goui.Html.CanvasRenderingContext2D.BezierCurveTo(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.ClearRect(System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.Clip
+  - Goui.Html.CanvasRenderingContext2D.ClosePath
+  - Goui.Html.CanvasRenderingContext2D.Ellipse(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  - Goui.Html.CanvasRenderingContext2D.Fill
+  - Goui.Html.CanvasRenderingContext2D.FillRect(System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.FillStyle
+  - Goui.Html.CanvasRenderingContext2D.FillText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  - Goui.Html.CanvasRenderingContext2D.Font
+  - Goui.Html.CanvasRenderingContext2D.FontFamily
+  - Goui.Html.CanvasRenderingContext2D.FontSize
+  - Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+  - Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+  - Goui.Html.CanvasRenderingContext2D.LineCap
+  - Goui.Html.CanvasRenderingContext2D.LineJoin
+  - Goui.Html.CanvasRenderingContext2D.LineTo(System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.LineWidth
+  - Goui.Html.CanvasRenderingContext2D.MoveTo(System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo(System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.Rect(System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.ResetTransform
+  - Goui.Html.CanvasRenderingContext2D.Restore
+  - Goui.Html.CanvasRenderingContext2D.Rotate(System.Double)
+  - Goui.Html.CanvasRenderingContext2D.Save
+  - Goui.Html.CanvasRenderingContext2D.Scale(System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.SetTransform(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.Stroke
+  - Goui.Html.CanvasRenderingContext2D.StrokeRect(System.Double,System.Double,System.Double,System.Double)
+  - Goui.Html.CanvasRenderingContext2D.StrokeStyle
+  - Goui.Html.CanvasRenderingContext2D.StrokeText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  - Goui.Html.CanvasRenderingContext2D.Translate(System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: CanvasRenderingContext2D
+  nameWithType: CanvasRenderingContext2D
+  fullName: Goui.Html.CanvasRenderingContext2D
+  type: Class
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: CanvasRenderingContext2D
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 3
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: 'public class CanvasRenderingContext2D : EventTarget, INotifyPropertyChanged'
+    content.vb: >-
+      Public Class CanvasRenderingContext2D
+
+          Inherits EventTarget
+
+          Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Goui.EventTarget
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Goui.EventTarget.Id
+  - Goui.EventTarget.TagName
+  - Goui.EventTarget.PropertyChanged
+  - Goui.EventTarget.MessageSent
+  - Goui.EventTarget.StateMessages
+  - Goui.EventTarget.ToString
+  - Goui.EventTarget.GetElementById(System.String)
+  - Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  - Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  - Goui.EventTarget.SetProperty``1({T}@,{T},System.String,System.String)
+  - Goui.EventTarget.OnPropertyChanged(System.String)
+  - Goui.EventTarget.IdPrefix
+  - Goui.EventTarget.Send(Goui.Message)
+  - Goui.EventTarget.Call(System.String,System.Object[])
+  - Goui.EventTarget.SendSet(System.String,System.Object)
+  - Goui.EventTarget.Receive(Goui.Message)
+  - Goui.EventTarget.AddStateMessage(Goui.Message)
+  - Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  - Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+  - Goui.EventTarget.TriggerEvent(System.String)
+  - Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Goui.Html.CanvasRenderingContext2D.FillStyle
+  commentId: P:Goui.Html.CanvasRenderingContext2D.FillStyle
+  id: FillStyle
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: FillStyle
+  nameWithType: CanvasRenderingContext2D.FillStyle
+  fullName: Goui.Html.CanvasRenderingContext2D.FillStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FillStyle
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 6
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public object FillStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property FillStyle As Object
+  overload: Goui.Html.CanvasRenderingContext2D.FillStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.FontSize
+  commentId: P:Goui.Html.CanvasRenderingContext2D.FontSize
+  id: FontSize
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: CanvasRenderingContext2D.FontSize
+  fullName: Goui.Html.CanvasRenderingContext2D.FontSize
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontSize
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 12
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public double FontSize { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property FontSize As Double
+  overload: Goui.Html.CanvasRenderingContext2D.FontSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.FontFamily
+  commentId: P:Goui.Html.CanvasRenderingContext2D.FontFamily
+  id: FontFamily
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: FontFamily
+  nameWithType: CanvasRenderingContext2D.FontFamily
+  fullName: Goui.Html.CanvasRenderingContext2D.FontFamily
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FontFamily
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 24
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public string FontFamily { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FontFamily As String
+  overload: Goui.Html.CanvasRenderingContext2D.FontFamily*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Font
+  commentId: P:Goui.Html.CanvasRenderingContext2D.Font
+  id: Font
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: CanvasRenderingContext2D.Font
+  fullName: Goui.Html.CanvasRenderingContext2D.Font
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Font
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 35
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public string Font { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Font As String
+  overload: Goui.Html.CanvasRenderingContext2D.Font*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+  commentId: P:Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+  id: GlobalAlpha
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: GlobalAlpha
+  nameWithType: CanvasRenderingContext2D.GlobalAlpha
+  fullName: Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GlobalAlpha
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 43
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public double GlobalAlpha { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property GlobalAlpha As Double
+  overload: Goui.Html.CanvasRenderingContext2D.GlobalAlpha*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.LineCap
+  commentId: P:Goui.Html.CanvasRenderingContext2D.LineCap
+  id: LineCap
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: LineCap
+  nameWithType: CanvasRenderingContext2D.LineCap
+  fullName: Goui.Html.CanvasRenderingContext2D.LineCap
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineCap
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 49
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public LineCap LineCap { get; set; }
+    parameters: []
+    return:
+      type: Goui.Html.LineCap
+    content.vb: Public Property LineCap As LineCap
+  overload: Goui.Html.CanvasRenderingContext2D.LineCap*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.LineJoin
+  commentId: P:Goui.Html.CanvasRenderingContext2D.LineJoin
+  id: LineJoin
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: LineJoin
+  nameWithType: CanvasRenderingContext2D.LineJoin
+  fullName: Goui.Html.CanvasRenderingContext2D.LineJoin
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineJoin
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 55
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public LineJoin LineJoin { get; set; }
+    parameters: []
+    return:
+      type: Goui.Html.LineJoin
+    content.vb: Public Property LineJoin As LineJoin
+  overload: Goui.Html.CanvasRenderingContext2D.LineJoin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+  commentId: P:Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+  id: GlobalCompositeOperation
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: GlobalCompositeOperation
+  nameWithType: CanvasRenderingContext2D.GlobalCompositeOperation
+  fullName: Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: GlobalCompositeOperation
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 61
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public CompositeOperation GlobalCompositeOperation { get; set; }
+    parameters: []
+    return:
+      type: Goui.Html.CompositeOperation
+    content.vb: Public Property GlobalCompositeOperation As CompositeOperation
+  overload: Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.LineWidth
+  commentId: P:Goui.Html.CanvasRenderingContext2D.LineWidth
+  id: LineWidth
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: LineWidth
+  nameWithType: CanvasRenderingContext2D.LineWidth
+  fullName: Goui.Html.CanvasRenderingContext2D.LineWidth
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineWidth
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 155
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public double LineWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property LineWidth As Double
+  overload: Goui.Html.CanvasRenderingContext2D.LineWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeStyle
+  commentId: P:Goui.Html.CanvasRenderingContext2D.StrokeStyle
+  id: StrokeStyle
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: StrokeStyle
+  nameWithType: CanvasRenderingContext2D.StrokeStyle
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeStyle
+  type: Property
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: StrokeStyle
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 161
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public object StrokeStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property StrokeStyle As Object
+  overload: Goui.Html.CanvasRenderingContext2D.StrokeStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.#ctor
+  commentId: M:Goui.Html.CanvasRenderingContext2D.#ctor
+  id: '#ctor'
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: CanvasRenderingContext2D()
+  nameWithType: CanvasRenderingContext2D.CanvasRenderingContext2D()
+  fullName: Goui.Html.CanvasRenderingContext2D.CanvasRenderingContext2D()
+  type: Constructor
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: .ctor
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 166
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public CanvasRenderingContext2D()
+    content.vb: Public Sub New
+  overload: Goui.Html.CanvasRenderingContext2D.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Save
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Save
+  id: Save
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: CanvasRenderingContext2D.Save()
+  fullName: Goui.Html.CanvasRenderingContext2D.Save()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Save
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 174
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Save()
+    content.vb: Public Sub Save
+  overload: Goui.Html.CanvasRenderingContext2D.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Restore
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Restore
+  id: Restore
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Restore()
+  nameWithType: CanvasRenderingContext2D.Restore()
+  fullName: Goui.Html.CanvasRenderingContext2D.Restore()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Restore
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 179
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Restore()
+    content.vb: Public Sub Restore
+  overload: Goui.Html.CanvasRenderingContext2D.Restore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.ClearRect(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.ClearRect(System.Double,System.Double,System.Double,System.Double)
+  id: ClearRect(System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: ClearRect(Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.ClearRect(Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.ClearRect(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ClearRect
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 184
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void ClearRect(double x, double y, double w, double h)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: w
+      type: System.Double
+    - id: h
+      type: System.Double
+    content.vb: Public Sub ClearRect(x As Double, y As Double, w As Double, h As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.ClearRect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.FillRect(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.FillRect(System.Double,System.Double,System.Double,System.Double)
+  id: FillRect(System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: FillRect(Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.FillRect(Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.FillRect(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FillRect
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 189
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void FillRect(double x, double y, double w, double h)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: w
+      type: System.Double
+    - id: h
+      type: System.Double
+    content.vb: Public Sub FillRect(x As Double, y As Double, w As Double, h As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.FillRect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeRect(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.StrokeRect(System.Double,System.Double,System.Double,System.Double)
+  id: StrokeRect(System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: StrokeRect(Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.StrokeRect(Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeRect(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: StrokeRect
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 194
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void StrokeRect(double x, double y, double w, double h)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: w
+      type: System.Double
+    - id: h
+      type: System.Double
+    content.vb: Public Sub StrokeRect(x As Double, y As Double, w As Double, h As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.StrokeRect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.BeginPath
+  commentId: M:Goui.Html.CanvasRenderingContext2D.BeginPath
+  id: BeginPath
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: BeginPath()
+  nameWithType: CanvasRenderingContext2D.BeginPath()
+  fullName: Goui.Html.CanvasRenderingContext2D.BeginPath()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BeginPath
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 199
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void BeginPath()
+    content.vb: Public Sub BeginPath
+  overload: Goui.Html.CanvasRenderingContext2D.BeginPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.ClosePath
+  commentId: M:Goui.Html.CanvasRenderingContext2D.ClosePath
+  id: ClosePath
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: ClosePath()
+  nameWithType: CanvasRenderingContext2D.ClosePath()
+  fullName: Goui.Html.CanvasRenderingContext2D.ClosePath()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ClosePath
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 204
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void ClosePath()
+    content.vb: Public Sub ClosePath
+  overload: Goui.Html.CanvasRenderingContext2D.ClosePath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.MoveTo(System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.MoveTo(System.Double,System.Double)
+  id: MoveTo(System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(Double, Double)
+  nameWithType: CanvasRenderingContext2D.MoveTo(Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.MoveTo(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: MoveTo
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 209
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void MoveTo(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub MoveTo(x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.MoveTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.LineTo(System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.LineTo(System.Double,System.Double)
+  id: LineTo(System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: LineTo(Double, Double)
+  nameWithType: CanvasRenderingContext2D.LineTo(Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.LineTo(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: LineTo
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 214
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void LineTo(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub LineTo(x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.LineTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo(System.Double,System.Double,System.Double,System.Double)
+  id: QuadraticCurveTo(System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: QuadraticCurveTo(Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.QuadraticCurveTo(Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: QuadraticCurveTo
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 219
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void QuadraticCurveTo(double cpx, double cpy, double x, double y)
+    parameters:
+    - id: cpx
+      type: System.Double
+    - id: cpy
+      type: System.Double
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub QuadraticCurveTo(cpx As Double, cpy As Double, x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.BezierCurveTo(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.BezierCurveTo(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: BezierCurveTo(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: BezierCurveTo(Double, Double, Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.BezierCurveTo(Double, Double, Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.BezierCurveTo(System.Double, System.Double, System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: BezierCurveTo
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 224
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void BezierCurveTo(double cp1x, double cp1y, double cp2x, double cp2y, double x, double y)
+    parameters:
+    - id: cp1x
+      type: System.Double
+    - id: cp1y
+      type: System.Double
+    - id: cp2x
+      type: System.Double
+    - id: cp2y
+      type: System.Double
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub BezierCurveTo(cp1x As Double, cp1y As Double, cp2x As Double, cp2y As Double, x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.BezierCurveTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.ArcTo(System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.ArcTo(System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: ArcTo(System.Double,System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: ArcTo(Double, Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.ArcTo(Double, Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.ArcTo(System.Double, System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ArcTo
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 229
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void ArcTo(double x1, double y1, double x2, double y2, double radius)
+    parameters:
+    - id: x1
+      type: System.Double
+    - id: y1
+      type: System.Double
+    - id: x2
+      type: System.Double
+    - id: y2
+      type: System.Double
+    - id: radius
+      type: System.Double
+    content.vb: Public Sub ArcTo(x1 As Double, y1 As Double, x2 As Double, y2 As Double, radius As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.ArcTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Rect(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Rect(System.Double,System.Double,System.Double,System.Double)
+  id: Rect(System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Rect(Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.Rect(Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.Rect(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Rect
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 234
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Rect(double x, double y, double w, double h)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: w
+      type: System.Double
+    - id: h
+      type: System.Double
+    content.vb: Public Sub Rect(x As Double, y As Double, w As Double, h As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.Rect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Arc(System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Arc(System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  id: Arc(System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Arc(Double, Double, Double, Double, Double, Boolean)
+  nameWithType: CanvasRenderingContext2D.Arc(Double, Double, Double, Double, Double, Boolean)
+  fullName: Goui.Html.CanvasRenderingContext2D.Arc(System.Double, System.Double, System.Double, System.Double, System.Double, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Arc
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 239
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Arc(double x, double y, double radius, double startAngle, double endAngle, bool counterclockwise)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: radius
+      type: System.Double
+    - id: startAngle
+      type: System.Double
+    - id: endAngle
+      type: System.Double
+    - id: counterclockwise
+      type: System.Boolean
+    content.vb: Public Sub Arc(x As Double, y As Double, radius As Double, startAngle As Double, endAngle As Double, counterclockwise As Boolean)
+  overload: Goui.Html.CanvasRenderingContext2D.Arc*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Ellipse(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Ellipse(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  id: Ellipse(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Ellipse(Double, Double, Double, Double, Double, Double, Double, Boolean)
+  nameWithType: CanvasRenderingContext2D.Ellipse(Double, Double, Double, Double, Double, Double, Double, Boolean)
+  fullName: Goui.Html.CanvasRenderingContext2D.Ellipse(System.Double, System.Double, System.Double, System.Double, System.Double, System.Double, System.Double, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Ellipse
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 244
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Ellipse(double x, double y, double radiusX, double radiusY, double rotation, double startAngle, double endAngle, bool counterclockwise = false)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: radiusX
+      type: System.Double
+    - id: radiusY
+      type: System.Double
+    - id: rotation
+      type: System.Double
+    - id: startAngle
+      type: System.Double
+    - id: endAngle
+      type: System.Double
+    - id: counterclockwise
+      type: System.Boolean
+    content.vb: Public Sub Ellipse(x As Double, y As Double, radiusX As Double, radiusY As Double, rotation As Double, startAngle As Double, endAngle As Double, counterclockwise As Boolean = False)
+  overload: Goui.Html.CanvasRenderingContext2D.Ellipse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Fill
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Fill
+  id: Fill
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Fill()
+  nameWithType: CanvasRenderingContext2D.Fill()
+  fullName: Goui.Html.CanvasRenderingContext2D.Fill()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Fill
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 249
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Fill()
+    content.vb: Public Sub Fill
+  overload: Goui.Html.CanvasRenderingContext2D.Fill*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Stroke
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Stroke
+  id: Stroke
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Stroke()
+  nameWithType: CanvasRenderingContext2D.Stroke()
+  fullName: Goui.Html.CanvasRenderingContext2D.Stroke()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Stroke
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 254
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Stroke()
+    content.vb: Public Sub Stroke
+  overload: Goui.Html.CanvasRenderingContext2D.Stroke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Clip
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Clip
+  id: Clip
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Clip()
+  nameWithType: CanvasRenderingContext2D.Clip()
+  fullName: Goui.Html.CanvasRenderingContext2D.Clip()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Clip
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 259
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Clip()
+    content.vb: Public Sub Clip
+  overload: Goui.Html.CanvasRenderingContext2D.Clip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.FillText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  commentId: M:Goui.Html.CanvasRenderingContext2D.FillText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  id: FillText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: FillText(String, Double, Double, Nullable<Double>)
+  nameWithType: CanvasRenderingContext2D.FillText(String, Double, Double, Nullable<Double>)
+  fullName: Goui.Html.CanvasRenderingContext2D.FillText(System.String, System.Double, System.Double, System.Nullable<System.Double>)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: FillText
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 264
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void FillText(string text, double x, double y, double? maxWidth)
+    parameters:
+    - id: text
+      type: System.String
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: maxWidth
+      type: System.Nullable{System.Double}
+    content.vb: Public Sub FillText(text As String, x As Double, y As Double, maxWidth As Double?)
+  overload: Goui.Html.CanvasRenderingContext2D.FillText*
+  nameWithType.vb: CanvasRenderingContext2D.FillText(String, Double, Double, Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Goui.Html.CanvasRenderingContext2D.FillText(System.String, System.Double, System.Double, System.Nullable(Of System.Double))
+  name.vb: FillText(String, Double, Double, Nullable(Of Double))
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  commentId: M:Goui.Html.CanvasRenderingContext2D.StrokeText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  id: StrokeText(System.String,System.Double,System.Double,System.Nullable{System.Double})
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: StrokeText(String, Double, Double, Nullable<Double>)
+  nameWithType: CanvasRenderingContext2D.StrokeText(String, Double, Double, Nullable<Double>)
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeText(System.String, System.Double, System.Double, System.Nullable<System.Double>)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: StrokeText
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 269
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void StrokeText(string text, double x, double y, double? maxWidth)
+    parameters:
+    - id: text
+      type: System.String
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: maxWidth
+      type: System.Nullable{System.Double}
+    content.vb: Public Sub StrokeText(text As String, x As Double, y As Double, maxWidth As Double?)
+  overload: Goui.Html.CanvasRenderingContext2D.StrokeText*
+  nameWithType.vb: CanvasRenderingContext2D.StrokeText(String, Double, Double, Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Goui.Html.CanvasRenderingContext2D.StrokeText(System.String, System.Double, System.Double, System.Nullable(Of System.Double))
+  name.vb: StrokeText(String, Double, Double, Nullable(Of Double))
+- uid: Goui.Html.CanvasRenderingContext2D.Rotate(System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Rotate(System.Double)
+  id: Rotate(System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Rotate(Double)
+  nameWithType: CanvasRenderingContext2D.Rotate(Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.Rotate(System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Rotate
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 274
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Rotate(double radians)
+    parameters:
+    - id: radians
+      type: System.Double
+    content.vb: Public Sub Rotate(radians As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.Rotate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Scale(System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Scale(System.Double,System.Double)
+  id: Scale(System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Scale(Double, Double)
+  nameWithType: CanvasRenderingContext2D.Scale(Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.Scale(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Scale
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 279
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Scale(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub Scale(x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.Scale*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.Translate(System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.Translate(System.Double,System.Double)
+  id: Translate(System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: Translate(Double, Double)
+  nameWithType: CanvasRenderingContext2D.Translate(Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.Translate(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: Translate
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 284
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void Translate(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub Translate(x As Double, y As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.Translate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.SetTransform(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Goui.Html.CanvasRenderingContext2D.SetTransform(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: SetTransform(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: SetTransform(Double, Double, Double, Double, Double, Double)
+  nameWithType: CanvasRenderingContext2D.SetTransform(Double, Double, Double, Double, Double, Double)
+  fullName: Goui.Html.CanvasRenderingContext2D.SetTransform(System.Double, System.Double, System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: SetTransform
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 289
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void SetTransform(double a, double b, double c, double d, double e, double f)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    - id: c
+      type: System.Double
+    - id: d
+      type: System.Double
+    - id: e
+      type: System.Double
+    - id: f
+      type: System.Double
+    content.vb: Public Sub SetTransform(a As Double, b As Double, c As Double, d As Double, e As Double, f As Double)
+  overload: Goui.Html.CanvasRenderingContext2D.SetTransform*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Goui.Html.CanvasRenderingContext2D.ResetTransform
+  commentId: M:Goui.Html.CanvasRenderingContext2D.ResetTransform
+  id: ResetTransform
+  parent: Goui.Html.CanvasRenderingContext2D
+  langs:
+  - csharp
+  - vb
+  name: ResetTransform()
+  nameWithType: CanvasRenderingContext2D.ResetTransform()
+  fullName: Goui.Html.CanvasRenderingContext2D.ResetTransform()
+  type: Method
+  source:
+    remote:
+      path: Goui/Html/CanvasRenderingContext2D.cs
+      branch: master
+      repo: https://github.com/KevinGliewe/Goui.git
+    id: ResetTransform
+    path: ../../Goui/Html/CanvasRenderingContext2D.cs
+    startLine: 294
+  assemblies:
+  - Goui
+  namespace: Goui.Html
+  syntax:
+    content: public void ResetTransform()
+    content.vb: Public Sub ResetTransform
+  overload: Goui.Html.CanvasRenderingContext2D.ResetTransform*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Goui.Html
+  commentId: N:Goui.Html
+  name: Goui.Html
+  nameWithType: Goui.Html
+  fullName: Goui.Html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Goui.EventTarget
+  commentId: T:Goui.EventTarget
+  parent: Goui
+  name: EventTarget
+  nameWithType: EventTarget
+  fullName: Goui.EventTarget
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Goui.EventTarget.Id
+  commentId: P:Goui.EventTarget.Id
+  parent: Goui.EventTarget
+  name: Id
+  nameWithType: EventTarget.Id
+  fullName: Goui.EventTarget.Id
+- uid: Goui.EventTarget.TagName
+  commentId: P:Goui.EventTarget.TagName
+  parent: Goui.EventTarget
+  name: TagName
+  nameWithType: EventTarget.TagName
+  fullName: Goui.EventTarget.TagName
+- uid: Goui.EventTarget.PropertyChanged
+  commentId: E:Goui.EventTarget.PropertyChanged
+  parent: Goui.EventTarget
+  name: PropertyChanged
+  nameWithType: EventTarget.PropertyChanged
+  fullName: Goui.EventTarget.PropertyChanged
+- uid: Goui.EventTarget.MessageSent
+  commentId: E:Goui.EventTarget.MessageSent
+  parent: Goui.EventTarget
+  name: MessageSent
+  nameWithType: EventTarget.MessageSent
+  fullName: Goui.EventTarget.MessageSent
+- uid: Goui.EventTarget.StateMessages
+  commentId: P:Goui.EventTarget.StateMessages
+  parent: Goui.EventTarget
+  name: StateMessages
+  nameWithType: EventTarget.StateMessages
+  fullName: Goui.EventTarget.StateMessages
+- uid: Goui.EventTarget.ToString
+  commentId: M:Goui.EventTarget.ToString
+  parent: Goui.EventTarget
+  name: ToString()
+  nameWithType: EventTarget.ToString()
+  fullName: Goui.EventTarget.ToString()
+  spec.csharp:
+  - uid: Goui.EventTarget.ToString
+    name: ToString
+    nameWithType: EventTarget.ToString
+    fullName: Goui.EventTarget.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.ToString
+    name: ToString
+    nameWithType: EventTarget.ToString
+    fullName: Goui.EventTarget.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.GetElementById(System.String)
+  commentId: M:Goui.EventTarget.GetElementById(System.String)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: GetElementById(String)
+  nameWithType: EventTarget.GetElementById(String)
+  fullName: Goui.EventTarget.GetElementById(System.String)
+  spec.csharp:
+  - uid: Goui.EventTarget.GetElementById(System.String)
+    name: GetElementById
+    nameWithType: EventTarget.GetElementById
+    fullName: Goui.EventTarget.GetElementById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.GetElementById(System.String)
+    name: GetElementById
+    nameWithType: EventTarget.GetElementById
+    fullName: Goui.EventTarget.GetElementById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  commentId: M:Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: AddEventListener(String, TargetEventHandler)
+  nameWithType: EventTarget.AddEventListener(String, TargetEventHandler)
+  fullName: Goui.EventTarget.AddEventListener(System.String, Goui.TargetEventHandler)
+  spec.csharp:
+  - uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+    name: AddEventListener
+    nameWithType: EventTarget.AddEventListener
+    fullName: Goui.EventTarget.AddEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.AddEventListener(System.String,Goui.TargetEventHandler)
+    name: AddEventListener
+    nameWithType: EventTarget.AddEventListener
+    fullName: Goui.EventTarget.AddEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  commentId: M:Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: RemoveEventListener(String, TargetEventHandler)
+  nameWithType: EventTarget.RemoveEventListener(String, TargetEventHandler)
+  fullName: Goui.EventTarget.RemoveEventListener(System.String, Goui.TargetEventHandler)
+  spec.csharp:
+  - uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+    name: RemoveEventListener
+    nameWithType: EventTarget.RemoveEventListener
+    fullName: Goui.EventTarget.RemoveEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.RemoveEventListener(System.String,Goui.TargetEventHandler)
+    name: RemoveEventListener
+    nameWithType: EventTarget.RemoveEventListener
+    fullName: Goui.EventTarget.RemoveEventListener
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Goui.TargetEventHandler
+    name: TargetEventHandler
+    nameWithType: TargetEventHandler
+    fullName: Goui.TargetEventHandler
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SetProperty``1({T}@,{T},System.String,System.String)
+  commentId: M:Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  parent: Goui.EventTarget
+  definition: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  name: SetProperty<T>(T, T, String, String)
+  nameWithType: EventTarget.SetProperty<T>(T, T, String, String)
+  fullName: Goui.EventTarget.SetProperty<T>(T, T, System.String, System.String)
+  nameWithType.vb: EventTarget.SetProperty(Of T)(T, T, String, String)
+  fullName.vb: Goui.EventTarget.SetProperty(Of T)(T, T, System.String, System.String)
+  name.vb: SetProperty(Of T)(T, T, String, String)
+  spec.csharp:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty<T>
+    nameWithType: EventTarget.SetProperty<T>
+    fullName: Goui.EventTarget.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty(Of T)
+    nameWithType: EventTarget.SetProperty(Of T)
+    fullName: Goui.EventTarget.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.OnPropertyChanged(System.String)
+  commentId: M:Goui.EventTarget.OnPropertyChanged(System.String)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: EventTarget.OnPropertyChanged(String)
+  fullName: Goui.EventTarget.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Goui.EventTarget.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: EventTarget.OnPropertyChanged
+    fullName: Goui.EventTarget.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: EventTarget.OnPropertyChanged
+    fullName: Goui.EventTarget.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.IdPrefix
+  commentId: F:Goui.EventTarget.IdPrefix
+  parent: Goui.EventTarget
+  name: IdPrefix
+  nameWithType: EventTarget.IdPrefix
+  fullName: Goui.EventTarget.IdPrefix
+- uid: Goui.EventTarget.Send(Goui.Message)
+  commentId: M:Goui.EventTarget.Send(Goui.Message)
+  parent: Goui.EventTarget
+  name: Send(Message)
+  nameWithType: EventTarget.Send(Message)
+  fullName: Goui.EventTarget.Send(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.Send(Goui.Message)
+    name: Send
+    nameWithType: EventTarget.Send
+    fullName: Goui.EventTarget.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Send(Goui.Message)
+    name: Send
+    nameWithType: EventTarget.Send
+    fullName: Goui.EventTarget.Send
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.Call(System.String,System.Object[])
+  commentId: M:Goui.EventTarget.Call(System.String,System.Object[])
+  parent: Goui.EventTarget
+  isExternal: true
+  name: Call(String, Object[])
+  nameWithType: EventTarget.Call(String, Object[])
+  fullName: Goui.EventTarget.Call(System.String, System.Object[])
+  nameWithType.vb: EventTarget.Call(String, Object())
+  fullName.vb: Goui.EventTarget.Call(System.String, System.Object())
+  name.vb: Call(String, Object())
+  spec.csharp:
+  - uid: Goui.EventTarget.Call(System.String,System.Object[])
+    name: Call
+    nameWithType: EventTarget.Call
+    fullName: Goui.EventTarget.Call
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Call(System.String,System.Object[])
+    name: Call
+    nameWithType: EventTarget.Call
+    fullName: Goui.EventTarget.Call
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SendSet(System.String,System.Object)
+  commentId: M:Goui.EventTarget.SendSet(System.String,System.Object)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: SendSet(String, Object)
+  nameWithType: EventTarget.SendSet(String, Object)
+  fullName: Goui.EventTarget.SendSet(System.String, System.Object)
+  spec.csharp:
+  - uid: Goui.EventTarget.SendSet(System.String,System.Object)
+    name: SendSet
+    nameWithType: EventTarget.SendSet
+    fullName: Goui.EventTarget.SendSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SendSet(System.String,System.Object)
+    name: SendSet
+    nameWithType: EventTarget.SendSet
+    fullName: Goui.EventTarget.SendSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.Receive(Goui.Message)
+  commentId: M:Goui.EventTarget.Receive(Goui.Message)
+  parent: Goui.EventTarget
+  name: Receive(Message)
+  nameWithType: EventTarget.Receive(Message)
+  fullName: Goui.EventTarget.Receive(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.Receive(Goui.Message)
+    name: Receive
+    nameWithType: EventTarget.Receive
+    fullName: Goui.EventTarget.Receive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.Receive(Goui.Message)
+    name: Receive
+    nameWithType: EventTarget.Receive
+    fullName: Goui.EventTarget.Receive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+  commentId: M:Goui.EventTarget.AddStateMessage(Goui.Message)
+  parent: Goui.EventTarget
+  name: AddStateMessage(Message)
+  nameWithType: EventTarget.AddStateMessage(Message)
+  fullName: Goui.EventTarget.AddStateMessage(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+    name: AddStateMessage
+    nameWithType: EventTarget.AddStateMessage
+    fullName: Goui.EventTarget.AddStateMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.AddStateMessage(Goui.Message)
+    name: AddStateMessage
+    nameWithType: EventTarget.AddStateMessage
+    fullName: Goui.EventTarget.AddStateMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  commentId: M:Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+  parent: Goui.EventTarget
+  isExternal: true
+  name: UpdateStateMessages(Action<List<Message>>)
+  nameWithType: EventTarget.UpdateStateMessages(Action<List<Message>>)
+  fullName: Goui.EventTarget.UpdateStateMessages(System.Action<System.Collections.Generic.List<Goui.Message>>)
+  nameWithType.vb: EventTarget.UpdateStateMessages(Action(Of List(Of Message)))
+  fullName.vb: Goui.EventTarget.UpdateStateMessages(System.Action(Of System.Collections.Generic.List(Of Goui.Message)))
+  name.vb: UpdateStateMessages(Action(Of List(Of Message)))
+  spec.csharp:
+  - uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+    name: UpdateStateMessages
+    nameWithType: EventTarget.UpdateStateMessages
+    fullName: Goui.EventTarget.UpdateStateMessages
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.UpdateStateMessages(System.Action{System.Collections.Generic.List{Goui.Message}})
+    name: UpdateStateMessages
+    nameWithType: EventTarget.UpdateStateMessages
+    fullName: Goui.EventTarget.UpdateStateMessages
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+  commentId: M:Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+  parent: Goui.EventTarget
+  name: SaveStateMessageIfNeeded(Message)
+  nameWithType: EventTarget.SaveStateMessageIfNeeded(Message)
+  fullName: Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+    name: SaveStateMessageIfNeeded
+    nameWithType: EventTarget.SaveStateMessageIfNeeded
+    fullName: Goui.EventTarget.SaveStateMessageIfNeeded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SaveStateMessageIfNeeded(Goui.Message)
+    name: SaveStateMessageIfNeeded
+    nameWithType: EventTarget.SaveStateMessageIfNeeded
+    fullName: Goui.EventTarget.SaveStateMessageIfNeeded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.TriggerEvent(System.String)
+  commentId: M:Goui.EventTarget.TriggerEvent(System.String)
+  parent: Goui.EventTarget
+  isExternal: true
+  name: TriggerEvent(String)
+  nameWithType: EventTarget.TriggerEvent(String)
+  fullName: Goui.EventTarget.TriggerEvent(System.String)
+  spec.csharp:
+  - uid: Goui.EventTarget.TriggerEvent(System.String)
+    name: TriggerEvent
+    nameWithType: EventTarget.TriggerEvent
+    fullName: Goui.EventTarget.TriggerEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.TriggerEvent(System.String)
+    name: TriggerEvent
+    nameWithType: EventTarget.TriggerEvent
+    fullName: Goui.EventTarget.TriggerEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+  commentId: M:Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+  parent: Goui.EventTarget
+  name: TriggerEventFromMessage(Message)
+  nameWithType: EventTarget.TriggerEventFromMessage(Message)
+  fullName: Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+  spec.csharp:
+  - uid: Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+    name: TriggerEventFromMessage
+    nameWithType: EventTarget.TriggerEventFromMessage
+    fullName: Goui.EventTarget.TriggerEventFromMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.TriggerEventFromMessage(Goui.Message)
+    name: TriggerEventFromMessage
+    nameWithType: EventTarget.TriggerEventFromMessage
+    fullName: Goui.EventTarget.TriggerEventFromMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Goui.Message
+    name: Message
+    nameWithType: Message
+    fullName: Goui.Message
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Goui
+  commentId: N:Goui
+  name: Goui
+  nameWithType: Goui
+  fullName: Goui
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  commentId: M:Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+  isExternal: true
+  name: SetProperty<T>(T, T, String, String)
+  nameWithType: EventTarget.SetProperty<T>(T, T, String, String)
+  fullName: Goui.EventTarget.SetProperty<T>(T, T, System.String, System.String)
+  nameWithType.vb: EventTarget.SetProperty(Of T)(T, T, String, String)
+  fullName.vb: Goui.EventTarget.SetProperty(Of T)(T, T, System.String, System.String)
+  name.vb: SetProperty(Of T)(T, T, String, String)
+  spec.csharp:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty<T>
+    nameWithType: EventTarget.SetProperty<T>
+    fullName: Goui.EventTarget.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Goui.EventTarget.SetProperty``1(``0@,``0,System.String,System.String)
+    name: SetProperty(Of T)
+    nameWithType: EventTarget.SetProperty(Of T)
+    fullName: Goui.EventTarget.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.CanvasRenderingContext2D.FillStyle*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.FillStyle
+  name: FillStyle
+  nameWithType: CanvasRenderingContext2D.FillStyle
+  fullName: Goui.Html.CanvasRenderingContext2D.FillStyle
+- uid: Goui.Html.CanvasRenderingContext2D.FontSize*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.FontSize
+  name: FontSize
+  nameWithType: CanvasRenderingContext2D.FontSize
+  fullName: Goui.Html.CanvasRenderingContext2D.FontSize
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Goui.Html.CanvasRenderingContext2D.FontFamily*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.FontFamily
+  name: FontFamily
+  nameWithType: CanvasRenderingContext2D.FontFamily
+  fullName: Goui.Html.CanvasRenderingContext2D.FontFamily
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Goui.Html.CanvasRenderingContext2D.Font*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Font
+  name: Font
+  nameWithType: CanvasRenderingContext2D.Font
+  fullName: Goui.Html.CanvasRenderingContext2D.Font
+- uid: Goui.Html.CanvasRenderingContext2D.GlobalAlpha*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+  name: GlobalAlpha
+  nameWithType: CanvasRenderingContext2D.GlobalAlpha
+  fullName: Goui.Html.CanvasRenderingContext2D.GlobalAlpha
+- uid: Goui.Html.CanvasRenderingContext2D.LineCap*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.LineCap
+  name: LineCap
+  nameWithType: CanvasRenderingContext2D.LineCap
+  fullName: Goui.Html.CanvasRenderingContext2D.LineCap
+- uid: Goui.Html.LineCap
+  commentId: T:Goui.Html.LineCap
+  parent: Goui.Html
+  name: LineCap
+  nameWithType: LineCap
+  fullName: Goui.Html.LineCap
+- uid: Goui.Html.CanvasRenderingContext2D.LineJoin*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.LineJoin
+  name: LineJoin
+  nameWithType: CanvasRenderingContext2D.LineJoin
+  fullName: Goui.Html.CanvasRenderingContext2D.LineJoin
+- uid: Goui.Html.LineJoin
+  commentId: T:Goui.Html.LineJoin
+  parent: Goui.Html
+  name: LineJoin
+  nameWithType: LineJoin
+  fullName: Goui.Html.LineJoin
+- uid: Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+  name: GlobalCompositeOperation
+  nameWithType: CanvasRenderingContext2D.GlobalCompositeOperation
+  fullName: Goui.Html.CanvasRenderingContext2D.GlobalCompositeOperation
+- uid: Goui.Html.CompositeOperation
+  commentId: T:Goui.Html.CompositeOperation
+  parent: Goui.Html
+  name: CompositeOperation
+  nameWithType: CompositeOperation
+  fullName: Goui.Html.CompositeOperation
+- uid: Goui.Html.CanvasRenderingContext2D.LineWidth*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.LineWidth
+  name: LineWidth
+  nameWithType: CanvasRenderingContext2D.LineWidth
+  fullName: Goui.Html.CanvasRenderingContext2D.LineWidth
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeStyle*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.StrokeStyle
+  name: StrokeStyle
+  nameWithType: CanvasRenderingContext2D.StrokeStyle
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeStyle
+- uid: Goui.Html.CanvasRenderingContext2D.#ctor*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.#ctor
+  name: CanvasRenderingContext2D
+  nameWithType: CanvasRenderingContext2D.CanvasRenderingContext2D
+  fullName: Goui.Html.CanvasRenderingContext2D.CanvasRenderingContext2D
+- uid: Goui.Html.CanvasRenderingContext2D.Save*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Save
+  name: Save
+  nameWithType: CanvasRenderingContext2D.Save
+  fullName: Goui.Html.CanvasRenderingContext2D.Save
+- uid: Goui.Html.CanvasRenderingContext2D.Restore*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Restore
+  name: Restore
+  nameWithType: CanvasRenderingContext2D.Restore
+  fullName: Goui.Html.CanvasRenderingContext2D.Restore
+- uid: Goui.Html.CanvasRenderingContext2D.ClearRect*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.ClearRect
+  name: ClearRect
+  nameWithType: CanvasRenderingContext2D.ClearRect
+  fullName: Goui.Html.CanvasRenderingContext2D.ClearRect
+- uid: Goui.Html.CanvasRenderingContext2D.FillRect*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.FillRect
+  name: FillRect
+  nameWithType: CanvasRenderingContext2D.FillRect
+  fullName: Goui.Html.CanvasRenderingContext2D.FillRect
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeRect*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.StrokeRect
+  name: StrokeRect
+  nameWithType: CanvasRenderingContext2D.StrokeRect
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeRect
+- uid: Goui.Html.CanvasRenderingContext2D.BeginPath*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.BeginPath
+  name: BeginPath
+  nameWithType: CanvasRenderingContext2D.BeginPath
+  fullName: Goui.Html.CanvasRenderingContext2D.BeginPath
+- uid: Goui.Html.CanvasRenderingContext2D.ClosePath*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.ClosePath
+  name: ClosePath
+  nameWithType: CanvasRenderingContext2D.ClosePath
+  fullName: Goui.Html.CanvasRenderingContext2D.ClosePath
+- uid: Goui.Html.CanvasRenderingContext2D.MoveTo*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.MoveTo
+  name: MoveTo
+  nameWithType: CanvasRenderingContext2D.MoveTo
+  fullName: Goui.Html.CanvasRenderingContext2D.MoveTo
+- uid: Goui.Html.CanvasRenderingContext2D.LineTo*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.LineTo
+  name: LineTo
+  nameWithType: CanvasRenderingContext2D.LineTo
+  fullName: Goui.Html.CanvasRenderingContext2D.LineTo
+- uid: Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo
+  name: QuadraticCurveTo
+  nameWithType: CanvasRenderingContext2D.QuadraticCurveTo
+  fullName: Goui.Html.CanvasRenderingContext2D.QuadraticCurveTo
+- uid: Goui.Html.CanvasRenderingContext2D.BezierCurveTo*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.BezierCurveTo
+  name: BezierCurveTo
+  nameWithType: CanvasRenderingContext2D.BezierCurveTo
+  fullName: Goui.Html.CanvasRenderingContext2D.BezierCurveTo
+- uid: Goui.Html.CanvasRenderingContext2D.ArcTo*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.ArcTo
+  name: ArcTo
+  nameWithType: CanvasRenderingContext2D.ArcTo
+  fullName: Goui.Html.CanvasRenderingContext2D.ArcTo
+- uid: Goui.Html.CanvasRenderingContext2D.Rect*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Rect
+  name: Rect
+  nameWithType: CanvasRenderingContext2D.Rect
+  fullName: Goui.Html.CanvasRenderingContext2D.Rect
+- uid: Goui.Html.CanvasRenderingContext2D.Arc*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Arc
+  name: Arc
+  nameWithType: CanvasRenderingContext2D.Arc
+  fullName: Goui.Html.CanvasRenderingContext2D.Arc
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Goui.Html.CanvasRenderingContext2D.Ellipse*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Ellipse
+  name: Ellipse
+  nameWithType: CanvasRenderingContext2D.Ellipse
+  fullName: Goui.Html.CanvasRenderingContext2D.Ellipse
+- uid: Goui.Html.CanvasRenderingContext2D.Fill*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Fill
+  name: Fill
+  nameWithType: CanvasRenderingContext2D.Fill
+  fullName: Goui.Html.CanvasRenderingContext2D.Fill
+- uid: Goui.Html.CanvasRenderingContext2D.Stroke*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Stroke
+  name: Stroke
+  nameWithType: CanvasRenderingContext2D.Stroke
+  fullName: Goui.Html.CanvasRenderingContext2D.Stroke
+- uid: Goui.Html.CanvasRenderingContext2D.Clip*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Clip
+  name: Clip
+  nameWithType: CanvasRenderingContext2D.Clip
+  fullName: Goui.Html.CanvasRenderingContext2D.Clip
+- uid: Goui.Html.CanvasRenderingContext2D.FillText*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.FillText
+  name: FillText
+  nameWithType: CanvasRenderingContext2D.FillText
+  fullName: Goui.Html.CanvasRenderingContext2D.FillText
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Double>
+  nameWithType: Nullable<Double>
+  fullName: System.Nullable<System.Double>
+  nameWithType.vb: Nullable(Of Double)
+  fullName.vb: System.Nullable(Of System.Double)
+  name.vb: Nullable(Of Double)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Goui.Html.CanvasRenderingContext2D.StrokeText*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.StrokeText
+  name: StrokeText
+  nameWithType: CanvasRenderingContext2D.StrokeText
+  fullName: Goui.Html.CanvasRenderingContext2D.StrokeText
+- uid: Goui.Html.CanvasRenderingContext2D.Rotate*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Rotate
+  name: Rotate
+  nameWithType: CanvasRenderingContext2D.Rotate
+  fullName: Goui.Html.CanvasRenderingContext2D.Rotate
+- uid: Goui.Html.CanvasRenderingContext2D.Scale*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Scale
+  name: Scale
+  nameWithType: CanvasRenderingContext2D.Scale
+  fullName: Goui.Html.CanvasRenderingContext2D.Scale
+- uid: Goui.Html.CanvasRenderingContext2D.Translate*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.Translate
+  name: Translate
+  nameWithType: CanvasRenderingContext2D.Translate
+  fullName: Goui.Html.CanvasRenderingContext2D.Translate
+- uid: Goui.Html.CanvasRenderingContext2D.SetTransform*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.SetTransform
+  name: SetTransform
+  nameWithType: CanvasRenderingContext2D.SetTransform
+  fullName: Goui.Html.CanvasRenderingContext2D.SetTransform
+- uid: Goui.Html.CanvasRenderingContext2D.ResetTransform*
+  commentId: Overload:Goui.Html.CanvasRenderingContext2D.ResetTransform
+  name: ResetTransform
+  nameWithType: CanvasRenderingContext2D.ResetTransform
+  fullName: Goui.Html.CanvasRenderingContext2D.ResetTransform

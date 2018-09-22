@@ -4,4 +4,4 @@ git:
   depth: false
 script:
   - chmod +x ./build.sh
-  - ./build.sh Publish -ApiKey $NUGET_API_KEY
+  - ./build.sh All -ApiKey $NUGET_API_KEY -GithubUsername $GITHUB_USERNAME -GithubToken $GITHUB_TOKEN
