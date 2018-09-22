@@ -7,4 +7,4 @@ before_script:
   - export DOCFX_TOOL="mono docfx.console/tools/docfx.exe"
 script:
   - chmod +x ./build.sh
-  - ./build.sh All -ApiKey $NUGET_API_KEY -GithubUsername $GITHUB_USERNAME -GithubToken $GITHUB_TOKEN -DocFxTool $DOCFX_TOOL
+  - ./build.sh All -ApiKey $NUGET_API_KEY -GithubUsername $GITHUB_USERNAME -GithubToken $GITHUB_TOKEN -DocFxTool "$DOCFX_TOOL"
