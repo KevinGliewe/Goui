@@ -113,7 +113,7 @@ class Build : NukeBuild
     Target Doc => _ => _
         .DependsOn(Compile)
         .Executes(() => {
-            Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? DocFxTool[1] : "", DocFxDirectory));
+            Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? RootDirectory / DocFxTool[1] : "", DocFxDirectory));
         });
 
     private Target Pack => _ => _
