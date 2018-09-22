@@ -167,7 +167,7 @@ class Build : NukeBuild
         .Requires(() => GithubUsername)
         .Requires(() => GithubToken)
         .Executes(() => {
-            Git($"clone -b gh-pages --single-branch https://{GithubUsername}:{GithubToken}@github.com/KevinGliewe/Goui --depth 1",
+            Git($"clone -b gh-pages --single-branch https://{GithubUsername}:{GithubToken}@github.com/KevinGliewe/Goui --depth 1 {GhPagesDir}",
                 TempDir);
             CopyDirectoryRecursively(DocBuildDirectory, GhPagesDir, FileExistsPolicy.Overwrite);
             CopyDirectoryRecursively(WasmTest, GhPagesDir / "WasmFormsApp", FileExistsPolicy.Overwrite);
