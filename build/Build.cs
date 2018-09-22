@@ -30,6 +30,7 @@ class Build : NukeBuild
     [Parameter("Defines the Github user account to push the Docs.")] readonly string GithubUsername;
     [Parameter("Defines the Github token to push the Docs.")] readonly string GithubToken;
     [Parameter("CommitFlags")] public string CommitFlags = "";
+    [Parameter("DocFx tool command")] public string DocFxTool= "docfx";
 
 
     string Source => "https://api.nuget.org/v3/index.json";
@@ -112,7 +113,7 @@ class Build : NukeBuild
     Target Doc => _ => _
         .DependsOn(Compile)
         .Executes(() => {
-            Ex(ProcessTasks.StartProcess("docfx", "", DocFxDirectory));
+            Ex(ProcessTasks.StartProcess(DocFxTool, "", DocFxDirectory));
         });
 
     private Target Pack => _ => _
