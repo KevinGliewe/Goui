@@ -82,7 +82,7 @@ class Build : NukeBuild
     }
 
     void DocFx(string command = "") {
-        Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? RootDirectory / DocFxTool[1] + " " + command : command, DocFxDirectory));
+        Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? (string)(RootDirectory / DocFxTool[1]) + " " + command : command, DocFxDirectory));
     }
 
     Target Clean => _ => _
