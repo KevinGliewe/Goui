@@ -81,6 +81,10 @@ class Build : NukeBuild
             throw new Exception(process.FileName + " failed");
     }
 
+    void DocFx(string command = "") {
+        Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? RootDirectory / DocFxTool[1] + " " + command : command, DocFxDirectory));
+    }
+
     Target Clean => _ => _
         .Executes(() =>
         {
@@ -113,7 +117,8 @@ class Build : NukeBuild
     Target Doc => _ => _
         .DependsOn(Compile)
         .Executes(() => {
-            Ex(ProcessTasks.StartProcess(DocFxTool[0], DocFxTool.Length > 1 ? RootDirectory / DocFxTool[1] : "", DocFxDirectory));
+            DocFx();
+            DocFx("build");
         });
 
     private Target Pack => _ => _
