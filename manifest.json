@@ -1,0 +1,1712 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/prog/fionec/thirdparty/Goui/doc/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.AspNetCore.ElementResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.AspNetCore.ElementResult.html",
+          "hash": "6GBmLQXU2/ErrgIyQaRtwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.AspNetCore.TagHelpers.GouiTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.AspNetCore.TagHelpers.GouiTagHelper.html",
+          "hash": "zmNynPF/uPL3YeBlSlfN0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.AspNetCore.TagHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.AspNetCore.TagHelpers.html",
+          "hash": "kMIHbHA9326rShBP9XZFPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.AspNetCore.WebSocketHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.AspNetCore.WebSocketHandler.html",
+          "hash": "3G+QGDPEqHuMBpxlg8IyNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.AspNetCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.AspNetCore.html",
+          "hash": "xr8GDfQFuGCAUlWqCwI2Eg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Color.html",
+          "hash": "l1lkZ2VxuSQ3vBvPlmJzJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Colors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Colors.html",
+          "hash": "OhU6/mxnrqKReFMGlFgeEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Document.html",
+          "hash": "Ifi2NYENkbhq9L+WYJGoHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.EventTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.EventTarget.html",
+          "hash": "qzLoKt/ze8QgczpwlEp2Kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.CellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.CellElement.html",
+          "hash": "MxtLMZZMO+tzQvJUfY3Hug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.CellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.CellRenderer.html",
+          "hash": "9ytepNS/nVQ19v8BWPS8nw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.EntryCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.EntryCellElement.html",
+          "hash": "YevvFu4lIISP06c4jm7v3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.EntryCellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.EntryCellRenderer.html",
+          "hash": "uVV4loaOBjuo06G53B0vEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.ImageCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.ImageCellElement.html",
+          "hash": "nmdprEOH4pAUCbZxnzW9NA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.ImageCellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.ImageCellRenderer.html",
+          "hash": "OajjWwoTxsrCqKsWU4KS2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.SwitchCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.SwitchCellElement.html",
+          "hash": "bwNGbIQxs3clvE3SJYhhVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.SwitchCellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.SwitchCellRenderer.html",
+          "hash": "76ibf4hFn6YlU9ap2vaH9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.TextCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.TextCellElement.html",
+          "hash": "q3r1/NY9yfx2R4KVw2AtqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.TextCellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.TextCellRenderer.html",
+          "hash": "I1k7TzDDspna1S3vWqR4mQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.ViewCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.ViewCellElement.html",
+          "hash": "Ur6kDWHm8B7O+7eHMg/qIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.ViewCellRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.ViewCellRenderer.html",
+          "hash": "VkrMPTs5oidevjn4uThHpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Cells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Cells.html",
+          "hash": "gZ1zM13ArKvrq0ZwxPMH1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.DisplayAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.DisplayAlert.html",
+          "hash": "Veoko9JLc72/I7elY8jRCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.ElementChangedEventArgs-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.ElementChangedEventArgs-1.html",
+          "hash": "cozJSaH6C0cWgXPv9QDCLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.EventTracker.NativeGestureRecognizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.EventTracker.NativeGestureRecognizer.html",
+          "hash": "MfoDNtXBCX8Qez5P6TDbcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.EventTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.EventTracker.html",
+          "hash": "juYFAGt2PMqWQT0j+v6U8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.ExportCellAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.ExportCellAttribute.html",
+          "hash": "LWKdq+mkVkvKnKfrLZAGEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.ExportImageSourceHandlerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.ExportImageSourceHandlerAttribute.html",
+          "hash": "IvVyiMZEiHH+2xFbMLzXZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.ExportRendererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.ExportRendererAttribute.html",
+          "hash": "yMQqbHkJCcsurkoGu3F9Dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Extensions.ColorExtensions.html",
+          "hash": "m+oMmYbcmqZSXuLJ1PSoEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Extensions.ElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Extensions.ElementExtensions.html",
+          "hash": "rHr21feetYEhfTT9pbWg5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Extensions.FontExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Extensions.FontExtensions.html",
+          "hash": "S4Hbr3VJJBwh3F6NxEaMdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Extensions.ListViewExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Extensions.ListViewExtensions.html",
+          "hash": "5BETz/XFKApoT6uBlwphcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Extensions.html",
+          "hash": "nGxMxqq9raMEcmQLSCA0ew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.GouiTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.GouiTheme.html",
+          "hash": "xBP9wwlcDLGJby6gpAr6mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.IVisualElementRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.IVisualElementRenderer.html",
+          "hash": "Sx78SLmgI6LFXRfNTRYXaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.LinkLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.LinkLabel.html",
+          "hash": "EgOMNyKn3Goqi4mMvLBKBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.LinkView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.LinkView.html",
+          "hash": "OPR2r4wjxNVR55EjNKnkBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.LocalIsolatedStorageFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.LocalIsolatedStorageFile.html",
+          "hash": "NN95Y3l5BMqz+8ejAOfnDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Platform.html",
+          "hash": "Eve6klKxdxq+LeJJRKSjVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.PlatformEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.PlatformEffect.html",
+          "hash": "KeZ9LRPNqr/OihJgEbcvUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.PlatformRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.PlatformRenderer.html",
+          "hash": "uPETnJ7Y+GT3VRDRUHt5Qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.RendererPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.RendererPool.html",
+          "hash": "S0OX9yAMhVzYbTFcikgKyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ActivityIndicatorRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ActivityIndicatorRenderer.html",
+          "hash": "7PPA6T+ss91a7yZiHIo5uA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.BoxRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.BoxRenderer.html",
+          "hash": "W+FJ+URXbAtou2HdNZL27Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ButtonRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ButtonRenderer.html",
+          "hash": "ItjPMz/cBSiamEDFu2qW/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.DatePickerRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.DatePickerRenderer.html",
+          "hash": "BC+DXkge9eSdmmtQtmjQJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.DefaultRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.DefaultRenderer.html",
+          "hash": "WjxJvw5oVQ0ItscpbSRxCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.EditorRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.EditorRenderer.html",
+          "hash": "d8skorBUZ8c3m58P2An4hg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.EntryRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.EntryRenderer.html",
+          "hash": "zxfK7U9njP/b34rwexGhlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.FileImageSourceHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.FileImageSourceHandler.html",
+          "hash": "uVpslTbT2xhGxsh1H2ROvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.FrameRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.FrameRenderer.html",
+          "hash": "Rgx3y3vIxuzppILJZ9Ikng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.IImageSourceHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.IImageSourceHandler.html",
+          "hash": "yq6Ank/nL25cx4iVoT90Vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ImageLoaderSourceHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ImageLoaderSourceHandler.html",
+          "hash": "eFL/vZPRuMusNa6BSiLUtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ImageRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ImageRenderer.html",
+          "hash": "KlHYyiL+RD4dRnCJ46yDfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.LabelRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.LabelRenderer.html",
+          "hash": "cIPAoFXxt/wpY6kaZP0MOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.LinkLabelRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.LinkLabelRenderer.html",
+          "hash": "08G6UJHVgumi4TVNd7cSFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.LinkViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.LinkViewRenderer.html",
+          "hash": "frNudgbK0aWAtqBdlGmPlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ListViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ListViewRenderer.html",
+          "hash": "pNgK8/xbszyH6pRMiBFAyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.NavigationPageRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.NavigationPageRenderer.html",
+          "hash": "LZ9b0m/PYPxxOwVm1BpMqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.PickerRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.PickerRenderer.html",
+          "hash": "cwr3cedjlUNU4oOsoY+vDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ProgressBarRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ProgressBarRenderer.html",
+          "hash": "HWYNGJzO6hEhV+0zgrA7Rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ScrollViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ScrollViewRenderer.html",
+          "hash": "s67PXIivRgBYys6Xjb3o6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.SearchBarRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.SearchBarRenderer.html",
+          "hash": "Y6waPW47OzAf4EQuQv19KQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.SliderRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.SliderRenderer.html",
+          "hash": "cenGVMYDusfWBNWDWzG8hQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.StreamImagesourceHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.StreamImagesourceHandler.html",
+          "hash": "EIi6F4d4RGeTTFLUsgHizA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.SwitchElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.SwitchElement.html",
+          "hash": "Cz0q0zHI15gKDr5HVU0/LA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.html",
+          "hash": "obUm8Q7E2j8TDfXeWP1gkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.TimePickerRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.TimePickerRenderer.html",
+          "hash": "Ylxn4DYGCdrL1sLDlgso7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ViewRenderer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ViewRenderer-2.html",
+          "hash": "S3Zfj6ttDwdUDYYtICW+kQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.ViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.ViewRenderer.html",
+          "hash": "adAyWBsz1etdm6HKu4BePw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.WebViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.WebViewRenderer.html",
+          "hash": "vpCqFfc1oDGahUSDw7KvZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.Renderers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.Renderers.html",
+          "hash": "+Vuv0Xh1uqJQUGiJzR/S1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.ResourcesProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.ResourcesProvider.html",
+          "hash": "T6N3UNfroIfLDFNs7CNkpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.VisualElementChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.VisualElementChangedEventArgs.html",
+          "hash": "361pUpxKtWP1rcgAy5m+aA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.VisualElementPackager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.VisualElementPackager.html",
+          "hash": "ZfrEe9YlOkxjdrtL3hz6VQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.VisualElementRenderer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.VisualElementRenderer-1.html",
+          "hash": "dV8zhPwJykfj5O/SfoGuQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.VisualElementRendererFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.VisualElementRendererFlags.html",
+          "hash": "asDQflZew4vP57/JHcZrYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.VisualElementTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.VisualElementTracker.html",
+          "hash": "iKHURepuvvKUAf7zasuDUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Forms.html",
+          "hash": "xpBqKPgqsDB8E1GuupMfXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Anchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Anchor.html",
+          "hash": "FMzXzq5BPg1x2TWIEV5X+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Body.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Body.html",
+          "hash": "Sejf0DaxfBr+qxxSq782EA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Button.html",
+          "hash": "DmQRCdGKp9RSCTQIvbTwPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.ButtonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.ButtonType.html",
+          "hash": "XR8MakCjAbUJnVOUlCpV4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Canvas.html",
+          "hash": "r5WPkxb+67Flri0zQxukEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.CanvasRenderingContext2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.CanvasRenderingContext2D.html",
+          "hash": "W27pLMwvMrPnqYHtgHYceg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.CompositeOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.CompositeOperation.html",
+          "hash": "qUj7EcJeulQM2Zp4Ynjx1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Div.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Div.html",
+          "hash": "cXrSQQLhL4bQ+N/hqkmPkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Element.html",
+          "hash": "4rC6Omot6DyigDeQ7FdyNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Form.html",
+          "hash": "A7zoTbdu7qn09pQ0BX6VJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.FormControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.FormControl.html",
+          "hash": "4/bmmN5zLfSBSUTcEmqPjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Heading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Heading.html",
+          "hash": "dDW4gPs9lTQ0bQDr0xxd2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Iframe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Iframe.html",
+          "hash": "b4LH1Sc1IYtX5nDHbZB0UA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Image.html",
+          "hash": "/gcqwy2IqWg1gHrQsbtl/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Input.html",
+          "hash": "6+gBDjB0xjP9a3c4Wkwh/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.InputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.InputType.html",
+          "hash": "X9M4lxQNqLLK5cqQG2Rwlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Label.html",
+          "hash": "trMw5h3D/RWdUObPYFx+oQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.LineCap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.LineCap.html",
+          "hash": "VsYbCqM+MiVL95gmrKhARQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.LineJoin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.LineJoin.html",
+          "hash": "mSFR+Q3ydpFhjWnwY5A5vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.List.html",
+          "hash": "UyS1gK1Sz2uHpmEJMLPVkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.ListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.ListItem.html",
+          "hash": "wpfKq3gYIzA5OhO5HAI3Kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Option.html",
+          "hash": "KRjArYFMgSrTagkWVaRrZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Paragraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Paragraph.html",
+          "hash": "I1iDWmnTVYeMarMY8a+6zw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Select.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Select.html",
+          "hash": "MVJvDboDrcP94SLRCVyXlQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.Span.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.Span.html",
+          "hash": "OPCW41bPgyxFBCg2PGA+Og=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.TextArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.TextArea.html",
+          "hash": "nK4mjGUvkGmm/9CUMjUlkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.TextInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.TextInput.html",
+          "hash": "88tTRTseIbIiORI9Ngf5IQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Html.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Html.html",
+          "hash": "YGo55ndNHBQBWhyvkUfZ4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.IGouiPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.IGouiPlugin.html",
+          "hash": "RSbBJsRhrdfThA2DGF7BJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.JsonConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.JsonConvert.html",
+          "hash": "MgVrZkP88k78lE+HMvtHIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Message.PropertyReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Message.PropertyReference.html",
+          "hash": "HUZBSjrmOxxNRHy0sq214Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Message.html",
+          "hash": "maexbMb5/z/1FjfSi5/HqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.MessageType.html",
+          "hash": "HmTUmDZDT/guq7QaVYjeaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Node.html",
+          "hash": "G6Yl8xttYicpENGI2mL27g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Session.html",
+          "hash": "ELTcJhtyPwdBDuxjnC00AQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Style.html",
+          "hash": "fyDAD9ko/O48MLyMmrrtKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.TargetEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.TargetEventArgs.html",
+          "hash": "GL7o0OkVlfuBYMlucPmeyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.TargetEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.TargetEventHandler.html",
+          "hash": "GVBcxum0gLsX/P9wU5E44Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.TextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.TextNode.html",
+          "hash": "1g0fmG8J0r2HrImJeFHoYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.UI.FileContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.UI.FileContent.html",
+          "hash": "GRPhKj++g+lgoF2wMW/Aug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.UI.StyleSelectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.UI.StyleSelectors.html",
+          "hash": "xSANgzfXKqK3FeI/tlk02Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.UI.html",
+          "hash": "PFQtAl41uIzjxNuA5/LjvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.UIConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.UIConfig.html",
+          "hash": "2FxEu15b4w5p0iixVJo3Zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Utilities.html",
+          "hash": "YGFFMjwroLZkFZaqBW9CoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.WebAssemblySession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.WebAssemblySession.html",
+          "hash": "cmpkGhlCIrLU8xLWYM4exg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.WebSocketSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.WebSocketSession.html",
+          "hash": "piHIZiiENMDxny/S6FRZUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.Window.html",
+          "hash": "NllF02/bPE2YBXLOuPiHoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Goui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Goui.html",
+          "hash": "YWaykklkko4PGk2NPMF+vA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions.html",
+          "hash": "P0jrOgv+vPY5v8hGm2Hvkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "GQC572RFHfqhYpoRnk9c1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WebAssembly.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WebAssembly.Runtime.html",
+          "hash": "z8sv/itX0MhmbwqfKxAGcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WebAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WebAssembly.html",
+          "hash": "nsM/IJQTv6Qq6Ot2Z92BSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xamarin.Forms.Forms.ViewInitializedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xamarin.Forms.Forms.ViewInitializedEventArgs.html",
+          "hash": "SRwKqO8VLps96rgQraqTJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xamarin.Forms.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xamarin.Forms.Forms.html",
+          "hash": "0HoObOImz5tnropBsn9xKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xamarin.Forms.PageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xamarin.Forms.PageExtensions.html",
+          "hash": "bi5Pi6apKLCH33esLQnATA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xamarin.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xamarin.Forms.html",
+          "hash": "u3lN0+/WazcOWpox6y7adQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "mezTDl3TBV1AuueSSUzBRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Nlp3nzsbZeHsY0jJVLMKuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "NVrmjPUgar0ViYH3W1j9Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
