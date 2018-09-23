@@ -1,4 +1,4 @@
-# Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/Documentation/Icon.png" height="32">
+# Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/Icon.png" height="32">
 
 [![Build Status](https://travis-ci.org/KevinGliewe/Goui.svg?branch=master)](https://travis-ci.org/KevinGliewe/Goui)
 
@@ -13,7 +13,9 @@ Goui (pronounced *guuii!*) is a small cross-platform UI library for .NET that us
 
 It presents a classic object-oriented UI API that controls a dumb browser. With Goui, you get the full power of your favorite .NET programming language *plus* the ability to interact with your app using any device.
 
+## Documentation
 
+You can read the APi Documentation [here](https://kevingliewe.github.io/Goui/).
 
 ## Try the Samples Locally
 
