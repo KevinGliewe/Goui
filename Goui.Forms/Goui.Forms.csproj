@@ -5,7 +5,7 @@
     <Authors>kevingliewe</Authors>
     <Description>Xamarin.Forms backend for the web using Goui technologies.</Description>
     <PackageTags>Goui;UI;CrossPlatform;Xamarin.Forms</PackageTags>
-    <PackageIconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/kevingliewe/Goui</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>

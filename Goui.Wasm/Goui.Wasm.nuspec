@@ -8,7 +8,7 @@
     <owners>kevingliewe</owners>
     <licenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/kevingliewe/Goui</projectUrl>
-    <iconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WebAssembly support for Goui apps</description>
     <tags>Goui UI CrossPlatform WebAssembly Wasm</tags>

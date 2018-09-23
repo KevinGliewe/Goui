@@ -4,7 +4,7 @@
     <Authors>Kevin Gliewe</Authors>
     <Description>ASP.NET Core MVC extensions to make working with Goui easy.</Description>
     <PackageTags>Goui;UI;CrossPlatform;ASP.NET</PackageTags>
-    <PackageIconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/kevingliewe/Goui</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>

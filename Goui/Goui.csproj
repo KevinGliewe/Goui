@@ -3,7 +3,7 @@
     <Authors>kevingliewe</Authors>
     <Description>Small cross-platform UI library for .NET that uses web technologies.</Description>
     <PackageTags>Goui;UI;CrossPlatform</PackageTags>
-    <PackageIconUrl>https://github.com/kevingliewe/Goui/raw/master/Documentation/Icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/kevingliewe/Goui</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/kevingliewe/Goui/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/kevingliewe/Goui.git</RepositoryUrl>
