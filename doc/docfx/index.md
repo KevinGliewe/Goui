@@ -1,4 +1,4 @@
-# Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/Icon.png" height="32">
+# Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png" height="32">
 
 [![Build Status](https://travis-ci.org/KevinGliewe/Goui.svg?branch=master)](https://travis-ci.org/KevinGliewe/Goui)
 
