@@ -315,6 +315,16 @@ namespace Goui
 
             var response = listenerContext.Response;
 
+            // If a plugin is hosting this file
+            foreach(var plugin in Config.Plugins) {
+                var hf = plugin.GetHostedFile(path);
+                if(hf != null) {
+                    hf.Respond(listenerContext);
+                    return;
+                }
+            }
+
+
             if (path == "/Goui.js") {
                 var inm = listenerContext.Request.Headers.Get ("If-None-Match");
                 if (string.IsNullOrEmpty (inm) || inm != clientJsEtag) {

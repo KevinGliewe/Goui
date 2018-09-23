@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WasmFormsApp", "PlatformSam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{43187C08-A1BC-431C-ABE6-BAE270E71BBE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{FAF96103-D422-4319-BE6B-F34B6C9322EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goui.Plugin.Maps", "Goui.Plugin.Maps\Goui.Plugin.Maps.csproj", "{074FFDB5-5603-4796-BA63-B8515B568DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +143,18 @@ Global
 		{43187C08-A1BC-431C-ABE6-BAE270E71BBE}.Release|x64.Build.0 = Release|Any CPU
 		{43187C08-A1BC-431C-ABE6-BAE270E71BBE}.Release|x86.ActiveCfg = Release|Any CPU
 		{43187C08-A1BC-431C-ABE6-BAE270E71BBE}.Release|x86.Build.0 = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|x64.Build.0 = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|x64.Build.0 = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{074FFDB5-5603-4796-BA63-B8515B568DF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +162,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7C6D477C-3378-4A86-9C31-AAD51204120B} = {12ADF328-BBA8-48FC-9AF1-F11B7921D9EA}
 		{ABA00F85-03DC-4FBE-8858-C47601A2102A} = {12ADF328-BBA8-48FC-9AF1-F11B7921D9EA}
+		{074FFDB5-5603-4796-BA63-B8515B568DF7} = {FAF96103-D422-4319-BE6B-F34B6C9322EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9370DD6D-816D-4E0F-8356-835F65DCF3AA}

@@ -1,5 +1,6 @@
 ﻿using System;
 using Goui;
+using Goui.Plugin.Maps;
 
 namespace Samples
 {
@@ -11,9 +12,10 @@ namespace Samples
 
             UI.Config = new UIConfig() {
                 Plugins = new IGouiPlugin[] {
+                    new MapsPlugin()
                 }
             };
-            UI.Port = 8081;
+            UI.Port = 8080;
             for (var i = 0; i < args.Length; i++) {
                 var a = args[i];
                 switch (args[i]) {
@@ -50,6 +52,7 @@ namespace Samples
             new XuzzleSample().Publish();
             new WebViewSample().Publish();
             new PickerSample().Publish();
+            new MapSample().Publish();
 
             UI.Present ("/display-alert");
 

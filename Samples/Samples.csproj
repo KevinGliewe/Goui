@@ -5,6 +5,7 @@
   </PropertyGroup>
 	
   <ItemGroup>
+    <ProjectReference Include="..\Goui.Plugin.Maps\Goui.Plugin.Maps.csproj" />
     <ProjectReference Include="..\Goui\Goui.csproj" />
     <ProjectReference Include="..\Goui.Forms\Goui.Forms.csproj" />
   </ItemGroup>

@@ -6,6 +6,7 @@ using System.Text;
 
 namespace Goui {
     public interface IGouiPlugin {
+        HostedFile GetHostedFile(string path);
         void OnNodeCreated(Node node);
         void OnUIStart();
         void OnUIStop();
