@@ -51,6 +51,7 @@ class Build : NukeBuild
     AbsolutePath TempDir => (AbsolutePath)System.IO.Path.GetTempPath();
     AbsolutePath GhPagesDir => TempDir / "Goui";
     AbsolutePath WasmTest => RootDirectory / "PlatformSamples" / "WasmFormsApp" / "bin" / "Debug" / "netcoreapp2.0" / "dist";
+    AbsolutePath WasmTestRelease => RootDirectory / "PlatformSamples" / "WasmFormsApp" / "bin" / "Release" / "netcoreapp2.0" / "dist";
 
 
 
@@ -178,6 +179,8 @@ class Build : NukeBuild
 
             Logger.Info($"Exists DocBuildDirectory '{DocBuildDirectory}': {Directory.Exists(DocBuildDirectory)}");
             Logger.Info($"Exists GhPagesDir '{GhPagesDir}': {Directory.Exists(GhPagesDir)}");
+            Logger.Info($"Exists WasmTest '{WasmTest}': {Directory.Exists(WasmTest)}");
+            Logger.Info($"Exists WasmTestRelease '{WasmTestRelease}': {Directory.Exists(WasmTestRelease)}");
 
             CopyDirectoryRecursively(DocBuildDirectory, GhPagesDir, FileExistsPolicy.Overwrite);
             CopyDirectoryRecursively(WasmTest, GhPagesDir / "WasmFormsApp", FileExistsPolicy.Overwrite);
