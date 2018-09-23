@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>This is the documentation for Goui. </title>
+    <title>Goui Web Framework  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="This is the documentation for Goui. ">
+    <meta name="title" content="Goui Web Framework  ">
     <meta name="generator" content="docfx 2.39.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -68,8 +68,117 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="this-is-the-documentation-for-goui">This is the documentation for <strong>Goui</strong>.</h1>
+<h1 id="goui-web-framework-">Goui Web Framework <img src="https://raw.githubusercontent.com/kevingliewe/Goui/master/doc/docfx/images/Icon.png" height="32"></h1>
 
+<p><a href="https://travis-ci.org/KevinGliewe/Goui"><img src="https://travis-ci.org/KevinGliewe/Goui.svg?branch=master" alt="Build Status"></a></p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Package</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.nuget.org/packages/Goui"><img src="https://img.shields.io/nuget/v/Goui.svg" alt="NuGet Package"></a></td>
+<td><a href="https://www.nuget.org/packages/Goui">Goui</a></td>
+<td>Core library with HTML elements and a server</td>
+</tr>
+<tr>
+<td><a href="https://www.nuget.org/packages/Goui.AspNetCore"><img src="https://img.shields.io/nuget/v/Goui.AspNetCore.svg" alt="NuGet Package"></a></td>
+<td><a href="https://www.nuget.org/packages/Goui.AspNetCore">Goui.AspNetCore</a></td>
+<td>Integration with ASP.NET Core</td>
+</tr>
+<tr>
+<td><a href="https://www.nuget.org/packages/Goui.Forms"><img src="https://img.shields.io/nuget/v/Goui.Forms.svg" alt="NuGet Package"></a></td>
+<td><a href="https://www.nuget.org/packages/Goui.Forms">Goui.Forms</a></td>
+<td>Xamarin.Forms backend using Goui (<a href="Documentation/GouiFormsStatus.md">Status</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.nuget.org/packages/Goui.Wasm"><img src="https://img.shields.io/nuget/v/Goui.Wasm.svg" alt="NuGet Package"></a></td>
+<td><a href="https://www.nuget.org/packages/Goui.Wasm">Goui.Wasm</a></td>
+<td>Package your app into a web assembly</td>
+</tr>
+</tbody>
+</table>
+<p>Goui (pronounced <em>guuii!</em>) is a small cross-platform UI library for .NET that uses web technologies.</p>
+<p>It presents a classic object-oriented UI API that controls a dumb browser. With Goui, you get the full power of your favorite .NET programming language <em>plus</em> the ability to interact with your app using any device.</p>
+<h2 id="documentation">Documentation</h2>
+<p>You can read the APi Documentation <a href="https://kevingliewe.github.io/Goui/">here</a>.</p>
+<h2 id="try-the-samples-locally">Try the Samples Locally</h2>
+<pre><code class="lang-bash">git clone git@github.com:kevingliewe/Goui.git
+cd Goui
+
+dotnet restore
+msbuild
+dotnet run --project Samples/Samples.csproj --no-build
+</code></pre>
+<p>This will open the default starting page for the Samples. Now point your browser at <a href="http://localhost:8080/shared-button">http://localhost:8080/shared-button</a></p>
+<p>You should see a button that tracks the number of times it was clicked. The source code for that button is shown in the example below.</p>
+<h2 id="example-app">Example App</h2>
+<p>Here is the complete source code to a fully collaborative button clicking app.</p>
+<pre><code class="lang-csharp">using System;
+using Goui;
+using Goui.Html;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Create the UI
+        var button = new Button(&quot;Click me!&quot;);
+
+        // Add some logic to it
+        var count = 0;
+        button.Click += (s, e) =&gt; {
+            count++;
+            button.Text = $&quot;Clicked {count} times&quot;;
+        };
+
+        // Publishing makes an object available at a given URL
+        // The user should be directed to http://localhost:8080/shared-button
+        UI.Publish (&quot;/shared-button&quot;, button);
+
+        // Don't exit the app until someone hits return
+        Console.ReadLine ();
+    }
+}
+</code></pre>
+<p>Make sure to add a reference to Goui before you start running!</p>
+<pre><code class="lang-bash">dotnet add package Goui
+dotnet run
+</code></pre>
+<p>With just that code, a web server that serves the HTML and web socket logic necessary for an interactive button will start.</p>
+<h2 id="the-many-ways-to-goui">The Many Ways to Goui</h2>
+<p>Goui has been broken up into several packages to increase the variety of ways that it can be used. Here are some combinations to help you decide which way is best for you.</p>
+<table>
+<thead><tr><th>Goui</th><th>Goui.AspNetCore</th><th>Goui.Forms</th><th>Goui.Wasm</th><th></th></tr></thead>
+<tr>
+<td>&check;</td><td></td><td></td><td></td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Web-DOM-with-the-Built-in-Web-Server">Web DOM with the Built-in Web Server</a></td>
+</tr>
+<tr>
+<td>&check;</td><td>&check;</td><td></td><td></td><td>Web DOM with ASP.NET Core</td>
+</tr>
+<tr>
+<td>&check;</td><td>&check;</td><td>&check;</td><td></td><td>Xamarin.Forms with ASP.NET Core</td>
+</tr>
+<tr>
+<td>&check;</td><td></td><td>&check;</td><td></td><td>Xamarin.Forms with the built-in web server</td>
+</tr>
+<tr>
+<td>&check;</td><td></td><td></td><td>&check;</td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Web DOM-with-Web-Assembly">Web DOM with Web Assembly</a></td>
+</tr>
+<tr>
+<td>&check;</td><td></td><td>&check;</td><td>&check;</td><td><a href="https://github.com/kevingliewe/Ooui/wiki/Xamarin.Forms-with-Web-Assembly">Xamarin.Forms with Web Assembly</a></td>
+</tr>
+</table>
+<h2 id="how-it-works">How it works</h2>
+<p>When the user requests a page, the page will connect to the server using a web socket. This socket is used to keep the server's in-memory model of the UI (the one you work with as a programmer) in sync with the actual UI shown to the user in their browser. This is done using a simple messaging protocol with JSON packets.</p>
+<p>When the user clicks or otherwise interacts with the UI, those events are sent back over the web socket so that your code can deal with them.</p>
+<p>In the case of web assembly, this same dataflow takes place. However, sockets are not used as all communication is done locally in the browser process.</p>
+<h2 id="contributing">Contributing</h2>
+<p>Goui is open source and I love merging PRs. Please fork away, and please obey the .editorconfig file. :-) Try to file issues for things that you want to work on <em>before</em> you start the work so that there's no duplicated effort. If you just want to help out, check out the issues and dive in!</p>
 </article>
           </div>
           
@@ -78,7 +187,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/KevinGliewe/Goui/blob/3f4ffbe1a6b63e15b414f0da99980eec1719295f/doc/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/KevinGliewe/Goui/blob/9cfde52519b81a2187dabf396c176866db360c6a/doc/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
