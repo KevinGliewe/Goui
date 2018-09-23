@@ -183,7 +183,7 @@ class Build : NukeBuild
             Logger.Info($"Exists WasmTestRelease '{WasmTestRelease}': {Directory.Exists(WasmTestRelease)}");
 
             CopyDirectoryRecursively(DocBuildDirectory, GhPagesDir, FileExistsPolicy.Overwrite);
-            CopyDirectoryRecursively(WasmTest, GhPagesDir / "WasmFormsApp", FileExistsPolicy.Overwrite);
+            CopyDirectoryRecursively(WasmTestRelease, GhPagesDir / "WasmFormsApp", FileExistsPolicy.Overwrite);
             Git("add .", GhPagesDir);
             Git($"commit -m \"{GitVersionSuffix}\"", GhPagesDir);
 
