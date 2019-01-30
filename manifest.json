@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.AspNetCore.ElementResult.html",
-          "hash": "vA1rPHVwTH+WKHHHeWgylg=="
+          "hash": "VNWDCO0JaHVne3GKwwSvTA=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.AspNetCore.TagHelpers.GouiTagHelper.html",
-          "hash": "Puar/G3PP5kA2+L4AehT+A=="
+          "hash": "VBQiCPxs4ZD0WYMz3PJlew=="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.AspNetCore.WebSocketHandler.html",
-          "hash": "3fXvwvvSCQZhVVCYQRdduA=="
+          "hash": "3jK+oLuy2WC3Xova3J9n8w=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Color.html",
-          "hash": "E7fbjmplEUQ33ln5D8lbSg=="
+          "hash": "Lcawhr0GZelH0k/51UA2Ig=="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Colors.html",
-          "hash": "wWi1YxxBnBNrU7x8h/L9dA=="
+          "hash": "nKTP3mNdY1YJxz2Ix88RjA=="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Document.html",
-          "hash": "vsUzVGdt8FKbvEegBUf3fQ=="
+          "hash": "byiQiGRcb9/e62kqpnnMXA=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.EventTarget.html",
-          "hash": "7LSrbMjvgjePpHLQN/gE4A=="
+          "hash": "67cUE7q5H7i8DUJbVVwG1Q=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.CellElement.html",
-          "hash": "DGmzcPsikZKWnqjFY78GjQ=="
+          "hash": "8XkXYA9gwXxFlm6BgLZDew=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.CellRenderer.html",
-          "hash": "w+7lZ1pxSnMWxQlwJUxmoA=="
+          "hash": "7OZbWKUc1o61V2Nd7o/vyA=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.EntryCellElement.html",
-          "hash": "gk1HYDeWsL863v7sQgptJw=="
+          "hash": "eE68JjyNZZHglosPuNSabA=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.EntryCellRenderer.html",
-          "hash": "9xZAf3HTYO8HPhUO9EUv0w=="
+          "hash": "g+0jZJtF+EGaIyeL2v60NQ=="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.ImageCellElement.html",
-          "hash": "B0QelTBepvDrOdxJ1aoLEA=="
+          "hash": "hEDyrEpjdjuSooKU5dk9YA=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.ImageCellRenderer.html",
-          "hash": "6cYzs/bfu1dz7sWLSvR51g=="
+          "hash": "kMNZXRan6KJqur32XlxKPg=="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.SwitchCellElement.html",
-          "hash": "IEkP5zqUCxMeQ7yuyUtMLA=="
+          "hash": "Bb+aqOVO4+YHxRW/dNjzLA=="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.SwitchCellRenderer.html",
-          "hash": "qvopGu1GJimQCJ9n1hCLHA=="
+          "hash": "IHSFeMJ96rebzQEq9t36ew=="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.TextCellElement.html",
-          "hash": "l4v8pwI3Tl9U05kBuVXtOg=="
+          "hash": "sH6hcq7jdrWy16OLhWt0ew=="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.TextCellRenderer.html",
-          "hash": "pd8OzecZMCsKsyB9K4Da4A=="
+          "hash": "b5K98tj+Ls2EbASU+bMbVA=="
         }
       },
       "is_incremental": true,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.ViewCellElement.html",
-          "hash": "qCSbHaV8dCqWh+kfS+1Hhg=="
+          "hash": "rhrcxMH57OceFls1uapYrw=="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Cells.ViewCellRenderer.html",
-          "hash": "WxgSTkW08VHdFuPG4qdtCQ=="
+          "hash": "Zq3zUwLn7Qz1sPWP89nGPg=="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.DisplayAlert.html",
-          "hash": "+khyWBsq1ugHA8QxWY8OQw=="
+          "hash": "GGUEtguLqRqgNstcmiqf5A=="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.ElementChangedEventArgs-1.html",
-          "hash": "CPoIDpR1i3f+MVmQjxTDwA=="
+          "hash": "tzbqbcYEEgXRS3TIVMidhg=="
         }
       },
       "is_incremental": true,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.EventTracker.NativeGestureRecognizer.html",
-          "hash": "6QM1v/A4YL9PRjvwv51KHw=="
+          "hash": "YqcRJBK4tGYrvr2fYgaTAQ=="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.EventTracker.html",
-          "hash": "+qeP0dqT8XIKkSzS3S9/HA=="
+          "hash": "ivhOE79G9P06Hls9xrfvwA=="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.ExportCellAttribute.html",
-          "hash": "oyiK1ULooL550MyxypNmpA=="
+          "hash": "xBWzZEN2NfrWocdt+NzuuA=="
         }
       },
       "is_incremental": true,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.ExportImageSourceHandlerAttribute.html",
-          "hash": "fCe10fkjw/Y99ey1rWl+og=="
+          "hash": "l/ZHRWs4wQv8x/MgyYporA=="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.ExportRendererAttribute.html",
-          "hash": "DSoMS7MHQuEDLifph5fefg=="
+          "hash": "ISVzvm8VwHhBNX35tGHhYg=="
         }
       },
       "is_incremental": true,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Extensions.ColorExtensions.html",
-          "hash": "mzkFTL8npD3y+ZntkupBiQ=="
+          "hash": "fXJ8U9v0RYFC/maRQGBZPQ=="
         }
       },
       "is_incremental": true,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Extensions.ElementExtensions.html",
-          "hash": "OKdKM77PLuvh/KmiQ7HYYQ=="
+          "hash": "XEBiCBWYvDZiohKQCp9qJA=="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Extensions.FontExtensions.html",
-          "hash": "i9YxEvUNvZucD9U8t+y4AQ=="
+          "hash": "DQnbBSXKA5+kfRWOaJN79Q=="
         }
       },
       "is_incremental": true,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Extensions.ListViewExtensions.html",
-          "hash": "8EE9zc1y+D6P3qixCel8OQ=="
+          "hash": "nbMy1AGPkk7M9jgHarmbOg=="
         }
       },
       "is_incremental": true,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.GouiTheme.html",
-          "hash": "74QJKib11hfgvce49aAUUg=="
+          "hash": "XngrTCBMxhkTKvV4MZrxHA=="
         }
       },
       "is_incremental": true,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.IVisualElementRenderer.html",
-          "hash": "34rMyYw5zHvsK8wLRr4ngA=="
+          "hash": "nPiNzJAaCYrS6tTHU3XsOw=="
         }
       },
       "is_incremental": true,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.LinkLabel.html",
-          "hash": "UJYQpMfgmOw+yJV56uhp6w=="
+          "hash": "jX2uRsitjdMsnEN39FMPrg=="
         }
       },
       "is_incremental": true,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.LinkView.html",
-          "hash": "b+L/kGktwK0G59bHnh/efw=="
+          "hash": "X0+j5VFblpxJkquPZKDpyw=="
         }
       },
       "is_incremental": true,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.LocalIsolatedStorageFile.html",
-          "hash": "CqPnqOUjIZiR4R/AmNW5XQ=="
+          "hash": "zCGutuBCuTQL+vRLtbSJ+w=="
         }
       },
       "is_incremental": true,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Platform.html",
-          "hash": "aoTqa3FDRTMhGkJsCy5Obw=="
+          "hash": "wkaHeCC8kb/50adgl0XEfA=="
         }
       },
       "is_incremental": true,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.PlatformEffect.html",
-          "hash": "p71IKO2qBFV+RuMeSDtPsQ=="
+          "hash": "PJ//68MA+uCnL8bhh3DK7w=="
         }
       },
       "is_incremental": true,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.PlatformRenderer.html",
-          "hash": "cU5rS8Kx+4m/oW9JuNbJGg=="
+          "hash": "+ETb0b8XmIsyW/GELDpHuA=="
         }
       },
       "is_incremental": true,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.RendererPool.html",
-          "hash": "L3U2IefyMLRSb6Qvd9F0Wg=="
+          "hash": "/GxaDZQXIhtFfH5Yy6Lc6Q=="
         }
       },
       "is_incremental": true,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ActivityIndicatorRenderer.html",
-          "hash": "GwDQlpb+gsAVdqsPLf2z1Q=="
+          "hash": "VWvC1Tcupvvt/o/jsZqswQ=="
         }
       },
       "is_incremental": true,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.BoxRenderer.html",
-          "hash": "0tttXIoN/3NIbjNkYM0kKg=="
+          "hash": "4EFnZNTcPvRQaFVFf7UTlQ=="
         }
       },
       "is_incremental": true,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ButtonRenderer.html",
-          "hash": "ZBcEz3JGrhTDvBnI2EKzwQ=="
+          "hash": "GLE/iqLXB5pEeOFiW+sepw=="
         }
       },
       "is_incremental": true,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.DatePickerRenderer.html",
-          "hash": "OdaL5/ndkCWwdGY+j8BAgQ=="
+          "hash": "HbR+JkcBDcKmcHbLl6SLVg=="
         }
       },
       "is_incremental": true,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.DefaultRenderer.html",
-          "hash": "8n8mHHm/ciVF97lbzZfnJg=="
+          "hash": "AIXZIVpnege9cV5Q3xZvDg=="
         }
       },
       "is_incremental": true,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.EditorRenderer.html",
-          "hash": "od5+G2toigulLn8mYP0H1w=="
+          "hash": "36Xa3nT/AxGYlXanlfqZfA=="
         }
       },
       "is_incremental": true,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.EntryRenderer.html",
-          "hash": "pCrXvnFYzLAmxWQFBVnYUw=="
+          "hash": "JIfqc0Ruj7NePNbSVAWRUA=="
         }
       },
       "is_incremental": true,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.FileImageSourceHandler.html",
-          "hash": "MDcI8fN5xlzvGSH00mSyZg=="
+          "hash": "fj69aAIuNyPPHqfrjnHwCQ=="
         }
       },
       "is_incremental": true,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.FrameRenderer.html",
-          "hash": "m0uc6ZmJibBGeO0/uNkG0Q=="
+          "hash": "nAZHbujr6JfoGgGkt3CeDQ=="
         }
       },
       "is_incremental": true,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.IImageSourceHandler.html",
-          "hash": "22zqm8BQdEPxa4jiFxfBxg=="
+          "hash": "Oao7LFbFCxSxhMV9GF395w=="
         }
       },
       "is_incremental": true,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ImageLoaderSourceHandler.html",
-          "hash": "rwxCY5pind1gfQfLw/VELA=="
+          "hash": "6GMvQ8QY1lewZTyMo42XlA=="
         }
       },
       "is_incremental": true,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ImageRenderer.html",
-          "hash": "K/7KSIC7BkPXgsw9/DTK0Q=="
+          "hash": "rzrJ07fCZhpXy0I0umm2oQ=="
         }
       },
       "is_incremental": true,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.LabelRenderer.html",
-          "hash": "oaWYsay9ORWnF7efGVUJrQ=="
+          "hash": "CimbIEGjG+YcNrckxNwKKw=="
         }
       },
       "is_incremental": true,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.LinkLabelRenderer.html",
-          "hash": "7oJCQ4JbK150BGPZxsdJyA=="
+          "hash": "VzuYHUxUBetLFQnBuOUUTw=="
         }
       },
       "is_incremental": true,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.LinkViewRenderer.html",
-          "hash": "M7NMSSGveSuulCtoqqMeWw=="
+          "hash": "e1vBvSF5rP5UdkhbyZdbhQ=="
         }
       },
       "is_incremental": true,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ListViewRenderer.html",
-          "hash": "gaENW5rttreoCceS6ipryA=="
+          "hash": "O3sIQV4bqgV2IdYaMwkSSg=="
         }
       },
       "is_incremental": true,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.NavigationPageRenderer.html",
-          "hash": "Sx1KXhvS29b8GY1SOwcSRg=="
+          "hash": "c6xtaflv5zm0qBVKNVMsOg=="
         }
       },
       "is_incremental": true,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.PickerRenderer.html",
-          "hash": "wgAkZm/iBWsZ7TE8DDbrkQ=="
+          "hash": "kovNjtHrqEgwYeVu9a3+Zg=="
         }
       },
       "is_incremental": true,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ProgressBarRenderer.html",
-          "hash": "NgLCHpSwE/c5i3QD4rFyXQ=="
+          "hash": "0hxO2HY78cmG4AlHCo2nLw=="
         }
       },
       "is_incremental": true,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ScrollViewRenderer.html",
-          "hash": "aNKdzpaFJdaRXmifLIAE9Q=="
+          "hash": "3hxlJVokfHjhSMjvUrxgRg=="
         }
       },
       "is_incremental": true,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.SearchBarRenderer.html",
-          "hash": "76PqBwAwZYlf+wr/qq6YqA=="
+          "hash": "VtuTsQ+0WgoncyqnTwBA/Q=="
         }
       },
       "is_incremental": true,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.SliderRenderer.html",
-          "hash": "Kjk01Od0RU2xEzv8YjI3Sw=="
+          "hash": "UatyD5BEQodw5Zw3dnab+A=="
         }
       },
       "is_incremental": true,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.StreamImagesourceHandler.html",
-          "hash": "VIfAsM9oGSQLbBPIK+zBag=="
+          "hash": "PTI1CPCe5uXDxBLPT8dMUA=="
         }
       },
       "is_incremental": true,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.SwitchElement.html",
-          "hash": "BShME39cnHNAAD49tVeF8w=="
+          "hash": "ou1n96wi41HN5HsstPEApg=="
         }
       },
       "is_incremental": true,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.SwitchRenderer.html",
-          "hash": "+CyIUW6YaewL0qc2PxKSOg=="
+          "hash": "WlqrsebFsUTongcERda6qg=="
         }
       },
       "is_incremental": true,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.TimePickerRenderer.html",
-          "hash": "zdPFwn1WDU3rBFmbmqhG0A=="
+          "hash": "H7xQRZ/gGwNc82giKdPcwA=="
         }
       },
       "is_incremental": true,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ViewRenderer-2.html",
-          "hash": "kZpP8wzA9g6Pf+kTLatPLA=="
+          "hash": "MWYcsKNT1xynW9Kkygk8eQ=="
         }
       },
       "is_incremental": true,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.ViewRenderer.html",
-          "hash": "g1hf/LYsM1+fRiuMSFk1bw=="
+          "hash": "M/Va6xhsBeGTpDVG/ucVUw=="
         }
       },
       "is_incremental": true,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.Renderers.WebViewRenderer.html",
-          "hash": "d1b2O2qmoNUhHFwaSjLAvw=="
+          "hash": "ZcUM6ch9BuzBjGoe1K74+w=="
         }
       },
       "is_incremental": true,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.ResourcesProvider.html",
-          "hash": "oW+z6nTjxfN0nCTszpyacQ=="
+          "hash": "14UBQJvxBpDI6zgGpTvETA=="
         }
       },
       "is_incremental": true,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.VisualElementChangedEventArgs.html",
-          "hash": "r2MOPnF+aXeL5silHQ9KGA=="
+          "hash": "btXDJL6IGOsgecNEWVe2DA=="
         }
       },
       "is_incremental": true,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.VisualElementPackager.html",
-          "hash": "0lQ6XTxIdvdnqv2lVWwGZw=="
+          "hash": "FNMQ8Hm6t82pMjZLEMKWsA=="
         }
       },
       "is_incremental": true,
@@ -921,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.VisualElementRenderer-1.html",
-          "hash": "7hlK8n6zF18bnWuZmLc/FA=="
+          "hash": "3RPfntU0pPC79/2hsbsFIQ=="
         }
       },
       "is_incremental": true,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.VisualElementRendererFlags.html",
-          "hash": "EmoSwJ4nF1F4n/iRRR/pJA=="
+          "hash": "1CAy2dFi/TXMZxNTgH+xiw=="
         }
       },
       "is_incremental": true,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Forms.VisualElementTracker.html",
-          "hash": "GCAebugOURuvtFe7NWIDzg=="
+          "hash": "9gvhNUISKehiV55zVUJ1OQ=="
         }
       },
       "is_incremental": true,
@@ -969,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Anchor.html",
-          "hash": "nYhrqauokIQWi+9f3db9gw=="
+          "hash": "+LD/aVYkT5z26cDjyVcisg=="
         }
       },
       "is_incremental": true,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Body.html",
-          "hash": "w9NylpjwySmaS49siOo8VA=="
+          "hash": "18QDzuAh1QySx4CneGXMiw=="
         }
       },
       "is_incremental": true,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Button.html",
-          "hash": "VbK6QGOfvoPkpcghRen5yw=="
+          "hash": "WjI09HW41MZ7USjbdTKOyg=="
         }
       },
       "is_incremental": true,
@@ -1005,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.ButtonType.html",
-          "hash": "XdcN8PNqrenSBMyZuYXU5Q=="
+          "hash": "7MwWN77CWEtgvDdHkh9aRA=="
         }
       },
       "is_incremental": true,
@@ -1017,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Canvas.html",
-          "hash": "/NWVSCzMtY3qzBRd54gFYQ=="
+          "hash": "/fkrTIRdpWQtC/DoSmBoag=="
         }
       },
       "is_incremental": true,
@@ -1029,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.CanvasRenderingContext2D.html",
-          "hash": "CHGOhWLkiONkFbkam59vFQ=="
+          "hash": "KhkLZsv8Y8FnW/YrQqmxaw=="
         }
       },
       "is_incremental": true,
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.CompositeOperation.html",
-          "hash": "v3MYSgKbSn2tii5TSGfDqA=="
+          "hash": "GRfm/Bqc0yGPbGuJoYVztw=="
         }
       },
       "is_incremental": true,
@@ -1053,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Div.html",
-          "hash": "WU3CjUnhj/5dFu6ckrGebA=="
+          "hash": "tpuNwSTfxyu0zpqVkNhhtg=="
         }
       },
       "is_incremental": true,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Element.html",
-          "hash": "Eaei6DQhczFi43Q1qgpC+w=="
+          "hash": "FFVfmxV8iKUX4ZeqvsFjOw=="
         }
       },
       "is_incremental": true,
@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Form.html",
-          "hash": "bkE+AGHsIWWZ7g5eyGcdlg=="
+          "hash": "OLOlYeppPmbBakWbl8RYEw=="
         }
       },
       "is_incremental": true,
@@ -1089,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.FormControl.html",
-          "hash": "Yc2qZNUXH8MXrezZuSbQUA=="
+          "hash": "Wdm86LDAcQYImKD68UbcVQ=="
         }
       },
       "is_incremental": true,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Heading.html",
-          "hash": "nlaMBUsejPtImNYnPRTw7Q=="
+          "hash": "JfGFrvpuaeoPvQ8UQoquxw=="
         }
       },
       "is_incremental": true,
@@ -1113,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Iframe.html",
-          "hash": "9b/HaKkWaQDzGxxmiq6z6g=="
+          "hash": "gwoGY8lC26hvRIi54vkSNg=="
         }
       },
       "is_incremental": true,
@@ -1125,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Image.html",
-          "hash": "sz6xhh5coPMYtxHZBVh0dA=="
+          "hash": "6cBuljcPFKFxAvt0a6DOLg=="
         }
       },
       "is_incremental": true,
@@ -1137,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Input.html",
-          "hash": "v8latb3IO6r7X4NDoDi0qQ=="
+          "hash": "U1Me0a1oQc79g67LRdU6eA=="
         }
       },
       "is_incremental": true,
@@ -1149,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.InputType.html",
-          "hash": "1Pp3qAe+dbDoBHmolnaXQw=="
+          "hash": "Z+oElU+zYaZK/gkfcrmbyw=="
         }
       },
       "is_incremental": true,
@@ -1161,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Label.html",
-          "hash": "Qu3ap9sIhe7G7pLvbtxkcA=="
+          "hash": "iNn5tVHYc5hFBiH6QzEMiQ=="
         }
       },
       "is_incremental": true,
@@ -1173,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.LineCap.html",
-          "hash": "4Q0WR+3bRMRsTnVDwdmDnQ=="
+          "hash": "+jpWMzZ5h4VjkZl8EifIeQ=="
         }
       },
       "is_incremental": true,
@@ -1185,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.LineJoin.html",
-          "hash": "MBzHOAP8CC4FEMh94brQUA=="
+          "hash": "8+G5MOJY/5+IjBIdM6m63g=="
         }
       },
       "is_incremental": true,
@@ -1197,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.List.html",
-          "hash": "IOmIp5pit5CfVYWY3TB9sg=="
+          "hash": "tvqyM/Ikq+MnPd532WhGFw=="
         }
       },
       "is_incremental": true,
@@ -1209,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.ListItem.html",
-          "hash": "FiRdgwxpG1XOv7m42lVkDQ=="
+          "hash": "CQO2+KsosQbzOU/f6vrGyA=="
         }
       },
       "is_incremental": true,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Option.html",
-          "hash": "bDHzbv2ngvnxjwUQaxy6xQ=="
+          "hash": "1ssDpV2gVFtkvS+Aza1QcA=="
         }
       },
       "is_incremental": true,
@@ -1233,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Paragraph.html",
-          "hash": "s70xRzo6stERrlpc2gb5hw=="
+          "hash": "26+bzmPU/kZPKBXLY8hRhw=="
         }
       },
       "is_incremental": true,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Select.html",
-          "hash": "r+pHNs1ekvT+i7OtG4joJg=="
+          "hash": "C3opymkBp8/zvds6qdz+LA=="
         }
       },
       "is_incremental": true,
@@ -1257,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.Span.html",
-          "hash": "FVP+nYTuELJQKlZemaqv0g=="
+          "hash": "GYxmWBhWyHWSK1zrSEO0Zw=="
         }
       },
       "is_incremental": true,
@@ -1269,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.TextArea.html",
-          "hash": "7DM41QrU6PiAsQPjQZo2IQ=="
+          "hash": "2fuqLaiU7qts8rh2vrrvuw=="
         }
       },
       "is_incremental": true,
@@ -1281,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Html.TextInput.html",
-          "hash": "zvdjp2ZWAtugbxIDoiw2cw=="
+          "hash": "P1VYdTWGNp8LJZkqiOLjeg=="
         }
       },
       "is_incremental": true,
@@ -1305,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.IGouiPlugin.html",
-          "hash": "rcTwc8uTMjLp+o2J8THRyw=="
+          "hash": "gHOpTplmFPldzrfGtNSjnw=="
         }
       },
       "is_incremental": true,
@@ -1317,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.JsonConvert.html",
-          "hash": "pDRudBOzi0lUok4WTeR9Jg=="
+          "hash": "gsqmS3DLFzmS2uCNp0zg9Q=="
         }
       },
       "is_incremental": true,
@@ -1329,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Message.PropertyReference.html",
-          "hash": "H9efsx6I1XJVRKbAtZ4B9g=="
+          "hash": "m8x6oxV1hGLh+LokTpY1ow=="
         }
       },
       "is_incremental": true,
@@ -1341,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Message.html",
-          "hash": "ffB8dj2NkwYfQbPcBs+tcQ=="
+          "hash": "i47ilMut1wDsJ+fRyQ2vow=="
         }
       },
       "is_incremental": true,
@@ -1353,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.MessageType.html",
-          "hash": "bTLgmcB2FgZLd+x51SGLjw=="
+          "hash": "URQlWQwx4GYn9Jb1AvknJQ=="
         }
       },
       "is_incremental": true,
@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Node.html",
-          "hash": "W0f/iOZvPc+wfbadqT1wRw=="
+          "hash": "a40qRC3kLAPiBvaO/hR4WA=="
         }
       },
       "is_incremental": true,
@@ -1377,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Session.html",
-          "hash": "yCNovRr8I8GHzZu6oXnXEQ=="
+          "hash": "4mjP7SYpLml3BhFZCPxXdg=="
         }
       },
       "is_incremental": true,
@@ -1389,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Style.html",
-          "hash": "oBdA6ZBMhHOFCR1qiBCHxQ=="
+          "hash": "6F49OSg8GJpXAJeOXg3GDw=="
         }
       },
       "is_incremental": true,
@@ -1401,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.TargetEventArgs.html",
-          "hash": "Lu8J3N1RWdDPc1UCSG0L5Q=="
+          "hash": "cegNie+vT5NTjPktsL1PgA=="
         }
       },
       "is_incremental": true,
@@ -1413,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.TargetEventHandler.html",
-          "hash": "vItVLnyH+xFAaQ4XuGfqOA=="
+          "hash": "Q5EYZLi8/2Kog1MOOO8IhA=="
         }
       },
       "is_incremental": true,
@@ -1425,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.TextNode.html",
-          "hash": "HVLtxwuwMFRLqctemHGUJQ=="
+          "hash": "M6fDSqBfZZR1HKXP33z7ZA=="
         }
       },
       "is_incremental": true,
@@ -1437,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.UI.FileContent.html",
-          "hash": "DhYWRiVKHVbLfyW7JfRDlA=="
+          "hash": "TPOMbeUEvASw0AgkYTzSrw=="
         }
       },
       "is_incremental": true,
@@ -1449,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.UI.StyleSelectors.html",
-          "hash": "s2D9EmnCgCvbkr6CW8YlUQ=="
+          "hash": "uON+SuLkan9UM6qIoJ/vlg=="
         }
       },
       "is_incremental": true,
@@ -1461,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.UI.html",
-          "hash": "+ZP4akoWUnFGkt0GrsoQUg=="
+          "hash": "4o0CvSCuP5MrOyL7FpSSfw=="
         }
       },
       "is_incremental": true,
@@ -1473,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.UIConfig.html",
-          "hash": "aTfxwuA1t1l+u/6A0jsecg=="
+          "hash": "zjsmWHnGlPB9oPjH8dwepA=="
         }
       },
       "is_incremental": true,
@@ -1485,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Utilities.html",
-          "hash": "MwqzW5V2NdMLYd2RUL01aw=="
+          "hash": "1Oo3VGsTy6znvJTEWH8hpA=="
         }
       },
       "is_incremental": true,
@@ -1497,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.WebAssemblySession.html",
-          "hash": "BrmfH81NsF4KC9cFR6gsKg=="
+          "hash": "wTJyDIJEOpromsc0PdCwFQ=="
         }
       },
       "is_incremental": true,
@@ -1509,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.WebSocketSession.html",
-          "hash": "4GWUANCZ7e4Bs375UUhfQA=="
+          "hash": "FKQ7PBUgP/585j+0zxRBqA=="
         }
       },
       "is_incremental": true,
@@ -1521,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Goui.Window.html",
-          "hash": "izFr3AaXZXyRpYIJsdUD6A=="
+          "hash": "c5VYn22oibLcQYTBqCMsiQ=="
         }
       },
       "is_incremental": true,
@@ -1545,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.AspNetCore.Builder.GouiMiddlewareExtensions.html",
-          "hash": "3Gqr+Tb89W762GTOK7w69g=="
+          "hash": "N0QzvkP4XQaioJP1mB70jg=="
         }
       },
       "is_incremental": true,
@@ -1569,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WebAssembly.Runtime.html",
-          "hash": "If/PzE95qN5ky9MpMA/MdQ=="
+          "hash": "LeFSI5qVq6Nd0bDgwDtAfw=="
         }
       },
       "is_incremental": true,
@@ -1593,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Xamarin.Forms.Forms.ViewInitializedEventArgs.html",
-          "hash": "qJKvazXiDH/QsTU6RNmTGA=="
+          "hash": "ch+LFTZANSEnJZpbO4182A=="
         }
       },
       "is_incremental": true,
@@ -1605,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Xamarin.Forms.Forms.html",
-          "hash": "VBQMei9tKde0RIUwpGyNuw=="
+          "hash": "Jbo+Ciz5kVYKgCPZRgjlYg=="
         }
       },
       "is_incremental": true,
@@ -1617,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Xamarin.Forms.PageExtensions.html",
-          "hash": "01tuD0GdeLXUH0ZfcwLbuA=="
+          "hash": "d8e4T8IJz9BILBGitdHsCA=="
         }
       },
       "is_incremental": true,
@@ -1641,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "2ifcIZJl2snvm/pj+xRf2Q=="
+          "hash": "D1IlGE2ZoZ6xJcG2PwOAPw=="
         }
       },
       "is_incremental": true,
@@ -1653,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "pNsNXTuIWXFL4V8yzDs+/g=="
+          "hash": "IQ/XCIVKJmJyytHdq5m2kA=="
         }
       },
       "is_incremental": true,
@@ -1679,7 +1679,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "7a9w8Qex2pTo4MqX4HjYvA=="
+          "hash": "GRa3tx3t8dv1wTtUqS267g=="
         }
       },
       "is_incremental": true,
@@ -1693,11 +1693,6 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
@@ -1709,6 +1704,11 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

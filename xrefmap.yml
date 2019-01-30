@@ -6683,6 +6683,19 @@ references:
   commentId: E:Goui.Html.Select.Change
   fullName: Goui.Html.Select.Change
   nameWithType: Select.Change
+- uid: Goui.Html.Select.ClearOptions
+  name: ClearOptions()
+  href: api/Goui.Html.Select.html#Goui_Html_Select_ClearOptions
+  commentId: M:Goui.Html.Select.ClearOptions
+  fullName: Goui.Html.Select.ClearOptions()
+  nameWithType: Select.ClearOptions()
+- uid: Goui.Html.Select.ClearOptions*
+  name: ClearOptions
+  href: api/Goui.Html.Select.html#Goui_Html_Select_ClearOptions_
+  commentId: Overload:Goui.Html.Select.ClearOptions
+  isSpec: "True"
+  fullName: Goui.Html.Select.ClearOptions
+  nameWithType: Select.ClearOptions
 - uid: Goui.Html.Select.Input
   name: Input
   href: api/Goui.Html.Select.html#Goui_Html_Select_Input
