@@ -13,6 +13,7 @@ namespace Samples
                 Plugins = new IGouiPlugin[] {
                 }
             };
+            UI.Host = "127.0.0.1";
             UI.Port = 8081;
             for (var i = 0; i < args.Length; i++) {
                 var a = args[i];

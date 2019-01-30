@@ -3,7 +3,7 @@ dotnet: 2.1.401
 git:
   depth: false
 before_script:
-  - nuget install docfx.console -ExcludeVersion
+  - nuget install docfx.console -Version 2.32.2.0
   - export DOCFX_TOOL="mono docfx.console/tools/docfx.exe"
 script:
   - chmod +x ./build.sh

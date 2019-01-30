@@ -54,6 +54,15 @@ namespace Samples
             };
             panel.Children.Add(_label);
 
+            var button = new Xamarin.Forms.Button() {
+                Text = "Clear"
+            };
+
+            button.Clicked += (s, e) => {
+                _picker.ItemsSource = new List<string>();
+            };
+            panel.Children.Add(button);
+
             var page = new ContentPage
             {
                 Content = panel
