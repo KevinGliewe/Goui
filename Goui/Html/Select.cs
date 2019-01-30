@@ -39,6 +39,11 @@ namespace Goui.Html {
             AppendChild (new Option { Text = label, Value = value });
         }
 
+        public void ClearOptions() {
+            foreach(var child in Children.ToArray())
+                RemoveChild(child);
+        }
+
         string GetDefaultValue ()
         {
             var options = Children.OfType<Option> ();

@@ -74,6 +74,8 @@ namespace Goui.Forms.Renderers
         {
             var items = Element.ItemsSource;
 
+            _select.ClearOptions();
+
             if (items != null)
             {
                 foreach (var item in items)
