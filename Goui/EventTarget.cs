@@ -89,8 +89,8 @@ namespace Goui
 
         protected bool SetProperty<T> (ref T backingStore, T newValue, string jsPropertyName, [System.Runtime.CompilerServices.CallerMemberName] string propertyName = "")
         {
-            if (EqualityComparer<T>.Default.Equals (backingStore, newValue))
-                return false;
+//            if (EqualityComparer<T>.Default.Equals (backingStore, newValue))
+//                return false;
             backingStore = newValue;
             SendSet (jsPropertyName, newValue);
             OnPropertyChanged (propertyName);
