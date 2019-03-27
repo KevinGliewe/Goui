@@ -178,9 +178,7 @@ namespace Goui.Forms.Renderers
 
         void UpdateText ()
         {
-            // ReSharper disable once RedundantCheckBeforeAssignment
-//            if (Control.Value != Element.Text)
-                Control.Value = Element.Text;
+            Control.Value = Element.Text;
         }
     }
 }
