@@ -39,6 +39,14 @@ namespace Goui.Forms.Renderers
         private void _select_Change(object sender, TargetEventArgs e)
         {
             Element.SetValueFromRenderer(Picker.SelectedIndexProperty, Element.ItemsSource.IndexOf(_select.Value));
+            var selected = Element.SelectedIndex;
+
+            for(int i = 0; i < _select.Children.Count; i++)
+            {
+                var casted = _select.Children[i] as Option;
+                if(casted != null)
+                    casted.DefaultSelected = i == selected;
+            }
         }
 
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
